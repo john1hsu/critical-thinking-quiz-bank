@@ -1,0 +1,19 @@
+id: ct-000041
+area: scientific-reasoning
+kind: counter
+topic: Falsifiability criterion
+topic_type: Principle
+true_statement: After a failed prediction, a rescue assumption is legitimate if it yields a new, checkable prediction, as the unseen planet posited for Uranus's orbit did.
+false_statement: After a failed prediction, any rescue assumption is legitimate as long as it restores agreement with the data, even if it predicts nothing new.
+explanation: Rescues that only patch the mismatch are ad hoc and shield a theory from refutation. The planet posited to explain Uranus's orbit was then found, so that rescue earned its place by passing a new test.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/falsifiability.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: fbc65fefd4d95001cb7eed89bd3301686e4412e7
+concepts:
+- ct:falsifiability
+- ct:ad-hoc-hypothesis
+difficulty: 3
+created: '2026-11-16'
+status: active

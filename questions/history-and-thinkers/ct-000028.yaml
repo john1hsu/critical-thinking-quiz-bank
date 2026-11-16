@@ -1,0 +1,19 @@
+id: ct-000028
+area: history-and-thinkers
+kind: scenario
+topic: Amos Tversky
+topic_type: Person
+true_statement: A board approves a project described as having "a 70% chance of success" more readily than one with "a 30% chance of failure", though the odds are identical. Tversky's work calls this a framing effect.
+false_statement: A board approves a project described as having "a 70% chance of success" more readily than one with "a 30% chance of failure", though the odds are identical. Tversky's work calls this the conjunction fallacy.
+explanation: Framing is when logically equivalent descriptions lead to different choices. The conjunction fallacy is judging 'A and B' more probable than A alone, as in the Linda studies.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/amos-tversky.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 3363cfa001661733773ed266eaa2b2eac9a4b876
+concepts:
+- ct:amos-tversky
+- ct:framing-effect
+difficulty: 1
+created: '2026-11-16'
+status: active

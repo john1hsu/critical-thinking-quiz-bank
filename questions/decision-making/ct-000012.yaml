@@ -1,0 +1,18 @@
+id: ct-000012
+area: decision-making
+kind: evidence
+topic: Judgment and decision making
+topic_type: Field
+true_statement: Einhorn and Hogarth warned that an apparent bias may reflect the wrong normative benchmark rather than a flawed mind, since rival normative systems exist.
+false_statement: Einhorn and Hogarth argued that because only one normative system exists, any departure from it reveals a flawed mind rather than the wrong benchmark.
+explanation: Optimal models depend on assumptions about the environment and time horizon, and more than one normative system is available. So before calling a choice biased, check that the benchmark fits the situation.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/judgment-and-decision-making.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 546181aea0bd2c08384fe359301bbf69056ca33f
+concepts:
+- ct:judgment-and-decision-making
+difficulty: 3
+created: '2026-11-16'
+status: active

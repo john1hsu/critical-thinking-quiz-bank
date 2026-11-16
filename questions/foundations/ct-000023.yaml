@@ -1,0 +1,18 @@
+id: ct-000023
+area: foundations
+kind: counter
+topic: Soundness
+topic_type: Concept
+true_statement: Showing that an argument is unsound doesn't show its conclusion is false; it shows only that this argument fails to establish it.
+false_statement: Showing that an argument is unsound shows its conclusion is false, because a bad argument can't lead to a true conclusion.
+explanation: An unsound argument can still have a true conclusion, reached by luck or supported by other reasons. Rebutting one argument leaves the claim open, so say 'this argument fails' rather than 'this claim is wrong'.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/soundness.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 17f75695e81995a077f8847ff34809d83b194ca6
+concepts:
+- ct:soundness
+difficulty: 2
+created: '2026-11-16'
+status: active

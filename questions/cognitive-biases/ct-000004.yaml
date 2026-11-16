@@ -1,0 +1,18 @@
+id: ct-000004
+area: cognitive-biases
+kind: scenario
+topic: Anchoring effect
+topic_type: CognitiveBias
+true_statement: In a salary negotiation the employer names a figure first, and the final settlement lands much closer to it than an independent valuation would. That pull toward the first number is the anchoring effect.
+false_statement: In a salary negotiation the employer names a figure first, and the final settlement lands much closer to it than an independent valuation would. That pull toward the first number is the framing effect.
+explanation: Anchoring is the drift of a numerical judgment toward a number seen or considered first, and an opening offer is a classic anchor. Framing concerns how the same information is described, not which number came first.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/anchoring-effect.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: d00d932a478aaaf380332f3a64646ee51c6ef346
+concepts:
+- ct:anchoring-effect
+difficulty: 1
+created: '2026-11-16'
+status: active

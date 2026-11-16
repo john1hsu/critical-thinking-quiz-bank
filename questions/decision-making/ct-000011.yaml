@@ -1,0 +1,20 @@
+id: ct-000011
+area: decision-making
+kind: origin
+topic: Judgment and decision making
+topic_type: Field
+true_statement: Ward Edwards's 1954 Psychological Bulletin review, "The theory of decision making", is widely treated as the founding text of judgment and decision making.
+false_statement: Daniel Kahneman's 1954 Psychological Bulletin review, "The theory of decision making", is widely treated as the founding text of judgment and decision making.
+explanation: Edwards introduced psychologists to the economic theory of choice in 1954 and later named 'behavioral decision theory'. Kahneman was among those who took up Edwards's Bayesian paradigm afterwards.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/judgment-and-decision-making.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 546181aea0bd2c08384fe359301bbf69056ca33f
+concepts:
+- ct:judgment-and-decision-making
+- ct:ward-edwards
+- ct:the-theory-of-decision-making
+difficulty: 2
+created: '2026-11-16'
+status: active

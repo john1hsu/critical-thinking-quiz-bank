@@ -1,0 +1,19 @@
+id: ct-000008
+area: debiasing-and-metacognition
+kind: counter
+topic: Consider the opposite
+topic_type: Technique
+true_statement: In Lord and colleagues' 1984 experiments, prompting people to consider the opposite reduced bias more than telling them to be as fair and unbiased as possible.
+false_statement: In Lord and colleagues' 1984 experiments, telling people to be as fair and unbiased as possible reduced bias more than prompting them to consider the opposite.
+explanation: Bias here comes from a lopsided search of memory, not a lack of goodwill, so a general appeal to fairness does little. A specific prompt to generate reasons for the other side rebalances what comes to mind.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/consider-the-opposite.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 38dd4b882cad2148df552b88cc22580f2e29be86
+concepts:
+- ct:consider-the-opposite
+- ct:biased-assimilation
+difficulty: 2
+created: '2026-11-16'
+status: active

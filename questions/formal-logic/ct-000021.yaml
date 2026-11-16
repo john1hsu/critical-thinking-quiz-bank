@@ -1,0 +1,19 @@
+id: ct-000021
+area: formal-logic
+kind: evidence
+topic: Deductive reasoning
+topic_type: ReasoningMode
+true_statement: Evans, Barston and Pollard (1983) found that belief bias in judging syllogisms was stronger for invalid arguments than for valid ones.
+false_statement: Evans, Barston and Pollard (1983) found that belief bias in judging syllogisms was stronger for valid arguments than for invalid ones.
+explanation: People judged syllogisms partly by whether the conclusion was believable, and believable conclusions most often slipped through when the logic was invalid. That's why validity needs testing separately from whether you like the conclusion.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/deductive-reasoning.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: ef1b7a7450a4f46071304affef20ac1cd3361376
+concepts:
+- ct:deductive-reasoning
+- ct:belief-bias
+difficulty: 3
+created: '2026-11-16'
+status: active

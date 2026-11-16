@@ -1,0 +1,19 @@
+id: ct-000029
+area: history-and-thinkers
+kind: mechanism
+topic: Amos Tversky
+topic_type: Person
+true_statement: In Tversky and Kahneman's prospect theory, people tend to be risk-averse for sure gains and risk-seeking for sure losses.
+false_statement: In Tversky and Kahneman's prospect theory, people tend to be risk-seeking for sure gains and risk-averse for sure losses.
+explanation: Prospect theory evaluates outcomes as gains and losses from a reference point, with losses weighing more than equal gains. People lock in a sure gain but gamble to avoid a sure loss.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/amos-tversky.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 3363cfa001661733773ed266eaa2b2eac9a4b876
+concepts:
+- ct:amos-tversky
+- ct:prospect-theory
+difficulty: 2
+created: '2026-11-16'
+status: active

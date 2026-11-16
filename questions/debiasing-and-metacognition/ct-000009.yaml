@@ -1,0 +1,20 @@
+id: ct-000009
+area: debiasing-and-metacognition
+kind: evidence
+topic: Consider the opposite
+topic_type: Technique
+true_statement: A 2020 survey experiment with UK public managers found that a brief, low-cost consider-the-opposite prompt reduced anchoring.
+false_statement: A 2020 survey experiment with UK public managers found that a brief, low-cost consider-the-opposite prompt had no effect on anchoring.
+explanation: Nagtegaal and colleagues replicated two anchoring experiments with 1,221 public managers and employees and found the prompt helped, though the size of the benefit seemed to depend on context and they called for field tests.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/consider-the-opposite.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 38dd4b882cad2148df552b88cc22580f2e29be86
+concepts:
+- ct:consider-the-opposite
+- ct:nagtegaal-2020-public-managers-anchoring-study
+- ct:anchoring-effect
+difficulty: 2
+created: '2026-11-16'
+status: active

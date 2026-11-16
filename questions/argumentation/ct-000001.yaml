@@ -1,0 +1,19 @@
+id: ct-000001
+area: argumentation
+kind: scenario
+topic: Principle of charity
+topic_type: Principle
+true_statement: Dana argues the launch should wait because the onboarding flow has known defects. Lee replies, "So you want to delay until the product is perfect?" Lee's reply breaks the principle of charity.
+false_statement: Dana argues the launch should wait because the onboarding flow has known defects. Lee replies, "So you want to delay until the product is perfect?" Lee's reply follows the principle of charity.
+explanation: Charity asks you to keep a speaker's qualifications and reconstruct the most plausible version of their reasoning before criticising it. Lee turns a specific, checkable claim about defects into an extreme demand for perfection, which is the distortion charity warns against.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/principle-of-charity.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: dce45b22564a6d9f332a279b20252289445a5066
+concepts:
+- ct:principle-of-charity
+- ct:straw-man-fallacy
+difficulty: 2
+created: '2026-11-16'
+status: active

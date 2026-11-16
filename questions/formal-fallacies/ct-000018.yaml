@@ -1,0 +1,19 @@
+id: ct-000018
+area: formal-fallacies
+kind: evidence
+topic: Affirming the consequent
+topic_type: FormalFallacy
+true_statement: Godden and Zenker attribute much acceptance of affirming the consequent to conditional perfection, the tendency to hear "if" as "if and only if".
+false_statement: Godden and Zenker attribute much acceptance of affirming the consequent to belief bias, the tendency to accept any argument whose conclusion seems believable.
+explanation: Promises and threats invite reading a one-way conditional as two-way, and under that reading the inference would be valid. Their 2015 review links this pragmatic strengthening to how often people endorse the form.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/affirming-the-consequent.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 0658a63d6d7e8bdb2ef4b77862e81c05747f5aa1
+concepts:
+- ct:affirming-the-consequent
+- ct:conditional-perfection
+difficulty: 3
+created: '2026-11-16'
+status: active

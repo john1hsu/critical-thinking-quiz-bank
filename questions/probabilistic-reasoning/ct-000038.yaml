@@ -1,0 +1,19 @@
+id: ct-000038
+area: probabilistic-reasoning
+kind: counter
+topic: Base-rate neglect
+topic_type: ProbabilisticFallacy
+true_statement: Restating a probability problem as natural frequencies, counting cases out of a concrete number such as 1,000, makes Bayesian answers far more common.
+false_statement: Restating a probability problem as single-event percentages, rather than counts out of a concrete number such as 1,000, makes Bayesian answers far more common.
+explanation: Counts carry the base rate inside them and need fewer steps. Gigerenzer and Hoffrage saw Bayesian answers rise from 16-28% with probabilities to 46-50% with frequencies, without any instruction.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/base-rate-neglect.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 6c5a316f05235ef86686daa5c51b772ad05fed3f
+concepts:
+- ct:base-rate-neglect
+- ct:natural-frequencies
+difficulty: 2
+created: '2026-11-16'
+status: active

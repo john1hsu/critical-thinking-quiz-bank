@@ -1,0 +1,672 @@
+{
+ "version": 1,
+ "count": 42,
+ "active": 42,
+ "questions": [
+  {
+   "id": "ct-000001",
+   "area": "argumentation",
+   "kind": "scenario",
+   "topic": "Principle of charity",
+   "t": "Dana argues the launch should wait because the onboarding flow has known defects. Lee replies, \"So you want to delay until the product is perfect?\" Lee's reply breaks the principle of charity.",
+   "f": "Dana argues the launch should wait because the onboarding flow has known defects. Lee replies, \"So you want to delay until the product is perfect?\" Lee's reply follows the principle of charity.",
+   "x": "Charity asks you to keep a speaker's qualifications and reconstruct the most plausible version of their reasoning before criticising it. Lee turns a specific, checkable claim about defects into an extreme demand for perfection, which is the distortion charity warns against.",
+   "concepts": [
+    "ct:principle-of-charity",
+    "ct:straw-man-fallacy"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/principle-of-charity.html"
+  },
+  {
+   "id": "ct-000002",
+   "area": "argumentation",
+   "kind": "counter",
+   "topic": "Principle of charity",
+   "t": "Lewiński suggests applying charity only under real interpretive doubt, and favouring the critic in critical settings such as reviews and trials.",
+   "f": "Lewiński suggests applying charity only under real interpretive doubt, and favouring the arguer in critical settings such as reviews and trials.",
+   "x": "His 'paradox of charity' notes that being charitable to one side of a dispute can be uncharitable to the other. So he limits charity to genuine ambiguity and, where the point is to test a claim, tilts toward the critic rather than the arguer.",
+   "concepts": [
+    "ct:principle-of-charity"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/principle-of-charity.html"
+  },
+  {
+   "id": "ct-000003",
+   "area": "argumentation",
+   "kind": "origin",
+   "topic": "Principle of charity",
+   "t": "The philosopher N. L. Wilson coined the term \"principle of charity\" in 1959, and Donald Davidson later made it central to radical interpretation.",
+   "f": "The philosopher Donald Davidson coined the term \"principle of charity\" in 1959, and N. L. Wilson later made it central to radical interpretation.",
+   "x": "Wilson introduced the term in 1959. Quine, Lewis, Dennett and above all Davidson then reshaped it; Davidson argued we can only understand a speaker by assuming their beliefs are mostly true and coherent.",
+   "concepts": [
+    "ct:principle-of-charity",
+    "ct:n-l-wilson",
+    "ct:donald-davidson"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/principle-of-charity.html"
+  },
+  {
+   "id": "ct-000004",
+   "area": "cognitive-biases",
+   "kind": "scenario",
+   "topic": "Anchoring effect",
+   "t": "In a salary negotiation the employer names a figure first, and the final settlement lands much closer to it than an independent valuation would. That pull toward the first number is the anchoring effect.",
+   "f": "In a salary negotiation the employer names a figure first, and the final settlement lands much closer to it than an independent valuation would. That pull toward the first number is the framing effect.",
+   "x": "Anchoring is the drift of a numerical judgment toward a number seen or considered first, and an opening offer is a classic anchor. Framing concerns how the same information is described, not which number came first.",
+   "concepts": [
+    "ct:anchoring-effect"
+   ],
+   "difficulty": 1,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/anchoring-effect.html"
+  },
+  {
+   "id": "ct-000005",
+   "area": "cognitive-biases",
+   "kind": "counter",
+   "topic": "Anchoring effect",
+   "t": "To blunt anchoring in a team estimate, collect each person's estimate independently before anyone discusses a number.",
+   "f": "To blunt anchoring in a team estimate, have the most experienced person state a number first so others can adjust from it.",
+   "x": "Anyone's first stated number becomes an anchor that the others adjust from too little. Expertise doesn't protect against anchoring (judges in sentencing studies were not immune), so independent estimates gathered before discussion are the safer design.",
+   "concepts": [
+    "ct:anchoring-effect"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/anchoring-effect.html"
+  },
+  {
+   "id": "ct-000006",
+   "area": "cognitive-biases",
+   "kind": "evidence",
+   "topic": "Anchoring effect",
+   "t": "Röseler and colleagues' 2025 preregistered studies found that limiting the time to adjust did not strengthen anchoring, undercutting the insufficient-adjustment account.",
+   "f": "Röseler and colleagues' 2025 preregistered studies found that limiting the time to adjust strengthened anchoring, confirming the insufficient-adjustment account.",
+   "x": "If people anchor because they stop adjusting too soon, less time should mean more anchoring; it didn't. The challenge is to the mechanism, not the effect itself, which replicates well in classic numerical estimates.",
+   "concepts": [
+    "ct:anchoring-effect",
+    "ct:roseler-2025-insufficient-adjustment-test"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/anchoring-effect.html"
+  },
+  {
+   "id": "ct-000007",
+   "area": "debiasing-and-metacognition",
+   "kind": "scenario",
+   "topic": "Consider the opposite",
+   "t": "Asked to list twelve reasons her forecast could be wrong, an analyst runs dry after four and decides the forecast must be right. That backfire fits the ease-of-retrieval effect.",
+   "f": "Asked to list twelve reasons her forecast could be wrong, an analyst runs dry after four and decides the forecast must be right. That backfire fits the anchoring effect.",
+   "x": "When counter-reasons are hard to produce, people read the difficulty itself as evidence that their view is right. That metacognitive ease-of-retrieval effect is why asking for many alternatives can make consider-the-opposite backfire.",
+   "concepts": [
+    "ct:consider-the-opposite",
+    "ct:ease-of-retrieval-effect"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/consider-the-opposite.html"
+  },
+  {
+   "id": "ct-000008",
+   "area": "debiasing-and-metacognition",
+   "kind": "counter",
+   "topic": "Consider the opposite",
+   "t": "In Lord and colleagues' 1984 experiments, prompting people to consider the opposite reduced bias more than telling them to be as fair and unbiased as possible.",
+   "f": "In Lord and colleagues' 1984 experiments, telling people to be as fair and unbiased as possible reduced bias more than prompting them to consider the opposite.",
+   "x": "Bias here comes from a lopsided search of memory, not a lack of goodwill, so a general appeal to fairness does little. A specific prompt to generate reasons for the other side rebalances what comes to mind.",
+   "concepts": [
+    "ct:consider-the-opposite",
+    "ct:biased-assimilation"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/consider-the-opposite.html"
+  },
+  {
+   "id": "ct-000009",
+   "area": "debiasing-and-metacognition",
+   "kind": "evidence",
+   "topic": "Consider the opposite",
+   "t": "A 2020 survey experiment with UK public managers found that a brief, low-cost consider-the-opposite prompt reduced anchoring.",
+   "f": "A 2020 survey experiment with UK public managers found that a brief, low-cost consider-the-opposite prompt had no effect on anchoring.",
+   "x": "Nagtegaal and colleagues replicated two anchoring experiments with 1,221 public managers and employees and found the prompt helped, though the size of the benefit seemed to depend on context and they called for field tests.",
+   "concepts": [
+    "ct:consider-the-opposite",
+    "ct:nagtegaal-2020-public-managers-anchoring-study",
+    "ct:anchoring-effect"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/consider-the-opposite.html"
+  },
+  {
+   "id": "ct-000010",
+   "area": "decision-making",
+   "kind": "scenario",
+   "topic": "Judgment and decision making",
+   "t": "A consultant designs simple rules of thumb to help busy managers come closer to what expected utility theory would recommend. In JDM terms, those rules are a prescriptive model.",
+   "f": "A consultant designs simple rules of thumb to help busy managers come closer to what expected utility theory would recommend. In JDM terms, those rules are a descriptive model.",
+   "x": "JDM separates normative models (the standard), descriptive models (what people actually do) and prescriptive models (practical designs that help real people get closer to the standard). Tools built to improve decisions are prescriptive.",
+   "concepts": [
+    "ct:judgment-and-decision-making",
+    "ct:expected-utility-theory"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/judgment-and-decision-making.html"
+  },
+  {
+   "id": "ct-000011",
+   "area": "decision-making",
+   "kind": "origin",
+   "topic": "Judgment and decision making",
+   "t": "Ward Edwards's 1954 Psychological Bulletin review, \"The theory of decision making\", is widely treated as the founding text of judgment and decision making.",
+   "f": "Daniel Kahneman's 1954 Psychological Bulletin review, \"The theory of decision making\", is widely treated as the founding text of judgment and decision making.",
+   "x": "Edwards introduced psychologists to the economic theory of choice in 1954 and later named 'behavioral decision theory'. Kahneman was among those who took up Edwards's Bayesian paradigm afterwards.",
+   "concepts": [
+    "ct:judgment-and-decision-making",
+    "ct:ward-edwards",
+    "ct:the-theory-of-decision-making"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/judgment-and-decision-making.html"
+  },
+  {
+   "id": "ct-000012",
+   "area": "decision-making",
+   "kind": "evidence",
+   "topic": "Judgment and decision making",
+   "t": "Einhorn and Hogarth warned that an apparent bias may reflect the wrong normative benchmark rather than a flawed mind, since rival normative systems exist.",
+   "f": "Einhorn and Hogarth argued that because only one normative system exists, any departure from it reveals a flawed mind rather than the wrong benchmark.",
+   "x": "Optimal models depend on assumptions about the environment and time horizon, and more than one normative system is available. So before calling a choice biased, check that the benchmark fits the situation.",
+   "concepts": [
+    "ct:judgment-and-decision-making"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/judgment-and-decision-making.html"
+  },
+  {
+   "id": "ct-000013",
+   "area": "evidence-and-information-literacy",
+   "kind": "scenario",
+   "topic": "Lateral reading",
+   "t": "Asked to vet a polished .org \"policy institute\" report, an analyst opens new tabs and searches who funds the institute before reading the report closely. That is lateral reading.",
+   "f": "Asked to vet a polished .org \"policy institute\" report, an analyst opens new tabs and searches who funds the institute before reading the report closely. That is vertical reading.",
+   "x": "Lateral reading judges a source by leaving it and checking what independent sources say about who is behind it. Vertical reading stays on the page and judges it by its own design, citations and About section.",
+   "concepts": [
+    "ct:lateral-reading",
+    "ct:vertical-reading"
+   ],
+   "difficulty": 1,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/lateral-reading.html"
+  },
+  {
+   "id": "ct-000014",
+   "area": "evidence-and-information-literacy",
+   "kind": "counter",
+   "topic": "Lateral reading",
+   "t": "A site's domain ending, logo, footnotes and About page are easy to fake, so they are weak evidence that an unfamiliar source is credible.",
+   "f": "A site's domain ending, logo, footnotes and About page are hard to fake, so they are strong evidence that an unfamiliar source is credible.",
+   "x": "Checklists built only on a page's own features can give false security, because those features are cheap to imitate. What independent sources say about the publisher is far more informative.",
+   "concepts": [
+    "ct:lateral-reading",
+    "ct:source-credibility"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/lateral-reading.html"
+  },
+  {
+   "id": "ct-000015",
+   "area": "evidence-and-information-literacy",
+   "kind": "evidence",
+   "topic": "Lateral reading",
+   "t": "In Wineburg and McGrew's study of live website evaluation, professional fact checkers judged sources more accurately than PhD historians and Stanford students.",
+   "f": "In Wineburg and McGrew's study of live website evaluation, PhD historians judged sources more accurately than professional fact checkers and Stanford students.",
+   "x": "The fact checkers left unfamiliar pages quickly and searched about the source, while most historians and students read vertically. Two historians who did read laterally performed like the fact checkers, pointing to strategy rather than expertise.",
+   "concepts": [
+    "ct:lateral-reading",
+    "ct:sam-wineburg",
+    "ct:sarah-mcgrew"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/lateral-reading.html"
+  },
+  {
+   "id": "ct-000016",
+   "area": "formal-fallacies",
+   "kind": "scenario",
+   "topic": "Affirming the consequent",
+   "t": "A manager reasons: \"If the campaign worked, sales would rise. Sales rose, so the campaign worked.\" This argument affirms the consequent, so it is invalid.",
+   "f": "A manager reasons: \"If the campaign worked, sales would rise. Sales rose, so the campaign worked.\" This argument is an instance of modus ponens, so it is valid.",
+   "x": "The second premise affirms the 'then' part and the conclusion returns to the 'if' part: If P then Q; Q; so P. Modus ponens affirms the antecedent instead. Other causes, such as a seasonal upswing, could have raised sales.",
+   "concepts": [
+    "ct:affirming-the-consequent",
+    "ct:modus-ponens"
+   ],
+   "difficulty": 1,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/affirming-the-consequent.html"
+  },
+  {
+   "id": "ct-000017",
+   "area": "formal-fallacies",
+   "kind": "counter",
+   "topic": "Affirming the consequent",
+   "t": "The key question to put to an argument that affirms the consequent is what else, besides the stated cause, could make the observed result true.",
+   "f": "The key question to put to an argument that affirms the consequent is whether the observed result really happened, since that settles the cause.",
+   "x": "The conditional only says the cause is enough for the result, not that it's the only route to it. Even if the result is certain, rival causes stay open, so they must be named and compared.",
+   "concepts": [
+    "ct:affirming-the-consequent"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/affirming-the-consequent.html"
+  },
+  {
+   "id": "ct-000018",
+   "area": "formal-fallacies",
+   "kind": "evidence",
+   "topic": "Affirming the consequent",
+   "t": "Godden and Zenker attribute much acceptance of affirming the consequent to conditional perfection, the tendency to hear \"if\" as \"if and only if\".",
+   "f": "Godden and Zenker attribute much acceptance of affirming the consequent to belief bias, the tendency to accept any argument whose conclusion seems believable.",
+   "x": "Promises and threats invite reading a one-way conditional as two-way, and under that reading the inference would be valid. Their 2015 review links this pragmatic strengthening to how often people endorse the form.",
+   "concepts": [
+    "ct:affirming-the-consequent",
+    "ct:conditional-perfection"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/affirming-the-consequent.html"
+  },
+  {
+   "id": "ct-000019",
+   "area": "formal-logic",
+   "kind": "scenario",
+   "topic": "Deductive reasoning",
+   "t": "Because the last five hires from one bootcamp did well, a manager concludes the next one probably will too. Her reasoning is inductive, since the premises make the conclusion probable, not guaranteed.",
+   "f": "Because the last five hires from one bootcamp did well, a manager concludes the next one probably will too. Her reasoning is deductive, since the premises guarantee the conclusion.",
+   "x": "Deduction aims at conclusions the premises guarantee; induction aims at conclusions they make probable and goes beyond its evidence. Five good past cases can't rule out a weak sixth.",
+   "concepts": [
+    "ct:deductive-reasoning",
+    "ct:inductive-reasoning"
+   ],
+   "difficulty": 1,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/deductive-reasoning.html"
+  },
+  {
+   "id": "ct-000020",
+   "area": "formal-logic",
+   "kind": "mechanism",
+   "topic": "Deductive reasoning",
+   "t": "Adding premises can never weaken a valid deduction, whereas new evidence can strengthen or undermine an inductive argument.",
+   "f": "Adding premises can turn a valid deduction invalid, whereas an inductive argument stays fixed once its evidence is in.",
+   "x": "A valid deduction's conclusion is already contained in its premises, so more premises can't break the guarantee. Inductive conclusions outrun their evidence, so new evidence can move them either way.",
+   "concepts": [
+    "ct:deductive-reasoning",
+    "ct:inductive-reasoning"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/deductive-reasoning.html"
+  },
+  {
+   "id": "ct-000021",
+   "area": "formal-logic",
+   "kind": "evidence",
+   "topic": "Deductive reasoning",
+   "t": "Evans, Barston and Pollard (1983) found that belief bias in judging syllogisms was stronger for invalid arguments than for valid ones.",
+   "f": "Evans, Barston and Pollard (1983) found that belief bias in judging syllogisms was stronger for valid arguments than for invalid ones.",
+   "x": "People judged syllogisms partly by whether the conclusion was believable, and believable conclusions most often slipped through when the logic was invalid. That's why validity needs testing separately from whether you like the conclusion.",
+   "concepts": [
+    "ct:deductive-reasoning",
+    "ct:belief-bias"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/deductive-reasoning.html"
+  },
+  {
+   "id": "ct-000022",
+   "area": "foundations",
+   "kind": "scenario",
+   "topic": "Soundness",
+   "t": "\"Every approved vendor has passed a security audit. Acme is approved. So Acme passed an audit.\" If Acme was carried over from an old list without an audit, the argument is valid but unsound.",
+   "f": "\"Every approved vendor has passed a security audit. Acme is approved. So Acme passed an audit.\" If Acme was carried over from an old list without an audit, the argument is invalid but sound.",
+   "x": "The form is valid: if both premises were true, the conclusion would have to be. Soundness also needs true premises, and the first one is false. 'Invalid but sound' is impossible, since every sound argument is valid.",
+   "concepts": [
+    "ct:soundness",
+    "ct:validity"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/soundness.html"
+  },
+  {
+   "id": "ct-000023",
+   "area": "foundations",
+   "kind": "counter",
+   "topic": "Soundness",
+   "t": "Showing that an argument is unsound doesn't show its conclusion is false; it shows only that this argument fails to establish it.",
+   "f": "Showing that an argument is unsound shows its conclusion is false, because a bad argument can't lead to a true conclusion.",
+   "x": "An unsound argument can still have a true conclusion, reached by luck or supported by other reasons. Rebutting one argument leaves the claim open, so say 'this argument fails' rather than 'this claim is wrong'.",
+   "concepts": [
+    "ct:soundness"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/soundness.html"
+  },
+  {
+   "id": "ct-000024",
+   "area": "foundations",
+   "kind": "definition",
+   "topic": "Soundness",
+   "t": "A cogent argument can have a false conclusion, but a sound argument cannot.",
+   "f": "A sound argument can have a false conclusion, but a cogent argument cannot.",
+   "x": "Cogency is the non-deductive counterpart: strong support plus true premises, which makes a conclusion likely. Soundness combines validity with true premises, which guarantees a true conclusion.",
+   "concepts": [
+    "ct:soundness",
+    "ct:cogency"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/soundness.html"
+  },
+  {
+   "id": "ct-000025",
+   "area": "heuristics-and-dual-process",
+   "kind": "scenario",
+   "topic": "Heuristics and biases program",
+   "t": "Asked how probable it is that a new product will succeed, a director quietly answers how similar it looks to a past hit. Kahneman and Frederick call this attribute substitution.",
+   "f": "Asked how probable it is that a new product will succeed, a director quietly answers how similar it looks to a past hit. Kahneman and Frederick call this belief perseverance.",
+   "x": "Attribute substitution is answering an easier, related question (how similar?) in place of the hard target question (how probable?). The fix is to ask which easier question you actually answered.",
+   "concepts": [
+    "ct:heuristics-and-biases-program",
+    "ct:attribute-substitution"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/heuristics-and-biases-program.html"
+  },
+  {
+   "id": "ct-000026",
+   "area": "heuristics-and-dual-process",
+   "kind": "origin",
+   "topic": "Heuristics and biases program",
+   "t": "The program traces to a 1969 survey in which mathematical psychologists, including statistics textbook authors, put too much faith in results from small samples.",
+   "f": "The program traces to a 1969 survey in which first-year students, unlike the statistics textbook authors also surveyed, put too much faith in results from small samples.",
+   "x": "The striking finding was that experts who could have worked out the right answer still erred intuitively. That gap between what experts knew and what they guessed became the program's signature.",
+   "concepts": [
+    "ct:heuristics-and-biases-program"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/heuristics-and-biases-program.html"
+  },
+  {
+   "id": "ct-000027",
+   "area": "heuristics-and-dual-process",
+   "kind": "mechanism",
+   "topic": "Heuristics and biases program",
+   "t": "The heuristics and biases program uses systematic errors as clues to how judgment works, much as visual illusions reveal how perception works.",
+   "f": "The heuristics and biases program treats judgment errors as random noise to be averaged out, unlike visual illusions, which reveal how perception works.",
+   "x": "Because the errors are predictable rather than random, they point to the shortcut that produced them. The program proposes a heuristic, predicts where it departs from a normative standard, then shows that departure experimentally.",
+   "concepts": [
+    "ct:heuristics-and-biases-program"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/heuristics-and-biases-program.html"
+  },
+  {
+   "id": "ct-000028",
+   "area": "history-and-thinkers",
+   "kind": "scenario",
+   "topic": "Amos Tversky",
+   "t": "A board approves a project described as having \"a 70% chance of success\" more readily than one with \"a 30% chance of failure\", though the odds are identical. Tversky's work calls this a framing effect.",
+   "f": "A board approves a project described as having \"a 70% chance of success\" more readily than one with \"a 30% chance of failure\", though the odds are identical. Tversky's work calls this the conjunction fallacy.",
+   "x": "Framing is when logically equivalent descriptions lead to different choices. The conjunction fallacy is judging 'A and B' more probable than A alone, as in the Linda studies.",
+   "concepts": [
+    "ct:amos-tversky",
+    "ct:framing-effect"
+   ],
+   "difficulty": 1,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/amos-tversky.html"
+  },
+  {
+   "id": "ct-000029",
+   "area": "history-and-thinkers",
+   "kind": "mechanism",
+   "topic": "Amos Tversky",
+   "t": "In Tversky and Kahneman's prospect theory, people tend to be risk-averse for sure gains and risk-seeking for sure losses.",
+   "f": "In Tversky and Kahneman's prospect theory, people tend to be risk-seeking for sure gains and risk-averse for sure losses.",
+   "x": "Prospect theory evaluates outcomes as gains and losses from a reference point, with losses weighing more than equal gains. People lock in a sure gain but gamble to avoid a sure loss.",
+   "concepts": [
+    "ct:amos-tversky",
+    "ct:prospect-theory"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/amos-tversky.html"
+  },
+  {
+   "id": "ct-000030",
+   "area": "history-and-thinkers",
+   "kind": "figure",
+   "topic": "Amos Tversky",
+   "t": "In one version of the 1983 Linda studies, 85% of 142 undergraduates ranked \"bank teller and feminist\" as more probable than \"bank teller\".",
+   "f": "In one version of the 1983 Linda studies, 35% of 142 undergraduates ranked \"bank teller and feminist\" as more probable than \"bank teller\".",
+   "x": "A large majority broke the rule that a conjunction can't be more probable than either part, because the description resembled a feminist. That 1983 result is the classic demonstration of the conjunction fallacy.",
+   "concepts": [
+    "ct:amos-tversky",
+    "ct:conjunction-fallacy"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/amos-tversky.html",
+   "asOf": "1983"
+  },
+  {
+   "id": "ct-000031",
+   "area": "informal-fallacies",
+   "kind": "scenario",
+   "topic": "Straw man fallacy",
+   "t": "A teammate suggests cutting the weekly status meeting to 30 minutes. A manager replies that abolishing meetings would leave everyone uninformed. The reply is a straw man.",
+   "f": "A teammate suggests cutting the weekly status meeting to 30 minutes. A manager replies that abolishing meetings would leave everyone uninformed. The reply is a red herring.",
+   "x": "The manager attacks a stronger claim than the one made: a shorter meeting has become no meetings. Misstating the opponent's position is the mark of a straw man; a red herring changes the subject rather than distorting the claim.",
+   "concepts": [
+    "ct:straw-man-fallacy",
+    "ct:red-herring"
+   ],
+   "difficulty": 1,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/straw-man-fallacy.html"
+  },
+  {
+   "id": "ct-000032",
+   "area": "informal-fallacies",
+   "kind": "counter",
+   "topic": "Straw man fallacy",
+   "t": "A good test for a straw man is asking whether the other side would recognise the description as their own position, stated in their own terms.",
+   "f": "A good test for a straw man is asking whether the critic's conclusion seems believable, since a straw man always ends in an implausible conclusion.",
+   "x": "The fallacy lies in the mismatch between what is refuted and what was claimed, so the check is a comparison with what the other side actually said. A straw man's conclusion can be quite plausible.",
+   "concepts": [
+    "ct:straw-man-fallacy"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/straw-man-fallacy.html"
+  },
+  {
+   "id": "ct-000033",
+   "area": "informal-fallacies",
+   "kind": "definition",
+   "topic": "Straw man fallacy",
+   "t": "A weak man picks an opponent's weakest actual argument, refutes it, and implies the whole case has fallen.",
+   "f": "A weak man invents a position, attributes it to a vague \"some people\", and refutes that instead of anything argued.",
+   "x": "Aikin and Casey separate three forms: the representational straw man restates a view in weaker form, the weak man targets the weakest real argument, and the hollow man is the invented position attributed to unnamed people.",
+   "concepts": [
+    "ct:straw-man-fallacy"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/straw-man-fallacy.html"
+  },
+  {
+   "id": "ct-000034",
+   "area": "philosophy-of-reasoning",
+   "kind": "scenario",
+   "topic": "Gettier problem",
+   "t": "A manager trusts a sales report whose filter silently broke last week; by coincidence its total matches the real figure. Her true, reasonable belief about the total is not knowledge.",
+   "f": "A manager trusts a sales report whose filter silently broke last week; by coincidence its total matches the real figure. Her belief about the total is knowledge, since it is justified and true.",
+   "x": "This is a Gettier case: good but fallible evidence, a broken step, and a lucky match with the truth. Had the total been wrong she'd have believed the same thing, so justified true belief alone isn't knowledge.",
+   "concepts": [
+    "ct:gettier-problem",
+    "ct:justified-true-belief"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/gettier-problem.html"
+  },
+  {
+   "id": "ct-000035",
+   "area": "philosophy-of-reasoning",
+   "kind": "counter",
+   "topic": "Gettier problem",
+   "t": "To check whether you were right for the right reasons, ask whether your reasons would still have led you to the same conclusion if it had been false.",
+   "f": "To check whether you were right for the right reasons, ask whether your conclusion turned out true, since a correct outcome confirms the reasoning.",
+   "x": "Outcomes can be right by luck, as Gettier cases show. If you'd believe the same thing either way, being right says little about your reasoning, which matters for forecasts, audits and post-project reviews.",
+   "concepts": [
+    "ct:gettier-problem"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/gettier-problem.html"
+  },
+  {
+   "id": "ct-000036",
+   "area": "philosophy-of-reasoning",
+   "kind": "evidence",
+   "topic": "Gettier problem",
+   "t": "A 2017 study across 24 sites in 23 countries found that clear majorities at nearly every site judged a Gettier case not to be knowledge.",
+   "f": "A 2017 study across 24 sites in 23 countries found that majorities at most non-Western sites judged a Gettier case to be knowledge.",
+   "x": "Earlier preliminary data had hinted at cultural differences, but Machery and colleagues' larger survey found the Gettier intuition broadly shared. They still used a single vignette and called for more replication.",
+   "concepts": [
+    "ct:gettier-problem",
+    "ct:machery-2017-gettier-intuition-study"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/gettier-problem.html"
+  },
+  {
+   "id": "ct-000037",
+   "area": "probabilistic-reasoning",
+   "kind": "scenario",
+   "topic": "Base-rate neglect",
+   "t": "A filter flags 99% of fraudulent invoices and 2% of legitimate ones, and 1 in 1,000 invoices is fraudulent. A flagged invoice is still more likely legitimate than fraudulent.",
+   "f": "A filter flags 99% of fraudulent invoices and 2% of legitimate ones, and 1 in 1,000 invoices is fraudulent. A flagged invoice is about 98% likely to be fraudulent.",
+   "x": "Out of 100,000 invoices, about 99 fraudulent ones are flagged alongside about 1,998 legitimate ones, so under 5% of flags are fraud. Reading the 98% off the test's accuracy ignores how rare fraud is.",
+   "concepts": [
+    "ct:base-rate-neglect",
+    "ct:bayesian-reasoning"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/base-rate-neglect.html"
+  },
+  {
+   "id": "ct-000038",
+   "area": "probabilistic-reasoning",
+   "kind": "counter",
+   "topic": "Base-rate neglect",
+   "t": "Restating a probability problem as natural frequencies, counting cases out of a concrete number such as 1,000, makes Bayesian answers far more common.",
+   "f": "Restating a probability problem as single-event percentages, rather than counts out of a concrete number such as 1,000, makes Bayesian answers far more common.",
+   "x": "Counts carry the base rate inside them and need fewer steps. Gigerenzer and Hoffrage saw Bayesian answers rise from 16-28% with probabilities to 46-50% with frequencies, without any instruction.",
+   "concepts": [
+    "ct:base-rate-neglect",
+    "ct:natural-frequencies"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/base-rate-neglect.html"
+  },
+  {
+   "id": "ct-000039",
+   "area": "probabilistic-reasoning",
+   "kind": "evidence",
+   "topic": "Base-rate neglect",
+   "t": "Koehler's 1996 review argued that people rarely ignore base rates entirely, and weight them more when they are learned from experience or framed as frequencies.",
+   "f": "Koehler's 1996 review argued that people ignore base rates entirely unless they are given as precise percentages in a textbook-style problem.",
+   "x": "Koehler held that the fallacy had been overstated and that real decisions rarely match the tidy Bayesian problem. The safer conclusion is that base rates are often underweighted, not always ignored.",
+   "concepts": [
+    "ct:base-rate-neglect",
+    "ct:koehler-1996-base-rate-fallacy-reconsidered"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/base-rate-neglect.html"
+  },
+  {
+   "id": "ct-000040",
+   "area": "scientific-reasoning",
+   "kind": "scenario",
+   "topic": "Falsifiability criterion",
+   "t": "A team claims \"the redesign improves engagement\" but names no metric or threshold, so any later dashboard can be read as support. As stated, the claim isn't falsifiable.",
+   "f": "A team claims \"the redesign improves engagement\" but names no metric or threshold, so any later dashboard can be read as support. The claim is falsifiable because engagement can be measured.",
+   "x": "A claim is falsifiable only if some possible result would count against it. Measurability isn't enough; committing in advance to an outcome that would show the redesign failed is what lets the data refute it.",
+   "concepts": [
+    "ct:falsifiability"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/falsifiability.html"
+  },
+  {
+   "id": "ct-000041",
+   "area": "scientific-reasoning",
+   "kind": "counter",
+   "topic": "Falsifiability criterion",
+   "t": "After a failed prediction, a rescue assumption is legitimate if it yields a new, checkable prediction, as the unseen planet posited for Uranus's orbit did.",
+   "f": "After a failed prediction, any rescue assumption is legitimate as long as it restores agreement with the data, even if it predicts nothing new.",
+   "x": "Rescues that only patch the mismatch are ad hoc and shield a theory from refutation. The planet posited to explain Uranus's orbit was then found, so that rescue earned its place by passing a new test.",
+   "concepts": [
+    "ct:falsifiability",
+    "ct:ad-hoc-hypothesis"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/falsifiability.html"
+  },
+  {
+   "id": "ct-000042",
+   "area": "scientific-reasoning",
+   "kind": "evidence",
+   "topic": "Falsifiability criterion",
+   "t": "The Duhem-Quine thesis holds that a failed prediction shows something in the bundle of hypothesis and auxiliary assumptions is wrong, without saying what.",
+   "f": "The Duhem-Quine thesis holds that a failed prediction shows the main hypothesis is wrong, because auxiliary assumptions are fixed by observation.",
+   "x": "Hypotheses predict only together with assumptions about instruments, conditions and background theory. So scientists can keep a theory by revising an auxiliary, which is why conclusive falsification is harder than Popper's picture suggests.",
+   "concepts": [
+    "ct:falsifiability",
+    "ct:duhem-quine-thesis"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/falsifiability.html"
+  }
+ ]
+}

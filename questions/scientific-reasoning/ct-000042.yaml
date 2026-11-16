@@ -1,0 +1,19 @@
+id: ct-000042
+area: scientific-reasoning
+kind: evidence
+topic: Falsifiability criterion
+topic_type: Principle
+true_statement: The Duhem-Quine thesis holds that a failed prediction shows something in the bundle of hypothesis and auxiliary assumptions is wrong, without saying what.
+false_statement: The Duhem-Quine thesis holds that a failed prediction shows the main hypothesis is wrong, because auxiliary assumptions are fixed by observation.
+explanation: Hypotheses predict only together with assumptions about instruments, conditions and background theory. So scientists can keep a theory by revising an auxiliary, which is why conclusive falsification is harder than Popper's picture suggests.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/falsifiability.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: fbc65fefd4d95001cb7eed89bd3301686e4412e7
+concepts:
+- ct:falsifiability
+- ct:duhem-quine-thesis
+difficulty: 3
+created: '2026-11-16'
+status: active

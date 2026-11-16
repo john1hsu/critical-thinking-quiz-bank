@@ -1,0 +1,18 @@
+id: ct-000033
+area: informal-fallacies
+kind: definition
+topic: Straw man fallacy
+topic_type: InformalFallacy
+true_statement: A weak man picks an opponent's weakest actual argument, refutes it, and implies the whole case has fallen.
+false_statement: A weak man invents a position, attributes it to a vague "some people", and refutes that instead of anything argued.
+explanation: 'Aikin and Casey separate three forms: the representational straw man restates a view in weaker form, the weak man targets the weakest real argument, and the hollow man is the invented position attributed to unnamed people.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/straw-man-fallacy.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 40e8d79ebf2ab09ac7e05beeb6d85ae45fd9db39
+concepts:
+- ct:straw-man-fallacy
+difficulty: 2
+created: '2026-11-16'
+status: active

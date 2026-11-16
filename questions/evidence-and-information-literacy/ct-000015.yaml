@@ -1,0 +1,20 @@
+id: ct-000015
+area: evidence-and-information-literacy
+kind: evidence
+topic: Lateral reading
+topic_type: Technique
+true_statement: In Wineburg and McGrew's study of live website evaluation, professional fact checkers judged sources more accurately than PhD historians and Stanford students.
+false_statement: In Wineburg and McGrew's study of live website evaluation, PhD historians judged sources more accurately than professional fact checkers and Stanford students.
+explanation: The fact checkers left unfamiliar pages quickly and searched about the source, while most historians and students read vertically. Two historians who did read laterally performed like the fact checkers, pointing to strategy rather than expertise.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/lateral-reading.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 6c5b3ef20523e6ed233a03369a030bdfa974a5b5
+concepts:
+- ct:lateral-reading
+- ct:sam-wineburg
+- ct:sarah-mcgrew
+difficulty: 2
+created: '2026-11-16'
+status: active

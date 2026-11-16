@@ -1,0 +1,19 @@
+id: ct-000037
+area: probabilistic-reasoning
+kind: scenario
+topic: Base-rate neglect
+topic_type: ProbabilisticFallacy
+true_statement: A filter flags 99% of fraudulent invoices and 2% of legitimate ones, and 1 in 1,000 invoices is fraudulent. A flagged invoice is still more likely legitimate than fraudulent.
+false_statement: A filter flags 99% of fraudulent invoices and 2% of legitimate ones, and 1 in 1,000 invoices is fraudulent. A flagged invoice is about 98% likely to be fraudulent.
+explanation: Out of 100,000 invoices, about 99 fraudulent ones are flagged alongside about 1,998 legitimate ones, so under 5% of flags are fraud. Reading the 98% off the test's accuracy ignores how rare fraud is.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/base-rate-neglect.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 6c5a316f05235ef86686daa5c51b772ad05fed3f
+concepts:
+- ct:base-rate-neglect
+- ct:bayesian-reasoning
+difficulty: 2
+created: '2026-11-16'
+status: active

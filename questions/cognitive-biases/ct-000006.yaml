@@ -1,0 +1,19 @@
+id: ct-000006
+area: cognitive-biases
+kind: evidence
+topic: Anchoring effect
+topic_type: CognitiveBias
+true_statement: Röseler and colleagues' 2025 preregistered studies found that limiting the time to adjust did not strengthen anchoring, undercutting the insufficient-adjustment account.
+false_statement: Röseler and colleagues' 2025 preregistered studies found that limiting the time to adjust strengthened anchoring, confirming the insufficient-adjustment account.
+explanation: If people anchor because they stop adjusting too soon, less time should mean more anchoring; it didn't. The challenge is to the mechanism, not the effect itself, which replicates well in classic numerical estimates.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/anchoring-effect.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: d00d932a478aaaf380332f3a64646ee51c6ef346
+concepts:
+- ct:anchoring-effect
+- ct:roseler-2025-insufficient-adjustment-test
+difficulty: 3
+created: '2026-11-16'
+status: active

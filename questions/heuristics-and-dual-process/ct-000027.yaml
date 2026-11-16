@@ -1,0 +1,18 @@
+id: ct-000027
+area: heuristics-and-dual-process
+kind: mechanism
+topic: Heuristics and biases program
+topic_type: Framework
+true_statement: The heuristics and biases program uses systematic errors as clues to how judgment works, much as visual illusions reveal how perception works.
+false_statement: The heuristics and biases program treats judgment errors as random noise to be averaged out, unlike visual illusions, which reveal how perception works.
+explanation: Because the errors are predictable rather than random, they point to the shortcut that produced them. The program proposes a heuristic, predicts where it departs from a normative standard, then shows that departure experimentally.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/heuristics-and-biases-program.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: ac24ecfe889946e7916f6565dd66f132e971ee9f
+concepts:
+- ct:heuristics-and-biases-program
+difficulty: 2
+created: '2026-11-16'
+status: active

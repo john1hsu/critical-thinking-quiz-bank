@@ -1,0 +1,19 @@
+id: ct-000036
+area: philosophy-of-reasoning
+kind: evidence
+topic: Gettier problem
+topic_type: Concept
+true_statement: A 2017 study across 24 sites in 23 countries found that clear majorities at nearly every site judged a Gettier case not to be knowledge.
+false_statement: A 2017 study across 24 sites in 23 countries found that majorities at most non-Western sites judged a Gettier case to be knowledge.
+explanation: Earlier preliminary data had hinted at cultural differences, but Machery and colleagues' larger survey found the Gettier intuition broadly shared. They still used a single vignette and called for more replication.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/gettier-problem.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: e46f734d5047ece755f0c1bd2a5e6b58509bca35
+concepts:
+- ct:gettier-problem
+- ct:machery-2017-gettier-intuition-study
+difficulty: 3
+created: '2026-11-16'
+status: active

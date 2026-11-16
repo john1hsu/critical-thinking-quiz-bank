@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Critical Thinking True or False</title>
+  <meta name="description" content="Sharpen your reasoning one swipe at a time: an endless, Reels-style feed of true/false questions built from the cited articles in critical-thinking-graph.">
+  <meta name="theme-color" content="#0B0F14">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Think True/False">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="app" class="stage">
+    <!-- Overlay bar: filter chip and streak -->
+    <header class="topbar">
+      <button type="button" id="filter-btn" class="chip" aria-haspopup="dialog">
+        <span id="scope-label">All topics</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
+      <div class="stats">
+        <span class="streak" title="Correct answers in a row">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c1 3.5-1.5 5.2-1.5 7.7 0 1.3.9 2.3 2 2.3 1.5 0 2.1-1.4 1.7-3 2.6 1.7 4.3 4.5 4.3 7.4C18.5 20 15.6 22 12 22s-6.5-2-6.5-5.6C5.5 11 10.9 8.3 12 2z"/></svg>
+          <span id="streak">0</span><span class="sr-only"> in a row</span>
+        </span>
+      </div>
+    </header>
+
+    <!-- The feed: one full-screen question per slide, swipe up for the next -->
+    <div id="feed" class="feed" aria-label="Questions"></div>
+
+    <p id="load-error" class="load-error" role="alert" hidden></p>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <!-- First-run coach marks -->
+    <div id="coach" class="coach" hidden>
+      <div class="coach-box">
+        <h1>Critical thinking true or false</h1>
+        <p class="coach-sub">Spot fallacies and biases in everyday and workplace situations, know what to ask, and learn the logic and evidence behind them, from cited articles. After each answer you learn why, and the book icon opens the full article.</p>
+        <ul class="coach-list">
+          <li><span class="g g-right" aria-hidden="true">→</span><span><b>Swipe right</b> if it's true</span></li>
+          <li><span class="g g-left" aria-hidden="true">←</span><span><b>Swipe left</b> if it's false</span></li>
+          <li><span class="g g-up" aria-hidden="true">↑</span><span><b>Swipe up</b> for the next question</span></li>
+          <li><span class="g g-tap" aria-hidden="true">♥</span><span><b>Double-tap</b> to save it for later</span></li>
+        </ul>
+        <button type="button" id="coach-go" class="btn btn-primary">Start swiping</button>
+      </div>
+    </div>
+
+    <!-- Filters and stats sheet -->
+    <dialog id="sheet" class="sheet" aria-labelledby="sheet-title">
+      <form method="dialog" id="sheet-form">
+        <div class="sheet-grip" aria-hidden="true"></div>
+        <h2 id="sheet-title">Your feed</h2>
+        <fieldset class="field">
+          <legend>Show</legend>
+          <div class="segmented three">
+            <label><input type="radio" name="feed" value="all" checked><span>All</span></label>
+            <label><input type="radio" name="feed" value="missed"><span>Missed (<span id="missed-count">0</span>)</span></label>
+            <label><input type="radio" name="feed" value="saved"><span>Saved (<span id="saved-count">0</span>)</span></label>
+          </div>
+        </fieldset>
+        <label class="field">
+          <span>Area</span>
+          <select id="f-area"><option value="">All areas</option></select>
+        </label>
+        <label class="field">
+          <span>Question type</span>
+          <select id="f-kind"><option value="">Every type</option></select>
+        </label>
+        <p id="pool-count" class="pool-count" aria-live="polite"></p>
+
+        <dl class="stat-grid">
+          <div><dt>Today</dt><dd id="s-today">0</dd></div>
+          <div><dt>Best streak</dt><dd id="s-best">0</dd></div>
+          <div><dt>All time</dt><dd id="s-all">0</dd></div>
+        </dl>
+        <p class="muted small">Missed holds questions you got wrong until you get them right. Scores, missed and saved questions stay on this phone.</p>
+        <div class="sheet-actions">
+          <button type="button" id="export" class="btn btn-quiet">Copy scores</button>
+          <button type="submit" class="btn btn-primary">Done</button>
+        </div>
+      </form>
+    </dialog>
+  </main>
+
+  <template id="slide-tpl">
+    <section class="slide" aria-roledescription="question">
+      <div class="flash" aria-hidden="true"></div>
+      <article class="q" tabindex="-1">
+        <p class="q-text"></p>
+      </article>
+      <!-- Pinned above the question (not on the moving card) so it never slides off or covers the text -->
+      <div class="stamp stamp-true" aria-hidden="true">True</div>
+      <div class="stamp stamp-false" aria-hidden="true">False</div>
+
+      <div class="reveal" hidden aria-live="polite">
+        <div class="result-icon" aria-hidden="true">
+          <svg class="icon-right" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+          <svg class="icon-wrong" viewBox="0 0 24 24"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg>
+        </div>
+        <p class="verdict sr-only"></p>
+        <p class="explanation"></p>
+      </div>
+
+      <!-- Subtle gesture cue: a chevron after answering -->
+      <div class="next-cue" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M6 15l6-6 6 6"/></svg>
+      </div>
+
+      <!-- Screen-reader-only controls, so the feed still works without swiping -->
+      <div class="sr-only sr-controls">
+        <button type="button" class="sr-answer" data-answer="false">Answer false</button>
+        <button type="button" class="sr-answer" data-answer="true">Answer true</button>
+        <button type="button" class="btn-next" hidden>Next question</button>
+      </div>
+
+      <nav class="rail" aria-label="Question actions">
+        <button type="button" class="rail-btn act-save" aria-pressed="false" aria-label="Save">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.5L5 21V4a1 1 0 0 1 1-1z"/></svg>
+        </button>
+        <button type="button" class="rail-btn act-share" aria-label="Share">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 3L10 14M21 3l-7 18-4-7-7-4 18-7z"/></svg>
+        </button>
+        <a class="rail-btn act-source" target="_blank" rel="noopener" aria-label="Read the full article" hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2zM22 5h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
+        </a>
+      </nav>
+    </section>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

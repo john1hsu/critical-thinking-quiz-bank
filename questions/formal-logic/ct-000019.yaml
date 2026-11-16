@@ -1,0 +1,19 @@
+id: ct-000019
+area: formal-logic
+kind: scenario
+topic: Deductive reasoning
+topic_type: ReasoningMode
+true_statement: Because the last five hires from one bootcamp did well, a manager concludes the next one probably will too. Her reasoning is inductive, since the premises make the conclusion probable, not guaranteed.
+false_statement: Because the last five hires from one bootcamp did well, a manager concludes the next one probably will too. Her reasoning is deductive, since the premises guarantee the conclusion.
+explanation: Deduction aims at conclusions the premises guarantee; induction aims at conclusions they make probable and goes beyond its evidence. Five good past cases can't rule out a weak sixth.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/deductive-reasoning.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: ef1b7a7450a4f46071304affef20ac1cd3361376
+concepts:
+- ct:deductive-reasoning
+- ct:inductive-reasoning
+difficulty: 1
+created: '2026-11-16'
+status: active

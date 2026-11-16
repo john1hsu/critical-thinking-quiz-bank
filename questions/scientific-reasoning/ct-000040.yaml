@@ -1,0 +1,18 @@
+id: ct-000040
+area: scientific-reasoning
+kind: scenario
+topic: Falsifiability criterion
+topic_type: Principle
+true_statement: A team claims "the redesign improves engagement" but names no metric or threshold, so any later dashboard can be read as support. As stated, the claim isn't falsifiable.
+false_statement: A team claims "the redesign improves engagement" but names no metric or threshold, so any later dashboard can be read as support. The claim is falsifiable because engagement can be measured.
+explanation: A claim is falsifiable only if some possible result would count against it. Measurability isn't enough; committing in advance to an outcome that would show the redesign failed is what lets the data refute it.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/falsifiability.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: fbc65fefd4d95001cb7eed89bd3301686e4412e7
+concepts:
+- ct:falsifiability
+difficulty: 2
+created: '2026-11-16'
+status: active

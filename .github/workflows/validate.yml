@@ -1,0 +1,26 @@
+name: Validate questions
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Clone the source knowledge graph
+        run: git clone --depth 1 https://github.com/john1hsu/critical-thinking-graph .source/critical-thinking-graph
+      - name: Validate every pair against its source article
+        run: python3 scripts/validate.py --source .source/critical-thinking-graph
+      - name: Check the generated index is up to date
+        run: python3 scripts/build_index.py --check

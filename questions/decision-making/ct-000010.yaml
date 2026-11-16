@@ -1,0 +1,19 @@
+id: ct-000010
+area: decision-making
+kind: scenario
+topic: Judgment and decision making
+topic_type: Field
+true_statement: A consultant designs simple rules of thumb to help busy managers come closer to what expected utility theory would recommend. In JDM terms, those rules are a prescriptive model.
+false_statement: A consultant designs simple rules of thumb to help busy managers come closer to what expected utility theory would recommend. In JDM terms, those rules are a descriptive model.
+explanation: JDM separates normative models (the standard), descriptive models (what people actually do) and prescriptive models (practical designs that help real people get closer to the standard). Tools built to improve decisions are prescriptive.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/judgment-and-decision-making.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 546181aea0bd2c08384fe359301bbf69056ca33f
+concepts:
+- ct:judgment-and-decision-making
+- ct:expected-utility-theory
+difficulty: 2
+created: '2026-11-16'
+status: active

@@ -1,0 +1,18 @@
+id: ct-000005
+area: cognitive-biases
+kind: counter
+topic: Anchoring effect
+topic_type: CognitiveBias
+true_statement: To blunt anchoring in a team estimate, collect each person's estimate independently before anyone discusses a number.
+false_statement: To blunt anchoring in a team estimate, have the most experienced person state a number first so others can adjust from it.
+explanation: Anyone's first stated number becomes an anchor that the others adjust from too little. Expertise doesn't protect against anchoring (judges in sentencing studies were not immune), so independent estimates gathered before discussion are the safer design.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/anchoring-effect.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: d00d932a478aaaf380332f3a64646ee51c6ef346
+concepts:
+- ct:anchoring-effect
+difficulty: 2
+created: '2026-11-16'
+status: active

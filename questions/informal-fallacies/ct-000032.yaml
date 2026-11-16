@@ -1,0 +1,18 @@
+id: ct-000032
+area: informal-fallacies
+kind: counter
+topic: Straw man fallacy
+topic_type: InformalFallacy
+true_statement: A good test for a straw man is asking whether the other side would recognise the description as their own position, stated in their own terms.
+false_statement: A good test for a straw man is asking whether the critic's conclusion seems believable, since a straw man always ends in an implausible conclusion.
+explanation: The fallacy lies in the mismatch between what is refuted and what was claimed, so the check is a comparison with what the other side actually said. A straw man's conclusion can be quite plausible.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/straw-man-fallacy.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 40e8d79ebf2ab09ac7e05beeb6d85ae45fd9db39
+concepts:
+- ct:straw-man-fallacy
+difficulty: 2
+created: '2026-11-16'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000039
+area: probabilistic-reasoning
+kind: evidence
+topic: Base-rate neglect
+topic_type: ProbabilisticFallacy
+true_statement: Koehler's 1996 review argued that people rarely ignore base rates entirely, and weight them more when they are learned from experience or framed as frequencies.
+false_statement: Koehler's 1996 review argued that people ignore base rates entirely unless they are given as precise percentages in a textbook-style problem.
+explanation: Koehler held that the fallacy had been overstated and that real decisions rarely match the tidy Bayesian problem. The safer conclusion is that base rates are often underweighted, not always ignored.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/base-rate-neglect.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 6c5a316f05235ef86686daa5c51b772ad05fed3f
+concepts:
+- ct:base-rate-neglect
+- ct:koehler-1996-base-rate-fallacy-reconsidered
+difficulty: 3
+created: '2026-11-16'
+status: active

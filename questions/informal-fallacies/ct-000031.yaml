@@ -1,0 +1,19 @@
+id: ct-000031
+area: informal-fallacies
+kind: scenario
+topic: Straw man fallacy
+topic_type: InformalFallacy
+true_statement: A teammate suggests cutting the weekly status meeting to 30 minutes. A manager replies that abolishing meetings would leave everyone uninformed. The reply is a straw man.
+false_statement: A teammate suggests cutting the weekly status meeting to 30 minutes. A manager replies that abolishing meetings would leave everyone uninformed. The reply is a red herring.
+explanation: 'The manager attacks a stronger claim than the one made: a shorter meeting has become no meetings. Misstating the opponent''s position is the mark of a straw man; a red herring changes the subject rather than distorting the claim.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/straw-man-fallacy.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 40e8d79ebf2ab09ac7e05beeb6d85ae45fd9db39
+concepts:
+- ct:straw-man-fallacy
+- ct:red-herring
+difficulty: 1
+created: '2026-11-16'
+status: active

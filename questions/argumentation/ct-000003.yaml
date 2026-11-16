@@ -1,0 +1,20 @@
+id: ct-000003
+area: argumentation
+kind: origin
+topic: Principle of charity
+topic_type: Principle
+true_statement: The philosopher N. L. Wilson coined the term "principle of charity" in 1959, and Donald Davidson later made it central to radical interpretation.
+false_statement: The philosopher Donald Davidson coined the term "principle of charity" in 1959, and N. L. Wilson later made it central to radical interpretation.
+explanation: Wilson introduced the term in 1959. Quine, Lewis, Dennett and above all Davidson then reshaped it; Davidson argued we can only understand a speaker by assuming their beliefs are mostly true and coherent.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/principle-of-charity.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: dce45b22564a6d9f332a279b20252289445a5066
+concepts:
+- ct:principle-of-charity
+- ct:n-l-wilson
+- ct:donald-davidson
+difficulty: 2
+created: '2026-11-16'
+status: active

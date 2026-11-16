@@ -1,0 +1,20 @@
+id: ct-000030
+area: history-and-thinkers
+kind: figure
+topic: Amos Tversky
+topic_type: Person
+true_statement: In one version of the 1983 Linda studies, 85% of 142 undergraduates ranked "bank teller and feminist" as more probable than "bank teller".
+false_statement: In one version of the 1983 Linda studies, 35% of 142 undergraduates ranked "bank teller and feminist" as more probable than "bank teller".
+explanation: A large majority broke the rule that a conjunction can't be more probable than either part, because the description resembled a feminist. That 1983 result is the classic demonstration of the conjunction fallacy.
+as_of: '1983'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/amos-tversky.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 3363cfa001661733773ed266eaa2b2eac9a4b876
+concepts:
+- ct:amos-tversky
+- ct:conjunction-fallacy
+difficulty: 2
+created: '2026-11-16'
+status: active

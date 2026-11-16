@@ -1,0 +1,19 @@
+id: ct-000016
+area: formal-fallacies
+kind: scenario
+topic: Affirming the consequent
+topic_type: FormalFallacy
+true_statement: 'A manager reasons: "If the campaign worked, sales would rise. Sales rose, so the campaign worked." This argument affirms the consequent, so it is invalid.'
+false_statement: 'A manager reasons: "If the campaign worked, sales would rise. Sales rose, so the campaign worked." This argument is an instance of modus ponens, so it is valid.'
+explanation: 'The second premise affirms the ''then'' part and the conclusion returns to the ''if'' part: If P then Q; Q; so P. Modus ponens affirms the antecedent instead. Other causes, such as a seasonal upswing, could have raised sales.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/affirming-the-consequent.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 0658a63d6d7e8bdb2ef4b77862e81c05747f5aa1
+concepts:
+- ct:affirming-the-consequent
+- ct:modus-ponens
+difficulty: 1
+created: '2026-11-16'
+status: active

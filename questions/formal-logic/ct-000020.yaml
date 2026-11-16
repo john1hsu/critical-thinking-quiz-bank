@@ -1,0 +1,19 @@
+id: ct-000020
+area: formal-logic
+kind: mechanism
+topic: Deductive reasoning
+topic_type: ReasoningMode
+true_statement: Adding premises can never weaken a valid deduction, whereas new evidence can strengthen or undermine an inductive argument.
+false_statement: Adding premises can turn a valid deduction invalid, whereas an inductive argument stays fixed once its evidence is in.
+explanation: A valid deduction's conclusion is already contained in its premises, so more premises can't break the guarantee. Inductive conclusions outrun their evidence, so new evidence can move them either way.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/deductive-reasoning.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: ef1b7a7450a4f46071304affef20ac1cd3361376
+concepts:
+- ct:deductive-reasoning
+- ct:inductive-reasoning
+difficulty: 2
+created: '2026-11-16'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000025
+area: heuristics-and-dual-process
+kind: scenario
+topic: Heuristics and biases program
+topic_type: Framework
+true_statement: Asked how probable it is that a new product will succeed, a director quietly answers how similar it looks to a past hit. Kahneman and Frederick call this attribute substitution.
+false_statement: Asked how probable it is that a new product will succeed, a director quietly answers how similar it looks to a past hit. Kahneman and Frederick call this belief perseverance.
+explanation: Attribute substitution is answering an easier, related question (how similar?) in place of the hard target question (how probable?). The fix is to ask which easier question you actually answered.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/heuristics-and-biases-program.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: ac24ecfe889946e7916f6565dd66f132e971ee9f
+concepts:
+- ct:heuristics-and-biases-program
+- ct:attribute-substitution
+difficulty: 2
+created: '2026-11-16'
+status: active

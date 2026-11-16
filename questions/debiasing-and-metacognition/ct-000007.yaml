@@ -1,0 +1,19 @@
+id: ct-000007
+area: debiasing-and-metacognition
+kind: scenario
+topic: Consider the opposite
+topic_type: Technique
+true_statement: Asked to list twelve reasons her forecast could be wrong, an analyst runs dry after four and decides the forecast must be right. That backfire fits the ease-of-retrieval effect.
+false_statement: Asked to list twelve reasons her forecast could be wrong, an analyst runs dry after four and decides the forecast must be right. That backfire fits the anchoring effect.
+explanation: When counter-reasons are hard to produce, people read the difficulty itself as evidence that their view is right. That metacognitive ease-of-retrieval effect is why asking for many alternatives can make consider-the-opposite backfire.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/consider-the-opposite.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 38dd4b882cad2148df552b88cc22580f2e29be86
+concepts:
+- ct:consider-the-opposite
+- ct:ease-of-retrieval-effect
+difficulty: 3
+created: '2026-11-16'
+status: active

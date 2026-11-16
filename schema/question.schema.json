@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/john1hsu/critical-thinking-quiz-bank/schema/question.schema.json",
+  "title": "Critical-thinking true/false question pair",
+  "description": "One file per pair in questions/<area>/<id>.yaml. scripts/validate.py enforces this schema plus content checks (negation-only pairs, duplicates, same-fact pairs, exam-style wording, dated figures, source drift).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "area", "kind", "topic", "true_statement", "false_statement", "explanation", "source",
+               "concepts", "difficulty", "created", "status"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^ct-\\d{6}$", "description": "Stable and never reused, even after retirement." },
+    "area": { "type": "string", "description": "Same as the source article's domain and the folder name." },
+    "kind": { "enum": ["scenario", "counter", "definition", "mechanism", "evidence", "origin", "figure"],
+      "description": "What the pair teaches: spot it in a realistic situation, what to ask or do about it, what it is, how it works, evidence and replication, who and when, or a dated number." },
+    "topic": { "type": "string", "description": "The source article's title, shown after answering." },
+    "topic_type": { "type": "string", "description": "The source article's ontology class (InformalFallacy, CognitiveBias, Technique, ReasoningForm, Person, ...)." },
+    "true_statement": { "type": "string", "minLength": 20, "maxLength": 360, "description": "At most 280 characters, or 360 for a scenario pair." },
+    "false_statement": { "type": "string", "minLength": 20, "maxLength": 360,
+      "description": "A plausible twin: swaps a person, year, number, cause, effect or a neighbouring fallacy or bias, or the verdict, not just adds 'not'." },
+    "explanation": { "type": "string", "minLength": 60, "description": "Why the true statement is true and the false one is false." },
+    "as_of": { "type": "string", "description": "Required for kind figure: the year or period the number is for, e.g. 2016." },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["repo", "path", "commit", "blob"],
+      "properties": {
+        "repo": { "type": "string", "examples": ["john1hsu/critical-thinking-graph"] },
+        "path": { "type": "string", "pattern": "^articles/[a-z0-9-]+/[a-z0-9-]+\\.md$" },
+        "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$", "description": "Source repo HEAD when the pair was written or last verified." },
+        "blob": { "type": "string", "pattern": "^[0-9a-f]{40}$", "description": "Git blob of the article at that point; a different blob means the article changed (drift)." }
+      }
+    },
+    "concepts": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^ct:[a-z0-9-]+$" } },
+    "related": { "type": "array", "items": { "type": "string", "pattern": "^ct-\\d{6}$" } },
+    "supersedes": { "type": "string", "pattern": "^ct-\\d{6}$", "description": "The retired pair this one replaced when a fact changed." },
+    "difficulty": { "enum": [1, 2, 3], "description": "1 = foundations, 2 = practitioner, 3 = advanced nuance." },
+    "created": { "type": "string", "format": "date" },
+    "status": { "enum": ["active", "stale", "retired"] },
+    "stale_reason": { "type": "string" },
+    "retired_reason": { "type": "string" }
+  }
+}

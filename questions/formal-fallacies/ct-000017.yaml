@@ -1,0 +1,18 @@
+id: ct-000017
+area: formal-fallacies
+kind: counter
+topic: Affirming the consequent
+topic_type: FormalFallacy
+true_statement: The key question to put to an argument that affirms the consequent is what else, besides the stated cause, could make the observed result true.
+false_statement: The key question to put to an argument that affirms the consequent is whether the observed result really happened, since that settles the cause.
+explanation: The conditional only says the cause is enough for the result, not that it's the only route to it. Even if the result is certain, rival causes stay open, so they must be named and compared.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/affirming-the-consequent.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 0658a63d6d7e8bdb2ef4b77862e81c05747f5aa1
+concepts:
+- ct:affirming-the-consequent
+difficulty: 2
+created: '2026-11-16'
+status: active

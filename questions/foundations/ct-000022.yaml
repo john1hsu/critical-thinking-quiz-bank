@@ -1,0 +1,19 @@
+id: ct-000022
+area: foundations
+kind: scenario
+topic: Soundness
+topic_type: Concept
+true_statement: '"Every approved vendor has passed a security audit. Acme is approved. So Acme passed an audit." If Acme was carried over from an old list without an audit, the argument is valid but unsound.'
+false_statement: '"Every approved vendor has passed a security audit. Acme is approved. So Acme passed an audit." If Acme was carried over from an old list without an audit, the argument is invalid but sound.'
+explanation: 'The form is valid: if both premises were true, the conclusion would have to be. Soundness also needs true premises, and the first one is false. ''Invalid but sound'' is impossible, since every sound argument is valid.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/soundness.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 17f75695e81995a077f8847ff34809d83b194ca6
+concepts:
+- ct:soundness
+- ct:validity
+difficulty: 2
+created: '2026-11-16'
+status: active

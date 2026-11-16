@@ -1,0 +1,19 @@
+id: ct-000013
+area: evidence-and-information-literacy
+kind: scenario
+topic: Lateral reading
+topic_type: Technique
+true_statement: Asked to vet a polished .org "policy institute" report, an analyst opens new tabs and searches who funds the institute before reading the report closely. That is lateral reading.
+false_statement: Asked to vet a polished .org "policy institute" report, an analyst opens new tabs and searches who funds the institute before reading the report closely. That is vertical reading.
+explanation: Lateral reading judges a source by leaving it and checking what independent sources say about who is behind it. Vertical reading stays on the page and judges it by its own design, citations and About section.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/lateral-reading.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 6c5b3ef20523e6ed233a03369a030bdfa974a5b5
+concepts:
+- ct:lateral-reading
+- ct:vertical-reading
+difficulty: 1
+created: '2026-11-16'
+status: active

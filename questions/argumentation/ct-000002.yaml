@@ -1,0 +1,18 @@
+id: ct-000002
+area: argumentation
+kind: counter
+topic: Principle of charity
+topic_type: Principle
+true_statement: Lewiński suggests applying charity only under real interpretive doubt, and favouring the critic in critical settings such as reviews and trials.
+false_statement: Lewiński suggests applying charity only under real interpretive doubt, and favouring the arguer in critical settings such as reviews and trials.
+explanation: His 'paradox of charity' notes that being charitable to one side of a dispute can be uncharitable to the other. So he limits charity to genuine ambiguity and, where the point is to test a claim, tilts toward the critic rather than the arguer.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/principle-of-charity.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: dce45b22564a6d9f332a279b20252289445a5066
+concepts:
+- ct:principle-of-charity
+difficulty: 3
+created: '2026-11-16'
+status: active

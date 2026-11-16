@@ -1,0 +1,18 @@
+id: ct-000026
+area: heuristics-and-dual-process
+kind: origin
+topic: Heuristics and biases program
+topic_type: Framework
+true_statement: The program traces to a 1969 survey in which mathematical psychologists, including statistics textbook authors, put too much faith in results from small samples.
+false_statement: The program traces to a 1969 survey in which first-year students, unlike the statistics textbook authors also surveyed, put too much faith in results from small samples.
+explanation: The striking finding was that experts who could have worked out the right answer still erred intuitively. That gap between what experts knew and what they guessed became the program's signature.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/heuristics-and-biases-program.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: ac24ecfe889946e7916f6565dd66f132e971ee9f
+concepts:
+- ct:heuristics-and-biases-program
+difficulty: 3
+created: '2026-11-16'
+status: active

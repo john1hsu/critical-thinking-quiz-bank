@@ -1,0 +1,19 @@
+id: ct-000014
+area: evidence-and-information-literacy
+kind: counter
+topic: Lateral reading
+topic_type: Technique
+true_statement: A site's domain ending, logo, footnotes and About page are easy to fake, so they are weak evidence that an unfamiliar source is credible.
+false_statement: A site's domain ending, logo, footnotes and About page are hard to fake, so they are strong evidence that an unfamiliar source is credible.
+explanation: Checklists built only on a page's own features can give false security, because those features are cheap to imitate. What independent sources say about the publisher is far more informative.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/lateral-reading.md
+  commit: 0fe12596048383039e4244d46766b1e665a74c1c
+  blob: 6c5b3ef20523e6ed233a03369a030bdfa974a5b5
+concepts:
+- ct:lateral-reading
+- ct:source-credibility
+difficulty: 2
+created: '2026-11-16'
+status: active
