@@ -1,0 +1,19 @@
+id: ct-000103
+area: decision-making
+kind: scenario
+topic: Devil's advocacy
+topic_type: Technique
+true_statement: To test a plan to outsource payroll, a CFO has one subgroup draft a full rival plan built on opposite assumptions and then stages a debate between the two plans. That is dialectical inquiry.
+false_statement: To test a plan to outsource payroll, a CFO has one subgroup draft a full rival plan built on opposite assumptions and then stages a debate between the two plans. That is devil's advocacy.
+explanation: The tell is a complete counter-plan from opposite assumptions. Devil's advocacy instead critiques the existing plan's assumptions and evidence without necessarily building a developed alternative.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/devils-advocacy.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 3256d72b8ba0d686539138df728d06c21d6ff599
+concepts:
+- ct:devils-advocacy
+- ct:dialectical-inquiry
+difficulty: 2
+created: '2026-11-17'
+status: active

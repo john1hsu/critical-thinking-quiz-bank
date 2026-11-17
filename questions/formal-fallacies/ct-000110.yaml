@@ -1,0 +1,19 @@
+id: ct-000110
+area: formal-fallacies
+kind: counter
+topic: Undistributed middle
+topic_type: FormalFallacy
+true_statement: When an undistributed-middle argument has a conclusion you already believe, ask whether you would still accept the same form if its conclusion were plainly false.
+false_statement: When an undistributed-middle argument has a conclusion you already believe, ask whether the conclusion matches what you know, since a believable conclusion signals a valid form.
+explanation: '"All flowers have petals; roses have petals; so roses are flowers" feels valid only because the conclusion is true. Testing the form with content you know is false strips out belief bias and exposes the gap.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/undistributed-middle.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 7c5103c3f07d68fb2e25c50d81699706c063eef0
+concepts:
+- ct:undistributed-middle
+- ct:belief-bias
+difficulty: 2
+created: '2026-11-17'
+status: active

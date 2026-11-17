@@ -1,0 +1,20 @@
+id: ct-000072
+area: heuristics-and-dual-process
+kind: evidence
+topic: Availability heuristic
+topic_type: Heuristic
+true_statement: In a 2019 national probability sample, the classic ease-of-retrieval reversal in self-ratings did not replicate, though listing 12 examples still felt harder than listing 6.
+false_statement: In a 2019 national probability sample, the classic ease-of-retrieval reversal in self-ratings replicated, though listing 12 examples no longer felt harder than listing 6.
+explanation: The difficulty manipulation worked, but the predicted shift in judgments did not appear, making it the only canonical effect in that project to fail. Availability as a source of frequency errors is well supported; this particular paradigm is more fragile.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/availability-heuristic.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: ffbaf5c1393f4e19103875753b52c4e7e1061f99
+concepts:
+- ct:availability-heuristic
+- ct:yeager-2019-national-sample-replications
+- ct:ease-of-retrieval-effect
+difficulty: 3
+created: '2026-11-17'
+status: active

@@ -1,0 +1,20 @@
+id: ct-000109
+area: formal-fallacies
+kind: scenario
+topic: Undistributed middle
+topic_type: FormalFallacy
+true_statement: '"All our top performers took the leadership course. The new hire took the leadership course. So the new hire is a top performer." This syllogism commits the undistributed middle.'
+false_statement: '"All our top performers took the leadership course. The new hire took the leadership course. So the new hire is a top performer." This syllogism commits the illicit major.'
+explanation: The shared term, people who took the course, is only ever a predicate of affirmative premises, so neither premise covers all of that group. The new hire may sit in a part of it with no top performers; the illicit major is instead about overextending the conclusion's predicate.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/undistributed-middle.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 7c5103c3f07d68fb2e25c50d81699706c063eef0
+concepts:
+- ct:undistributed-middle
+- ct:illicit-major
+- ct:distribution-of-terms
+difficulty: 2
+created: '2026-11-17'
+status: active

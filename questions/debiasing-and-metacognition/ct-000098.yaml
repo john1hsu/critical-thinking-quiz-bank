@@ -1,0 +1,20 @@
+id: ct-000098
+area: debiasing-and-metacognition
+kind: counter
+topic: Debiasing training games
+topic_type: Technique
+true_statement: Because transfer to real decisions is the weakest link in debiasing training, games are best paired with procedures such as requiring disconfirming evidence in written analyses.
+false_statement: Because transfer to real decisions is the strongest link in debiasing training, games can replace procedures such as requiring disconfirming evidence in written analyses.
+explanation: A 2021 review found good retention but far transfer tested only once, so real-life improvement isn't yet shown. Building the check into the process doesn't depend on what people remember from training.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/debiasing-training-games.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: c70d00bf697cc4d2f07dea5286685390814de792
+concepts:
+- ct:debiasing-training-games
+- ct:confirmation-bias
+- ct:structured-analytic-techniques
+difficulty: 2
+created: '2026-11-17'
+status: active

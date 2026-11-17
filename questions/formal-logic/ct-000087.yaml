@@ -1,0 +1,21 @@
+id: ct-000087
+area: formal-logic
+kind: figure
+topic: Modus ponens
+topic_type: ReasoningForm
+true_statement: In a 1999 study, people endorsed modus ponens about 93% of the time, but only about 64% once a second conditional named an extra requirement.
+false_statement: In a 1999 study, people endorsed modus ponens about 64% of the time, rising to about 93% once a second conditional named an extra requirement.
+explanation: 'Neth and Beller''s results show the suppression effect: reminding people of another necessary condition makes them reluctant to draw a valid conclusion. People treat everyday conditionals as defeasible rules, not strict ones.'
+as_of: '1999'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/modus-ponens.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 9a49b0b3a87b1b33e4e3fcbcf9a20411d6978166
+concepts:
+- ct:modus-ponens
+- ct:suppression-effect
+- ct:cognitive-psychology
+difficulty: 3
+created: '2026-11-17'
+status: active

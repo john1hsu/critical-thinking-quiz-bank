@@ -1,0 +1,19 @@
+id: ct-000082
+area: scientific-reasoning
+kind: scenario
+topic: Hypothesis testing
+topic_type: Method
+true_statement: An IT team reasons that if the new cache causes the timeouts, disabling it will stop them. They disable it and the timeouts continue. Inferring that their hypothesis or its assumptions is wrong follows the valid form modus tollens.
+false_statement: An IT team reasons that if the new cache causes the timeouts, disabling it will stop them. They disable it and the timeouts continue. Inferring that their hypothesis or its assumptions is wrong commits the fallacy of affirming the consequent.
+explanation: 'A failed prediction denies the consequent, so rejecting something in the antecedent is valid. Affirming the consequent is the opposite error: treating a successful prediction as proof that the hypothesis is true.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/hypothesis-testing.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 10cc260d811dd89503a59ae78c35c84707e38b80
+concepts:
+- ct:hypothesis-testing
+- ct:affirming-the-consequent
+difficulty: 2
+created: '2026-11-17'
+status: active

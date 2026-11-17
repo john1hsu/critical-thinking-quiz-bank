@@ -1,0 +1,19 @@
+id: ct-000057
+area: history-and-thinkers
+kind: mechanism
+topic: Aristotle
+topic_type: Person
+true_statement: For Aristotle, dialectical argument in the Topics differs from scientific demonstration in its premises, which are widely accepted opinions, not in its logical form.
+false_statement: For Aristotle, dialectical argument in the Topics differs from scientific demonstration in its logical form, not in its premises, which are the same in both.
+explanation: Both can be deductions of the same shape; what changes is the starting point. Dialectic argues from what is commonly accepted, whereas demonstration needs premises that are known to be true.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/aristotle.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 7f057ea337719f1c513a129be33bdcb39e9fd620
+concepts:
+- ct:aristotle
+- ct:deductive-reasoning
+difficulty: 3
+created: '2026-11-17'
+status: active

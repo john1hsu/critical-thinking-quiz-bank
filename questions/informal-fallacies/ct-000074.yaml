@@ -1,0 +1,19 @@
+id: ct-000074
+area: informal-fallacies
+kind: counter
+topic: Tu quoque
+topic_type: InformalFallacy
+true_statement: A patient whose doctor smokes has some reason to hesitate over the doctor's advice to quit, but that reason fades if independent authorities back the same advice.
+false_statement: A patient whose doctor smokes has some reason to hesitate over the doctor's advice to quit, and that reason stays just as strong even if independent authorities back the same advice.
+explanation: Actions reveal belief, so a doctor ignoring his own advice is weak evidence he doubts it. That only matters while the claim rests on his authority; independent evidence is untouched by his habits, which is when the retort turns into a fallacy.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/tu-quoque.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: b339f550326cb3d30a8f28db94aca71ed9e45727
+concepts:
+- ct:tu-quoque
+- ct:source-credibility
+difficulty: 3
+created: '2026-11-17'
+status: active

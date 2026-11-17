@@ -1,0 +1,20 @@
+id: ct-000067
+area: formal-fallacies
+kind: scenario
+topic: Illicit major
+topic_type: FormalFallacy
+true_statement: '"All certified auditors have read the data policy. No interns are certified auditors. So no interns have read the data policy." This syllogism commits the illicit major.'
+false_statement: '"All certified auditors have read the data policy. No interns are certified auditors. So no interns have read the data policy." This syllogism commits the illicit minor.'
+explanation: 'The overreach is in the conclusion''s predicate, "people who have read the policy": the negative conclusion covers that whole class, but the affirmative premise only placed auditors inside it. An illicit minor would overextend the conclusion''s subject, interns, instead.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/illicit-major.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 1eb89cbdcc5f08f927cf1979cc7c1ebfa96c5604
+concepts:
+- ct:illicit-major
+- ct:illicit-minor
+- ct:distribution-of-terms
+difficulty: 2
+created: '2026-11-17'
+status: active

@@ -1,0 +1,18 @@
+id: ct-000116
+area: informal-fallacies
+kind: counter
+topic: False dilemma
+topic_type: InformalFallacy
+true_statement: Faced with "we must either cut costs or invest in growth," a good first question is whether the two options really exclude each other or could be pursued together.
+false_statement: Faced with "we must either cut costs or invest in growth," a good first question is whether rejecting one option validly leads to the other, since that is where false dilemmas go wrong.
+explanation: Checking whether options are exhaustive and mutually exclusive targets the premise, where the fault lies. The inference from an either-or premise is valid, so testing it won't expose anything.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/false-dilemma.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: e9340be5bc6e9a25880ff229ac6bc15a6a74dd06
+concepts:
+- ct:false-dilemma
+difficulty: 2
+created: '2026-11-17'
+status: active

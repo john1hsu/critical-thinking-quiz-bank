@@ -1,0 +1,19 @@
+id: ct-000069
+area: formal-fallacies
+kind: mechanism
+topic: Illicit major
+topic_type: FormalFallacy
+true_statement: The illicit major usually arises with a negative conclusion and an affirmative major premise, because a negative statement distributes its predicate and an affirmative one does not.
+false_statement: The illicit major usually arises with an affirmative conclusion and a negative major premise, because an affirmative statement distributes its predicate and a negative one does not.
+explanation: A negative conclusion such as "No S are P" speaks of all of P, while an affirmative premise such as "All M are P" speaks of only some of P. That mismatch is the tell to check for first.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/illicit-major.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 1eb89cbdcc5f08f927cf1979cc7c1ebfa96c5604
+concepts:
+- ct:illicit-major
+- ct:distribution-of-terms
+difficulty: 3
+created: '2026-11-17'
+status: active

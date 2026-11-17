@@ -1,0 +1,19 @@
+id: ct-000141
+area: cognitive-biases
+kind: evidence
+topic: Confirmation bias
+topic_type: CognitiveBias
+true_statement: Guess and Coppock's three large survey experiments found no evidence that counter-attitudinal information makes people dig in harder, even under conditions designed to favour backlash.
+false_statement: Guess and Coppock's three large survey experiments found strong evidence that counter-attitudinal information makes people dig in harder, especially under conditions designed to favour backlash.
+explanation: The core tendency to favour congenial information is well supported, but the stronger "backfire" claim attached to it has not held up. Presenting contrary evidence is not usually counterproductive.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/confirmation-bias.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: e4986a8f0c1edab0be10595ca4e4f53543918903
+concepts:
+- ct:confirmation-bias
+- ct:guess-coppock-2020-backlash-experiments
+difficulty: 3
+created: '2026-11-17'
+status: active

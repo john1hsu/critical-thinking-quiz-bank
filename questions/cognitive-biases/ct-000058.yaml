@@ -1,0 +1,19 @@
+id: ct-000058
+area: cognitive-biases
+kind: scenario
+topic: Bias blind spot
+topic_type: CognitiveBias
+true_statement: A procurement lead who used to work at one bidder asks herself whether she is favouring them, feels no pull either way, and concludes she is objective. Her check is a weak test, because most biases operate outside awareness.
+false_statement: A procurement lead who used to work at one bidder asks herself whether she is favouring them, feels no pull either way, and concludes she is objective. Her check is a sound test, because people can feel their own biases when they look for them.
+explanation: 'Looking inward and finding no feeling of unfairness is the introspection illusion that drives the bias blind spot. A better test is the external one she would apply to others: does her conclusion favour her ties, and does it depart from what a neutral reviewer would expect?'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/bias-blind-spot.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: aadcffe875bfd18da3431e3a2a1a6702c2a1a7d8
+concepts:
+- ct:bias-blind-spot
+- ct:introspection-illusion
+difficulty: 2
+created: '2026-11-17'
+status: active

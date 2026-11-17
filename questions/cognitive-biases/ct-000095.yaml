@@ -1,0 +1,19 @@
+id: ct-000095
+area: cognitive-biases
+kind: counter
+topic: Overconfidence effect
+topic_type: CognitiveBias
+true_statement: Rather than asking for one 90% range, splitting the possible values into bins and having the forecaster assign a probability to each (SPIES) brings hit rates much closer to the stated confidence.
+false_statement: Rather than asking for one 90% range, splitting the possible values into bins and having the forecaster assign a probability to each (SPIES) pushes hit rates further below the stated confidence.
+explanation: Forcing a judgment about every part of the range makes people give weight to outcomes they would have left out. In Haran and colleagues' work, SPIES nearly hit its 90% target and later intervals were wider too.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/overconfidence-effect.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 4f6680e745c2ae5cfadcbe48e67ebaa2dfb28a34
+concepts:
+- ct:overconfidence-effect
+- ct:haran-2010-spies-experiments
+difficulty: 2
+created: '2026-11-17'
+status: active

@@ -1,0 +1,20 @@
+id: ct-000121
+area: probabilistic-reasoning
+kind: scenario
+topic: Simpson's paradox
+topic_type: Phenomenon
+true_statement: Rep A converts more leads than Rep B in both the city and the rural territory, yet has the lower overall rate because most of A's leads are rural, where conversions are rare. That is Simpson's paradox.
+false_statement: Rep A converts more leads than Rep B in both the city and the rural territory, yet has the lower overall rate because most of A's leads are rural, where conversions are rare. That is Berkson's paradox.
+explanation: The overall rate is a weighted average, and A's weight sits in the hard subgroup, so the pooled comparison reverses the within-group one. Berkson's paradox is a different trap, arising from selecting cases on a common effect.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/simpsons-paradox.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: f47356a258ebe47cc85bc0a2020f06b680cf9cec
+concepts:
+- ct:simpsons-paradox
+- ct:berksons-paradox
+- ct:confounding
+difficulty: 2
+created: '2026-11-17'
+status: active

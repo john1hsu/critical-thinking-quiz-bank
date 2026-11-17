@@ -1,0 +1,19 @@
+id: ct-000046
+area: decision-making
+kind: scenario
+topic: Premortem
+topic_type: Technique
+true_statement: Before signing off on a warehouse move, a manager tells the team, "It's a year from now and the move was a disaster. Each of you write down why." She is running a premortem.
+false_statement: Before signing off on a warehouse move, a manager tells the team, "It's a year from now and the move was a disaster. Each of you write down why." She is running a postmortem.
+explanation: 'The tell is timing plus certainty: the failure is declared as having happened while the plan can still change. A postmortem analyses a failure that really occurred, after the fact.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/premortem.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: b66f07b98bc2bea474c9a11b4d3b39238a8a63f4
+concepts:
+- ct:premortem
+- ct:prospective-hindsight
+difficulty: 1
+created: '2026-11-17'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000140
+area: cognitive-biases
+kind: counter
+topic: Confirmation bias
+topic_type: CognitiveBias
+true_statement: To check a hunch about why a metric moved, write down at least one rival explanation and ask how likely each piece of evidence would be under each one.
+false_statement: To check a hunch about why a metric moved, list every piece of evidence that fits the hunch and ask how strongly each one supports it.
+explanation: Evidence that would look the same whether you're right or wrong shouldn't raise your confidence. Comparing explanations side by side exposes that; collecting fits for one idea is the bias itself.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/confirmation-bias.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: e4986a8f0c1edab0be10595ca4e4f53543918903
+concepts:
+- ct:confirmation-bias
+- ct:analysis-of-competing-hypotheses
+difficulty: 2
+created: '2026-11-17'
+status: active

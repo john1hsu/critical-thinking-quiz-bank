@@ -1,0 +1,18 @@
+id: ct-000044
+area: argumentation
+kind: counter
+topic: Toulmin model of argument
+topic_type: Framework
+true_statement: When a colleague's argument rests on an unstated warrant, spelling that warrant out is usually where the real disagreement surfaces.
+false_statement: When a colleague's argument rests on an unstated warrant, re-checking the data is usually where the real disagreement surfaces.
+explanation: Warrants are often left implicit, and that is where most disputes actually lie. Making the warrant explicit lets you ask whether it holds and what backs it, rather than arguing past each other about facts both sides accept.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/toulmin-model.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 02dc387b8aae40c56fcfd7853a8c55d0360ad39d
+concepts:
+- ct:toulmin-model
+difficulty: 2
+created: '2026-11-17'
+status: active

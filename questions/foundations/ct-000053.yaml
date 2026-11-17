@@ -1,0 +1,19 @@
+id: ct-000053
+area: foundations
+kind: mechanism
+topic: Validity
+topic_type: Concept
+true_statement: An argument whose premises contradict each other counts as valid, because there is no case in which all its premises are true.
+false_statement: An argument whose premises contradict each other counts as invalid, because there is no case in which all its premises are true.
+explanation: Validity only rules out true premises with a false conclusion. If the premises can never all be true together, that situation can't arise, so the argument passes the test, though it can never be sound.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/validity.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 8921f1013d4d7a2e96aa5f63d4cd1e1c492440e5
+concepts:
+- ct:validity
+- ct:logical-consequence
+difficulty: 3
+created: '2026-11-17'
+status: active

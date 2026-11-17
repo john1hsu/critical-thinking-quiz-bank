@@ -1,0 +1,19 @@
+id: ct-000049
+area: formal-logic
+kind: scenario
+topic: Method of counterexample
+topic_type: Technique
+true_statement: Told "If the client signs, we hit target; the client didn't sign, so we won't," a planner replies, "If it's a dog, it's a mammal; my cat isn't a dog, so it isn't a mammal." Her parallel shows the form is invalid.
+false_statement: Told "If the client signs, we hit target; the client didn't sign, so we won't," a planner replies, "If it's a dog, it's a mammal; my cat isn't a dog, so it isn't a mammal." Her parallel shows the conclusion is false.
+explanation: A counterexample keeps the form and finds an instance with true premises and a false conclusion, which proves the form can't guarantee its conclusion. It says nothing about whether the team will actually miss target; that conclusion might still be true for other reasons.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/method-of-counterexample.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 021c6f454eb916b3e3caa1d98764161733254ca9
+concepts:
+- ct:method-of-counterexample
+- ct:denying-the-antecedent
+difficulty: 2
+created: '2026-11-17'
+status: active

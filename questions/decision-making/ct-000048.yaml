@@ -1,0 +1,19 @@
+id: ct-000048
+area: decision-making
+kind: evidence
+topic: Premortem
+topic_type: Technique
+true_statement: Pre-registered studies presented in 2021 found the premortem reduced overconfidence but also led people to blame imagined failures on luck or outside circumstances.
+false_statement: Pre-registered studies presented in 2021 found the premortem reduced overconfidence and also led people to blame imagined failures on their own choices rather than luck.
+explanation: 'Gandhi, Duke and Schweitzer found a side effect: more self-serving attributions, and no greater willingness to act to improve results. That is why the evidence for the premortem is rated mixed rather than solid.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/premortem.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: b66f07b98bc2bea474c9a11b4d3b39238a8a63f4
+concepts:
+- ct:premortem
+- ct:overconfidence-effect
+difficulty: 3
+created: '2026-11-17'
+status: active

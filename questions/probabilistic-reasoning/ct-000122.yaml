@@ -1,0 +1,20 @@
+id: ct-000122
+area: probabilistic-reasoning
+kind: counter
+topic: Simpson's paradox
+topic_type: Phenomenon
+true_statement: If the third variable splitting your data is itself caused by the treatment, Pearl's analysis says to trust the pooled comparison rather than the split one.
+false_statement: If the third variable splitting your data is itself caused by the treatment, Pearl's analysis says to trust the split comparison rather than the pooled one.
+explanation: Splitting on a mediator removes part of the treatment's own effect, so the pooled figure is right there. Splitting is the fix when the third variable is a prior common cause; only a causal model of how the data arose tells you which case you are in.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/simpsons-paradox.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: f47356a258ebe47cc85bc0a2020f06b680cf9cec
+concepts:
+- ct:simpsons-paradox
+- ct:causal-diagrams
+- ct:confounding
+difficulty: 3
+created: '2026-11-17'
+status: active

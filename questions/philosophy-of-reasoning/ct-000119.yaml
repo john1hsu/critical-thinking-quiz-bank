@@ -1,0 +1,19 @@
+id: ct-000119
+area: philosophy-of-reasoning
+kind: origin
+topic: Delphi Report on critical thinking
+topic_type: Work
+true_statement: Rather than write a definition himself, Peter Facione had a panel of experts revise their views over successive rounds of anonymised questionnaires, producing the APA's 1990 Delphi Report.
+false_statement: Rather than poll a panel of experts, Peter Facione wrote the definition himself and had the APA endorse it in a single vote, producing the 1990 Delphi Report.
+explanation: The Delphi method has panellists see anonymised summaries of each other's answers and revise over several rounds. That process gave the report its claim to be an expert consensus, though agreement was not unanimous.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/delphi-report-on-critical-thinking.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 1f209661eb732234ba451d28c212a1e596f7a92f
+concepts:
+- ct:delphi-report-on-critical-thinking
+- ct:peter-facione
+difficulty: 2
+created: '2026-11-17'
+status: active

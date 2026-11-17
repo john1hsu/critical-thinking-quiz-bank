@@ -1,0 +1,19 @@
+id: ct-000135
+area: debiasing-and-metacognition
+kind: evidence
+topic: Deliberate reflection
+topic_type: Technique
+true_statement: In a 2019 dermatology study, a brief deliberate-reflection task raised students' diagnostic accuracy but did not improve their calibration, so they stayed overconfident.
+false_statement: In a 2019 dermatology study, a brief deliberate-reflection task improved students' calibration so they were no longer overconfident, but did not raise their diagnostic accuracy.
+explanation: Reflection fixed more answers without bringing confidence into line with accuracy. Getting more right and knowing how sure to be are separate outcomes, and the technique helped only the first.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/deliberate-reflection.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 9090daa4d8c8c813ff76d47cb5d839f23534238c
+concepts:
+- ct:deliberate-reflection
+- ct:overconfidence-effect
+difficulty: 3
+created: '2026-11-17'
+status: active

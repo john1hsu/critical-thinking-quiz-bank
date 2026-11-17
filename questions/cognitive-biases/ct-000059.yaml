@@ -1,0 +1,19 @@
+id: ct-000059
+area: cognitive-biases
+kind: counter
+topic: Bias blind spot
+topic_type: CognitiveBias
+true_statement: In lab studies, teaching people that bias works without awareness, so introspection can't detect it, removed the bias blind spot, while simple warnings about bias did little.
+false_statement: In lab studies, simple warnings that people are prone to bias removed the bias blind spot, while teaching them that bias works without awareness did little.
+explanation: 'The effective lesson targets the mechanism: it undercuts the belief that feeling fair means being fair. A generic warning leaves that belief intact, so people agree bias exists but still exempt themselves.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/bias-blind-spot.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: aadcffe875bfd18da3431e3a2a1a6702c2a1a7d8
+concepts:
+- ct:bias-blind-spot
+- ct:debiasing
+difficulty: 2
+created: '2026-11-17'
+status: active

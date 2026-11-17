@@ -1,0 +1,19 @@
+id: ct-000105
+area: decision-making
+kind: evidence
+topic: Devil's advocacy
+topic_type: Technique
+true_statement: In a 1986 study of strategic decisions, consensus groups produced lower-quality recommendations than devil's advocacy groups but were more satisfied with their process.
+false_statement: In a 1986 study of strategic decisions, consensus groups produced higher-quality recommendations than devil's advocacy groups but were less satisfied with their process.
+explanation: Schweiger and colleagues found structured conflict improved recommendations and assumptions, at some cost in goodwill and acceptance. That trade-off is worth planning for when assigning a challenger.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/devils-advocacy.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 3256d72b8ba0d686539138df728d06c21d6ff599
+concepts:
+- ct:devils-advocacy
+- ct:strategic-decision-making
+difficulty: 3
+created: '2026-11-17'
+status: active

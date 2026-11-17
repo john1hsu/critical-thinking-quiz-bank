@@ -1,0 +1,18 @@
+id: ct-000076
+area: philosophy-of-reasoning
+kind: scenario
+topic: Epistemology
+topic_type: Field
+true_statement: A finance team trusts a fraud-scoring tool because it has flagged cases accurately for years, though no one can explain how it decides. A reliabilist would count their belief in its flags as justified.
+false_statement: A finance team trusts a fraud-scoring tool because it has flagged cases accurately for years, though no one can explain how it decides. An internalist would count their belief in its flags as justified.
+explanation: Reliabilism, an externalist view, needs only that a reliable process produced the belief, whether or not the believer can see why. Internalism requires the justifying reasons to be accessible to the believer, which is exactly what is missing here.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/epistemology.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 28a79429a5943fc2e0a877f29130152a21ef0e0b
+concepts:
+- ct:epistemology
+difficulty: 2
+created: '2026-11-17'
+status: active

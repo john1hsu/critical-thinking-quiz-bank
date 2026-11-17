@@ -1,0 +1,21 @@
+id: ct-000117
+area: informal-fallacies
+kind: figure
+topic: False dilemma
+topic_type: InformalFallacy
+true_statement: In 2022 experiments, a roughly 90-second prebunking video on false dichotomies improved recognition of the technique with an effect of d = 0.68, the largest of five videos tested.
+false_statement: In 2022 experiments, a roughly 90-second prebunking video on false dichotomies improved recognition of the technique with an effect of d = 0.13, the smallest of five videos tested.
+explanation: Roozenbeek and colleagues found the false-dichotomy video had the biggest recognition effect in the lab. The small 0.13 figure belongs to the later YouTube field test, measured as h, not to the lab experiment.
+as_of: '2022'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/false-dilemma.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: e9340be5bc6e9a25880ff229ac6bc15a6a74dd06
+concepts:
+- ct:false-dilemma
+- ct:prebunking
+- ct:roozenbeek-2022-youtube-inoculation-study
+difficulty: 3
+created: '2026-11-17'
+status: active

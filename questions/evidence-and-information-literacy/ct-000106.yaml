@@ -1,0 +1,20 @@
+id: ct-000106
+area: evidence-and-information-literacy
+kind: scenario
+topic: Misinformation and disinformation
+topic_type: Phenomenon
+true_statement: A staffer posts a colleague's genuine, private performance review on a team chat to embarrass her. In Wardle and Derakhshan's typology, that is malinformation.
+false_statement: A staffer posts a colleague's genuine, private performance review on a team chat to embarrass her. In Wardle and Derakhshan's typology, that is disinformation.
+explanation: The document is real, so it is not false information at all; what makes it harmful is the intent behind sharing it. Disinformation requires false content created or spread to deceive or harm.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/misinformation-and-disinformation.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 8cf73e20d9f9bb6b4c03565dc4a95be8bd5b333f
+concepts:
+- ct:misinformation-and-disinformation
+- ct:information-disorder
+- ct:information-disorder-report
+difficulty: 2
+created: '2026-11-17'
+status: active

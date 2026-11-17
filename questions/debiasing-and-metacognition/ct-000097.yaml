@@ -1,0 +1,19 @@
+id: ct-000097
+area: debiasing-and-metacognition
+kind: scenario
+topic: Debiasing training games
+topic_type: Technique
+true_statement: An HR lead declares a bias-training video a success because staff aced a quiz on bias definitions straight afterwards. That is weak evidence the training reduced biased judgments.
+false_statement: An HR lead declares a bias-training video a success because staff aced a quiz on bias definitions straight afterwards. That is strong evidence the training reduced biased judgments.
+explanation: Knowing definitions and judging less biasedly are different outcomes. In the 2015 experiments the video taught definitions better than the game yet reduced bias less, so the test should use fresh judgment items and a delayed recheck.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/debiasing-training-games.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: c70d00bf697cc4d2f07dea5286685390814de792
+concepts:
+- ct:debiasing-training-games
+- ct:morewedge-2015-debiasing-training-experiments
+difficulty: 2
+created: '2026-11-17'
+status: active

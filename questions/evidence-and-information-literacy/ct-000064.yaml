@@ -1,0 +1,20 @@
+id: ct-000064
+area: evidence-and-information-literacy
+kind: scenario
+topic: Prebunking
+topic_type: Technique
+true_statement: Before a product recall is announced, a company sends staff a short video warning that misleading posts will follow and showing a silly fake example of a false either-or claim. That is prebunking.
+false_statement: Before a product recall is announced, a company sends staff a short video warning that misleading posts will follow and showing a silly fake example of a false either-or claim. That is debunking.
+explanation: 'The tell is timing and content: it comes before exposure and teaches the technique with a weakened example. Debunking is the after-the-fact counterpart, correcting a specific false claim people have already met.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/prebunking.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 321a7259f79a1f6be36eec5cc2a822883e28b59e
+concepts:
+- ct:prebunking
+- ct:debunking
+- ct:false-dilemma
+difficulty: 1
+created: '2026-11-17'
+status: active

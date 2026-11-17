@@ -1,0 +1,19 @@
+id: ct-000065
+area: evidence-and-information-literacy
+kind: counter
+topic: Prebunking
+topic_type: Technique
+true_statement: When testing whether a prebunk works, measure people's judgments of true items as well as false ones, since an intervention that just makes people say "fake" more can lower trust in true information.
+false_statement: When testing whether a prebunk works, measuring people's judgments of false items alone is enough, since an intervention that makes people say "fake" more can only improve their accuracy.
+explanation: Blanket scepticism can look like success if you only score false items. Checking true items too shows whether people got better at discernment or simply more suspicious of everything.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/prebunking.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 321a7259f79a1f6be36eec5cc2a822883e28b59e
+concepts:
+- ct:prebunking
+- ct:modirrousta-galian-higham-2023-roc-reanalysis
+difficulty: 2
+created: '2026-11-17'
+status: active

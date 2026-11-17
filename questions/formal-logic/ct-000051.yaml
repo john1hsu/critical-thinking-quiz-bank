@@ -1,0 +1,19 @@
+id: ct-000051
+area: formal-logic
+kind: evidence
+topic: Method of counterexample
+topic_type: Technique
+true_statement: De Neys and colleagues (2003) found people accepted affirming-the-consequent inferences less often the more alternative causes they could recall.
+false_statement: De Neys and colleagues (2003) found people accepted affirming-the-consequent inferences more often the more alternative causes they could recall.
+explanation: Each retrieved alternative cause is a counterexample to reading the conditional backwards, so acceptance of the fallacy fell as their number rose. The finding concerns everyday causal content, not formal training in the method.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/method-of-counterexample.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 021c6f454eb916b3e3caa1d98764161733254ca9
+concepts:
+- ct:method-of-counterexample
+- ct:affirming-the-consequent
+difficulty: 3
+created: '2026-11-17'
+status: active

@@ -1,0 +1,20 @@
+id: ct-000102
+area: foundations
+kind: counter
+topic: Argument
+topic_type: Concept
+true_statement: When evaluating an inductive argument, ask how strongly its premises support the conclusion, rather than faulting it for not being deductively valid.
+false_statement: When evaluating an inductive argument, fault it for not being deductively valid, since only valid arguments give premises any support for a conclusion.
+explanation: An inductive argument only claims to make its conclusion probable, so judging it by the deductive standard is a category mistake. The right question is how much the premises raise the conclusion's likelihood.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/argument.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 14f8cc179830ca00efcae405499f4333f00584f5
+concepts:
+- ct:argument
+- ct:inductive-reasoning
+- ct:deductive-reasoning
+difficulty: 1
+created: '2026-11-17'
+status: active

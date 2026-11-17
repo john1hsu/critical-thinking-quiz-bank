@@ -1,0 +1,19 @@
+id: ct-000078
+area: philosophy-of-reasoning
+kind: mechanism
+topic: Epistemology
+topic_type: Field
+true_statement: Sharon Bailin argues that weak reasoners often lack an understanding of how reasons, evidence and conclusions connect, rather than particular thinking skills.
+false_statement: Sharon Bailin argues that weak reasoners often lack particular thinking skills, rather than an understanding of how reasons, evidence and conclusions connect.
+explanation: 'Her example is a student who strings summaries together and tacks on an unsupported conclusion: he doesn''t grasp that conclusions need support. She offers this as a corrective to skills-based accounts, and holds that the understanding can grow through practice.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/epistemology.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 28a79429a5943fc2e0a877f29130152a21ef0e0b
+concepts:
+- ct:epistemology
+- ct:critical-thinking-education
+difficulty: 2
+created: '2026-11-17'
+status: active

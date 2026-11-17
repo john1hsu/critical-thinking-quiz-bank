@@ -1,0 +1,21 @@
+id: ct-000093
+area: argumentation
+kind: origin
+topic: Argumentation theory
+topic_type: Field
+true_statement: 'Two 1958 books set modern argumentation theory going: Toulmin''s The Uses of Argument and Perelman and Olbrechts-Tyteca''s The New Rhetoric.'
+false_statement: 'Two 1958 books set modern argumentation theory going: Toulmin''s The Uses of Argument and Hamblin''s Fallacies.'
+explanation: The New Rhetoric grounded argument in its audience, alongside Toulmin's claim-data-warrant layout. Hamblin's Fallacies came later, in 1970, and reshaped fallacy theory and dialectic.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argumentation-theory.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 93388b6cbfea2371143b8af428edebb72a1981a0
+concepts:
+- ct:argumentation-theory
+- ct:the-new-rhetoric
+- ct:stephen-toulmin
+- ct:charles-hamblin
+difficulty: 2
+created: '2026-11-17'
+status: active

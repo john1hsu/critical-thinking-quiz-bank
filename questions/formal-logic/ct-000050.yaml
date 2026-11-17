@@ -1,0 +1,20 @@
+id: ct-000050
+area: formal-logic
+kind: counter
+topic: Method of counterexample
+topic_type: Technique
+true_statement: If you try hard and can't think of a case where an argument's premises hold and its conclusion fails, that still doesn't prove the argument valid.
+false_statement: If you try hard and can't think of a case where an argument's premises hold and its conclusion fails, that proves the argument valid.
+explanation: 'One counterexample proves invalidity, but the method is asymmetric: not finding one may just mean you missed it. Proving validity needs an exhaustive check, such as every row of a truth table.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/method-of-counterexample.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 021c6f454eb916b3e3caa1d98764161733254ca9
+concepts:
+- ct:method-of-counterexample
+- ct:validity
+- ct:truth-table
+difficulty: 2
+created: '2026-11-17'
+status: active

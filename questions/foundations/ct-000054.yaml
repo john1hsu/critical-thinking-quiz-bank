@@ -1,0 +1,18 @@
+id: ct-000054
+area: foundations
+kind: evidence
+topic: Validity
+topic_type: Concept
+true_statement: A 2018 meta-analysis of belief bias found that, at the group level, a conclusion's believability mainly shifted people's willingness to say "valid" rather than their ability to tell valid from invalid.
+false_statement: A 2018 meta-analysis of belief bias found that, at the group level, a conclusion's believability mainly impaired people's ability to tell valid from invalid rather than their willingness to say "valid".
+explanation: 'Trippas and colleagues argued the classic belief-by-validity interaction is partly an analysis artifact: belief acts more like a response bias than a loss of discrimination. Either way, believable conclusions make people likelier to accept arguments.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/validity.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 8921f1013d4d7a2e96aa5f63d4cd1e1c492440e5
+concepts:
+- ct:validity
+difficulty: 3
+created: '2026-11-17'
+status: active

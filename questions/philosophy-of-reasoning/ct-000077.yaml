@@ -1,0 +1,19 @@
+id: ct-000077
+area: philosophy-of-reasoning
+kind: definition
+topic: Epistemology
+topic_type: Field
+true_statement: Coherentists hold that beliefs are justified by how well they fit together as a system, rather than by resting on basic beliefs that need no further support.
+false_statement: Foundationalists hold that beliefs are justified by how well they fit together as a system, rather than by resting on basic beliefs that need no further support.
+explanation: The two views answer the question of where chains of reasons end. Foundationalism says they stop at basic beliefs; coherentism says no belief is basic and support comes from mutual fit.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/epistemology.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 28a79429a5943fc2e0a877f29130152a21ef0e0b
+concepts:
+- ct:epistemology
+- ct:epistemic-regress-problem
+difficulty: 2
+created: '2026-11-17'
+status: active

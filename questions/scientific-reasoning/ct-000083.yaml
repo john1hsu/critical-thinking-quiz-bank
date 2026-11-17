@@ -1,0 +1,20 @@
+id: ct-000083
+area: scientific-reasoning
+kind: counter
+topic: Hypothesis testing
+topic_type: Method
+true_statement: Testing cases where you expect your hypothesis to hold is often a sound strategy; it mainly misleads when your hypothesis is narrower than the truth.
+false_statement: Testing cases where you expect your hypothesis to hold is often a sound strategy; it mainly misleads when your hypothesis is broader than the truth.
+explanation: Klayman and Ha showed that positive tests can't reveal cases that fit the real rule but fall outside a too-narrow guess, as in Wason's 2-4-6 task. The useful question isn't positive versus negative, but which test could show you are wrong.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/hypothesis-testing.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 10cc260d811dd89503a59ae78c35c84707e38b80
+concepts:
+- ct:hypothesis-testing
+- ct:positive-test-strategy
+- ct:confirmation-bias
+difficulty: 3
+created: '2026-11-17'
+status: active

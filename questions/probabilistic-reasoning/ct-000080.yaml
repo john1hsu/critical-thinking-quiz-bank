@@ -1,0 +1,19 @@
+id: ct-000080
+area: probabilistic-reasoning
+kind: counter
+topic: Natural frequency format
+topic_type: Technique
+true_statement: When recasting a test result as counts, keep one reference group throughout, because rescaling each subgroup to 100 strips out the base rate and loses the benefit.
+false_statement: When recasting a test result as counts, rescale each subgroup to 100, because normalising every branch keeps the base rate visible and preserves the benefit.
+explanation: Natural frequencies work because each count sits inside the one before it, so the prior is built in. Normalised frequencies make every branch look the same size, which hides how rare the condition is.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/natural-frequencies.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 6d1c0dbd359dce1207f66938b2697476a155766e
+concepts:
+- ct:natural-frequencies
+- ct:bayesian-reasoning
+difficulty: 2
+created: '2026-11-17'
+status: active

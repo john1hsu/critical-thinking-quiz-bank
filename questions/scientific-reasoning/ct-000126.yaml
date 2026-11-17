@@ -1,0 +1,19 @@
+id: ct-000126
+area: scientific-reasoning
+kind: evidence
+topic: Randomized controlled trial
+topic_type: Method
+true_statement: Deaton and Cartwright argue that randomisation doesn't make trial groups equal in everything but the treatment; at best it gives an unbiased estimate, of limited use from a single trial.
+false_statement: Deaton and Cartwright argue that randomisation makes trial groups equal in everything but the treatment, so a single trial gives a precise estimate that needs no further thought about covariates.
+explanation: 'Their 2018 critique targets the "gold standard" claim: chance imbalances remain, and results apply to the trial sample. They see RCTs as most informative inside a wider research programme with theory and other methods.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/randomized-controlled-trial.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 2e8cc249bccc180fc2d539be067cdae75fbc805f
+concepts:
+- ct:randomized-controlled-trial
+- ct:deaton-cartwright-2018-rct-critique
+difficulty: 3
+created: '2026-11-17'
+status: active

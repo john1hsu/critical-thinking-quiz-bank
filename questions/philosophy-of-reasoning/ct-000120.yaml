@@ -1,0 +1,20 @@
+id: ct-000120
+area: philosophy-of-reasoning
+kind: figure
+topic: Delphi Report on critical thinking
+topic_type: Work
+true_statement: A 2015 meta-analysis using the Delphi definition found a small positive effect of critical-thinking instruction, g = 0.30 across 341 high-quality studies.
+false_statement: A 2015 meta-analysis using the Delphi definition found a large positive effect of critical-thinking instruction, g = 0.80 across 341 high-quality studies.
+explanation: Abrami and colleagues found instruction helps, but modestly. The biggest gains came from combining dialogue, authentic problems and mentoring, which is a useful guide when designing training.
+as_of: '2015'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/delphi-report-on-critical-thinking.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 1f209661eb732234ba451d28c212a1e596f7a92f
+concepts:
+- ct:delphi-report-on-critical-thinking
+- ct:critical-thinking-education
+difficulty: 3
+created: '2026-11-17'
+status: active

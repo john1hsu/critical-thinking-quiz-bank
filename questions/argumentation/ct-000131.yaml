@@ -1,0 +1,19 @@
+id: ct-000131
+area: argumentation
+kind: counter
+topic: Informal logic
+topic_type: Field
+true_statement: Johnson's "dialectical tier" holds that a complete argument must also answer the objections it faces, not just give reasons for its conclusion.
+false_statement: Johnson's "dialectical tier" holds that a complete argument must also be restated in a valid deductive form, not just give reasons for its conclusion.
+explanation: 'The dialectical tier adds a second layer to an argument: dealing with known objections and alternative positions. Informal logic deliberately avoids making deductive validity its main test, and the tier has itself been disputed by Govier and others.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/informal-logic.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 6ba14f308f65913b4436b18ac9237c0c7e039c7b
+concepts:
+- ct:informal-logic
+- ct:ralph-h-johnson
+difficulty: 3
+created: '2026-11-17'
+status: active

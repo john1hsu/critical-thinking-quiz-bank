@@ -1,0 +1,20 @@
+id: ct-000056
+area: history-and-thinkers
+kind: definition
+topic: Aristotle
+topic_type: Person
+true_statement: In Sophistical Refutations, Aristotle put equivocation among the fallacies that depend on language and begging the question among those that do not.
+false_statement: In Sophistical Refutations, Aristotle put begging the question among the fallacies that depend on language and equivocation among those that do not.
+explanation: Equivocation trades on a word's double meaning, so it is a fallacy of language; begging the question, false cause and affirming the consequent fail regardless of wording. The split is six language-dependent fallacies and seven others.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/aristotle.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 7f057ea337719f1c513a129be33bdcb39e9fd620
+concepts:
+- ct:aristotle
+- ct:sophistical-refutations
+- ct:affirming-the-consequent
+difficulty: 2
+created: '2026-11-17'
+status: active

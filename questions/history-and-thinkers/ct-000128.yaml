@@ -1,0 +1,20 @@
+id: ct-000128
+area: history-and-thinkers
+kind: figure
+topic: Daniel Kahneman
+topic_type: Person
+true_statement: In a 1993 cold-water experiment, 22 of 32 students chose to repeat the longer trial, which ended with slightly warmer water but contained strictly more discomfort.
+false_statement: In a 1993 cold-water experiment, only 10 of 32 students chose to repeat the longer trial, preferring the shorter one that contained strictly less discomfort.
+explanation: Most preferred the longer trial because memory tracked the worst moment and the ending, not the total. That peak-end pattern, with neglect of duration, became the basis of Kahneman's work on well-being.
+as_of: '1993'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/daniel-kahneman.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 02e77a3c8bfa66fc0b29a2707f15d04ae72a33bc
+concepts:
+- ct:daniel-kahneman
+- ct:peak-end-rule
+difficulty: 2
+created: '2026-11-17'
+status: active

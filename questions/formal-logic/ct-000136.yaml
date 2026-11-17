@@ -1,0 +1,19 @@
+id: ct-000136
+area: formal-logic
+kind: scenario
+topic: Modus tollens
+topic_type: ReasoningForm
+true_statement: '"A door badge opens the lab only if it has been activated. This badge hasn''t been activated. So it won''t open the lab." Restated as an if-then, this is modus tollens, so the form is valid.'
+false_statement: '"A door badge opens the lab only if it has been activated. This badge hasn''t been activated. So it won''t open the lab." Restated as an if-then, this denies the antecedent, so the form is invalid.'
+explanation: '"P only if Q" means "if P then Q": if the badge opens the lab, it has been activated. The second premise denies that consequent, so concluding the antecedent is false is valid. Normalise "only if" before judging the form.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/modus-tollens.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: a9ccfade705789cfa41f544dfcc4885982005aba
+concepts:
+- ct:modus-tollens
+- ct:denying-the-antecedent
+difficulty: 3
+created: '2026-11-17'
+status: active

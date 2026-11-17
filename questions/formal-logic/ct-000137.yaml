@@ -1,0 +1,20 @@
+id: ct-000137
+area: formal-logic
+kind: mechanism
+topic: Modus tollens
+topic_type: ReasoningForm
+true_statement: Every modus tollens argument can be rewritten as a modus ponens on the contrapositive, "if not Q then not P", which is why both forms are valid.
+false_statement: Every modus tollens argument can be rewritten as a modus ponens on the converse, "if Q then P", which is why both forms are valid.
+explanation: A conditional is equivalent to its contrapositive, so denying Q and applying "if not Q then not P" gives not-P by modus ponens. The converse is not equivalent, and reasoning from it is how affirming the consequent goes wrong.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/modus-tollens.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: a9ccfade705789cfa41f544dfcc4885982005aba
+concepts:
+- ct:modus-tollens
+- ct:contraposition
+- ct:modus-ponens
+difficulty: 2
+created: '2026-11-17'
+status: active

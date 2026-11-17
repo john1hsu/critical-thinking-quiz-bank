@@ -1,0 +1,20 @@
+id: ct-000104
+area: decision-making
+kind: counter
+topic: Devil's advocacy
+topic_type: Technique
+true_statement: When a team does have a member who sincerely doubts the plan, Nemeth's research suggests protecting that real dissenter rather than relying on an assigned devil's advocate.
+false_statement: When a team does have a member who sincerely doubts the plan, Nemeth's research suggests relying on an assigned devil's advocate rather than that real dissenter.
+explanation: Groups discount a role-played objection because they know it lacks conviction, so it prompts less rethinking. Assigned advocacy is the substitute for when no genuine dissent exists.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/devils-advocacy.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 3256d72b8ba0d686539138df728d06c21d6ff599
+concepts:
+- ct:devils-advocacy
+- ct:authentic-dissent
+- ct:groupthink
+difficulty: 2
+created: '2026-11-17'
+status: active

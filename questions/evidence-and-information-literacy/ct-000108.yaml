@@ -1,0 +1,19 @@
+id: ct-000108
+area: evidence-and-information-literacy
+kind: evidence
+topic: Misinformation and disinformation
+topic_type: Phenomenon
+true_statement: Vosoughi, Roy and Aral (2018) found automated accounts spread true and false stories at similar rates, so false news outpaced true news mainly through human sharing.
+false_statement: Vosoughi, Roy and Aral (2018) found automated accounts spread false stories far more than true ones, so false news outpaced true news mainly through bot activity.
+explanation: Because bots amplified both kinds equally, the gap came from people, and false stories tended to be more novel. Altay and colleagues caution that such results depend on how misinformation is defined and sampled.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/misinformation-and-disinformation.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 8cf73e20d9f9bb6b4c03565dc4a95be8bd5b333f
+concepts:
+- ct:misinformation-and-disinformation
+- ct:vosoughi-2018-spread-of-true-and-false-news
+difficulty: 3
+created: '2026-11-17'
+status: active

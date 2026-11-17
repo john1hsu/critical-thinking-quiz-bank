@@ -1,0 +1,20 @@
+id: ct-000073
+area: informal-fallacies
+kind: scenario
+topic: Tu quoque
+topic_type: InformalFallacy
+true_statement: The office manager asks staff to stop printing drafts to cut paper costs. A staffer replies that she prints all her own emails, so the request can be ignored. The reply is a tu quoque.
+false_statement: The office manager asks staff to stop printing drafts to cut paper costs. A staffer replies that she prints all her own emails, so the request can be ignored. The reply is a straw man.
+explanation: The staffer accurately states the request but rejects it because the manager doesn't follow it, the mark of a tu quoque. A straw man would misdescribe the request, say as a ban on all printing; whether drafts waste paper doesn't depend on the manager's habits.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/tu-quoque.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: b339f550326cb3d30a8f28db94aca71ed9e45727
+concepts:
+- ct:tu-quoque
+- ct:straw-man-fallacy
+- ct:ad-hominem
+difficulty: 1
+created: '2026-11-17'
+status: active

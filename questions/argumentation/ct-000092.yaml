@@ -1,0 +1,18 @@
+id: ct-000092
+area: argumentation
+kind: counter
+topic: Argumentation theory
+topic_type: Field
+true_statement: On Dutilh Novaes's view, when two colleagues' interests barely conflict, their argument should stay largely cooperative rather than combative.
+false_statement: On Dutilh Novaes's view, when two colleagues' interests barely conflict, their argument should still be fully combative, since opposition is built into all argument.
+explanation: She proposes that adversariality be proportional to the real conflict of interests between the parties. The false version pushes Govier's point about minimal opposition much further than either holds.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argumentation-theory.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 93388b6cbfea2371143b8af428edebb72a1981a0
+concepts:
+- ct:argumentation-theory
+difficulty: 3
+created: '2026-11-17'
+status: active

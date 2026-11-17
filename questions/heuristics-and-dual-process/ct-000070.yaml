@@ -1,0 +1,19 @@
+id: ct-000070
+area: heuristics-and-dual-process
+kind: scenario
+topic: Availability heuristic
+topic_type: Heuristic
+true_statement: After two memorable late shipments last month, a planner estimates that late deliveries are far more common than the carrier's logs show. Her estimate reflects the availability heuristic.
+false_statement: After two memorable late shipments last month, a planner estimates that late deliveries are far more common than the carrier's logs show. Her estimate reflects the representativeness heuristic.
+explanation: She judges frequency by how easily recent, vivid cases come to mind, which is availability. Representativeness judges by resemblance to a prototype, such as deciding a shipment fits the profile of a typical late one.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/availability-heuristic.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: ffbaf5c1393f4e19103875753b52c4e7e1061f99
+concepts:
+- ct:availability-heuristic
+- ct:representativeness-heuristic
+difficulty: 1
+created: '2026-11-17'
+status: active

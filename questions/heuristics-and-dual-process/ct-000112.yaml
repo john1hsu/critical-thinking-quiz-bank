@@ -1,0 +1,19 @@
+id: ct-000112
+area: heuristics-and-dual-process
+kind: scenario
+topic: Representativeness heuristic
+topic_type: Heuristic
+true_statement: Head office notices that its smallest stores fill both the best and the worst spots in the monthly returns ranking, and decides small stores are run erratically. Chance alone predicts this pattern, because small samples vary more.
+false_statement: Head office notices that its smallest stores fill both the best and the worst spots in the monthly returns ranking, and decides small stores are run erratically. Chance alone can't produce this pattern, because sample size doesn't affect how much rates vary.
+explanation: Like the small hospital with more lopsided days, small stores swing further from the average by chance. Treating that spread as a management signal is insensitivity to sample size, an error the heuristic produces.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/representativeness-heuristic.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: bdeed34b97eb999b42c4a6cdad6a06ae254c5c83
+concepts:
+- ct:representativeness-heuristic
+- ct:insensitivity-to-sample-size
+difficulty: 2
+created: '2026-11-17'
+status: active

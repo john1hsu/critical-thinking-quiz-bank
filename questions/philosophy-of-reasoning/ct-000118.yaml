@@ -1,0 +1,19 @@
+id: ct-000118
+area: philosophy-of-reasoning
+kind: scenario
+topic: Delphi Report on critical thinking
+topic_type: Work
+true_statement: After recommending a new tool, a team lead goes back over her analysis to check whether her liking for the vendor coloured how she read the pilot data. In the Delphi Report's terms, she is exercising self-regulation.
+false_statement: After recommending a new tool, a team lead goes back over her analysis to check whether her liking for the vendor coloured how she read the pilot data. In the Delphi Report's terms, she is exercising interpretation.
+explanation: Self-regulation is the skill of examining and correcting your own reasoning. Interpretation is about clarifying what something means, such as what the vendor's "40% faster" figure actually measures.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/delphi-report-on-critical-thinking.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 1f209661eb732234ba451d28c212a1e596f7a92f
+concepts:
+- ct:delphi-report-on-critical-thinking
+- ct:metacognition
+difficulty: 2
+created: '2026-11-17'
+status: active

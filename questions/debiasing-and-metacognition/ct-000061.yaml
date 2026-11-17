@@ -1,0 +1,19 @@
+id: ct-000061
+area: debiasing-and-metacognition
+kind: scenario
+topic: Actively open-minded thinking
+topic_type: Disposition
+true_statement: A director says she is always happy to hear objections to her rollout plan, but she never looks for evidence against it unless someone brings it to her. By Baron's standard, she falls short of actively open-minded thinking.
+false_statement: A director says she is always happy to hear objections to her rollout plan, but she never looks for evidence against it unless someone brings it to her. By Baron's standard, she meets the bar for actively open-minded thinking.
+explanation: 'The word "actively" is the point: being willing to listen isn''t enough. AOT means going out to search for alternatives and for reasons you might be wrong, in proportion to how much the question matters.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/actively-open-minded-thinking.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 99a2fb0ec788ed488354c043263fc7796324841d
+concepts:
+- ct:actively-open-minded-thinking
+- ct:jonathan-baron
+difficulty: 2
+created: '2026-11-17'
+status: active

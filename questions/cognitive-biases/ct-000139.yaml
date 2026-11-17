@@ -1,0 +1,19 @@
+id: ct-000139
+area: cognitive-biases
+kind: scenario
+topic: Confirmation bias
+topic_type: CognitiveBias
+true_statement: Sure her new pricing page lifted sales, a manager cites the weeks sales rose and three happy customer emails, but never checks sales in regions that kept the old page. That is confirmation bias.
+false_statement: Sure her new pricing page lifted sales, a manager cites the weeks sales rose and three happy customer emails, but never checks sales in regions that kept the old page. That is belief perseverance.
+explanation: She only runs checks that could agree with her, so her confidence grows without the idea ever being at risk. Belief perseverance is holding on to a belief after its supporting evidence has been discredited, which hasn't happened here.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/confirmation-bias.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: e4986a8f0c1edab0be10595ca4e4f53543918903
+concepts:
+- ct:confirmation-bias
+- ct:belief-perseverance
+difficulty: 2
+created: '2026-11-17'
+status: active

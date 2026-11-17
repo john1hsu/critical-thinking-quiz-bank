@@ -1,0 +1,19 @@
+id: ct-000111
+area: formal-fallacies
+kind: definition
+topic: Undistributed middle
+topic_type: FormalFallacy
+true_statement: Buridan's test for distribution says universal statements distribute their subjects and negative statements distribute their predicates, and no other terms are distributed.
+false_statement: Buridan's test for distribution says universal statements distribute their predicates and negative statements distribute their subjects, and no other terms are distributed.
+explanation: '"All M are P" speaks of every M, and "S are not M" excludes S from all of M. So the middle term is distributed only as the subject of a universal or the predicate of a negative; check each premise against that rule.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/undistributed-middle.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 7c5103c3f07d68fb2e25c50d81699706c063eef0
+concepts:
+- ct:undistributed-middle
+- ct:distribution-of-terms
+difficulty: 3
+created: '2026-11-17'
+status: active

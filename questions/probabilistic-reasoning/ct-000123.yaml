@@ -1,0 +1,20 @@
+id: ct-000123
+area: probabilistic-reasoning
+kind: figure
+topic: Simpson's paradox
+topic_type: Phenomenon
+true_statement: In fall 1973, Berkeley admitted about 44% of male and 35% of female graduate applicants, yet department-level data showed no bias against women.
+false_statement: In fall 1973, Berkeley admitted about 35% of male and 44% of female graduate applicants, yet department-level data showed bias against women.
+explanation: Women applied more often to departments that rejected most applicants, which dragged down their pooled rate. Bickel and colleagues found that, analysed by department, there was a small bias in women's favour.
+as_of: '1973'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/simpsons-paradox.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: f47356a258ebe47cc85bc0a2020f06b680cf9cec
+concepts:
+- ct:simpsons-paradox
+- ct:bickel-1975-berkeley-admissions-study
+difficulty: 2
+created: '2026-11-17'
+status: active

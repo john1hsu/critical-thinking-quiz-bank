@@ -1,0 +1,19 @@
+id: ct-000079
+area: probabilistic-reasoning
+kind: scenario
+topic: Natural frequency format
+topic_type: Technique
+true_statement: 'A fraud memo says: of 10,000 applications, 50 are fraudulent and the check flags 45 of them; of the 9,950 genuine ones, it flags 199. The memo uses a natural frequency format.'
+false_statement: 'A fraud memo says: of 10,000 applications, 50 are fraudulent and the check flags 45 of them; of the 9,950 genuine ones, it flags 199. The memo uses a relative frequency format.'
+explanation: The tell is raw counts nested inside one reference group, so the base rate travels with the numbers and the answer is just 45 out of 45 + 199. A relative frequency format would give percentages of a group instead, leaving the reader to combine them.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/natural-frequencies.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 6d1c0dbd359dce1207f66938b2697476a155766e
+concepts:
+- ct:natural-frequencies
+- ct:base-rate-neglect
+difficulty: 2
+created: '2026-11-17'
+status: active

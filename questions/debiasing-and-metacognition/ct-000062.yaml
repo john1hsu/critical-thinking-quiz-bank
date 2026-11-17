@@ -1,0 +1,20 @@
+id: ct-000062
+area: debiasing-and-metacognition
+kind: mechanism
+topic: Actively open-minded thinking
+topic_type: Disposition
+true_statement: In Haran and colleagues' 2013 experiments, higher-AOT people were more accurate mainly because they chose to gather more information; with the amount of information fixed, AOT no longer predicted performance.
+false_statement: In Haran and colleagues' 2013 experiments, higher-AOT people were more accurate mainly because they weighed the same information more skilfully; with the amount of information fixed, AOT still predicted performance.
+explanation: 'The benefit ran through search: open-minded people looked longer before estimating, which improved accuracy and calibration. The practical cue is to treat the urge to stop early as a prompt to look once more.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/actively-open-minded-thinking.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 99a2fb0ec788ed488354c043263fc7796324841d
+concepts:
+- ct:actively-open-minded-thinking
+- ct:haran-2013-aot-information-acquisition-study
+- ct:overconfidence-effect
+difficulty: 3
+created: '2026-11-17'
+status: active

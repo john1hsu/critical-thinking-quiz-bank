@@ -1,0 +1,19 @@
+id: ct-000075
+area: informal-fallacies
+kind: evidence
+topic: Tu quoque
+topic_type: InformalFallacy
+true_statement: In 2017 experiments, people judged hypocrites more harshly than people who lied directly about their own behaviour, yet hypocrites who openly admitted the lapse weren't judged negatively.
+false_statement: In 2017 experiments, people judged direct liars more harshly than hypocrites, and hypocrites who openly admitted the lapse were judged even more negatively.
+explanation: 'Jordan and colleagues explain this with false signalling: condemning a wrong implies you avoid it, so the hypocrite misleads. Admitting the lapse removes the false signal, which is why owning up blunts a tu quoque.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/tu-quoque.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: b339f550326cb3d30a8f28db94aca71ed9e45727
+concepts:
+- ct:tu-quoque
+- ct:false-signaling-theory-of-hypocrisy
+difficulty: 3
+created: '2026-11-17'
+status: active

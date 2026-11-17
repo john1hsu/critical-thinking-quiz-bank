@@ -1,0 +1,20 @@
+id: ct-000088
+area: history-and-thinkers
+kind: scenario
+topic: Chrysippus
+topic_type: Person
+true_statement: A memo says, "Either the audit is on site or it is remote." Learning it is on site, a planner concludes it is not remote. That step is safe only if the "or" is exclusive, as Chrysippus required of disjunctions.
+false_statement: A memo says, "Either the audit is on site or it is remote." Learning it is on site, a planner concludes it is not remote. That step is safe whether the "or" is exclusive or inclusive, as Chrysippus held of disjunctions.
+explanation: 'This is the fourth indemonstrable: from "either p or q" and p, infer not-q. If the "or" allowed both (a hybrid audit), learning one disjunct says nothing about the other, so check what kind of "or" the premise means.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/chrysippus.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 32591573171684590e6584b70e06e88c8b937eb1
+concepts:
+- ct:chrysippus
+- ct:stoic-logic
+- ct:propositional-logic
+difficulty: 3
+created: '2026-11-17'
+status: active

@@ -1,0 +1,20 @@
+id: ct-000124
+area: scientific-reasoning
+kind: scenario
+topic: Randomized controlled trial
+topic_type: Method
+true_statement: An app team finds that customers who opened its onboarding email kept their subscriptions longer than those who didn't. That alone doesn't show the email works, since more engaged customers may both open emails and stay.
+false_statement: An app team finds that customers who opened its onboarding email kept their subscriptions longer than those who didn't. That alone shows the email works, since the two groups differ only in whether they read it.
+explanation: Openers chose themselves, so engagement is a likely confounder. Letting a random number decide who receives the email is what makes the groups differ, on average, only in the email.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/randomized-controlled-trial.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 2e8cc249bccc180fc2d539be067cdae75fbc805f
+concepts:
+- ct:randomized-controlled-trial
+- ct:confounding
+- ct:correlation-versus-causation
+difficulty: 1
+created: '2026-11-17'
+status: active

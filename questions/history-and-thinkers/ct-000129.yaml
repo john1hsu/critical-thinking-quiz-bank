@@ -1,0 +1,19 @@
+id: ct-000129
+area: history-and-thinkers
+kind: evidence
+topic: Daniel Kahneman
+topic_type: Person
+true_statement: After a 2012 failed replication of an old-age priming study, Kahneman urged priming researchers to run chains of cross-lab replications with shared data.
+false_statement: After a 2012 failed replication of an old-age priming study, Kahneman defended the priming research and argued that cross-lab replications were unnecessary.
+explanation: His open letter warned of a coming "train wreck" and called for advance commitment to publish results. Readers of Thinking, Fast and Slow should treat its priming chapter with caution, while his core work on heuristics and framing stands.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/daniel-kahneman.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 02e77a3c8bfa66fc0b29a2707f15d04ae72a33bc
+concepts:
+- ct:daniel-kahneman
+- ct:replication-crisis
+difficulty: 2
+created: '2026-11-17'
+status: active

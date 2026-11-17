@@ -1,0 +1,20 @@
+id: ct-000114
+area: heuristics-and-dual-process
+kind: evidence
+topic: Representativeness heuristic
+topic_type: Heuristic
+true_statement: A 2021 preregistered replication reproduced the Linda conjunction effect and found no support for semantic ambiguity as its cause, yet a parallel profile produced no effect at all.
+false_statement: A 2021 preregistered replication failed to reproduce the Linda conjunction effect and traced earlier results to semantic ambiguity, yet a parallel profile produced a strong effect.
+explanation: Chandrashekar and colleagues concluded that conjunction errors are real but context-sensitive. That cuts against Hertwig and Gigerenzer's reading-of-"probability" account while showing the effect depends on the scenario used.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/representativeness-heuristic.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: bdeed34b97eb999b42c4a6cdad6a06ae254c5c83
+concepts:
+- ct:representativeness-heuristic
+- ct:chandrashekar-2021-conjunction-bias-replication
+- ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited
+difficulty: 3
+created: '2026-11-17'
+status: active

@@ -1,0 +1,18 @@
+id: ct-000043
+area: argumentation
+kind: scenario
+topic: Toulmin model of argument
+topic_type: Framework
+true_statement: A buyer argues the team should switch suppliers because the current one missed three delivery dates this quarter, "since suppliers who miss dates repeatedly usually keep missing them." In Toulmin's layout, that last clause is the warrant.
+false_statement: A buyer argues the team should switch suppliers because the current one missed three delivery dates this quarter, "since suppliers who miss dates repeatedly usually keep missing them." In Toulmin's layout, that last clause is the data.
+explanation: 'The missed dates are the data; the general rule licensing the step from those dates to the claim is the warrant. Telling data from warrant is the commonest stumbling block: data are the specific facts, the warrant is the bridge that says why they count.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/toulmin-model.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 02dc387b8aae40c56fcfd7853a8c55d0360ad39d
+concepts:
+- ct:toulmin-model
+difficulty: 2
+created: '2026-11-17'
+status: active

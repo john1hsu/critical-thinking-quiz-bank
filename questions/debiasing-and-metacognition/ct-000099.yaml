@@ -1,0 +1,21 @@
+id: ct-000099
+area: debiasing-and-metacognition
+kind: figure
+topic: Debiasing training games
+topic_type: Technique
+true_statement: In a 2019 field study, business students who had played a debiasing game chose the hypothesis-confirming, inferior option in a case analysis about 59% of the time, against 72% for those who had not.
+false_statement: In a 2019 field study, business students who had played a debiasing game chose the hypothesis-confirming, inferior option in a case analysis about 72% of the time, against 59% for those who had not.
+explanation: Trained students were less likely to pick the confirming option and wrote fewer confirming arguments. The authors caution that students weren't randomly assigned and it was one case at one school.
+as_of: '2019'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/debiasing-training-games.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: c70d00bf697cc4d2f07dea5286685390814de792
+concepts:
+- ct:debiasing-training-games
+- ct:sellier-2019-debiasing-transfer-field-study
+- ct:confirmation-bias
+difficulty: 3
+created: '2026-11-17'
+status: active

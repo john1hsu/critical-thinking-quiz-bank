@@ -1,0 +1,20 @@
+id: ct-000084
+area: scientific-reasoning
+kind: figure
+topic: Hypothesis testing
+topic_type: Method
+true_statement: In Wason's 1960 2-4-6 task, only 6 of 29 participants announced the correct rule, any increasing sequence, on their first attempt.
+false_statement: In Wason's 1960 2-4-6 task, 23 of 29 participants announced the correct rule, any increasing sequence, on their first attempt.
+explanation: Most people proposed triples that fit their own guess, such as numbers rising by two, so they never saw evidence against it. Those who succeeded generated more instances their hypothesis said should fail.
+as_of: '1960'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/hypothesis-testing.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 10cc260d811dd89503a59ae78c35c84707e38b80
+concepts:
+- ct:hypothesis-testing
+- ct:confirmation-bias
+difficulty: 2
+created: '2026-11-17'
+status: active

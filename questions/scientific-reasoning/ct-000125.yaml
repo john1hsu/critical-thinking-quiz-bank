@@ -1,0 +1,19 @@
+id: ct-000125
+area: scientific-reasoning
+kind: counter
+topic: Randomized controlled trial
+topic_type: Method
+true_statement: In a trial, whoever enrols participants shouldn't know the next assignment in advance, or they can steer people toward one arm and recreate selection bias.
+false_statement: In a trial, whoever enrols participants should know the next assignment in advance, so they can steer people toward the arm that keeps the groups balanced.
+explanation: Allocation concealment protects randomisation from human judgement; foreseeing assignments lets enrollers sort patients by hunches. Balance on known factors is achieved with stratified or block randomisation, not by choice.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/randomized-controlled-trial.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 2e8cc249bccc180fc2d539be067cdae75fbc805f
+concepts:
+- ct:randomized-controlled-trial
+- ct:selection-bias
+difficulty: 2
+created: '2026-11-17'
+status: active

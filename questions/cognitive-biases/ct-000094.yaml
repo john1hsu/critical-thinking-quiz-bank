@@ -1,0 +1,19 @@
+id: ct-000094
+area: cognitive-biases
+kind: scenario
+topic: Overconfidence effect
+topic_type: CognitiveBias
+true_statement: Over two years, a project manager's "90% sure" ranges for delivery dates contained the actual date only about half the time. That pattern is overprecision.
+false_statement: Over two years, a project manager's "90% sure" ranges for delivery dates contained the actual date only about half the time. That pattern is overplacement.
+explanation: Too-narrow ranges for the stated confidence mean being too sure your beliefs are accurate, which is overprecision. Overplacement is rating yourself above others, which this track record says nothing about.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/overconfidence-effect.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 4f6680e745c2ae5cfadcbe48e67ebaa2dfb28a34
+concepts:
+- ct:overconfidence-effect
+- ct:calibration
+difficulty: 2
+created: '2026-11-17'
+status: active

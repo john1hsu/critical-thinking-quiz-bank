@@ -1,0 +1,20 @@
+id: ct-000081
+area: probabilistic-reasoning
+kind: figure
+topic: Natural frequency format
+topic_type: Technique
+true_statement: A 2017 meta-analysis found about 4% of people solved Bayesian problems with probabilities and about 24% with natural frequencies, so most still failed.
+false_statement: A 2017 meta-analysis found about 4% of people solved Bayesian problems with probabilities and about 64% with natural frequencies, so most succeeded.
+explanation: McDowell and Jacobs confirmed a real gain but a smaller one than early studies implied. Roughly three in four people still erred, which is one reason this technique's evidence is rated mixed.
+as_of: '2017'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/natural-frequencies.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 6d1c0dbd359dce1207f66938b2697476a155766e
+concepts:
+- ct:natural-frequencies
+- ct:mcdowell-jacobs-2017-natural-frequencies-meta-analysis
+difficulty: 3
+created: '2026-11-17'
+status: active

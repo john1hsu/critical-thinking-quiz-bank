@@ -1,0 +1,19 @@
+id: ct-000086
+area: formal-logic
+kind: counter
+topic: Modus ponens
+topic_type: ReasoningForm
+true_statement: If you accept both premises of a modus ponens argument but still doubt its conclusion, the thing to question is the conditional premise, since the form itself can't lead from true premises to a false conclusion.
+false_statement: If you accept both premises of a modus ponens argument but still doubt its conclusion, the thing to question is the inference, since the form can lead from true premises to a false conclusion.
+explanation: Modus ponens is valid, so doubt about the conclusion has to land on a premise. Everyday conditionals often hide unstated requirements, which is where the rule is most likely incomplete or out of date.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/modus-ponens.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 9a49b0b3a87b1b33e4e3fcbcf9a20411d6978166
+concepts:
+- ct:modus-ponens
+- ct:suppression-effect
+difficulty: 2
+created: '2026-11-17'
+status: active

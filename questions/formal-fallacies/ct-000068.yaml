@@ -1,0 +1,19 @@
+id: ct-000068
+area: formal-fallacies
+kind: counter
+topic: Illicit major
+topic_type: FormalFallacy
+true_statement: If someone argues "All senior engineers have access; no contractors are senior engineers; so no contractors have access," ask whether they mean only senior engineers have access, and if so to defend that premise.
+false_statement: If someone argues "All senior engineers have access; no contractors are senior engineers; so no contractors have access," ask whether they mean all contractors are senior engineers, and if so to defend that premise.
+explanation: 'The premise as stated leaves room for other routes to access. Asking for the stronger "only" claim exposes the hidden assumption: stated outright, it distributes the major term and can make the argument valid, but it now needs evidence.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/illicit-major.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 1eb89cbdcc5f08f927cf1979cc7c1ebfa96c5604
+concepts:
+- ct:illicit-major
+- ct:categorical-syllogism
+difficulty: 2
+created: '2026-11-17'
+status: active

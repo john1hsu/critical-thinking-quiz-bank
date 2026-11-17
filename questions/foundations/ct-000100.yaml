@@ -1,0 +1,19 @@
+id: ct-000100
+area: foundations
+kind: scenario
+topic: Argument
+topic_type: Concept
+true_statement: In an incident review where everyone already agrees the site went down, an engineer writes, "The site went down because the security certificate expired." The sentence is an explanation rather than an argument.
+false_statement: In an incident review where everyone already agrees the site went down, an engineer writes, "The site went down because the security certificate expired." The sentence is an argument rather than an explanation.
+explanation: The outage is already accepted, so "because" is telling why it happened, not trying to show that it happened. Indicator words are clues, not proof; ask whether the claim after them is in dispute.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/argument.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 14f8cc179830ca00efcae405499f4333f00584f5
+concepts:
+- ct:argument
+- ct:explanation
+difficulty: 2
+created: '2026-11-17'
+status: active

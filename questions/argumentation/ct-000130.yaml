@@ -1,0 +1,18 @@
+id: ct-000130
+area: argumentation
+kind: scenario
+topic: Informal logic
+topic_type: Field
+true_statement: '"Our pilot team halved its meeting time and finished its sprint early, so every department should drop recurring meetings." By Johnson and Blair''s tests, the premises may be acceptable and relevant but are insufficient.'
+false_statement: '"Our pilot team halved its meeting time and finished its sprint early, so every department should drop recurring meetings." By Johnson and Blair''s tests, the premises may be acceptable and sufficient but are irrelevant.'
+explanation: The pilot result is real and bears on the question, so acceptability and relevance hold. One team's single sprint can't carry a company-wide rule, which is a failure of sufficiency, and naming it points to the evidence that would close the gap.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/informal-logic.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 6ba14f308f65913b4436b18ac9237c0c7e039c7b
+concepts:
+- ct:informal-logic
+difficulty: 2
+created: '2026-11-17'
+status: active

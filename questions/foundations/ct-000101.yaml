@@ -1,0 +1,19 @@
+id: ct-000101
+area: foundations
+kind: definition
+topic: Argument
+topic_type: Concept
+true_statement: Premises are linked when none supports the conclusion without the others, and convergent when each gives independent support to it.
+false_statement: Premises are convergent when none supports the conclusion without the others, and linked when each gives independent support to it.
+explanation: '"QA found data-loss bugs" and "policy forbids shipping with them" only justify postponing together, so they are linked. Separate reasons that each point to the same conclusion on their own are convergent.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/argument.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 14f8cc179830ca00efcae405499f4333f00584f5
+concepts:
+- ct:argument
+- ct:argument-mapping
+difficulty: 2
+created: '2026-11-17'
+status: active

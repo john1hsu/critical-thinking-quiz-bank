@@ -1,0 +1,20 @@
+id: ct-000060
+area: cognitive-biases
+kind: figure
+topic: Bias blind spot
+topic_type: CognitiveBias
+true_statement: In 2021 preregistered replications with 969 participants, the self-other gap in perceived susceptibility to biases was large, at d = -1.00.
+false_statement: In 2021 preregistered replications with 969 participants, the self-other gap in perceived susceptibility to biases was small, at d = -0.34.
+explanation: Chandrashekar and colleagues found a large gap for biases (d = -1.00). The smaller -0.34 gap was for personal shortcomings such as procrastination, a deviation from the original study, but the gap stayed clearly larger for biases.
+as_of: '2021'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/bias-blind-spot.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: aadcffe875bfd18da3431e3a2a1a6702c2a1a7d8
+concepts:
+- ct:bias-blind-spot
+- ct:chandrashekar-2021-bias-blind-spot-replication
+difficulty: 3
+created: '2026-11-17'
+status: active

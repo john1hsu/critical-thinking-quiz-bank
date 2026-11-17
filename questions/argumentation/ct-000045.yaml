@@ -1,0 +1,20 @@
+id: ct-000045
+area: argumentation
+kind: origin
+topic: Toulmin model of argument
+topic_type: Framework
+true_statement: Toulmin said communication scholars, not he, named his layout "the Toulmin model," and that he never meant to found a theory of rhetoric.
+false_statement: Toulmin said he named his layout "the Toulmin model" himself, intending it from the start as a new theory of rhetoric.
+explanation: 'In the 2003 preface Toulmin described his aim as philosophical: challenging the idea that serious arguments must be recast as formal deductions. The label and the rhetorical uptake came from communication scholars.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/toulmin-model.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 02dc387b8aae40c56fcfd7853a8c55d0360ad39d
+concepts:
+- ct:toulmin-model
+- ct:stephen-toulmin
+- ct:the-uses-of-argument
+difficulty: 2
+created: '2026-11-17'
+status: active

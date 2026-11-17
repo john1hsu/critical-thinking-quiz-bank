@@ -1,0 +1,18 @@
+id: ct-000052
+area: foundations
+kind: scenario
+topic: Validity
+topic_type: Concept
+true_statement: '"Every expense over $500 needs a director''s approval. This expense has a director''s approval. So it was over $500." Even if both premises are true, this argument is invalid.'
+false_statement: '"Every expense over $500 needs a director''s approval. This expense has a director''s approval. So it was over $500." If both premises are true, this argument is valid.'
+explanation: 'The rule runs from ''over $500'' to ''needs approval'', not back: a director might also approve a $200 expense. Validity is about whether true premises could coexist with a false conclusion, and here they can, so true premises don''t rescue it.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/validity.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 8921f1013d4d7a2e96aa5f63d4cd1e1c492440e5
+concepts:
+- ct:validity
+difficulty: 2
+created: '2026-11-17'
+status: active

@@ -1,0 +1,21 @@
+id: ct-000113
+area: heuristics-and-dual-process
+kind: figure
+topic: Representativeness heuristic
+topic_type: Heuristic
+true_statement: In Tversky and Kahneman's 1983 health-survey problem, conjunction errors fell from 65% with percentages to 25% when the question asked "how many of 100".
+false_statement: In Tversky and Kahneman's 1983 health-survey problem, conjunction errors rose from 25% with percentages to 65% when the question asked "how many of 100".
+explanation: 'Asking for counts makes the inclusion relation visible: the people who fit both descriptions are a subset of those who fit one. Errors dropped further, to 11%, when people judged the broader group first.'
+as_of: '1983'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/representativeness-heuristic.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: bdeed34b97eb999b42c4a6cdad6a06ae254c5c83
+concepts:
+- ct:representativeness-heuristic
+- ct:conjunction-fallacy
+- ct:natural-frequencies
+difficulty: 3
+created: '2026-11-17'
+status: active

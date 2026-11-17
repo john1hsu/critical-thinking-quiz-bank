@@ -1,0 +1,19 @@
+id: ct-000134
+area: debiasing-and-metacognition
+kind: counter
+topic: Deliberate reflection
+topic_type: Technique
+true_statement: Deliberate reflection pays off mainly on complex or unusual problems; on routine ones, first impressions did about as well.
+false_statement: Deliberate reflection pays off mainly on routine problems; on complex or unusual ones, first impressions did about as well.
+explanation: Mamede and colleagues' 2008 study found no gain on simple cases but better accuracy on complex ones. Save the effortful script for hard cases and those that closely resemble something handled recently.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/deliberate-reflection.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 9090daa4d8c8c813ff76d47cb5d839f23534238c
+concepts:
+- ct:deliberate-reflection
+- ct:silvia-mamede
+difficulty: 2
+created: '2026-11-17'
+status: active

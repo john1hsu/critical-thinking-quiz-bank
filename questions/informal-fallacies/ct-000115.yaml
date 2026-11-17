@@ -1,0 +1,19 @@
+id: ct-000115
+area: informal-fallacies
+kind: scenario
+topic: False dilemma
+topic_type: InformalFallacy
+true_statement: '"Either we move every client to the new CRM this month or we''re stuck on spreadsheets for good. We can''t move everyone this month, so we''re stuck." The flaw lies in the either-or premise, not in the inference.'
+false_statement: '"Either we move every client to the new CRM this month or we''re stuck on spreadsheets for good. We can''t move everyone this month, so we''re stuck." The flaw lies in the inference, not in the either-or premise.'
+explanation: 'Ruling out one of two alternatives to accept the other is the valid disjunctive-syllogism form. What fails is the premise: a phased migration or a pilot group are left off the menu, which is what makes it a false dilemma.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/false-dilemma.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: e9340be5bc6e9a25880ff229ac6bc15a6a74dd06
+concepts:
+- ct:false-dilemma
+- ct:disjunctive-syllogism
+difficulty: 2
+created: '2026-11-17'
+status: active

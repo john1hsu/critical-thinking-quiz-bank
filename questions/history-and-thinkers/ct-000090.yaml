@@ -1,0 +1,19 @@
+id: ct-000090
+area: history-and-thinkers
+kind: mechanism
+topic: Chrysippus
+topic_type: Person
+true_statement: Chrysippus counted a conditional true only if the denial of its consequent conflicts with its antecedent, a stricter, connection-based test than Philo's.
+false_statement: Philo counted a conditional true only if the denial of its consequent conflicts with its antecedent, a stricter, connection-based test than Chrysippus's.
+explanation: Philo's conditional was false only when the antecedent was true and the consequent false, much like today's material conditional. Chrysippus demanded a real link between the parts, which scholars compare to relevance logic.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/chrysippus.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 32591573171684590e6584b70e06e88c8b937eb1
+concepts:
+- ct:chrysippus
+- ct:stoic-logic
+difficulty: 3
+created: '2026-11-17'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000055
+area: history-and-thinkers
+kind: origin
+topic: Aristotle
+topic_type: Person
+true_statement: Aristotle never called his work "logic"; ancient commentators later gathered six of his treatises into the Organon, Greek for "tool".
+false_statement: Aristotle himself gathered six of his treatises into a single book and titled it Logic, meaning a branch of philosophy in its own right.
+explanation: The Organon was a later compilation, and its name reflects the view that logic is an instrument for inquiry rather than a part of it. Aristotle neither assembled it nor used the word "logic" for his work.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/aristotle.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 7f057ea337719f1c513a129be33bdcb39e9fd620
+concepts:
+- ct:aristotle
+- ct:organon
+difficulty: 2
+created: '2026-11-17'
+status: active

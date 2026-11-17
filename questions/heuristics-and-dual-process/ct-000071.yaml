@@ -1,0 +1,19 @@
+id: ct-000071
+area: heuristics-and-dual-process
+kind: counter
+topic: Availability heuristic
+topic_type: Heuristic
+true_statement: To check a team's risk ranking that may rest on availability, compare it with incident logs or base rates, because people don't correct availability errors just by being warned.
+false_statement: To check a team's risk ranking that may rest on availability, ask each member to recall as many past cases of each risk as they can, because more recall corrects availability errors.
+explanation: Replacing recall with counts removes the faulty cue. More recall keeps the judgment running on memory, and asking for many examples can even backfire when they are hard to retrieve.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/availability-heuristic.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: ffbaf5c1393f4e19103875753b52c4e7e1061f99
+concepts:
+- ct:availability-heuristic
+- ct:base-rate-neglect
+difficulty: 2
+created: '2026-11-17'
+status: active

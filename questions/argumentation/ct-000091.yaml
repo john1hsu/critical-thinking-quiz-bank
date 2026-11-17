@@ -1,0 +1,18 @@
+id: ct-000091
+area: argumentation
+kind: scenario
+topic: Argumentation theory
+topic_type: Field
+true_statement: Reviewing a proposal to change vendors, a director checks whether its author carried the burden of proof for the change and answered finance's cost objection. She is judging the argument as a procedure, the dialectical lens.
+false_statement: Reviewing a proposal to change vendors, a director checks whether its author carried the burden of proof for the change and answered finance's cost objection. She is judging the argument as a product, the logical lens.
+explanation: In Wenzel's three lenses, burden of proof and replying to objections concern whether a disagreement was handled by fair rules, the dialectical view. The product lens asks whether the reasons themselves are good; the process lens asks whether it persuades this audience.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argumentation-theory.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 93388b6cbfea2371143b8af428edebb72a1981a0
+concepts:
+- ct:argumentation-theory
+difficulty: 2
+created: '2026-11-17'
+status: active

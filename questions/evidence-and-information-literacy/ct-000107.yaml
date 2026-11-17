@@ -1,0 +1,20 @@
+id: ct-000107
+area: evidence-and-information-literacy
+kind: counter
+topic: Misinformation and disinformation
+topic_type: Phenomenon
+true_statement: When correcting an office rumour, lead with the accurate account and offer a plausible alternative explanation, since a bare retraction tends to leave the rumour still shaping people's reasoning.
+false_statement: When correcting an office rumour, issue a bare retraction that simply says the rumour is false, since offering an alternative explanation tends to leave the rumour still shaping people's reasoning.
+explanation: The continued influence effect means a retracted claim can keep steering reasoning, partly because the retraction leaves a gap in the story. Filling that gap with a credible account helps the correction stick.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/misinformation-and-disinformation.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 8cf73e20d9f9bb6b4c03565dc4a95be8bd5b333f
+concepts:
+- ct:misinformation-and-disinformation
+- ct:continued-influence-effect
+- ct:debunking
+difficulty: 2
+created: '2026-11-17'
+status: active

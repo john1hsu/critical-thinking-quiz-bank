@@ -1,0 +1,20 @@
+id: ct-000096
+area: cognitive-biases
+kind: mechanism
+topic: Overconfidence effect
+topic_type: CognitiveBias
+true_statement: Moore and Healy found that on hard quizzes people overestimate their own score yet place themselves below others, and on easy quizzes they do the reverse.
+false_statement: Moore and Healy found that on hard quizzes people underestimate their own score yet place themselves above others, and on easy quizzes they do the reverse.
+explanation: 'Their account is regression: estimates blend a prior with a noisy signal, and since people know even less about others, those estimates regress further. That produces opposite errors on easy and hard tasks.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/overconfidence-effect.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 4f6680e745c2ae5cfadcbe48e67ebaa2dfb28a34
+concepts:
+- ct:overconfidence-effect
+- ct:regression-to-the-mean
+- ct:hard-easy-effect
+difficulty: 3
+created: '2026-11-17'
+status: active

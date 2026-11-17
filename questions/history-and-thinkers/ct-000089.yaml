@@ -1,0 +1,20 @@
+id: ct-000089
+area: history-and-thinkers
+kind: definition
+topic: Chrysippus
+topic_type: Person
+true_statement: Chrysippus built a logic of whole statements joined by "if", "or", "and" and "not", whereas Aristotle's was a logic of terms such as "all" and "some".
+false_statement: Aristotle built a logic of whole statements joined by "if", "or", "and" and "not", whereas Chrysippus's was a logic of terms such as "all" and "some".
+explanation: That contrast is why Chrysippus counts among the first to organise propositional logic. Aristotle's syllogistic works with the relations between classes inside statements.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/chrysippus.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 32591573171684590e6584b70e06e88c8b937eb1
+concepts:
+- ct:chrysippus
+- ct:aristotle
+- ct:propositional-logic
+difficulty: 2
+created: '2026-11-17'
+status: active

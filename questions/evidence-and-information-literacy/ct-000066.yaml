@@ -1,0 +1,20 @@
+id: ct-000066
+area: evidence-and-information-literacy
+kind: evidence
+topic: Prebunking
+topic_type: Technique
+true_statement: A 2023 reanalysis of inoculation-game experiments concluded the games mostly made players more sceptical of all news, rather than better at telling true from false.
+false_statement: A 2023 reanalysis of inoculation-game experiments concluded the games mostly made players better at telling true from false, rather than more sceptical of all news.
+explanation: Modirrousta-Galian and Higham used signal-detection (ROC) analysis and found a shift in response bias, not improved discernment. The critique targets games such as Bad News; the 2022 video studies did report better discernment.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/prebunking.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 321a7259f79a1f6be36eec5cc2a822883e28b59e
+concepts:
+- ct:prebunking
+- ct:modirrousta-galian-higham-2023-roc-reanalysis
+- ct:inoculation-theory
+difficulty: 3
+created: '2026-11-17'
+status: active

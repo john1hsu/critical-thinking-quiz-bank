@@ -1,0 +1,19 @@
+id: ct-000127
+area: history-and-thinkers
+kind: scenario
+topic: Daniel Kahneman
+topic_type: Person
+true_statement: A purchasing director feels certain a new supplier will still be reliable in five years. By Kahneman and Klein's conditions, that gut feeling needs an explicit check, because long-range calls give little quick, regular feedback.
+false_statement: A purchasing director feels certain a new supplier will still be reliable in five years. By Kahneman and Klein's conditions, that gut feeling can be trusted, because her strong confidence is good evidence she is right.
+explanation: Intuition earns trust only in a regular, predictable environment where the expert has practised with feedback, like a nurse spotting deterioration. Kahneman and Klein stress that feeling confident is no evidence of being right.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/daniel-kahneman.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 02e77a3c8bfa66fc0b29a2707f15d04ae72a33bc
+concepts:
+- ct:daniel-kahneman
+- ct:dual-process-theory
+difficulty: 2
+created: '2026-11-17'
+status: active

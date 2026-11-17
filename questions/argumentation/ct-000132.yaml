@@ -1,0 +1,21 @@
+id: ct-000132
+area: argumentation
+kind: origin
+topic: Informal logic
+topic_type: Field
+true_statement: Informal logic grew from Ralph Johnson's finding at Windsor in the late 1960s that students taught symbolic logic could not apply it to real arguments.
+false_statement: Informal logic grew from Ralph Johnson's finding at Windsor in the late 1960s that students taught to analyse real arguments could not handle symbolic logic proofs.
+explanation: The gap ran from formal training to everyday use, so Johnson started an "Applied Logic" course built on media examples, later joined by Blair. Their handouts became the 1977 textbook Logical Self-Defense.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/informal-logic.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 6ba14f308f65913b4436b18ac9237c0c7e039c7b
+concepts:
+- ct:informal-logic
+- ct:ralph-h-johnson
+- ct:j-anthony-blair
+- ct:logical-self-defense
+difficulty: 2
+created: '2026-11-17'
+status: active

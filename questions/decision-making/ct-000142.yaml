@@ -1,0 +1,19 @@
+id: ct-000142
+area: decision-making
+kind: scenario
+topic: Groupthink
+topic_type: Phenomenon
+true_statement: Before a board meeting, the chief of staff quietly keeps a critical consultant's report off the agenda so the CEO's plan isn't "distracted." In Janis's groupthink model, she is acting as a mindguard.
+false_statement: Before a board meeting, the chief of staff quietly keeps a critical consultant's report off the agenda so the CEO's plan isn't "distracted." In Janis's groupthink model, she is showing the illusion of invulnerability.
+explanation: A mindguard screens unwelcome information out of the group, one of Janis's pressure-toward-uniformity symptoms. The illusion of invulnerability is the group overrating itself, an excess optimism rather than an act of filtering.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/groupthink.md
+  commit: 9943d9a27c030563678242528512f42f619af2ff
+  blob: 935f23f093cfc73fd7012563f8572458989d2cb9
+concepts:
+- ct:groupthink
+- ct:irving-janis
+difficulty: 2
+created: '2026-11-17'
+status: active
