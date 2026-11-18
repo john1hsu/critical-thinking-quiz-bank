@@ -1,0 +1,19 @@
+id: ct-000170
+area: history-and-thinkers
+kind: scenario
+topic: Posterior Analytics
+topic_type: Work
+true_statement: A manager says the vendor's tool is reliable because its documentation says so, and the documentation can be trusted because the tool is reliable. The Posterior Analytics would reject this as a circular proof that establishes nothing.
+false_statement: A manager says the vendor's tool is reliable because its documentation says so, and the documentation can be trusted because the tool is reliable. The Posterior Analytics would accept this, since a proof may run in a circle if each step is valid.
+explanation: Aristotle requires each premise to be prior to and better known than what it proves; in a circle the conclusion secretly supports itself. He explicitly rejected the view that everything can be proved by circular demonstration.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/posterior-analytics.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: cb41148b439689208754a751283e756ea5450a6e
+concepts:
+- ct:posterior-analytics
+- ct:epistemic-regress-problem
+difficulty: 2
+created: '2026-11-18'
+status: active

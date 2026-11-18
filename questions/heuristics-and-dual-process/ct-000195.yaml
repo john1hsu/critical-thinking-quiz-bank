@@ -1,0 +1,19 @@
+id: ct-000195
+area: heuristics-and-dual-process
+kind: counter
+topic: Dual-process theory
+topic_type: Framework
+true_statement: Pausing to deliberate is a useful check, but a slow, effortful answer isn't guaranteed to be right, and a fast intuitive one isn't guaranteed to be wrong.
+false_statement: Pausing to deliberate is a useful check, because a slow, effortful answer can be trusted as right, while errors come from fast intuitive processing.
+explanation: Even leading dual-process theorists stress that Type 1 answers are not always non-normative and Type 2 answers are not always correct. Treat deliberation as a test of the first answer, not a guarantee.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/dual-process-theory.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 34bd7b14f0d0a9a8de106934383724e93634c4d2
+concepts:
+- ct:dual-process-theory
+- ct:deliberate-reflection
+difficulty: 2
+created: '2026-11-18'
+status: active

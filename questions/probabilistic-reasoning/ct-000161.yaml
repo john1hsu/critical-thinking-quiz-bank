@@ -1,0 +1,19 @@
+id: ct-000161
+area: probabilistic-reasoning
+kind: scenario
+topic: Regression to the mean
+topic_type: Phenomenon
+true_statement: A manager praises an analyst after an unusually brilliant report. His next report is merely average, and she concludes praise makes him complacent. Regression to the mean alone would predict that dip.
+false_statement: A manager praises an analyst after an unusually brilliant report. His next report is merely average, and she concludes praise makes him complacent. The dip shows that her praise backfired.
+explanation: 'An exceptional performance is likely to be followed by a more typical one whatever anyone says, so the drop needs no causal story about praise. This is the flight-instructor pattern: regression can make rewards seem to backfire.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/regression-to-the-mean.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 664787aa31c98fafd841608d213139d73d0caa39
+concepts:
+- ct:regression-to-the-mean
+- ct:correlation-versus-causation
+difficulty: 2
+created: '2026-11-18'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000186
+area: evidence-and-information-literacy
+kind: counter
+topic: Primary and secondary sources
+topic_type: Concept
+true_statement: When several articles agree on a statistic, check whether they all trace back to the same original report, since echoes of one source are not independent confirmation.
+false_statement: When several articles agree on a statistic, count each as independent confirmation, even if they all trace back to the same original report.
+explanation: Agreement only adds weight when the accounts are independent; copies of one study are worth only what that study is worth. Going upstream shows whether you have one source or many.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/primary-and-secondary-sources.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: b3cbf8ca060e996fd4484f9520562a611e7cdb50
+concepts:
+- ct:primary-and-secondary-sources
+- ct:source-criticism
+difficulty: 1
+created: '2026-11-18'
+status: active

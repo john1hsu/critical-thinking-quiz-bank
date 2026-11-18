@@ -1,0 +1,19 @@
+id: ct-000198
+area: informal-fallacies
+kind: counter
+topic: Ad hominem
+topic_type: InformalFallacy
+true_statement: When a claim rests on someone's testimony, a documented conflict of interest is a fair reason for caution, and the remedy is to look for independent confirmation.
+false_statement: When a claim rests on someone's testimony, a documented conflict of interest is enough on its own to conclude that the claim is false.
+explanation: Bias can reasonably lower how much weight we give a speaker's say-so, but it doesn't show the claim is wrong. The fallacy lies in the leap from "may be biased" to "is false".
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/ad-hominem.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 8b66253f4dff9ae908c5cce04a0a09dcdfc81d9f
+concepts:
+- ct:ad-hominem
+- ct:source-credibility
+difficulty: 2
+created: '2026-11-18'
+status: active

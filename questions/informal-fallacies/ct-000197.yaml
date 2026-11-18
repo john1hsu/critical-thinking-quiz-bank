@@ -1,0 +1,19 @@
+id: ct-000197
+area: informal-fallacies
+kind: scenario
+topic: Ad hominem
+topic_type: InformalFallacy
+true_statement: A product manager proposes a simpler checkout flow, backed by usability test results. A colleague replies, "She's only been here three months, so we can ignore this." The reply is an ad hominem.
+false_statement: A product manager proposes a simpler checkout flow, backed by usability test results. A colleague replies, "She's only been here three months, so we can ignore this." The reply is a red herring.
+explanation: The reply rejects the proposal because of a feature of the person, while leaving the test results untouched. A red herring changes the subject to a different issue; here the attack is aimed squarely at the arguer.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/ad-hominem.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 8b66253f4dff9ae908c5cce04a0a09dcdfc81d9f
+concepts:
+- ct:ad-hominem
+- ct:red-herring
+difficulty: 1
+created: '2026-11-18'
+status: active

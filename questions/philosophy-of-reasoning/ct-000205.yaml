@@ -1,0 +1,20 @@
+id: ct-000205
+area: philosophy-of-reasoning
+kind: figure
+topic: Bloom's taxonomy
+topic_type: Framework
+true_statement: A 2020 analysis of 47 Bloom's verb lists from UK higher education found four verbs assigned to all six levels of the taxonomy.
+false_statement: A 2020 analysis of 47 Bloom's verb lists from UK higher education found no verb assigned to more than two levels of the taxonomy.
+explanation: The lists agreed so little that some verbs turned up at every level, and most lists cited no evidence. That undercuts the habit of classifying objectives by verb alone.
+as_of: '2020'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/blooms-taxonomy.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 30f7acb33903f36f9578a5854362ceca64c2cc39
+concepts:
+- ct:blooms-taxonomy
+- ct:newton-2020-blooms-verb-list-study
+difficulty: 3
+created: '2026-11-18'
+status: active

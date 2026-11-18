@@ -1,0 +1,19 @@
+id: ct-000226
+area: cognitive-biases
+kind: figure
+topic: Cognitive bias
+topic_type: Concept
+true_statement: In the Many Labs 2 replication project (2018), median effect sizes shrank from d = 0.60 in the original studies to d = 0.15 in the replications.
+false_statement: In the Many Labs 2 replication project (2018), median effect sizes shrank only slightly, from d = 0.60 in the original studies to d = 0.45 in the replications.
+explanation: Only about half of 28 effects replicated, and typical effects ended up roughly a quarter of their original size. That is why the size of any single bias should be checked study by study.
+as_of: '2018'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/cognitive-bias.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 211aee1400806b542f981539194f4f4c014876db
+concepts:
+- ct:cognitive-bias
+difficulty: 3
+created: '2026-11-18'
+status: active

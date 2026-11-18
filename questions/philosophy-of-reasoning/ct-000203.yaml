@@ -1,0 +1,19 @@
+id: ct-000203
+area: philosophy-of-reasoning
+kind: scenario
+topic: Bloom's taxonomy
+topic_type: Framework
+true_statement: A training goal says staff will "understand the expense policy", but the final quiz only asks them to recall spending limits. On Bloom's revised taxonomy the quiz sits at Remember, so it can't show whether the goal was met.
+false_statement: A training goal says staff will "understand the expense policy", but the final quiz only asks them to recall spending limits. On Bloom's revised taxonomy the quiz sits at Understand, so it lines up with the goal.
+explanation: Recalling limits is retrieval of factual knowledge, the Remember level, while the goal names Understand. Placing both in the taxonomy table exposes the mismatch between what is taught and what is tested.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/blooms-taxonomy.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 30f7acb33903f36f9578a5854362ceca64c2cc39
+concepts:
+- ct:blooms-taxonomy
+- ct:educational-assessment
+difficulty: 2
+created: '2026-11-18'
+status: active

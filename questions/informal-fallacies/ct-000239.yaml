@@ -1,0 +1,19 @@
+id: ct-000239
+area: informal-fallacies
+kind: scenario
+topic: Begging the question
+topic_type: InformalFallacy
+true_statement: A director says a colleague's expansion plan should be rejected because it is "a reckless gamble", and offers no other reason. The loaded label begs the question.
+false_statement: A director says a colleague's expansion plan should be rejected because it is "a reckless gamble", and offers no other reason. The loaded label is a straw man.
+explanation: 'Calling the plan reckless already assumes it should be rejected, so the premise smuggles in the conclusion: a question-begging epithet. A straw man would restate the colleague''s plan in a distorted form and attack that instead.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/begging-the-question.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 3faba62b8211a8720cd20d53071f735701b1856f
+concepts:
+- ct:begging-the-question
+- ct:informal-fallacy
+difficulty: 2
+created: '2026-11-18'
+status: active

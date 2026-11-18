@@ -1,0 +1,19 @@
+id: ct-000241
+area: informal-fallacies
+kind: evidence
+topic: Begging the question
+topic_type: InformalFallacy
+true_statement: Hahn and Oaksford's Bayesian account treats a bare restatement of the conclusion as maximally weak, while allowing that some self-dependent arguments can still raise a hypothesis's probability.
+false_statement: Hahn and Oaksford's Bayesian account treats every self-dependent argument as maximally weak, since none can raise a hypothesis's probability any more than a bare restatement does.
+explanation: They note that accepted scientific inferences, such as reading electron tracks through the theory of electrons, share the self-dependent structure. A restatement changes no one's degree of belief, but other circular-looking arguments can.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/begging-the-question.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 3faba62b8211a8720cd20d53071f735701b1856f
+concepts:
+- ct:begging-the-question
+- ct:bayesian-reasoning
+difficulty: 3
+created: '2026-11-18'
+status: active

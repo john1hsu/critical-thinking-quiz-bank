@@ -1,0 +1,20 @@
+id: ct-000190
+area: formal-fallacies
+kind: figure
+topic: Denying the antecedent
+topic_type: FormalFallacy
+true_statement: A 2019 meta-analysis of 39 conditional-reasoning experiments found that 42% of participants accepted all four conditional inferences, denying the antecedent included.
+false_statement: A 2019 meta-analysis of 39 conditional-reasoning experiments found that only 12% of participants accepted all four conditional inferences, denying the antecedent included.
+explanation: Accepting all four was the single most common pattern, which fits reading "if" as "if and only if". The false figure makes that biconditional reading look rare.
+as_of: '2019'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/denying-the-antecedent.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: c84f8771fd262c85aaba872589d7418c2b70f2ea
+concepts:
+- ct:denying-the-antecedent
+- ct:conditional-perfection
+difficulty: 3
+created: '2026-11-18'
+status: active

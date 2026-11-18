@@ -1,0 +1,19 @@
+id: ct-000157
+area: foundations
+kind: definition
+topic: Burden of proof
+topic_type: Concept
+true_statement: In law, the burden of production is the duty to bring enough evidence to put an issue in play, while the burden of persuasion is the duty to convince the fact-finder to the required standard.
+false_statement: In law, the burden of persuasion is the duty to bring enough evidence to put an issue in play, while the burden of production is the duty to convince the fact-finder to the required standard.
+explanation: Production gets an issue onto the table; persuasion wins it at a set standard such as a preponderance of evidence or beyond reasonable doubt. The false version swaps the two labels.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/burden-of-proof.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 13d3b6a9feaabd70db0a6e6d49a9f8bd3489e03e
+concepts:
+- ct:burden-of-proof
+- ct:legal-reasoning
+difficulty: 2
+created: '2026-11-18'
+status: active

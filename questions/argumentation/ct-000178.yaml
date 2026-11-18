@@ -1,0 +1,19 @@
+id: ct-000178
+area: argumentation
+kind: evidence
+topic: Argumentation schemes
+topic_type: Framework
+true_statement: In a 2018 seminar study, teaching critical questions led students to include more targeted refutations in an unprompted in-class essay, but the gain did not carry over to a later course paper.
+false_statement: In a 2018 seminar study, teaching critical questions led students to include more targeted refutations in an unprompted in-class essay, and the gain carried over to a later course paper too.
+explanation: 'The transfer was partial: the essay showed the effect, the later paper didn''t. With three sections in one course and no randomisation, the result is suggestive rather than conclusive.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argumentation-schemes.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 31e0cc6a0590ee12c22f0fe1f28b159a8877463a
+concepts:
+- ct:argumentation-schemes
+- ct:nussbaum-2018-critical-questions-study
+difficulty: 3
+created: '2026-11-18'
+status: active

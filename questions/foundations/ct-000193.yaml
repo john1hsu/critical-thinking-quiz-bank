@@ -1,0 +1,20 @@
+id: ct-000193
+area: foundations
+kind: origin
+topic: Inductive reasoning
+topic_type: ReasoningMode
+true_statement: David Hume argued that no non-circular reason shows the future will resemble the past, and concluded that habit rather than reason drives our inductive inferences.
+false_statement: Francis Bacon argued that no non-circular reason shows the future will resemble the past, and concluded that habit rather than reason drives our inductive inferences.
+explanation: This is Hume's problem of induction, set out in his Treatise and Enquiry. Bacon, a century earlier, championed induction as the centrepiece of a reformed science rather than questioning its justification.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/inductive-reasoning.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 1c40b7ed118a508df9e03329dee32ebcdc70016a
+concepts:
+- ct:inductive-reasoning
+- ct:david-hume
+- ct:problem-of-induction
+difficulty: 1
+created: '2026-11-18'
+status: active

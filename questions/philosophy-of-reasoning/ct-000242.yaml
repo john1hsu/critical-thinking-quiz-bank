@@ -1,0 +1,19 @@
+id: ct-000242
+area: philosophy-of-reasoning
+kind: counter
+topic: Socratic method
+topic_type: Method
+true_statement: When Socratic questioning shows that a colleague's claim clashes with other things she accepts, ask which of those commitments is weakest, since the clash shows only that something must give.
+false_statement: When Socratic questioning shows that a colleague's claim clashes with other things she accepts, drop her opening claim, since the clash proves that it is the false one.
+explanation: An elenchus exposes inconsistency among beliefs, not which belief is false; she could reasonably give up one of the other premises instead. Scholars call this the problem of the elenchus.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/socratic-method.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: ab632da13c2bb9fa147ce66f3a48dad8c2b31c38
+concepts:
+- ct:socratic-method
+- ct:method-of-counterexample
+difficulty: 2
+created: '2026-11-18'
+status: active

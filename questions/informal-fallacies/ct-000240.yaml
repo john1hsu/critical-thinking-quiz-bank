@@ -1,0 +1,19 @@
+id: ct-000240
+area: informal-fallacies
+kind: counter
+topic: Begging the question
+topic_type: InformalFallacy
+true_statement: If every denial of a suspected cover-up is treated as more proof of it, ask what evidence could ever count against the claim, since one that nothing could refute rests on definition rather than evidence.
+false_statement: If every denial of a suspected cover-up is treated as more proof of it, accept the denials as supporting evidence, since a claim that every response confirms is especially well supported.
+explanation: This a priorist variant defines the claim so that no outcome can tell against it, which leaves it with no real support. Asking what would count against a claim exposes the circle and links it to falsifiability.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/begging-the-question.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 3faba62b8211a8720cd20d53071f735701b1856f
+concepts:
+- ct:begging-the-question
+- ct:falsifiability
+difficulty: 2
+created: '2026-11-18'
+status: active

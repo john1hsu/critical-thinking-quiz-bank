@@ -1,0 +1,19 @@
+id: ct-000231
+area: formal-fallacies
+kind: counter
+topic: Existential fallacy
+topic_type: FormalFallacy
+true_statement: If you know at least one employee did beat quota, the repair for an argument that draws "some quota-beaters will be named" from two universal rules is to state that existence premise, which makes it valid.
+false_statement: If you know at least one employee did beat quota, an argument that draws "some quota-beaters will be named" from two universal rules stays invalid even once that existence premise is stated.
+explanation: The only gap is the unstated claim that the subject class has members, so the argument is better read as an enthymeme than a hopeless fallacy. When membership is uncertain, keep the conclusion universal or conditional instead.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/existential-fallacy.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 2f402addc830fca6a22c5616a9e7c91ca28133cb
+concepts:
+- ct:existential-fallacy
+- ct:categorical-syllogism
+difficulty: 2
+created: '2026-11-18'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000222
+area: formal-logic
+kind: counter
+topic: Venn diagram test
+topic_type: Technique
+true_statement: When running a Venn diagram test, draw the universal premises before the particular ones, since shading added later may cover a region where an X was already placed.
+false_statement: When running a Venn diagram test, draw the particular premises before the universal ones, since an X placed first tells you which regions are safe to shade.
+explanation: Shading first narrows down where an X can legitimately go, so it either lands in a single region or clearly on a line. Placing the X first risks putting it in a region a universal premise says is empty.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/venn-diagram-test.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 0a10796df80d6ec198ec1bec1a6b14df11067f42
+concepts:
+- ct:venn-diagram-test
+- ct:categorical-syllogism
+difficulty: 2
+created: '2026-11-18'
+status: active

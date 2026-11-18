@@ -1,0 +1,19 @@
+id: ct-000200
+area: scientific-reasoning
+kind: scenario
+topic: Philosophy of science
+topic_type: Field
+true_statement: An A/B test finds a redesigned checkout page lifted conversions, and a manager declares the redesign "proven". On the hypothetico-deductive view, the passed test lends the redesign support but not proof.
+false_statement: An A/B test finds a redesigned checkout page lifted conversions, and a manager declares the redesign "proven". On the hypothetico-deductive view, the passed test proves the redesign works, since its prediction came true.
+explanation: A confirmed prediction is consistent with the hypothesis but can't rule out rivals or a fluke, so it adds support rather than proof. A follow-up failure could still implicate the hypothesis or its auxiliaries.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/philosophy-of-science.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: d3bc33ae056cea5229894a32cbfed2d2a2ca0a4f
+concepts:
+- ct:philosophy-of-science
+- ct:hypothesis-testing
+difficulty: 1
+created: '2026-11-18'
+status: active

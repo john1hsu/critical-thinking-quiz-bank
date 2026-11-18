@@ -1,0 +1,19 @@
+id: ct-000227
+area: evidence-and-information-literacy
+kind: scenario
+topic: 'Information Disorder: Toward an Interdisciplinary Framework'
+topic_type: Work
+true_statement: Someone fabricates a memo announcing a regional office closure to stir up anger. A worried employee forwards it to colleagues in good faith. In Wardle and Derakhshan's framework, her forward is misinformation.
+false_statement: Someone fabricates a memo announcing a regional office closure to stir up anger. A worried employee forwards it to colleagues in good faith. In Wardle and Derakhshan's framework, her forward is disinformation.
+explanation: 'The memo is false either way, but intent decides the label at each phase: its creator meant harm (disinformation), while she shared it believing it true (misinformation). The same message can change category as different agents pass it on.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/information-disorder-report.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: b0b63a11255fa65df850c1381229b59073a5e278
+concepts:
+- ct:information-disorder-report
+- ct:misinformation-and-disinformation
+difficulty: 2
+created: '2026-11-18'
+status: active

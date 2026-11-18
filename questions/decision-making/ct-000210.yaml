@@ -1,0 +1,20 @@
+id: ct-000210
+area: decision-making
+kind: evidence
+topic: Intelligence analysis
+topic_type: Field
+true_statement: A 2014 study scoring years of strategic forecasts by a Canadian government assessment unit found the analysts' main error was underconfidence, especially on harder questions.
+false_statement: A 2014 study scoring years of strategic forecasts by a Canadian government assessment unit found the analysts' main error was overconfidence, especially on harder questions.
+explanation: Discrimination and calibration were both good, and the forecasts were if anything too cautious, so recalibrating them to be more extreme improved accuracy. The false version assumes the more familiar overconfidence pattern.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/intelligence-analysis.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: b0546c44d46c4f16fc35fa974c7e2084c9c5b6a5
+concepts:
+- ct:intelligence-analysis
+- ct:calibration
+- ct:judgment-and-decision-making
+difficulty: 3
+created: '2026-11-18'
+status: active

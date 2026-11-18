@@ -1,0 +1,19 @@
+id: ct-000229
+area: evidence-and-information-literacy
+kind: evidence
+topic: 'Information Disorder: Toward an Interdisciplinary Framework'
+topic_type: Work
+true_statement: Tim Hayward argued in 2024 that falsity is the wrong test for disinformation, because selectively presented true facts can still produce false beliefs.
+false_statement: Tim Hayward argued in 2024 that falsity is the right test for disinformation, because selectively presented true facts cannot produce false beliefs.
+explanation: 'Hayward''s critique targets the framework''s reliance on whether content is false: cherry-picked truths can mislead too. He also argued that "malinformation" is ambiguous and counted at least ten kinds of disorder once intent is added.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/information-disorder-report.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: b0b63a11255fa65df850c1381229b59073a5e278
+concepts:
+- ct:information-disorder-report
+- ct:hayward-2024-problem-of-disinformation
+difficulty: 3
+created: '2026-11-18'
+status: active

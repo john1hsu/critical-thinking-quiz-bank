@@ -1,0 +1,19 @@
+id: ct-000217
+area: argumentation
+kind: evidence
+topic: Pragma-dialectics
+topic_type: Framework
+true_statement: In 2002 experiments on the freedom rule, Dutch respondents mostly justified their ratings by argument quality, while politeness mattered more to Spanish respondents.
+false_statement: In 2002 experiments on the freedom rule, Spanish respondents mostly justified their ratings by argument quality, while politeness mattered more to Dutch respondents.
+explanation: Both groups judged fallacious personal attacks less reasonable than legitimate moves, but their stated reasons differed by country. The false version swaps which sample leaned on politeness.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/pragma-dialectics.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: b341ec026181c6280f408728082f237b8ec27d7c
+concepts:
+- ct:pragma-dialectics
+- ct:van-eemeren-garssen-meuffels-2002-freedom-rule-study
+difficulty: 3
+created: '2026-11-18'
+status: active

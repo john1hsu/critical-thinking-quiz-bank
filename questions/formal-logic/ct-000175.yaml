@@ -1,0 +1,20 @@
+id: ct-000175
+area: formal-logic
+kind: figure
+topic: Syllogism
+topic_type: ReasoningForm
+true_statement: A 2012 meta-analysis covering all 64 syllogism premise pairs found that some were solved by about 90% of participants and others by only about 1%.
+false_statement: A 2012 meta-analysis covering all 64 syllogism premise pairs found that even the hardest were solved by about 40% of participants, and the easiest by about 90%.
+explanation: Difficulty ranged from almost everyone right to almost no one right, and none of the twelve theories compared fully explained the pattern. The false version shrinks that enormous spread.
+as_of: '2012'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/syllogism.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 8532cd73b399b4d468280ca9cb210824d60d18a5
+concepts:
+- ct:syllogism
+- ct:cognitive-psychology
+difficulty: 3
+created: '2026-11-18'
+status: active

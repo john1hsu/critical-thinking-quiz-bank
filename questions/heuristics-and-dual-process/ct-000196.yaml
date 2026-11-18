@@ -1,0 +1,19 @@
+id: ct-000196
+area: heuristics-and-dual-process
+kind: evidence
+topic: Dual-process theory
+topic_type: Framework
+true_statement: De Neys's 2023 review found that people who end with the correct answer often gave it already under time pressure, which challenges the view that only slow deliberation produces it.
+false_statement: De Neys's 2023 review found that people who end with the correct answer rarely give it under time pressure, which supports the view that only slow deliberation produces it.
+explanation: Two-response studies showed correct intuitions arriving fast and biased responders still sensing conflict. De Neys proposed that competing intuitions and uncertainty monitoring decide when deliberation starts.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/dual-process-theory.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 34bd7b14f0d0a9a8de106934383724e93634c4d2
+concepts:
+- ct:dual-process-theory
+- ct:de-neys-2023-fast-and-slow-revision
+difficulty: 3
+created: '2026-11-18'
+status: active

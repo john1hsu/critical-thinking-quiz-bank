@@ -1,0 +1,19 @@
+id: ct-000144
+area: evidence-and-information-literacy
+kind: counter
+topic: SIFT
+topic_type: Technique
+true_statement: If you feel eager to forward a post because it confirms what you already think, SIFT says to treat that pull as a cue to stop before reacting or sharing.
+false_statement: If you feel eager to forward a post because it confirms what you already think, SIFT treats that agreement as a sign the post is sound enough to share without checking.
+explanation: The Stop move asks you to pause before reading deeply or sharing, and a strong emotional pull is exactly the signal to slow down. Agreeing with a claim says nothing about whether its source or framing holds up.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/sift-method.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: e7b343f99d3270ecf8eff5fb5a752c70cd734082
+concepts:
+- ct:sift-method
+- ct:misinformation-and-disinformation
+difficulty: 1
+created: '2026-11-18'
+status: active

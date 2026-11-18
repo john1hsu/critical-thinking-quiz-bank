@@ -1,0 +1,19 @@
+id: ct-000209
+area: decision-making
+kind: counter
+topic: Intelligence analysis
+topic_type: Field
+true_statement: When briefing a manager on whether a supplier will miss deliveries, give a probability such as "about 30%" rather than a word like "possible", since verbal phrases convey uncertainty poorly.
+false_statement: When briefing a manager on whether a supplier will miss deliveries, use a word like "possible" rather than a probability such as "about 30%", since verbal phrases convey uncertainty more reliably.
+explanation: Listeners read words like "possible" or "likely" very differently, so the same phrase can mean 10% to one person and 60% to another. A number, or at least a sharp verbal standard, makes the judgment checkable.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/intelligence-analysis.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: b0546c44d46c4f16fc35fa974c7e2084c9c5b6a5
+concepts:
+- ct:intelligence-analysis
+- ct:calibration
+difficulty: 1
+created: '2026-11-18'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000169
+area: decision-making
+kind: evidence
+topic: Key assumptions check
+topic_type: Technique
+true_statement: A 2016 RAND review found structured techniques helped products separate assumptions from judgments, but little or no evidence that individual techniques reduce the cognitive pitfalls they target.
+false_statement: A 2016 RAND review found structured techniques helped products separate assumptions from judgments, and clear evidence that individual techniques reduce the cognitive pitfalls they target.
+explanation: The review was a small, qualitative pilot that judged products better structured, not proven to be less biased. That gap is why the technique's evidence status is contested.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/key-assumptions-check.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: e47694bfaee20fa8935574f73bdd5c47642e1a42
+concepts:
+- ct:key-assumptions-check
+- ct:artner-girven-bruce-2016-rand-sat-assessment
+difficulty: 3
+created: '2026-11-18'
+status: active

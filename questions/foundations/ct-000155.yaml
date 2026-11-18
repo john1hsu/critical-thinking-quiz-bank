@@ -1,0 +1,19 @@
+id: ct-000155
+area: foundations
+kind: scenario
+topic: Burden of proof
+topic_type: Concept
+true_statement: An engineer proposes switching the team's build tool. A colleague objects that it will slow builds and shares benchmark data. A burden to answer that objection now passes back to the engineer.
+false_statement: An engineer proposes switching the team's build tool. A colleague objects that it will slow builds and shares benchmark data. The colleague now carries the overall burden of proving the switch isn't worth it.
+explanation: The proposer changes the status quo, so the global burden stays with the engineer; evidence-backed objections create a local, tactical burden to respond. Raising an objection doesn't hand the objector the whole case.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/burden-of-proof.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 13d3b6a9feaabd70db0a6e6d49a9f8bd3489e03e
+concepts:
+- ct:burden-of-proof
+- ct:legal-reasoning
+difficulty: 2
+created: '2026-11-18'
+status: active

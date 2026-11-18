@@ -1,0 +1,18 @@
+id: ct-000153
+area: formal-fallacies
+kind: counter
+topic: Affirming a disjunct
+topic_type: FormalFallacy
+true_statement: To repair an argument that affirms a disjunct, state the hidden premise that the two options cannot both be true and defend it; with that premise the inference becomes valid.
+false_statement: To repair an argument that affirms a disjunct, add the premise that at least one of the two options is true; with that premise the inference becomes valid.
+explanation: 'The gap is the unstated exclusive reading: only a supported "not both" premise lets confirming one option rule out the other. "At least one is true" is what the inclusive "or" already says, so adding it changes nothing.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/affirming-a-disjunct.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 9f87a44e20b75acf218d880ef4dddd373cc1dedd
+concepts:
+- ct:affirming-a-disjunct
+difficulty: 2
+created: '2026-11-18'
+status: active

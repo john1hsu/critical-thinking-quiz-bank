@@ -1,0 +1,20 @@
+id: ct-000212
+area: history-and-thinkers
+kind: scenario
+topic: Stephen Toulmin
+topic_type: Person
+true_statement: A facilities manager argues against renewing an office lease because sensors show desks in use 30% of the time. A Toulmin-style review asks what warrant and property-management backing link low use to non-renewal, rather than faulting it for not being a valid deduction.
+false_statement: A facilities manager argues against renewing an office lease because sensors show desks in use 30% of the time. A Toulmin-style review rejects the argument because the conclusion doesn't follow necessarily from the occupancy data.
+explanation: Toulmin attacked the idea that serious arguments must be recast as formal deductions. He judged practical arguments by their warrants, backing and possible rebuttals, using the standards of the field they belong to.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/stephen-toulmin.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 50242ac0915c3c0e9c715ca15df6798525242a50
+concepts:
+- ct:stephen-toulmin
+- ct:toulmin-model
+- ct:deductive-reasoning
+difficulty: 2
+created: '2026-11-18'
+status: active

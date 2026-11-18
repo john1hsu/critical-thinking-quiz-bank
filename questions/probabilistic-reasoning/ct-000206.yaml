@@ -1,0 +1,19 @@
+id: ct-000206
+area: probabilistic-reasoning
+kind: scenario
+topic: Conjunction fallacy
+topic_type: ProbabilisticFallacy
+true_statement: A risk team rates "our key supplier collapses and the vendor then goes bankrupt" as more likely than "the vendor goes bankrupt", because the supplier story fits what they know. That is the conjunction fallacy.
+false_statement: A risk team rates "our key supplier collapses and the vendor then goes bankrupt" as more likely than "the vendor goes bankrupt", because the supplier story fits what they know. That is base-rate neglect.
+explanation: Every supplier-driven bankruptcy is also a bankruptcy, so the combined event can't be likelier than its part. Base-rate neglect is ignoring how common an outcome is overall; the tell here is a detailed story rated above the bare outcome it contains.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/conjunction-fallacy.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 19394c8536559eb537a3155f5e9209b2bcd85c66
+concepts:
+- ct:conjunction-fallacy
+- ct:base-rate-neglect
+difficulty: 2
+created: '2026-11-18'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000201
+area: scientific-reasoning
+kind: origin
+topic: Philosophy of science
+topic_type: Field
+true_statement: The Vienna Circle, led by Moritz Schlick and meeting from 1924, supplied the blueprint for analytic philosophy of science.
+false_statement: The Vienna Circle, led by Thomas Kuhn and meeting from 1924, supplied the blueprint for analytic philosophy of science.
+explanation: 'Schlick led the Circle, with members such as Carnap, Neurath and Hahn, and its emigrés carried the programme abroad in the 1930s. Kuhn came later: his 1962 Structure turned the field toward history and away from that rule-governed picture.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/philosophy-of-science.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: d3bc33ae056cea5229894a32cbfed2d2a2ca0a4f
+concepts:
+- ct:philosophy-of-science
+- ct:logical-empiricism
+difficulty: 2
+created: '2026-11-18'
+status: active

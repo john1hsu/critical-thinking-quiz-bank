@@ -1,0 +1,18 @@
+id: ct-000166
+area: scientific-reasoning
+kind: evidence
+topic: Occam's razor
+topic_type: Principle
+true_statement: In Lombrozo's 2007 experiments, people gave simpler causal explanations a higher prior, but that preference could be overridden when probability information clearly favoured a more complex one.
+false_statement: In Lombrozo's 2007 experiments, people gave simpler causal explanations a higher prior, and that preference held firm even when probability information clearly favoured a more complex one.
+explanation: Simplicity weighed heavily, so complex explanations needed disproportionately strong evidence, but clear probability information could still win. That is why the razor should be treated as a provisional starting point.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/occams-razor.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: fe092257523cb7db7d1eaa34fcdc4fde533592fc
+concepts:
+- ct:occams-razor
+difficulty: 3
+created: '2026-11-18'
+status: active

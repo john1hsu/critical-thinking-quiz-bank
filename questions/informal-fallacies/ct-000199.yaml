@@ -1,0 +1,19 @@
+id: ct-000199
+area: informal-fallacies
+kind: evidence
+topic: Ad hominem
+topic_type: InformalFallacy
+true_statement: In 2018 experiments, alleging that a scientist had a financial conflict of interest lowered acceptance of their claim about as much as criticising the study's methods did.
+false_statement: In 2018 experiments, alleging that a scientist had a financial conflict of interest had no reliable effect on acceptance of their claim, unlike criticising the study's methods.
+explanation: Conflict-of-interest and fraud allegations swayed people roughly as much as a methods critique. It was attacks on education or a reputation for sloppiness that showed no reliable effect.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/ad-hominem.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 8b66253f4dff9ae908c5cce04a0a09dcdfc81d9f
+concepts:
+- ct:ad-hominem
+- ct:barnes-2018-ad-hominem-attacks-on-scientists-study
+difficulty: 3
+created: '2026-11-18'
+status: active

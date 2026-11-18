@@ -1,0 +1,20 @@
+id: ct-000159
+area: heuristics-and-dual-process
+kind: origin
+topic: Cognitive psychology
+topic_type: Field
+true_statement: Ulric Neisser's 1967 book Cognitive Psychology gave the field its name, which is why he became known as its father.
+false_statement: Noam Chomsky's 1967 book Cognitive Psychology gave the field its name, which is why he became known as its father.
+explanation: Chomsky's critique of behaviorist accounts of language helped spark the cognitive revolution, but the 1967 textbook that named and unified the field was Neisser's.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/cognitive-psychology.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 2896d212007da4d7b096a31f1ea9bc4e43809aa9
+concepts:
+- ct:cognitive-psychology
+- ct:ulric-neisser
+- ct:noam-chomsky
+difficulty: 1
+created: '2026-11-18'
+status: active

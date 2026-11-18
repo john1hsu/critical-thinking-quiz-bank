@@ -1,0 +1,19 @@
+id: ct-000158
+area: heuristics-and-dual-process
+kind: counter
+topic: Cognitive psychology
+topic_type: Field
+true_statement: Before reading lab errors on syllogism tasks as proof that people are irrational, ask whether the standard instructions made ordinary pragmatic influences look like biases.
+false_statement: Before reading lab errors on syllogism tasks as proof that people are irrational, check them against the rules of logic, which reasoning researchers still widely treat as the right standard for everyday reasoning.
+explanation: Evans's review of the deduction paradigm warns that task instructions can make pragmatic processing look like error, and notes that few researchers still treat logic as the right yardstick for everyday reasoning. The false version restores the logicist outlook he says has faded.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/cognitive-psychology.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 2896d212007da4d7b096a31f1ea9bc4e43809aa9
+concepts:
+- ct:cognitive-psychology
+- ct:deductive-reasoning
+difficulty: 3
+created: '2026-11-18'
+status: active

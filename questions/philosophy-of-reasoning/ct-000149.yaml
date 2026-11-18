@@ -1,0 +1,19 @@
+id: ct-000149
+area: philosophy-of-reasoning
+kind: scenario
+topic: Justified true belief
+topic_type: Concept
+true_statement: With no data or track record to go on, a colleague confidently predicts a supplier will miss its deadline, and it does. On the JTB analysis, his true belief was not knowledge, because nothing justified it.
+false_statement: With no data or track record to go on, a colleague confidently predicts a supplier will miss its deadline, and it does. On the JTB analysis, his belief was knowledge, because he sincerely held it and it proved true.
+explanation: 'Truth and belief are not enough: the justification condition exists to screen out lucky guesses like this one. The tell is that nothing supported the prediction, so it fails the third condition even though it came true.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/justified-true-belief.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: aa96b03b7004b3fb2d2371cd2f1beae26fc40cd4
+concepts:
+- ct:justified-true-belief
+- ct:epistemology
+difficulty: 1
+created: '2026-11-18'
+status: active

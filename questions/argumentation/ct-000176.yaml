@@ -1,0 +1,19 @@
+id: ct-000176
+area: argumentation
+kind: scenario
+topic: Argumentation schemes
+topic_type: Framework
+true_statement: A team accepts the night supervisor's report that the loading dock flooded overnight, because she was there and saw it. The team is reasoning from a position to know.
+false_statement: A team accepts the night supervisor's report that the loading dock flooded overnight, because she was there and saw it. The team is reasoning from expert opinion.
+explanation: The supervisor's authority comes from access to the facts, not from expertise in a field. The expert-opinion scheme specifically requires the source to be an expert, which is what separates it from the broader position-to-know scheme.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argumentation-schemes.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 31e0cc6a0590ee12c22f0fe1f28b159a8877463a
+concepts:
+- ct:argumentation-schemes
+- ct:argument-from-expert-opinion
+difficulty: 2
+created: '2026-11-18'
+status: active

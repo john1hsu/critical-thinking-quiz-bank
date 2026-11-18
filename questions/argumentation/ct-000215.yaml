@@ -1,0 +1,19 @@
+id: ct-000215
+area: argumentation
+kind: scenario
+topic: Pragma-dialectics
+topic_type: Framework
+true_statement: A colleague proposes trimming the travel budget by 10%. A manager rebuts her by arguing at length that banning all travel would wreck client relationships. In pragma-dialectical terms, the rebuttal breaks the standpoint rule.
+false_statement: A colleague proposes trimming the travel budget by 10%. A manager rebuts her by arguing at length that banning all travel would wreck client relationships. In pragma-dialectical terms, the rebuttal breaks the freedom rule.
+explanation: 'The standpoint rule says to attack only positions the other side actually holds, and here a trim has become a ban: a straw man. The freedom rule covers moves that stop someone from advancing or questioning a standpoint at all, such as personal attacks.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/pragma-dialectics.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: b341ec026181c6280f408728082f237b8ec27d7c
+concepts:
+- ct:pragma-dialectics
+- ct:straw-man-fallacy
+difficulty: 2
+created: '2026-11-18'
+status: active

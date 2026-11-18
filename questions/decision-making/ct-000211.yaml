@@ -1,0 +1,20 @@
+id: ct-000211
+area: decision-making
+kind: origin
+topic: Intelligence analysis
+topic_type: Field
+true_statement: Richards Heuer argued in 1999 that many analytic failures come from the mind's built-in limits rather than from a lack of information.
+false_statement: Sherman Kent argued in 1999 that many analytic failures come from the mind's built-in limits rather than from a lack of information.
+explanation: Heuer's Psychology of Intelligence Analysis brought cognitive psychology into analytic training. Kent, the earlier founding figure, fought bureaucratic and ideological bias but wrote little about cognitive limits.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/intelligence-analysis.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: b0546c44d46c4f16fc35fa974c7e2084c9c5b6a5
+concepts:
+- ct:intelligence-analysis
+- ct:richards-heuer
+- ct:sherman-kent
+difficulty: 2
+created: '2026-11-18'
+status: active

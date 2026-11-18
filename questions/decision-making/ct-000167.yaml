@@ -1,0 +1,19 @@
+id: ct-000167
+area: decision-making
+kind: scenario
+topic: Key assumptions check
+topic_type: Technique
+true_statement: Before approving a hiring plan, a team writes out its conclusion, lists every premise it rests on (budget holds, attrition stays low, the market stays tight), challenges each, and notes signs that would show one has failed. That is a key assumptions check.
+false_statement: Before approving a hiring plan, a team writes out its conclusion, lists every premise it rests on (budget holds, attrition stays low, the market stays tight), challenges each, and notes signs that would show one has failed. That is a premortem.
+explanation: The tell is the list of premises tested one by one, ending with warning signs to watch. A premortem instead imagines the plan has already failed and asks people to explain why.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/key-assumptions-check.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: e47694bfaee20fa8935574f73bdd5c47642e1a42
+concepts:
+- ct:key-assumptions-check
+- ct:premortem
+difficulty: 2
+created: '2026-11-18'
+status: active

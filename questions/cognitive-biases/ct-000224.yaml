@@ -1,0 +1,18 @@
+id: ct-000224
+area: cognitive-biases
+kind: scenario
+topic: Cognitive bias
+topic_type: Concept
+true_statement: A manager's one-off cost estimate for a project turns out 20% too high. That single miss doesn't by itself show a cognitive bias, since a bias shows up as errors leaning the same way across people or occasions.
+false_statement: A manager's one-off cost estimate for a project turns out 20% too high. That single miss by itself shows a cognitive bias, since any departure from the actual figure counts as one.
+explanation: 'Bias is defined statistically: a consistent, directional gap between judgments and a standard. One error could be random noise; you''d need a pattern, such as estimates repeatedly leaning toward an arbitrary starting figure.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/cognitive-bias.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 211aee1400806b542f981539194f4f4c014876db
+concepts:
+- ct:cognitive-bias
+difficulty: 1
+created: '2026-11-18'
+status: active

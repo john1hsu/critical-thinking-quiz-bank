@@ -1,0 +1,19 @@
+id: ct-000219
+area: debiasing-and-metacognition
+kind: counter
+topic: Taking the outside view
+topic_type: Technique
+true_statement: An editor expects a book to sell 12,000 copies, similar books average 4,000, and her impressions have predictability of about 0.6. The outside-view correction gives a forecast of about 8,800 copies.
+false_statement: An editor expects a book to sell 12,000 copies, similar books average 4,000, and her impressions have predictability of about 0.6. The outside-view correction gives a forecast of about 7,200 copies.
+explanation: 'Start at the class average and move toward the case estimate in proportion to predictability: 4,000 + 0.6 × 8,000 = 8,800. The false figure moves only 0.4 of the way, as if predictability were weighted the wrong way round.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/outside-view.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: cd645b061e2ade6ae038ebd2b613e9f2b614575d
+concepts:
+- ct:outside-view
+- ct:regression-to-the-mean
+difficulty: 3
+created: '2026-11-18'
+status: active

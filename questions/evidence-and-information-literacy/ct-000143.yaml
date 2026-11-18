@@ -1,0 +1,18 @@
+id: ct-000143
+area: evidence-and-information-literacy
+kind: scenario
+topic: SIFT
+topic_type: Technique
+true_statement: A neighbour forwards a dramatic photo captioned as last night's storm damage downtown. Of the SIFT moves, the one this problem calls for most is tracing the image back to its original context.
+false_statement: A neighbour forwards a dramatic photo captioned as last night's storm damage downtown. Of the SIFT moves, the one this problem calls for most is investigating the source's expertise and agenda.
+explanation: The doubt is about a reused image, and a viral image mainly needs tracing to see where and when it first appeared. Investigating the source fits best when the problem is an unfamiliar website, not a picture that may have been lifted from elsewhere.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/sift-method.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: e7b343f99d3270ecf8eff5fb5a752c70cd734082
+concepts:
+- ct:sift-method
+difficulty: 2
+created: '2026-11-18'
+status: active

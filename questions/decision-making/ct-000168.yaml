@@ -1,0 +1,19 @@
+id: ct-000168
+area: decision-making
+kind: counter
+topic: Key assumptions check
+topic_type: Technique
+true_statement: A key assumptions check run only by the people who own the conclusion can simply re-endorse it, so it works better paired with challenge from outside the team.
+false_statement: A key assumptions check run only by the people who own the conclusion is the most reliable form, since owners know the premises best and outside challenge adds little.
+explanation: Mind-sets absorb new information instead of being revised, and owners are the least likely to see their own hidden premises. Heuer pairs explicit assumptions with outside challenge for that reason.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/key-assumptions-check.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: e47694bfaee20fa8935574f73bdd5c47642e1a42
+concepts:
+- ct:key-assumptions-check
+- ct:confirmation-bias
+difficulty: 2
+created: '2026-11-18'
+status: active

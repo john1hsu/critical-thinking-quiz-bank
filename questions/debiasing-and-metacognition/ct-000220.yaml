@@ -1,0 +1,20 @@
+id: ct-000220
+area: debiasing-and-metacognition
+kind: evidence
+topic: Taking the outside view
+topic_type: Technique
+true_statement: In geopolitical forecasting tournaments, citing comparison classes was the reasoning habit most strongly tied to better scores, though that particular link was only correlational.
+false_statement: In geopolitical forecasting tournaments, citing comparison classes was the reasoning habit most strongly tied to better scores, a causal link established by randomly assigning the habit.
+explanation: The short training module on base rates was tested in randomised comparisons, but the link between citing comparison classes and accuracy came from observing forecasters. Keep the two claims apart when weighing the evidence.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/outside-view.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: cd645b061e2ade6ae038ebd2b613e9f2b614575d
+concepts:
+- ct:outside-view
+- ct:geopolitical-forecasting
+- ct:chang-2016-forecasting-training-study
+difficulty: 3
+created: '2026-11-18'
+status: active

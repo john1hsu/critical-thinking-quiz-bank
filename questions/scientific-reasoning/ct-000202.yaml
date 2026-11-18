@@ -1,0 +1,19 @@
+id: ct-000202
+area: scientific-reasoning
+kind: mechanism
+topic: Philosophy of science
+topic_type: Field
+true_statement: Kuhn argued that shared values such as accuracy, consistency, simplicity and fruitfulness guide scientists' choice between theories without dictating it.
+false_statement: Kuhn argued that shared values such as accuracy, consistency, simplicity and fruitfulness act as rules that dictate which theory scientists must choose.
+explanation: Because the values can pull in different directions and be weighed differently, Kuhn denied that rules fix theory choice. That denial is what drew charges of relativism, which he rejected.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/philosophy-of-science.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: d3bc33ae056cea5229894a32cbfed2d2a2ca0a4f
+concepts:
+- ct:philosophy-of-science
+- ct:thomas-kuhn
+difficulty: 2
+created: '2026-11-18'
+status: active

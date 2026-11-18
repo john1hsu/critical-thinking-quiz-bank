@@ -1,0 +1,19 @@
+id: ct-000233
+area: foundations
+kind: scenario
+topic: Inference to the best explanation
+topic_type: ReasoningForm
+true_statement: After a deploy, checkout times out only on the discount-code path. A team concludes a new database index is the cause, since it explains that narrow pattern while a network fault or traffic spike would slow every path. That is inference to the best explanation.
+false_statement: After a deploy, checkout times out only on the discount-code path. A team concludes a new database index is the cause, since it explains that narrow pattern while a network fault or traffic spike would slow every path. That is simple enumerative induction.
+explanation: The team compares rival hypotheses by how well each would explain the evidence, which is the mark of IBE. Enumerative induction instead projects from observed cases, such as "every past deploy did X, so this one will".
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/inference-to-the-best-explanation.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 262b5ec97c75648bab29ada5ca06df70072be41e
+concepts:
+- ct:inference-to-the-best-explanation
+- ct:inductive-reasoning
+difficulty: 2
+created: '2026-11-18'
+status: active

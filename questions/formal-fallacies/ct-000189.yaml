@@ -1,0 +1,19 @@
+id: ct-000189
+area: formal-fallacies
+kind: counter
+topic: Denying the antecedent
+topic_type: FormalFallacy
+true_statement: If a speaker who denies the antecedent really means that P is necessary for Q, restate the premise as "if not P, then not Q"; the argument becomes valid but now rests on that stronger premise, which needs its own support.
+false_statement: If a speaker who denies the antecedent really means that P is necessary for Q, restate the premise as "if not P, then not Q"; the argument becomes valid and needs no further support, since that premise was implied all along.
+explanation: Making the hidden "only if" explicit fixes the form but moves the whole question onto that premise. Whether P really is the only route to Q is exactly what has to be shown.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/denying-the-antecedent.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: c84f8771fd262c85aaba872589d7418c2b70f2ea
+concepts:
+- ct:denying-the-antecedent
+- ct:conditional-perfection
+difficulty: 2
+created: '2026-11-18'
+status: active

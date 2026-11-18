@@ -1,0 +1,18 @@
+id: ct-000194
+area: heuristics-and-dual-process
+kind: scenario
+topic: Dual-process theory
+topic_type: Framework
+true_statement: An analyst approves a support plan that "adds only 10% per year" at a glance, missing that the uplift compounds. On a dual-process reading, the slip was a fast default nobody paused to test, not ignorance of compounding.
+false_statement: An analyst approves a support plan that "adds only 10% per year" at a glance, missing that the uplift compounds. On a dual-process reading, the slip was ignorance of compounding, not a fast default nobody paused to test.
+explanation: The analyst could do the maths; the quick Type 1 answer simply went unchecked, and a colleague who wrote out the five-year total caught it. The tell is an instant judgment that a deliberate check overturns.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/dual-process-theory.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 34bd7b14f0d0a9a8de106934383724e93634c4d2
+concepts:
+- ct:dual-process-theory
+difficulty: 2
+created: '2026-11-18'
+status: active

@@ -1,0 +1,18 @@
+id: ct-000150
+area: philosophy-of-reasoning
+kind: definition
+topic: Justified true belief
+topic_type: Concept
+true_statement: The JTB analysis tries to define propositional knowledge, knowing that something is so, rather than knowing a person or knowing how to do something.
+false_statement: The JTB analysis tries to define practical know-how, knowing how to do something, rather than knowing that something is so.
+explanation: 'Its three conditions apply to a proposition p: p is true, S believes p, and S is justified in believing p. Skills and acquaintance with people fall outside what it sets out to define.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/justified-true-belief.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: aa96b03b7004b3fb2d2371cd2f1beae26fc40cd4
+concepts:
+- ct:justified-true-belief
+difficulty: 1
+created: '2026-11-18'
+status: active

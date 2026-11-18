@@ -1,0 +1,19 @@
+id: ct-000151
+area: philosophy-of-reasoning
+kind: origin
+topic: Justified true belief
+topic_type: Concept
+true_statement: Julien Dutant argued in 2015 that the view most philosophers held before Gettier was classical infallibilism, not the justified true belief analysis.
+false_statement: Julien Dutant argued in 2015 that the justified true belief analysis was the near-universal received view before Gettier, just as Gettier's paper implied.
+explanation: Dutant challenges the story that JTB was the traditional analysis, calling it partly a twentieth-century reconstruction made famous by Gettier's cases. On his reading, knowing earlier required a belief with a mark only true beliefs can have.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/justified-true-belief.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: aa96b03b7004b3fb2d2371cd2f1beae26fc40cd4
+concepts:
+- ct:justified-true-belief
+- ct:classical-infallibilism
+difficulty: 3
+created: '2026-11-18'
+status: active

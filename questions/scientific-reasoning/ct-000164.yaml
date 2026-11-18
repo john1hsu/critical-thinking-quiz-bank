@@ -1,0 +1,19 @@
+id: ct-000164
+area: scientific-reasoning
+kind: scenario
+topic: Occam's razor
+topic_type: Principle
+true_statement: Support tickets spike. One bug would explain the spike but not why only mobile users are affected; a two-cause account explains both facts. Occam's razor gives no reason to prefer the one-bug story here.
+false_statement: Support tickets spike. One bug would explain the spike but not why only mobile users are affected; a two-cause account explains both facts. Occam's razor favours the one-bug story here, since it posits fewer causes.
+explanation: The razor only ranks hypotheses that explain the evidence equally well. A simpler story that leaves a fact unexplained isn't the parsimonious winner but the weaker account, so check the tie before counting causes.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/occams-razor.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: fe092257523cb7db7d1eaa34fcdc4fde533592fc
+concepts:
+- ct:occams-razor
+- ct:inference-to-the-best-explanation
+difficulty: 2
+created: '2026-11-18'
+status: active

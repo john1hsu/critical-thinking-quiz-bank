@@ -1,0 +1,19 @@
+id: ct-000171
+area: history-and-thinkers
+kind: mechanism
+topic: Posterior Analytics
+topic_type: Work
+true_statement: In Book II of the Posterior Analytics, asking why something is so amounts to asking for the middle term of a deduction, because the middle term names the cause.
+false_statement: In Book II of the Posterior Analytics, asking why something is so amounts to asking for the conclusion of a deduction, because the conclusion names the cause.
+explanation: In a syllogism the middle term links the other two terms, and Aristotle identifies that link with the cause, as in asking what makes the moon eclipsed. The conclusion states the fact to be explained, not its cause.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/posterior-analytics.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: cb41148b439689208754a751283e756ea5450a6e
+concepts:
+- ct:posterior-analytics
+- ct:syllogism
+difficulty: 3
+created: '2026-11-18'
+status: active

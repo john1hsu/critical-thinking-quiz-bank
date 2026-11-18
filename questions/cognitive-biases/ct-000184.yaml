@@ -1,0 +1,20 @@
+id: ct-000184
+area: cognitive-biases
+kind: evidence
+topic: Belief bias
+topic_type: CognitiveBias
+true_statement: In a 2005 study, forcing people to answer quickly increased belief bias and cut logically correct answers, which was read as support for dual-process theory.
+false_statement: In a 2005 study, forcing people to answer quickly reduced belief bias and raised logically correct answers, which was read as evidence against dual-process theory.
+explanation: On the dual-process account, fast intuition produces belief-based answers and slower analysis is needed to override them, so time pressure should make the bias worse, and it did. The false version reverses the direction of the effect.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/belief-bias.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: cb58721fb8bc0b163cf4a71d9d77cac92f4ba9c5
+concepts:
+- ct:belief-bias
+- ct:time-pressure
+- ct:dual-process-theory
+difficulty: 3
+created: '2026-11-18'
+status: active

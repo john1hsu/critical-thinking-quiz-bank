@@ -1,0 +1,20 @@
+id: ct-000237
+area: heuristics-and-dual-process
+kind: mechanism
+topic: Bounded rationality
+topic_type: Concept
+true_statement: In Simon's 1955 satisficing model, a decision maker's aspiration level rises when good options are easy to find and falls when they are scarce.
+false_statement: In Simon's 1955 satisficing model, a decision maker's aspiration level falls when good options are easy to find and rises when they are scarce.
+explanation: The threshold adapts to the environment, like a house seller who starts with a high asking price and lowers it as offers come in. That lets a limited searcher stop at "good enough" without knowing the full range of options.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/bounded-rationality.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: d69c0452a24bb961488dafb88314157b09a36b6e
+concepts:
+- ct:bounded-rationality
+- ct:satisficing
+- ct:herbert-simon
+difficulty: 2
+created: '2026-11-18'
+status: active

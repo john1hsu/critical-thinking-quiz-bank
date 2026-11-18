@@ -1,0 +1,19 @@
+id: ct-000145
+area: evidence-and-information-literacy
+kind: evidence
+topic: SIFT
+topic_type: Technique
+true_statement: The 2021 civics-course study of SIFT-style lateral reading instruction did not randomly assign class sections, so its gains are promising rather than conclusive.
+false_statement: The 2021 civics-course study of SIFT-style lateral reading instruction randomly assigned class sections, so its gains settle that the method works.
+explanation: 'The study was quasi-experimental: taught and control sections were matched, not randomised, and it came from one institution with no retention test. That is why the method''s evidence status is mixed rather than strong.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/sift-method.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: e7b343f99d3270ecf8eff5fb5a752c70cd734082
+concepts:
+- ct:sift-method
+- ct:brodsky-2021-civics-course-fact-checking-study
+difficulty: 3
+created: '2026-11-18'
+status: active

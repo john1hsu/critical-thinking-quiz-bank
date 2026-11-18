@@ -1,0 +1,19 @@
+id: ct-000213
+area: history-and-thinkers
+kind: mechanism
+topic: Stephen Toulmin
+topic_type: Person
+true_statement: Toulmin held that the layout of an argument is the same in every field, while the standards for appraising it vary from field to field.
+false_statement: Toulmin held that the standards for appraising an argument are the same in every field, while its layout varies from field to field.
+explanation: Data, warrant, backing, qualifier, rebuttal and claim appear everywhere, but what counts as good backing differs in law, medicine or science. That field-dependence is also the source of the charge that his view slides into relativism.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/stephen-toulmin.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 50242ac0915c3c0e9c715ca15df6798525242a50
+concepts:
+- ct:stephen-toulmin
+- ct:argumentation-theory
+difficulty: 2
+created: '2026-11-18'
+status: active

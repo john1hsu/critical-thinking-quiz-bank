@@ -1,0 +1,19 @@
+id: ct-000225
+area: cognitive-biases
+kind: mechanism
+topic: Cognitive bias
+topic_type: Concept
+true_statement: Error management theory holds that when false alarms and misses carried unequal costs over evolutionary history, selection favoured leaning toward the cheaper error.
+false_statement: Error management theory holds that when false alarms and misses carried unequal costs over evolutionary history, selection favoured leaning toward the costlier error.
+explanation: Like a smoke detector tuned to sound too often rather than miss a fire, some biases trade frequent cheap mistakes for fewer expensive ones. On this view they are design features, not defects.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/cognitive-bias.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 211aee1400806b542f981539194f4f4c014876db
+concepts:
+- ct:cognitive-bias
+- ct:error-management-theory
+difficulty: 2
+created: '2026-11-18'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000191
+area: foundations
+kind: scenario
+topic: Inductive reasoning
+topic_type: ReasoningMode
+true_statement: Twelve app releases in a row brought a first-week spike in support tickets, and the next release follows the same process, so a spike is probable. If those premises are in fact true, the argument is cogent.
+false_statement: Twelve app releases in a row brought a first-week spike in support tickets, and the next release follows the same process, so a spike is probable. If those premises are in fact true, the argument is sound.
+explanation: An inductive argument that is strong and has true premises is called cogent. Sound is the deductive term, for a valid argument with true premises, and this argument makes its conclusion likely rather than guaranteed.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/inductive-reasoning.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 1c40b7ed118a508df9e03329dee32ebcdc70016a
+concepts:
+- ct:inductive-reasoning
+- ct:deductive-reasoning
+difficulty: 2
+created: '2026-11-18'
+status: active

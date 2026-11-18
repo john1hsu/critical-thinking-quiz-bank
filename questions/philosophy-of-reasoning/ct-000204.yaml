@@ -1,0 +1,19 @@
+id: ct-000204
+area: philosophy-of-reasoning
+kind: counter
+topic: Bloom's taxonomy
+topic_type: Framework
+true_statement: To place a learning objective in Bloom's taxonomy, check what the task actually demands rather than looking its verb up in a list, since the same verb can call for very different thinking.
+false_statement: To place a learning objective in Bloom's taxonomy, look its verb up in a standard Bloom's verb list, since each verb maps reliably onto a single level.
+explanation: Verbs such as "explain" or "select" can mean simple recall or real analysis depending on the task. Published verb lists disagree widely, so the assessment itself is the better guide.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/blooms-taxonomy.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 30f7acb33903f36f9578a5854362ceca64c2cc39
+concepts:
+- ct:blooms-taxonomy
+- ct:newton-2020-blooms-verb-list-study
+difficulty: 2
+created: '2026-11-18'
+status: active

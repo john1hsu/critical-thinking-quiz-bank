@@ -1,0 +1,18 @@
+id: ct-000192
+area: foundations
+kind: counter
+topic: Inductive reasoning
+topic_type: ReasoningMode
+true_statement: Before projecting a pattern from past cases to a new one, ask why the feature occurred in the cases you observed, since causally grounded features carry over better than incidental ones.
+false_statement: Before projecting a pattern from past cases to a new one, ask why the feature occurred in the cases you observed, since incidental features carry over better than causally grounded ones.
+explanation: 'Whether a property projects depends on why it showed up: a stable cause is likely to be present again, a coincidence is not. The false version reverses which kind of feature generalises well.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/inductive-reasoning.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 1c40b7ed118a508df9e03329dee32ebcdc70016a
+concepts:
+- ct:inductive-reasoning
+difficulty: 2
+created: '2026-11-18'
+status: active

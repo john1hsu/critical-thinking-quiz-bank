@@ -1,0 +1,19 @@
+id: ct-000177
+area: argumentation
+kind: counter
+topic: Argumentation schemes
+topic_type: Framework
+true_statement: Some critical questions shift the burden back to the arguer only when backed by evidence, so raising one with nothing behind it does not by itself defeat a scheme-based argument.
+false_statement: Every critical question defeats a scheme-based argument the moment it is asked, whether or not any evidence backs it.
+explanation: 'Critical questions differ in force: some defeat the argument once asked, while others need supporting evidence before the arguer must respond. Treating every bare question as a refutation would make all presumptive arguments collapse.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argumentation-schemes.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 31e0cc6a0590ee12c22f0fe1f28b159a8877463a
+concepts:
+- ct:argumentation-schemes
+- ct:burden-of-proof
+difficulty: 3
+created: '2026-11-18'
+status: active

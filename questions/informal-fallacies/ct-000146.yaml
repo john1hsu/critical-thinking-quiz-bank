@@ -1,0 +1,19 @@
+id: ct-000146
+area: informal-fallacies
+kind: scenario
+topic: Informal fallacy
+topic_type: Concept
+true_statement: In a design review, a lead says a database will scale because the principal architect says so, though the architect is a networking specialist and other database experts disagree. In this context the appeal to expertise is fallacious.
+false_statement: In a design review, a lead says a database will scale because the principal architect says so, though the architect is a networking specialist and other database experts disagree. In this context the appeal to expertise is a reasonable one.
+explanation: 'An appeal to expert opinion can be sound, so the verdict turns on context: here the cited expert lacks expertise in the field and other experts disagree. Those are exactly the conditions that turn a reasonable appeal into a fallacious one.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/informal-fallacy.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: fa46e257248562c036263b2fe891947be79e45c8
+concepts:
+- ct:informal-fallacy
+- ct:argumentation-schemes
+difficulty: 2
+created: '2026-11-18'
+status: active

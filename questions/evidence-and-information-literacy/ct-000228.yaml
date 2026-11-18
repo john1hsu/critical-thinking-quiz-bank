@@ -1,0 +1,19 @@
+id: ct-000228
+area: evidence-and-information-literacy
+kind: counter
+topic: 'Information Disorder: Toward an Interdisciplinary Framework'
+topic_type: Work
+true_statement: Before calling a misleading post "disinformation", ask what shows the sharer meant harm, since intent is hard to establish and the same story can shift categories as it is reshared.
+false_statement: Before calling a misleading post "disinformation", check only whether its content is false, since falsity alone settles which category it belongs to.
+explanation: In the framework, intent separates disinformation from misinformation, yet motives are hard to measure and irony lets creators deny them. Treat the labels as prompts for questions rather than verdicts.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/information-disorder-report.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: b0b63a11255fa65df850c1381229b59073a5e278
+concepts:
+- ct:information-disorder-report
+- ct:misinformation-and-disinformation
+difficulty: 2
+created: '2026-11-18'
+status: active

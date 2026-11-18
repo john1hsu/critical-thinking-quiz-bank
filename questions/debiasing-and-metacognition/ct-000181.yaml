@@ -1,0 +1,20 @@
+id: ct-000181
+area: debiasing-and-metacognition
+kind: figure
+topic: Debiasing
+topic_type: Technique
+true_statement: A 2025 meta-analysis of 41 randomised trials of educational debiasing found a small average benefit over controls, with Hedges' g of about 0.26.
+false_statement: A 2025 meta-analysis of 41 randomised trials of educational debiasing found a large average benefit over controls, with Hedges' g of about 0.86.
+explanation: The pooled effect was small, every included study was rated at unclear or high risk of bias, and lasting transfer to real decisions wasn't shown. The false version inflates the effect more than threefold.
+as_of: '2025'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/debiasing.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: a13c550600ac394c2143a34092f39728afd612e8
+concepts:
+- ct:debiasing
+- ct:swaryandini-2025-debiasing-education-meta-analysis
+difficulty: 3
+created: '2026-11-18'
+status: active

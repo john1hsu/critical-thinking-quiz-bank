@@ -1,0 +1,19 @@
+id: ct-000162
+area: probabilistic-reasoning
+kind: counter
+topic: Regression to the mean
+topic_type: Phenomenon
+true_statement: To test a fix for the worst-performing branches, randomly split those branches into a group that gets the fix and one that doesn't, then credit only the difference between them.
+false_statement: To test a fix for the worst-performing branches, apply it to all of them and credit the whole before-and-after improvement to the fix.
+explanation: Branches picked for an extreme bad spell would tend to improve anyway. Randomising them to fix and control means both groups regress equally, so only the gap between groups reflects the fix.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/regression-to-the-mean.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 664787aa31c98fafd841608d213139d73d0caa39
+concepts:
+- ct:regression-to-the-mean
+- ct:randomized-controlled-trial
+difficulty: 2
+created: '2026-11-18'
+status: active

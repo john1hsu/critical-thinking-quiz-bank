@@ -1,0 +1,20 @@
+id: ct-000230
+area: formal-fallacies
+kind: scenario
+topic: Existential fallacy
+topic_type: FormalFallacy
+true_statement: '"All expense claims filed late this year will be audited, so some expense claims filed late this year will be audited." On the modern reading, this commits the existential fallacy, since there may be no late claims at all.'
+false_statement: '"All expense claims filed late this year will be audited, so some expense claims filed late this year will be audited." On the modern reading, this is a valid subalternation, since a universal always implies its particular.'
+explanation: A universal rule says what holds of any late claim, not that one exists; if none is filed late, the premise is true and the conclusion false. Subalternation was valid only under the traditional assumption that the subject class has members.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/existential-fallacy.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 2f402addc830fca6a22c5616a9e7c91ca28133cb
+concepts:
+- ct:existential-fallacy
+- ct:subalternation
+- ct:existential-import
+difficulty: 2
+created: '2026-11-18'
+status: active

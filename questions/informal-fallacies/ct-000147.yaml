@@ -1,0 +1,19 @@
+id: ct-000147
+area: informal-fallacies
+kind: definition
+topic: Informal fallacy
+topic_type: Concept
+true_statement: Begging the question can be deductively valid yet still prove nothing, which is why it is classed as an informal fallacy rather than a formal one.
+false_statement: Begging the question is an identifiably invalid logical form, which is why it is classed as a formal fallacy rather than an informal one.
+explanation: Formal fallacies are instances of invalid forms; begging the question can pass a validity check while assuming what it should prove. Its flaw lies in how the premises relate to the point at issue, so it is informal.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/informal-fallacy.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: fa46e257248562c036263b2fe891947be79e45c8
+concepts:
+- ct:informal-fallacy
+- ct:formal-fallacy
+difficulty: 2
+created: '2026-11-18'
+status: active

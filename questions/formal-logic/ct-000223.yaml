@@ -1,0 +1,19 @@
+id: ct-000223
+area: formal-logic
+kind: origin
+topic: Venn diagram test
+topic_type: Technique
+true_statement: John Venn's own diagrams marked empty regions by shading; the X for "at least one" was a later addition by Charles S. Peirce.
+false_statement: John Venn's own diagrams marked occupied regions with an X; shading for empty regions was a later addition by Charles S. Peirce.
+explanation: Venn's primary diagram drew every combination of classes and recorded emptiness by shading. Peirce supplied the mark for existence that textbooks now use for "some" statements.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/venn-diagram-test.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 0a10796df80d6ec198ec1bec1a6b14df11067f42
+concepts:
+- ct:venn-diagram-test
+- ct:john-venn
+difficulty: 3
+created: '2026-11-18'
+status: active

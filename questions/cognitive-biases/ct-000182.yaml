@@ -1,0 +1,20 @@
+id: ct-000182
+area: cognitive-biases
+kind: scenario
+topic: Belief bias
+topic_type: CognitiveBias
+true_statement: A reviewer passes a logically flawed argument because she likes its conclusion, then catches the identical flaw when the same structure argues for a conclusion she rejects. That is belief bias.
+false_statement: A reviewer passes a logically flawed argument because she likes its conclusion, then catches the identical flaw when the same structure argues for a conclusion she rejects. That is confirmation bias.
+explanation: 'The tell is a validity judgment that flips with the conclusion while the form stays the same: belief is standing in for logic. Confirmation bias concerns how people seek and weigh evidence for a view, not how they judge whether a conclusion follows.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/belief-bias.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: cb58721fb8bc0b163cf4a71d9d77cac92f4ba9c5
+concepts:
+- ct:belief-bias
+- ct:confirmation-bias
+- ct:validity
+difficulty: 2
+created: '2026-11-18'
+status: active

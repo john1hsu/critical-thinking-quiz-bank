@@ -1,0 +1,19 @@
+id: ct-000173
+area: formal-logic
+kind: scenario
+topic: Syllogism
+topic_type: ReasoningForm
+true_statement: '"No contractors attend the board meeting. No board-meeting attendees are interns. So no contractors are interns." Because both premises are negative, nothing follows and the syllogism is invalid.'
+false_statement: '"No contractors attend the board meeting. No board-meeting attendees are interns. So no contractors are interns." Because both premises are universal, the syllogism validly yields a universal conclusion.'
+explanation: 'One of Aristotle''s rules is that nothing follows from two negative premises: knowing two groups both avoid a third says nothing about how they relate to each other. Two universal premises are needed for a universal conclusion, but that is not enough on its own.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/syllogism.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 8532cd73b399b4d468280ca9cb210824d60d18a5
+concepts:
+- ct:syllogism
+- ct:categorical-syllogism
+difficulty: 2
+created: '2026-11-18'
+status: active

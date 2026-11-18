@@ -1,79 +1,85 @@
 {
  "totals": {
-  "active": 142
+  "active": 242
  },
  "areas": {
   "argumentation": {
-   "active": 12
+   "active": 18
   },
   "cognitive-biases": {
-   "active": 12
+   "active": 18
   },
   "debiasing-and-metacognition": {
-   "active": 12
+   "active": 18
   },
   "decision-making": {
-   "active": 10
+   "active": 16
   },
   "evidence-and-information-literacy": {
-   "active": 9
+   "active": 18
   },
   "formal-fallacies": {
-   "active": 9
+   "active": 18
   },
   "formal-logic": {
-   "active": 12
+   "active": 18
   },
   "foundations": {
-   "active": 9
+   "active": 18
   },
   "heuristics-and-dual-process": {
-   "active": 9
+   "active": 18
   },
   "history-and-thinkers": {
-   "active": 12
+   "active": 18
   },
   "informal-fallacies": {
-   "active": 9
+   "active": 18
   },
   "philosophy-of-reasoning": {
-   "active": 9
+   "active": 16
   },
   "probabilistic-reasoning": {
-   "active": 9
+   "active": 15
   },
   "scientific-reasoning": {
-   "active": 9
+   "active": 15
   }
  },
  "kinds": {
   "counter": {
-   "active": 34
+   "active": 59
   },
   "definition": {
-   "active": 7
+   "active": 14
   },
   "evidence": {
-   "active": 23
+   "active": 36
   },
   "figure": {
-   "active": 12
+   "active": 19
   },
   "mechanism": {
-   "active": 11
+   "active": 17
   },
   "origin": {
-   "active": 8
+   "active": 19
   },
   "scenario": {
-   "active": 47
+   "active": 78
   }
  },
  "articles": {
+  "articles/argumentation/argumentation-schemes.md": {
+   "active": 3
+  },
   "articles/argumentation/argumentation-theory.md": {
    "active": 3
   },
   "articles/argumentation/informal-logic.md": {
+   "active": 3
+  },
+  "articles/argumentation/pragma-dialectics.md": {
    "active": 3
   },
   "articles/argumentation/principle-of-charity.md": {
@@ -85,7 +91,13 @@
   "articles/cognitive-biases/anchoring-effect.md": {
    "active": 3
   },
+  "articles/cognitive-biases/belief-bias.md": {
+   "active": 3
+  },
   "articles/cognitive-biases/bias-blind-spot.md": {
+   "active": 3
+  },
+  "articles/cognitive-biases/cognitive-bias.md": {
    "active": 3
   },
   "articles/cognitive-biases/confirmation-bias.md": {
@@ -103,7 +115,13 @@
   "articles/debiasing-and-metacognition/debiasing-training-games.md": {
    "active": 3
   },
+  "articles/debiasing-and-metacognition/debiasing.md": {
+   "active": 3
+  },
   "articles/debiasing-and-metacognition/deliberate-reflection.md": {
+   "active": 3
+  },
+  "articles/debiasing-and-metacognition/outside-view.md": {
    "active": 3
   },
   "articles/decision-making/devils-advocacy.md": {
@@ -112,10 +130,19 @@
   "articles/decision-making/groupthink.md": {
    "active": 1
   },
+  "articles/decision-making/intelligence-analysis.md": {
+   "active": 3
+  },
   "articles/decision-making/judgment-and-decision-making.md": {
    "active": 3
   },
+  "articles/decision-making/key-assumptions-check.md": {
+   "active": 3
+  },
   "articles/decision-making/premortem.md": {
+   "active": 3
+  },
+  "articles/evidence-and-information-literacy/information-disorder-report.md": {
    "active": 3
   },
   "articles/evidence-and-information-literacy/lateral-reading.md": {
@@ -127,7 +154,22 @@
   "articles/evidence-and-information-literacy/prebunking.md": {
    "active": 3
   },
+  "articles/evidence-and-information-literacy/primary-and-secondary-sources.md": {
+   "active": 3
+  },
+  "articles/evidence-and-information-literacy/sift-method.md": {
+   "active": 3
+  },
+  "articles/formal-fallacies/affirming-a-disjunct.md": {
+   "active": 3
+  },
   "articles/formal-fallacies/affirming-the-consequent.md": {
+   "active": 3
+  },
+  "articles/formal-fallacies/denying-the-antecedent.md": {
+   "active": 3
+  },
+  "articles/formal-fallacies/existential-fallacy.md": {
    "active": 3
   },
   "articles/formal-fallacies/illicit-major.md": {
@@ -148,7 +190,22 @@
   "articles/formal-logic/modus-tollens.md": {
    "active": 3
   },
+  "articles/formal-logic/syllogism.md": {
+   "active": 3
+  },
+  "articles/formal-logic/venn-diagram-test.md": {
+   "active": 3
+  },
   "articles/foundations/argument.md": {
+   "active": 3
+  },
+  "articles/foundations/burden-of-proof.md": {
+   "active": 3
+  },
+  "articles/foundations/inductive-reasoning.md": {
+   "active": 3
+  },
+  "articles/foundations/inference-to-the-best-explanation.md": {
    "active": 3
   },
   "articles/foundations/soundness.md": {
@@ -158,6 +215,15 @@
    "active": 3
   },
   "articles/heuristics-and-dual-process/availability-heuristic.md": {
+   "active": 3
+  },
+  "articles/heuristics-and-dual-process/bounded-rationality.md": {
+   "active": 3
+  },
+  "articles/heuristics-and-dual-process/cognitive-psychology.md": {
+   "active": 3
+  },
+  "articles/heuristics-and-dual-process/dual-process-theory.md": {
    "active": 3
   },
   "articles/heuristics-and-dual-process/heuristics-and-biases-program.md": {
@@ -178,13 +244,31 @@
   "articles/history-and-thinkers/daniel-kahneman.md": {
    "active": 3
   },
+  "articles/history-and-thinkers/posterior-analytics.md": {
+   "active": 3
+  },
+  "articles/history-and-thinkers/stephen-toulmin.md": {
+   "active": 3
+  },
+  "articles/informal-fallacies/ad-hominem.md": {
+   "active": 3
+  },
+  "articles/informal-fallacies/begging-the-question.md": {
+   "active": 3
+  },
   "articles/informal-fallacies/false-dilemma.md": {
+   "active": 3
+  },
+  "articles/informal-fallacies/informal-fallacy.md": {
    "active": 3
   },
   "articles/informal-fallacies/straw-man-fallacy.md": {
    "active": 3
   },
   "articles/informal-fallacies/tu-quoque.md": {
+   "active": 3
+  },
+  "articles/philosophy-of-reasoning/blooms-taxonomy.md": {
    "active": 3
   },
   "articles/philosophy-of-reasoning/delphi-report-on-critical-thinking.md": {
@@ -196,10 +280,22 @@
   "articles/philosophy-of-reasoning/gettier-problem.md": {
    "active": 3
   },
+  "articles/philosophy-of-reasoning/justified-true-belief.md": {
+   "active": 3
+  },
+  "articles/philosophy-of-reasoning/socratic-method.md": {
+   "active": 1
+  },
   "articles/probabilistic-reasoning/base-rate-neglect.md": {
    "active": 3
   },
+  "articles/probabilistic-reasoning/conjunction-fallacy.md": {
+   "active": 3
+  },
   "articles/probabilistic-reasoning/natural-frequencies.md": {
+   "active": 3
+  },
+  "articles/probabilistic-reasoning/regression-to-the-mean.md": {
    "active": 3
   },
   "articles/probabilistic-reasoning/simpsons-paradox.md": {
@@ -209,6 +305,12 @@
    "active": 3
   },
   "articles/scientific-reasoning/hypothesis-testing.md": {
+   "active": 3
+  },
+  "articles/scientific-reasoning/occams-razor.md": {
+   "active": 3
+  },
+  "articles/scientific-reasoning/philosophy-of-science.md": {
    "active": 3
   },
   "articles/scientific-reasoning/randomized-controlled-trial.md": {

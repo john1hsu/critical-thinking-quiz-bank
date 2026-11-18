@@ -1,0 +1,19 @@
+id: ct-000207
+area: probabilistic-reasoning
+kind: counter
+topic: Conjunction fallacy
+topic_type: ProbabilisticFallacy
+true_statement: When a detailed scenario in a plan feels likely, price each step on its own and multiply them, since every added step can only keep the overall probability the same or lower it.
+false_statement: When a detailed scenario in a plan feels likely, price each step on its own and multiply them, since adding plausible steps can raise the overall probability.
+explanation: A vivid cause makes a story more convincing but never more probable than its outcome alone. Pricing steps separately exposes how quickly the chance of the whole chain shrinks.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/conjunction-fallacy.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 19394c8536559eb537a3155f5e9209b2bcd85c66
+concepts:
+- ct:conjunction-fallacy
+- ct:representativeness-heuristic
+difficulty: 2
+created: '2026-11-18'
+status: active

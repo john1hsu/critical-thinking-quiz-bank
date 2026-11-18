@@ -1,0 +1,19 @@
+id: ct-000179
+area: debiasing-and-metacognition
+kind: scenario
+topic: Debiasing
+topic_type: Technique
+true_statement: A hiring panel keeps favouring candidates who resemble its first strong interviewee, so the chair has everyone score each candidate on the same questions before any discussion and averages the scores. That fix changes the task, not the people.
+false_statement: A hiring panel keeps favouring candidates who resemble its first strong interviewee, so the chair has everyone score each candidate on the same questions before any discussion and averages the scores. That fix changes the people, not the task.
+explanation: Structured scoring and averaging independent ratings redesign the environment, so they work without anyone noticing their own bias. Training the panel about confirmation bias would be the person-side fix.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/debiasing.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: a13c550600ac394c2143a34092f39728afd612e8
+concepts:
+- ct:debiasing
+- ct:confirmation-bias
+difficulty: 2
+created: '2026-11-18'
+status: active

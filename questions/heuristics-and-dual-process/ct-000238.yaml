@@ -1,0 +1,20 @@
+id: ct-000238
+area: heuristics-and-dual-process
+kind: definition
+topic: Bounded rationality
+topic_type: Concept
+true_statement: Todd and Gigerenzer argue that adding search costs to a standard model and letting the agent optimise anyway keeps the very ideal Simon's bounded rationality rejected.
+false_statement: Todd and Gigerenzer argue that adding search costs to a standard model and letting the agent optimise anyway is the most faithful version of Simon's bounded rationality.
+explanation: Optimising under constraints still assumes an agent who can compute the best option, and demands even more computation. Simon's idea replaced optimisation with search and stopping rules that a limited mind can actually use.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/bounded-rationality.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: d69c0452a24bb961488dafb88314157b09a36b6e
+concepts:
+- ct:bounded-rationality
+- ct:ecological-rationality
+- ct:gerd-gigerenzer
+difficulty: 3
+created: '2026-11-18'
+status: active

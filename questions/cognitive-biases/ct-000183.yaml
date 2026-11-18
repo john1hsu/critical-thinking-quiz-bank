@@ -1,0 +1,19 @@
+id: ct-000183
+area: cognitive-biases
+kind: counter
+topic: Belief bias
+topic_type: CognitiveBias
+true_statement: To resist belief bias, work forward from the premises to see what follows before looking at the conclusion, rather than starting from the conclusion and scanning the premises for support.
+false_statement: To resist belief bias, start from the conclusion and scan the premises for support, rather than working forward from the premises before looking at the conclusion.
+explanation: In think-aloud protocols, people who began with the conclusion showed the most belief bias and forward reasoners the least. Starting from the conclusion invites you to judge it by whether you agree.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/belief-bias.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: cb58721fb8bc0b163cf4a71d9d77cac92f4ba9c5
+concepts:
+- ct:belief-bias
+- ct:debiasing
+difficulty: 2
+created: '2026-11-18'
+status: active

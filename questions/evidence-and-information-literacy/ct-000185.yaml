@@ -1,0 +1,18 @@
+id: ct-000185
+area: evidence-and-information-literacy
+kind: scenario
+topic: Primary and secondary sources
+topic_type: Concept
+true_statement: An analyst studying how trade newsletters covered remote work in 2020 cites a 2020 newsletter's summary of a productivity survey. For her question, the newsletter is a primary source.
+false_statement: An analyst studying how trade newsletters covered remote work in 2020 cites a 2020 newsletter's summary of a productivity survey. For her question, the newsletter is a secondary source.
+explanation: Primary or secondary is a relationship to the research question, not a fixed property of the document. The newsletter would be secondary for a question about productivity, but here the coverage itself is what she is studying.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/primary-and-secondary-sources.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: b3cbf8ca060e996fd4484f9520562a611e7cdb50
+concepts:
+- ct:primary-and-secondary-sources
+difficulty: 2
+created: '2026-11-18'
+status: active

@@ -1,0 +1,20 @@
+id: ct-000154
+area: formal-fallacies
+kind: figure
+topic: Affirming a disjunct
+topic_type: FormalFallacy
+true_statement: In Quelhas and Johnson-Laird's 2017 experiments, 80% of conclusions drawn from "or" claims with incompatible options were exclusive, versus 32-44% when the options could both hold.
+false_statement: In Quelhas and Johnson-Laird's 2017 experiments, 32-44% of conclusions drawn from "or" claims with incompatible options were exclusive, versus 80% when the options could both hold.
+explanation: Background knowledge that two options can't coexist pushed people toward the exclusive "not B" reading; when content allowed both, they drew it far less. The false version reverses the direction of that content effect.
+as_of: '2017'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/affirming-a-disjunct.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 9f87a44e20b75acf218d880ef4dddd373cc1dedd
+concepts:
+- ct:affirming-a-disjunct
+- ct:mental-model-theory
+difficulty: 3
+created: '2026-11-18'
+status: active

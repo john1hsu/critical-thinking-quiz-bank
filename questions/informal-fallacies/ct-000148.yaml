@@ -1,0 +1,19 @@
+id: ct-000148
+area: informal-fallacies
+kind: origin
+topic: Informal fallacy
+topic_type: Concept
+true_statement: C. L. Hamblin's 1970 book Fallacies attacked the textbook "standard treatment" of fallacies and is usually taken as the start of modern fallacy theory.
+false_statement: Irving Copi's 1961 textbook attacked the "standard treatment" of fallacies and is usually taken as the start of modern fallacy theory.
+explanation: Copi's 1961 textbook supplied the standard list that Hamblin later criticised as dogmatic. Hamblin's critique pushed the field toward the rules of dialogue, which is why it marks the modern turn.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/informal-fallacy.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: fa46e257248562c036263b2fe891947be79e45c8
+concepts:
+- ct:informal-fallacy
+- ct:charles-hamblin
+difficulty: 2
+created: '2026-11-18'
+status: active

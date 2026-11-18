@@ -1,0 +1,20 @@
+id: ct-000208
+area: probabilistic-reasoning
+kind: figure
+topic: Conjunction fallacy
+topic_type: ProbabilisticFallacy
+true_statement: In Tversky and Kahneman's 1983 study, internists ranked a typical symptom combined with an atypical one above the atypical symptom alone in 91% of judgments on average.
+false_statement: In Tversky and Kahneman's 1983 study, internists ranked a typical symptom combined with an atypical one above the atypical symptom alone in only 31% of judgments on average.
+explanation: Even trained physicians broke the conjunction rule most of the time when a combination looked more typical. The false figure would suggest expertise largely protected them.
+as_of: '1983'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/conjunction-fallacy.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 19394c8536559eb537a3155f5e9209b2bcd85c66
+concepts:
+- ct:conjunction-fallacy
+- ct:tversky-kahneman-1983-linda-problem-study
+difficulty: 3
+created: '2026-11-18'
+status: active

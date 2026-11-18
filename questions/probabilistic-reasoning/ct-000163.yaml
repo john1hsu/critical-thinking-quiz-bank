@@ -1,0 +1,19 @@
+id: ct-000163
+area: probabilistic-reasoning
+kind: mechanism
+topic: Regression to the mean
+topic_type: Phenomenon
+true_statement: Regression to the mean gets larger as the correlation between the first and second measurement gets weaker.
+false_statement: Regression to the mean gets larger as the correlation between the first and second measurement gets stronger.
+explanation: Extreme scores partly reflect a chance component that doesn't repeat; the less the two measurements share, the bigger that chance share and the further results fall back. With perfect correlation there would be no regression at all.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/regression-to-the-mean.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 664787aa31c98fafd841608d213139d73d0caa39
+concepts:
+- ct:regression-to-the-mean
+- ct:statistical-reasoning
+difficulty: 2
+created: '2026-11-18'
+status: active

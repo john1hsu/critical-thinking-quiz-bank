@@ -1,0 +1,19 @@
+id: ct-000156
+area: foundations
+kind: counter
+topic: Burden of proof
+topic_type: Concept
+true_statement: When the backer of a proposal fails to carry the burden of proof, the right response is to withhold acceptance, not to treat the opposite claim as proven.
+false_statement: When the backer of a proposal fails to carry the burden of proof, the right response is to treat the opposite claim as proven.
+explanation: An unmet burden leaves a claim unpersuasive; it does not establish its negation. Moving from "you haven't proven P" to "so not-P" is the step that marks a fallacious argument from ignorance.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/burden-of-proof.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 13d3b6a9feaabd70db0a6e6d49a9f8bd3489e03e
+concepts:
+- ct:burden-of-proof
+- ct:argument-from-ignorance
+difficulty: 1
+created: '2026-11-18'
+status: active

@@ -1,0 +1,20 @@
+id: ct-000232
+area: formal-fallacies
+kind: origin
+topic: Existential fallacy
+topic_type: FormalFallacy
+true_statement: By the late Middle Ages, logicians worked on the principle that affirmative categorical propositions carry existential import while negative ones do not.
+false_statement: By the late Middle Ages, logicians worked on the principle that negative categorical propositions carry existential import while affirmative ones do not.
+explanation: That medieval assumption is what made subalternation from "every S is P" to "some S is P" safe. The later Boolean reading dropped it, turning such inferences into the existential fallacy unless an existence premise is added.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/existential-fallacy.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 2f402addc830fca6a22c5616a9e7c91ca28133cb
+concepts:
+- ct:existential-fallacy
+- ct:existential-import
+- ct:square-of-opposition
+difficulty: 3
+created: '2026-11-18'
+status: active

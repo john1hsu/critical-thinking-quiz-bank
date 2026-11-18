@@ -1,0 +1,19 @@
+id: ct-000172
+area: history-and-thinkers
+kind: definition
+topic: Posterior Analytics
+topic_type: Work
+true_statement: The Prior Analytics asks when a conclusion follows from premises, while the Posterior Analytics asks when such a deduction amounts to knowing the conclusion.
+false_statement: The Posterior Analytics asks when a conclusion follows from premises, while the Prior Analytics asks when such a deduction amounts to knowing the conclusion.
+explanation: 'The Posterior Analytics adds conditions on top of correct form: premises that are true, primary and explanatory. That split between following and knowing is the ancestor of the valid-versus-sound distinction.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/posterior-analytics.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: cb41148b439689208754a751283e756ea5450a6e
+concepts:
+- ct:posterior-analytics
+- ct:prior-analytics
+difficulty: 2
+created: '2026-11-18'
+status: active

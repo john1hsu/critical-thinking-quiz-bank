@@ -1,0 +1,20 @@
+id: ct-000235
+area: foundations
+kind: origin
+topic: Inference to the best explanation
+topic_type: ReasoningForm
+true_statement: Peirce's abduction was about generating hypotheses worth testing; the modern inference to the best explanation, named by Gilbert Harman in 1965, is about justifying them.
+false_statement: Peirce's abduction was about justifying hypotheses as the best explanation; the modern inference named by Gilbert Harman in 1965 is about merely generating them.
+explanation: Peirce placed abduction at the discovery stage and never spoke of the best explanation. The modern notion moved it to the justification stage, where hypotheses are assessed rather than merely proposed.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/inference-to-the-best-explanation.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 262b5ec97c75648bab29ada5ca06df70072be41e
+concepts:
+- ct:inference-to-the-best-explanation
+- ct:charles-sanders-peirce
+- ct:gilbert-harman
+difficulty: 3
+created: '2026-11-18'
+status: active

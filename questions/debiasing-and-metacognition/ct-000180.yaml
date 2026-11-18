@@ -1,0 +1,18 @@
+id: ct-000180
+area: debiasing-and-metacognition
+kind: counter
+topic: Debiasing
+topic_type: Technique
+true_statement: If a team's forecasting errors come from missing statistical knowledge rather than low effort, paying bonuses for accuracy is unlikely to fix them.
+false_statement: If a team's forecasting errors come from missing statistical knowledge rather than low effort, paying bonuses for accuracy is the most direct fix.
+explanation: 'Incentives help with errors caused by too little effort, but they can make people think harder without thinking better. Diagnose the cause first: missing knowledge calls for training or a better procedure.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/debiasing.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: a13c550600ac394c2143a34092f39728afd612e8
+concepts:
+- ct:debiasing
+difficulty: 2
+created: '2026-11-18'
+status: active

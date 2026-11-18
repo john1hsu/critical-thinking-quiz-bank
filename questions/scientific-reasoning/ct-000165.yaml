@@ -1,0 +1,19 @@
+id: ct-000165
+area: scientific-reasoning
+kind: definition
+topic: Occam's razor
+topic_type: Principle
+true_statement: In debates about simplicity, parsimony counts the kinds of thing a theory says exist, while elegance counts its basic principles and how compactly they are stated.
+false_statement: In debates about simplicity, elegance counts the kinds of thing a theory says exist, while parsimony counts its basic principles and how compactly they are stated.
+explanation: 'Parsimony is ontological simplicity and elegance is syntactic simplicity. They can pull apart: positing Neptune added an entity but left celestial mechanics'' laws unchanged. The false version swaps the two labels.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/occams-razor.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: fe092257523cb7db7d1eaa34fcdc4fde533592fc
+concepts:
+- ct:occams-razor
+- ct:philosophy-of-science
+difficulty: 2
+created: '2026-11-18'
+status: active

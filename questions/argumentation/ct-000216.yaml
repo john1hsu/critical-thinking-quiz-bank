@@ -1,0 +1,19 @@
+id: ct-000216
+area: argumentation
+kind: counter
+topic: Pragma-dialectics
+topic_type: Framework
+true_statement: When filling in a premise someone left unstated, pragma-dialectics starts from the logical minimum that would make their step valid, rather than the strongest claim they might hold.
+false_statement: When filling in a premise someone left unstated, pragma-dialectics starts from the strongest general claim the arguer might hold, rather than the logical minimum that would make their step valid.
+explanation: Beginning with the minimum avoids pinning on the arguer a sweeping premise they never committed to, which would itself break the rule against misattributing unstated premises. Context can then refine it.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/pragma-dialectics.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: b341ec026181c6280f408728082f237b8ec27d7c
+concepts:
+- ct:pragma-dialectics
+- ct:principle-of-charity
+difficulty: 3
+created: '2026-11-18'
+status: active

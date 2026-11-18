@@ -1,0 +1,19 @@
+id: ct-000214
+area: history-and-thinkers
+kind: origin
+topic: Stephen Toulmin
+topic_type: Person
+true_statement: Stephen Toulmin studied moral sciences at Cambridge under Ludwig Wittgenstein and John Wisdom, earning his doctorate in 1948.
+false_statement: Stephen Toulmin studied moral sciences at Cambridge under Ludwig Wittgenstein and John Wisdom, earning his doctorate in 1958.
+explanation: His doctorate came in 1948, after wartime work as a junior scientific officer. 1958 is the year The Uses of Argument appeared, which makes it an easy date to confuse.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/stephen-toulmin.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 50242ac0915c3c0e9c715ca15df6798525242a50
+concepts:
+- ct:stephen-toulmin
+- ct:ludwig-wittgenstein
+difficulty: 2
+created: '2026-11-18'
+status: active

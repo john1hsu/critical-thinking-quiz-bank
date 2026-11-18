@@ -1,0 +1,19 @@
+id: ct-000152
+area: formal-fallacies
+kind: scenario
+topic: Affirming a disjunct
+topic_type: FormalFallacy
+true_statement: An incident review says the outage came from a bad config push or a traffic spike. Logs confirm the config push, so the team rules out the traffic spike. That inference affirms a disjunct.
+false_statement: An incident review says the outage came from a bad config push or a traffic spike. Logs confirm the config push, so the team rules out the traffic spike. That inference is a valid disjunctive syllogism.
+explanation: The team confirms one alternative and rejects the other, but outages can have two causes at once, so both premises can be true with the conclusion false. Disjunctive syllogism would instead deny one option and conclude the other.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/affirming-a-disjunct.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 9f87a44e20b75acf218d880ef4dddd373cc1dedd
+concepts:
+- ct:affirming-a-disjunct
+- ct:disjunctive-syllogism
+difficulty: 2
+created: '2026-11-18'
+status: active

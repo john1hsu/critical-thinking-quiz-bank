@@ -1,0 +1,19 @@
+id: ct-000188
+area: formal-fallacies
+kind: scenario
+topic: Denying the antecedent
+topic_type: FormalFallacy
+true_statement: '"If the sprinklers in the warehouse go off, the fire alarm sounds. The sprinklers didn''t go off last night, so the alarm didn''t sound." This argument denies the antecedent and is invalid.'
+false_statement: '"If the sprinklers in the warehouse go off, the fire alarm sounds. The sprinklers didn''t go off last night, so the alarm didn''t sound." This argument is a modus tollens and is valid.'
+explanation: 'The second premise denies the if-clause, so the alarm could still have sounded for another reason, such as smoke. Modus tollens would deny the then-clause instead: the alarm didn''t sound, so the sprinklers didn''t go off.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/denying-the-antecedent.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: c84f8771fd262c85aaba872589d7418c2b70f2ea
+concepts:
+- ct:denying-the-antecedent
+- ct:modus-tollens
+difficulty: 1
+created: '2026-11-18'
+status: active

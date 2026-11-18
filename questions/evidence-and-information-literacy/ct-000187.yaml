@@ -1,0 +1,18 @@
+id: ct-000187
+area: evidence-and-information-literacy
+kind: evidence
+topic: Primary and secondary sources
+topic_type: Concept
+true_statement: A 2009 BMJ study of one biomedical claim's citation network used "invention" for a hypothesis being cited until it was treated as fact.
+false_statement: A 2009 BMJ study of one biomedical claim's citation network used "amplification" for a hypothesis being cited until it was treated as fact.
+explanation: 'The study named three distortions: bias against refuting papers, amplification by papers with no data of their own, and invention, where a hypothesis hardened into fact. Checking the primary data would have revealed a weaker case.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/primary-and-secondary-sources.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: b3cbf8ca060e996fd4484f9520562a611e7cdb50
+concepts:
+- ct:primary-and-secondary-sources
+difficulty: 3
+created: '2026-11-18'
+status: active

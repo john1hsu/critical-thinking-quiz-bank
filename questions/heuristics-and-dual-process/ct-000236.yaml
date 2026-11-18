@@ -1,0 +1,19 @@
+id: ct-000236
+area: heuristics-and-dual-process
+kind: scenario
+topic: Bounded rationality
+topic_type: Concept
+true_statement: Needing a contractor this week, a manager sets minimum requirements, reviews bids as they arrive and signs the first that clears the bar. Judged by procedural rationality, the question is whether her thresholds and search fit the job's size.
+false_statement: Needing a contractor this week, a manager sets minimum requirements, reviews bids as they arrive and signs the first that clears the bar. Judged by procedural rationality, the question is whether a cheaper qualifying contractor existed somewhere.
+explanation: Procedural rationality asks whether the deliberation was sound and proportionate to the stakes. Asking whether a better option existed is the outcome-based test of substantive rationality, which a satisficer is not trying to meet.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/bounded-rationality.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: d69c0452a24bb961488dafb88314157b09a36b6e
+concepts:
+- ct:bounded-rationality
+- ct:satisficing
+difficulty: 2
+created: '2026-11-18'
+status: active

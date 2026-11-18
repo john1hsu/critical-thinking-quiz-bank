@@ -1,0 +1,20 @@
+id: ct-000218
+area: debiasing-and-metacognition
+kind: scenario
+topic: Taking the outside view
+topic_type: Technique
+true_statement: Before committing to a three-month estimate for a software migration, a manager looks up how long the organisation's last ten migrations took and starts from that figure. That is taking the outside view.
+false_statement: Before committing to a three-month estimate for a software migration, a manager looks up how long the organisation's last ten migrations took and starts from that figure. That is taking the inside view.
+explanation: Starting from how a class of similar cases turned out, before the plan's own details, is the outside view. The inside view builds the forecast from this project's steps and scenarios, which tends to yield bold, optimistic estimates.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/outside-view.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: cd645b061e2ade6ae038ebd2b613e9f2b614575d
+concepts:
+- ct:outside-view
+- ct:inside-view
+- ct:planning-fallacy
+difficulty: 1
+created: '2026-11-18'
+status: active

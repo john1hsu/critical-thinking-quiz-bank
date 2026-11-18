@@ -1,0 +1,19 @@
+id: ct-000174
+area: formal-logic
+kind: origin
+topic: Syllogism
+topic_type: ReasoningForm
+true_statement: For Aristotle, sullogismos meant any valid deduction, so the modern phrase "invalid syllogism" would have been a contradiction in terms.
+false_statement: For Aristotle, sullogismos meant any argument with two premises, valid or not, so the modern phrase "invalid syllogism" fits his usage exactly.
+explanation: His definition required that something different from the premises follow of necessity, so validity was built in. Later textbooks narrowed the word to two-premise forms that can be valid or invalid.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/syllogism.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 8532cd73b399b4d468280ca9cb210824d60d18a5
+concepts:
+- ct:syllogism
+- ct:aristotle
+difficulty: 3
+created: '2026-11-18'
+status: active

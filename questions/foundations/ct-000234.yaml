@@ -1,0 +1,19 @@
+id: ct-000234
+area: foundations
+kind: counter
+topic: Inference to the best explanation
+topic_type: ReasoningForm
+true_statement: Before settling on the explanation that fits the evidence best, deliberately generate several rivals, since the best of a poor set of candidates can still be wrong.
+false_statement: Before settling on an explanation, judge each idea as it comes and accept the first one that fits the evidence, since any explanation that fits is the best one available.
+explanation: 'This answers van Fraassen''s bad-lot objection in practice: an inference from "best we considered" to "true" is only as good as the list of rivals. Then treat the winner as the next hypothesis to test.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/inference-to-the-best-explanation.md
+  commit: 39293d5186b9191fcfb4418de94bcda5432d7162
+  blob: 262b5ec97c75648bab29ada5ca06df70072be41e
+concepts:
+- ct:inference-to-the-best-explanation
+- ct:bad-lot-objection
+difficulty: 2
+created: '2026-11-18'
+status: active
