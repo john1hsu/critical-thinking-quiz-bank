@@ -1,0 +1,18 @@
+id: ct-000283
+area: informal-fallacies
+kind: counter
+topic: Post hoc ergo propter hoc
+topic_type: InformalFallacy
+true_statement: To test a claim that a remedy works because people improved after taking it, ask how often people improve when they don't take it.
+false_statement: To test a claim that a remedy works because people improved after taking it, ask how quickly people improved once they had taken it.
+explanation: Only a comparison with cases where the supposed cause was absent shows whether it made any difference. How fast people recovered after the remedy is still before-and-after evidence, the very thing that cannot settle a post hoc claim.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/post-hoc-ergo-propter-hoc.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: af61e710c5d3ad40d049812c8a8c1c43336e4efa
+concepts:
+- ct:post-hoc-ergo-propter-hoc
+difficulty: 2
+created: '2026-11-19'
+status: active

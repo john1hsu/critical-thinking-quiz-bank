@@ -1,0 +1,19 @@
+id: ct-000256
+area: history-and-thinkers
+kind: mechanism
+topic: Alfred Tarski
+topic_type: Person
+true_statement: To avoid the liar paradox, Tarski defined truth for an object language inside a separate, richer metalanguage.
+false_statement: To avoid the liar paradox, Tarski defined truth for a language inside that same language, provided it was strong enough to express arithmetic.
+explanation: Tarski split the language being described from the richer metalanguage that defines its truth, and proved that a language strong enough for arithmetic cannot define its own truth. Self-reference of that kind is what the liar paradox exploits.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/alfred-tarski.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: e91491e44753f4760ecef9c42df03fcf066302e3
+concepts:
+- ct:alfred-tarski
+- ct:liar-paradox
+difficulty: 3
+created: '2026-11-19'
+status: active

@@ -1,0 +1,18 @@
+id: ct-000280
+area: heuristics-and-dual-process
+kind: counter
+topic: Affect heuristic
+topic_type: Heuristic
+true_statement: After a team rates several options, plot risk against benefit; if liked options score low risk and high benefit and disliked ones the reverse, in a tight inverse pattern, revisit the ratings.
+false_statement: After a team rates several options, plot risk against benefit; if high-benefit options also score high risk, in a tight positive pattern, revisit the ratings.
+explanation: A shared feeling pushes perceived risk and benefit in opposite directions, so a tight inverse pattern suggests one impression did the work of two assessments. In reality high-payoff options often carry more risk, so a positive pattern is not itself a warning sign.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/affect-heuristic.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 074d615a7b55b8c8a44afc4032fa897ba03e5647
+concepts:
+- ct:affect-heuristic
+difficulty: 2
+created: '2026-11-19'
+status: active

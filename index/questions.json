@@ -1,7 +1,7 @@
 {
  "version": 1,
- "count": 242,
- "active": 242,
+ "count": 342,
+ "active": 342,
  "questions": [
   {
    "id": "ct-000001",
@@ -3912,6 +3912,1610 @@
    "difficulty": 2,
    "status": "active",
    "source": "https://john1hsu.github.io/critical-thinking-graph/a/socratic-method.html"
+  },
+  {
+   "id": "ct-000243",
+   "area": "probabilistic-reasoning",
+   "kind": "scenario",
+   "topic": "Gambler's fallacy",
+   "t": "After approving four loan applications in a row, a loan officer turns down a fifth that is just as strong, feeling that another approval would be one too many. That is the gambler's fallacy at work in sequential decisions.",
+   "f": "After approving four loan applications in a row, a loan officer turns down a fifth that is just as strong, feeling that another approval would be one too many. That is the hot-hand fallacy at work in sequential decisions.",
+   "x": "The officer expects the run of approvals to reverse, which is negative autocorrelation: the gambler's fallacy, judging the case by the streak rather than its merits. The hot-hand fallacy is the opposite belief, that a streak will continue, which would have pushed her to approve again.",
+   "concepts": [
+    "ct:gamblers-fallacy",
+    "ct:hot-hand-fallacy",
+    "ct:chen-moskowitz-shue-2016-sequential-decisions-study"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/gamblers-fallacy.html"
+  },
+  {
+   "id": "ct-000244",
+   "area": "probabilistic-reasoning",
+   "kind": "counter",
+   "topic": "Gambler's fallacy",
+   "t": "Faced with a streak, ask whether your estimate for the next outcome would differ had you walked in just now and not seen the streak; for independent events it should be the same.",
+   "f": "Faced with a streak, ask whether your estimate for the next outcome would differ had you walked in just now and not seen the streak; for independent events the streak should still tilt it toward the overdue outcome.",
+   "x": "Independent events have no memory, so the history you happened to witness carries no information about the next one. Imagining you missed the streak strips out that history; if your estimate changes, the streak rather than the odds is driving it.",
+   "concepts": [
+    "ct:gamblers-fallacy"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/gamblers-fallacy.html"
+  },
+  {
+   "id": "ct-000245",
+   "area": "probabilistic-reasoning",
+   "kind": "mechanism",
+   "topic": "Gambler's fallacy",
+   "t": "Over many fair coin flips the share of heads nears one half because early streaks are swamped by later flips, even as the raw gap between heads and tails tends to grow.",
+   "f": "Over many fair coin flips the share of heads nears one half because later flips make up for early streaks, so the raw gap between heads and tails tends to shrink.",
+   "x": "The law of large numbers works by dilution, not compensation: a streak becomes a smaller fraction of an ever-growing total. Believing later flips must pay back the streak is exactly the gambler's error of treating the long-run average as a quota.",
+   "concepts": [
+    "ct:gamblers-fallacy"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/gamblers-fallacy.html"
+  },
+  {
+   "id": "ct-000246",
+   "area": "scientific-reasoning",
+   "kind": "scenario",
+   "topic": "Researcher degrees of freedom",
+   "t": "An analyst runs one sincere test of a pilot scheme, deciding to drop part-time staff only after seeing they responded differently, and gets a significant result. Though she tested just once, this is the garden of forking paths.",
+   "f": "An analyst runs one sincere test of a pilot scheme, deciding to drop part-time staff only after seeing they responded differently, and gets a significant result. Because she tested just once, this is p-hacking.",
+   "x": "Gelman and Loken's point is that a data-dependent choice inflates false positives even in a single honest analysis, since different data would have led to a different, equally reasonable path. P-hacking implies consciously running test after test, which did not happen here.",
+   "concepts": [
+    "ct:researcher-degrees-of-freedom",
+    "ct:p-hacking"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/researcher-degrees-of-freedom.html"
+  },
+  {
+   "id": "ct-000247",
+   "area": "scientific-reasoning",
+   "kind": "counter",
+   "topic": "Researcher degrees of freedom",
+   "t": "A preregistration that names the main outcome but leaves exclusions and the stopping rule open still leaves room for analytic flexibility, so check how specific the plan was.",
+   "f": "A preregistration that names the main outcome but leaves exclusions and the stopping rule open closes off analytic flexibility, so checking how specific the plan was is unnecessary.",
+   "x": "Preregistration protects only as far as it is specific, precise and exhaustive; every choice it leaves unfixed is still a fork that can be taken after seeing the data. Ask which decisions were locked in advance, not merely whether a plan exists.",
+   "concepts": [
+    "ct:researcher-degrees-of-freedom",
+    "ct:preregistration"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/researcher-degrees-of-freedom.html"
+  },
+  {
+   "id": "ct-000248",
+   "area": "scientific-reasoning",
+   "kind": "figure",
+   "topic": "Researcher degrees of freedom",
+   "t": "In a 2018 many-analysts study, 29 teams given the same data on referees and players' skin tone disagreed: 20 found a significant positive effect on red cards and 9 did not.",
+   "f": "In a 2018 many-analysts study, 29 teams given the same data on referees and players' skin tone all found a significant positive effect on red cards, differing only in its size.",
+   "x": "The same dataset and question yielded estimates from no effect to a strong one, and only 20 of 29 teams reached significance. No one was fishing, which shows that reasonable analytic choices alone can change a conclusion.",
+   "concepts": [
+    "ct:researcher-degrees-of-freedom",
+    "ct:silberzahn-2018-many-analysts-study"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/researcher-degrees-of-freedom.html",
+   "asOf": "2018"
+  },
+  {
+   "id": "ct-000249",
+   "area": "decision-making",
+   "kind": "scenario",
+   "topic": "Reversible and irreversible decisions",
+   "t": "An operations team wants to trial a new shift-handover checklist for a month; it can be dropped at any time at the cost of a few wasted minutes. The director sends it to the quarterly steering committee. She is giving a two-way-door decision a one-way-door process.",
+   "f": "An operations team wants to trial a new shift-handover checklist for a month; it can be dropped at any time at the cost of a few wasted minutes. The director sends it to the quarterly steering committee. She is rightly giving a one-way-door decision slow, consultative review.",
+   "x": "The deciding feature is that a bad checklist is cheap to undo, so the trial itself buys information faster than any committee could. Slow, consultative review is meant for choices that lock in their consequences; using it for everything is the drift toward slowness the two-door framing warns about.",
+   "concepts": [
+    "ct:reversible-and-irreversible-decisions"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/reversible-and-irreversible-decisions.html"
+  },
+  {
+   "id": "ct-000250",
+   "area": "decision-making",
+   "kind": "counter",
+   "topic": "Reversible and irreversible decisions",
+   "t": "Facing a decision that would be hard to undo, such as moving every customer to a new billing system, pilot it with a subset and keep the old system running, turning one big one-way door into smaller two-way doors.",
+   "f": "Facing a decision that would be hard to undo, such as moving every customer to a new billing system, skip pilots and switch everyone at once, since partial rollouts only make a one-way door harder to reverse.",
+   "x": "Buying reversibility where it is cheap is the real-options move: pilots, staged rollouts and keeping the old system alive let you learn before the permanent part of the commitment. A single all-at-once switch removes exactly the chance to learn that makes waiting valuable.",
+   "concepts": [
+    "ct:reversible-and-irreversible-decisions",
+    "ct:quasi-option-value"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/reversible-and-irreversible-decisions.html"
+  },
+  {
+   "id": "ct-000251",
+   "area": "decision-making",
+   "kind": "evidence",
+   "topic": "Reversible and irreversible decisions",
+   "t": "In Gilbert and Ebert's 2002 studies, students who could not exchange a photograph they had chosen came to like it more than students who could, though forecasters predicted no difference.",
+   "f": "In Gilbert and Ebert's 2002 studies, students who could exchange a photograph they had chosen came to like it more than students who could not, just as forecasters predicted.",
+   "x": "Keeping a choice open tended to lower satisfaction, the opposite of what people expect, which is why the finding is framed as an affective forecasting error. The samples were small and low-stakes, so the effect is rated mixed rather than robust.",
+   "concepts": [
+    "ct:reversible-and-irreversible-decisions",
+    "ct:gilbert-ebert-2002-changeable-outcomes-study",
+    "ct:affective-forecasting"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/reversible-and-irreversible-decisions.html"
+  },
+  {
+   "id": "ct-000252",
+   "area": "philosophy-of-reasoning",
+   "kind": "scenario",
+   "topic": "Problem of induction",
+   "t": "A planner expects a ferry service to keep running on time because it has for years. Asked why the past is any guide, she says relying on the past has always worked before. That defence is circular in the way Hume described.",
+   "f": "A planner expects a ferry service to keep running on time because it has for years. Asked why the past is any guide, she says relying on the past has always worked before. That defence answers Hume, since it rests on experience rather than on a demonstration.",
+   "x": "Her answer uses the past record to vouch for trusting past records, so it assumes the uniformity it was meant to support. Hume's point is that appeals to experience are exactly the arguments that already presuppose uniformity, so resting on experience is the problem, not the escape.",
+   "concepts": [
+    "ct:problem-of-induction",
+    "ct:begging-the-question",
+    "ct:david-hume"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/problem-of-induction.html"
+  },
+  {
+   "id": "ct-000253",
+   "area": "philosophy-of-reasoning",
+   "kind": "counter",
+   "topic": "Problem of induction",
+   "t": "Before trusting a clean track record, look for a rival generalisation that fits the same record but predicts a different future, especially around a known change point such as a contract renewal.",
+   "f": "Before trusting a clean track record, gather more cases that fit it, since enough agreeing cases rule out any rival generalisation that predicts a different future.",
+   "x": "Goodman's grue example shows that every past observation can support two generalisations that diverge later, so piling up agreeing cases cannot decide between them. The useful check is to name the rival pattern, such as 'reliable until the renewal', and ask what would tell them apart.",
+   "concepts": [
+    "ct:problem-of-induction",
+    "ct:fact-fiction-and-forecast"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/problem-of-induction.html"
+  },
+  {
+   "id": "ct-000254",
+   "area": "philosophy-of-reasoning",
+   "kind": "mechanism",
+   "topic": "Problem of induction",
+   "t": "In Hume's fork, a demonstrative proof that the future will resemble the past is ruled out because a change in the course of nature can be imagined without contradiction.",
+   "f": "In Hume's fork, a demonstrative proof that the future will resemble the past is ruled out because every demonstration already relies on past experience of nature's uniformity.",
+   "x": "The demonstrative horn fails because denying uniformity involves no contradiction, so no proof from relations of ideas can establish it. Presupposing uniformity is what sinks the other horn, the probable argument from experience.",
+   "concepts": [
+    "ct:problem-of-induction",
+    "ct:david-hume"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/problem-of-induction.html"
+  },
+  {
+   "id": "ct-000255",
+   "area": "history-and-thinkers",
+   "kind": "counter",
+   "topic": "Alfred Tarski",
+   "t": "To test an argument's validity in Tarski's sense, keep logical words like \"all\" and \"so\" fixed and reinterpret the content words; if some reading makes the premises true and the conclusion false, it is invalid.",
+   "f": "To test an argument's validity in Tarski's sense, keep the content words fixed and reinterpret logical words like \"all\" and \"so\"; if some reading makes the premises true and the conclusion false, it is invalid.",
+   "x": "Tarski's model-based test varies the interpretation of the non-logical vocabulary while the logical words stay put, so validity turns on form alone. Reinterpreting \"all\" or \"so\" would change the argument's form rather than test it.",
+   "concepts": [
+    "ct:alfred-tarski",
+    "ct:logical-consequence",
+    "ct:method-of-counterexample"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/alfred-tarski.html"
+  },
+  {
+   "id": "ct-000256",
+   "area": "history-and-thinkers",
+   "kind": "mechanism",
+   "topic": "Alfred Tarski",
+   "t": "To avoid the liar paradox, Tarski defined truth for an object language inside a separate, richer metalanguage.",
+   "f": "To avoid the liar paradox, Tarski defined truth for a language inside that same language, provided it was strong enough to express arithmetic.",
+   "x": "Tarski split the language being described from the richer metalanguage that defines its truth, and proved that a language strong enough for arithmetic cannot define its own truth. Self-reference of that kind is what the liar paradox exploits.",
+   "concepts": [
+    "ct:alfred-tarski",
+    "ct:liar-paradox"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/alfred-tarski.html"
+  },
+  {
+   "id": "ct-000257",
+   "area": "history-and-thinkers",
+   "kind": "evidence",
+   "topic": "Alfred Tarski",
+   "t": "Etchemendy argues that Tarski's account of logical consequence misses its necessity, since whether an argument counts as valid can depend on how many objects exist.",
+   "f": "Etchemendy argues that Tarski's account of logical consequence misses its necessity, since whether an argument counts as valid can depend on whether its premises are actually true.",
+   "x": "Etchemendy's worry is that validity defined over models can hinge on the size of the universe, a fact about the world rather than about logic. Whether the premises are actually true never bears on validity in Tarski's account, so that is not his complaint.",
+   "concepts": [
+    "ct:alfred-tarski",
+    "ct:logical-consequence",
+    "ct:validity"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/alfred-tarski.html"
+  },
+  {
+   "id": "ct-000258",
+   "area": "debiasing-and-metacognition",
+   "kind": "scenario",
+   "topic": "Logical necessity instructions",
+   "t": "After a training that tells reviewers to reject any conclusion they aren't absolutely sure of, a team rejects more invalid arguments in reports, but also more valid ones. That pattern looks like debiasing but is mainly a shift toward caution.",
+   "f": "After a training that tells reviewers to reject any conclusion they aren't absolutely sure of, a team rejects more invalid arguments in reports, but also more valid ones. That pattern shows the training has reduced the team's belief bias.",
+   "x": "The tell is that rejections rose across the board, valid arguments included, as when acceptance of believable valid arguments fell in the Newstead study. Real debiasing would sharpen the line between valid and invalid, not just raise the rate of saying invalid.",
+   "concepts": [
+    "ct:logical-necessity-instructions",
+    "ct:belief-bias"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/logical-necessity-instructions.html"
+  },
+  {
+   "id": "ct-000259",
+   "area": "debiasing-and-metacognition",
+   "kind": "counter",
+   "topic": "Logical necessity instructions",
+   "t": "When auditing a report's reasoning, record whether you agree with each conclusion in a separate column from whether it must follow from the premises, so your view of its truth doesn't leak into the validity call.",
+   "f": "When auditing a report's reasoning, first record whether you agree with each conclusion, then count an argument as valid only if you do, so the validity call rests on conclusions you trust.",
+   "x": "Validity asks only whether the premises guarantee the conclusion, and a valid argument can have a false conclusion. Making agreement a condition of validity is exactly the belief bias the technique is meant to block.",
+   "concepts": [
+    "ct:logical-necessity-instructions",
+    "ct:belief-bias"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/logical-necessity-instructions.html"
+  },
+  {
+   "id": "ct-000260",
+   "area": "debiasing-and-metacognition",
+   "kind": "figure",
+   "topic": "Logical necessity instructions",
+   "t": "In a 2019 study, asking whether a conclusion necessarily follows, rather than whether it follows, raised untrained students' correct rejections of a believable invalid argument from 4% to 66%.",
+   "f": "In a 2019 study, asking whether a conclusion necessarily follows, rather than whether it follows, raised untrained students' correct rejections of a believable invalid argument from 4% to 16%.",
+   "x": "Caravona and colleagues found the wording change lifted correct rejections from 4% to 66% (10% to 77% for logic-trained students). Treat it with care: one experiment used a single syllogism and a borrowed control group, and no direct replication is reported.",
+   "concepts": [
+    "ct:logical-necessity-instructions",
+    "ct:caravona-2019-pragmatic-instruction-experiments"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/logical-necessity-instructions.html",
+   "asOf": "2019"
+  },
+  {
+   "id": "ct-000261",
+   "area": "formal-logic",
+   "kind": "scenario",
+   "topic": "Truth table",
+   "t": "A colleague runs a truth table on \"The new server has 32 GB of memory, so it has more than 16 GB\" and finds a row with a true premise and a false conclusion. That shows only that the argument isn't valid by truth-functional form alone.",
+   "f": "A colleague runs a truth table on \"The new server has 32 GB of memory, so it has more than 16 GB\" and finds a row with a true premise and a false conclusion. That shows the argument is invalid, since one counterexample row settles validity.",
+   "x": "The two claims become unrelated letters, so the table can't see the link between them; the argument is valid in English, but showing it needs first-order logic. A counterexample row settles validity only when an argument's force is purely truth-functional.",
+   "concepts": [
+    "ct:truth-table",
+    "ct:validity",
+    "ct:propositional-logic"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/truth-table.html"
+  },
+  {
+   "id": "ct-000262",
+   "area": "formal-logic",
+   "kind": "counter",
+   "topic": "Truth table",
+   "t": "To show an argument invalid with a partial truth table, set the conclusion false and then try to make every premise true; finding one such row is enough.",
+   "f": "To show an argument invalid with a partial truth table, set every premise true and then try to make the conclusion true; finding one such row is enough.",
+   "x": "Invalidity means some row has all premises true and the conclusion false, so you work backwards from a false conclusion. A row where everything is true proves nothing, and showing validity would mean ruling out every row, not finding one.",
+   "concepts": [
+    "ct:truth-table",
+    "ct:method-of-counterexample"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/truth-table.html"
+  },
+  {
+   "id": "ct-000263",
+   "area": "formal-logic",
+   "kind": "origin",
+   "topic": "Truth table",
+   "t": "Irving Anellis argues that an unpublished 1893 manuscript by Charles Sanders Peirce holds the earliest truth table by an identifiable author, though credit is still debated.",
+   "f": "Irving Anellis argues that Ludwig Wittgenstein's Tractatus holds the earliest truth table by an identifiable author, though credit is still debated.",
+   "x": "Anellis dates Peirce's matrix for the conditional to 1893. Wittgenstein's Tractatus (1921-22) made truth tables widely known, and even his own handwritten implication table dates only from 1912.",
+   "concepts": [
+    "ct:truth-table",
+    "ct:charles-sanders-peirce",
+    "ct:ludwig-wittgenstein"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/truth-table.html"
+  },
+  {
+   "id": "ct-000264",
+   "area": "argumentation",
+   "kind": "scenario",
+   "topic": "Argument mapping",
+   "t": "Mapping a colleague's case that a supplier can be trusted, you find its main reason, \"the supplier's self-audit is accurate\", is itself supported by \"the supplier can be trusted\". The arrows form a loop, so the support is circular.",
+   "f": "Mapping a colleague's case that a supplier can be trusted, you find its main reason, \"the supplier's self-audit is accurate\", is itself supported by \"the supplier can be trusted\". The arrows show two independent reasons, so the support is strong.",
+   "x": "When the conclusion turns up as support for its own reason, the diagram closes into a loop, the visual signature of begging the question. Independent reasons would each lead up to the conclusion without depending on it; the useful next step is an outside check that could break the loop.",
+   "concepts": [
+    "ct:argument-mapping",
+    "ct:begging-the-question"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/argument-mapping.html"
+  },
+  {
+   "id": "ct-000265",
+   "area": "argumentation",
+   "kind": "counter",
+   "topic": "Argument mapping",
+   "t": "While mapping an argument, if a key term in the conclusion appears in none of the premises, treat that gap as a cue to add the unstated premise, in brackets.",
+   "f": "While mapping an argument, if a key term in the conclusion appears in none of the premises, treat that gap as a cue to delete the term, since a map should hold only claims stated outright.",
+   "x": "The rule of thumb is that every key term in the conclusion should show up in some premise; a missing term usually signals a hidden assumption the argument relies on. Deleting the term changes the claim instead of exposing what it rests on.",
+   "concepts": [
+    "ct:argument-mapping",
+    "ct:enthymeme"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/argument-mapping.html"
+  },
+  {
+   "id": "ct-000266",
+   "area": "argumentation",
+   "kind": "evidence",
+   "topic": "Argument mapping",
+   "t": "In an experiment comparing the two formats, reading an argument as a map rather than as prose improved students' recall of it but not their comprehension.",
+   "f": "In an experiment comparing the two formats, reading an argument as a map rather than as prose improved students' comprehension of it but not their recall.",
+   "x": "The map helped memory for the argument but did not deepen understanding, one reason the evidence for mapping is rated mixed. Gains reported elsewhere are real but hard to separate from intensive teaching and feedback.",
+   "concepts": [
+    "ct:argument-mapping"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/argument-mapping.html"
+  },
+  {
+   "id": "ct-000267",
+   "area": "evidence-and-information-literacy",
+   "kind": "counter",
+   "topic": "Source credibility",
+   "t": "When a vendor's own engineer vouches for its product's uptime, ask two separate questions: is she in a position to know, and does she have reasons to shade the truth? Her expertise answers only the first.",
+   "f": "When a vendor's own engineer vouches for its product's uptime, ask two separate questions: is she in a position to know, and does she have reasons to shade the truth? Her expertise answers both.",
+   "x": "Credibility splits into expertise or access and trustworthiness or interests, and a source can score high on one and low on the other. A well-informed insider may still have a stake in how the numbers sound.",
+   "concepts": [
+    "ct:source-credibility"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/source-credibility.html"
+  },
+  {
+   "id": "ct-000268",
+   "area": "evidence-and-information-literacy",
+   "kind": "evidence",
+   "topic": "Source credibility",
+   "t": "In Hovland and Weiss's 1951 experiment, crediting an article to a trusted source rather than an untrusted one shifted how far readers agreed with it, but barely changed how much of its content they learned.",
+   "f": "In Hovland and Weiss's 1951 experiment, crediting an article to a trusted source rather than an untrusted one barely shifted how far readers agreed with it, but changed how much of its content they learned.",
+   "x": "Identical articles moved opinion far more under high-credibility attributions, while factual quiz scores were almost the same. That is why credibility should adjust confidence, not stand in for checking what a message actually says.",
+   "concepts": [
+    "ct:source-credibility",
+    "ct:hovland-weiss-1951-credibility-study",
+    "ct:carl-hovland"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/source-credibility.html"
+  },
+  {
+   "id": "ct-000269",
+   "area": "evidence-and-information-literacy",
+   "kind": "mechanism",
+   "topic": "Source credibility",
+   "t": "Dual-process accounts treat source credibility as a shortcut that sways people most when they cannot or will not weigh the arguments themselves, such as audiences new to a topic.",
+   "f": "Dual-process accounts treat source credibility as a shortcut that sways people most when they are able and motivated to weigh the arguments themselves, such as audiences expert in a topic.",
+   "x": "In the elaboration likelihood model, credibility is a peripheral cue, so it matters most when people lack the knowledge or motivation to judge the content. The meta-analytic pattern fits: the credibility edge was largest for audiences with no prior attitude and little knowledge.",
+   "concepts": [
+    "ct:source-credibility",
+    "ct:elaboration-likelihood-model",
+    "ct:kumkale-2010-source-credibility-meta-analysis"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/source-credibility.html"
+  },
+  {
+   "id": "ct-000270",
+   "area": "cognitive-biases",
+   "kind": "scenario",
+   "topic": "Framing effect",
+   "t": "Two versions of a staff memo urge joining a new training scheme: one stresses what staff gain by joining, the other what they lose by not joining. Testing which version persuades more is a study of goal framing.",
+   "f": "Two versions of a staff memo urge joining a new training scheme: one stresses what staff gain by joining, the other what they lose by not joining. Testing which version persuades more is a study of attribute framing.",
+   "x": "The tell is a persuasive message contrasting the benefits of acting with the costs of not acting, which is goal framing in Levin and colleagues' typology. Attribute framing instead describes a single feature positively or negatively, such as a 90% success rate versus a 10% failure rate.",
+   "concepts": [
+    "ct:framing-effect",
+    "ct:goal-framing",
+    "ct:attribute-framing"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/framing-effect.html"
+  },
+  {
+   "id": "ct-000271",
+   "area": "cognitive-biases",
+   "kind": "counter",
+   "topic": "Framing effect",
+   "t": "Before approving an option described as a gain, restate it as the equivalent loss; if your preference flips, the wording rather than the outcomes was doing the work.",
+   "f": "Before approving an option described as a gain, restate it as the equivalent loss; if your preference flips, the loss version shows your real preference and should win.",
+   "x": "Restating in the opposite frame exposes whether wording is driving the choice. It does not say which preference is right: Tversky and Kahneman cautioned that even once a reversal is exposed, it is not always clear which preference to keep.",
+   "concepts": [
+    "ct:framing-effect"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/framing-effect.html"
+  },
+  {
+   "id": "ct-000272",
+   "area": "cognitive-biases",
+   "kind": "evidence",
+   "topic": "Framing effect",
+   "t": "Mandel's 2014 experiments found many people read \"200 people will be saved\" as at least 200, in which case the gain and loss frames of the classic problem are not truly equivalent.",
+   "f": "Mandel's 2014 experiments found many people read \"200 people will be saved\" as exactly 200, which confirmed that the gain and loss frames of the classic problem are truly equivalent.",
+   "x": "If \"saved\" is read as a lower bound, choosing differently across frames need not be irrational. Mandel's work questions how the effect should be interpreted rather than whether it exists, and stating exact values removes the ambiguity.",
+   "concepts": [
+    "ct:framing-effect",
+    "ct:mandel-2014-framing-quantifier-experiments"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/framing-effect.html"
+  },
+  {
+   "id": "ct-000273",
+   "area": "formal-fallacies",
+   "kind": "scenario",
+   "topic": "Formal fallacy",
+   "t": "A manager who can't follow an engineering memo's technical detail reads: \"If the cache is stale, latency rises. Latency rose. So the cache is stale.\" She can rightly call this reasoning invalid without understanding caches, because the flaw is in its form.",
+   "f": "A manager who can't follow an engineering memo's technical detail reads: \"If the cache is stale, latency rises. Latency rose. So the cache is stale.\" She would need to understand caches before calling it invalid, because the flaw lies in its content.",
+   "x": "The skeleton is if P then Q; Q; so P, which is invalid whatever P and Q mean, so a formal fallacy can be diagnosed without knowing the subject. Needing to grasp the content is the mark of an informal fallacy, not a formal one.",
+   "concepts": [
+    "ct:formal-fallacy",
+    "ct:affirming-the-consequent",
+    "ct:informal-fallacy"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/formal-fallacy.html"
+  },
+  {
+   "id": "ct-000274",
+   "area": "formal-fallacies",
+   "kind": "counter",
+   "topic": "Formal fallacy",
+   "t": "Before calling a colleague's sales forecast a formal fallacy because it isn't deductively valid, ask whether it was meant as a deduction at all, since many good arguments aren't deductive.",
+   "f": "Before calling a colleague's sales forecast a formal fallacy because it isn't deductively valid, ask whether its conclusion came true, since an invalid argument with a true conclusion isn't fallacious.",
+   "x": "Govier points out that invalidity is neither necessary nor sufficient for a fallacy, so a forecast reasoned from trends can be good without being deductively valid. A true conclusion can't rescue an invalid form, because validity depends on form, not on how things turned out.",
+   "concepts": [
+    "ct:formal-fallacy"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/formal-fallacy.html"
+  },
+  {
+   "id": "ct-000275",
+   "area": "formal-fallacies",
+   "kind": "evidence",
+   "topic": "Formal fallacy",
+   "t": "Gerald Massey argued that validity can be shown by translating an argument into a valid form, but invalidity can't be proved just by naming an invalid form it fits.",
+   "f": "Gerald Massey argued that invalidity can be shown by naming an invalid form an argument fits, but validity can't be proved just by translating it into a valid form.",
+   "x": "Massey's asymmetry: one valid translation is enough for validity, but invalidity would need every adequate translation in every logical system to fail. Govier replies that a true-premises, false-conclusion counterexample still legitimately shows invalidity.",
+   "concepts": [
+    "ct:formal-fallacy",
+    "ct:gerald-massey"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/formal-fallacy.html"
+  },
+  {
+   "id": "ct-000276",
+   "area": "foundations",
+   "kind": "scenario",
+   "topic": "Cogency",
+   "t": "A buyer argues a courier will probably meet next week's deadline because it has met every deadline for two years, but records show it missed three this spring. The argument is uncogent, because one of its premises is false.",
+   "f": "A buyer argues a courier will probably meet next week's deadline because it has met every deadline for two years, but records show it missed three this spring. The argument is still cogent, because its inference from the record is strong.",
+   "x": "Cogency needs two things: a strong inference and premises that are actually true. The pattern of reasoning here is strong, but the claimed spotless record is false, and one false premise is enough to make the argument uncogent.",
+   "concepts": [
+    "ct:cogency",
+    "ct:argument-evaluation"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/cogency.html"
+  },
+  {
+   "id": "ct-000277",
+   "area": "foundations",
+   "kind": "counter",
+   "topic": "Cogency",
+   "t": "Even after judging an argument cogent, look for outside evidence against its conclusion before acting, because strong support from true premises still leaves the conclusion only probable.",
+   "f": "Even after judging an argument cogent, check whether it is deductively valid before acting, because strong support from true premises leaves the conclusion unproven until it is.",
+   "x": "A cogent argument makes its conclusion likely, not certain, so the sensible last step is to check for independent reasons to doubt the conclusion. Demanding deductive validity misjudges a non-deductive argument by the wrong standard.",
+   "concepts": [
+    "ct:cogency",
+    "ct:validity"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/cogency.html"
+  },
+  {
+   "id": "ct-000278",
+   "area": "foundations",
+   "kind": "evidence",
+   "topic": "Cogency",
+   "t": "Godden and Zenker's 2018 Bayesian analysis of cogency argued that the acceptability, relevance and sufficiency criteria are not fully independent of one another.",
+   "f": "Godden and Zenker's 2018 Bayesian analysis of cogency argued that the acceptability, relevance and sufficiency criteria are fully independent, confirming how they are usually taught.",
+   "x": "Restating the RSA criteria in probabilistic terms, Godden and Zenker found that they overlap, which challenges the textbook practice of checking them as three separate tests. Their analysis questioned that teaching rather than confirming it.",
+   "concepts": [
+    "ct:cogency",
+    "ct:bayesian-reasoning",
+    "ct:informal-logic"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/cogency.html"
+  },
+  {
+   "id": "ct-000279",
+   "area": "heuristics-and-dual-process",
+   "kind": "scenario",
+   "topic": "Affect heuristic",
+   "t": "After reading a glowing case study about a scheduling app's time savings, a team lowers its rating of the app's data-privacy risk, which the case study never mentioned. That is the affect heuristic.",
+   "f": "After reading a glowing case study about a scheduling app's time savings, a team lowers its rating of the app's data-privacy risk, which the case study never mentioned. That is the availability heuristic.",
+   "x": "The tell is that news about benefits shifted a risk judgment it said nothing about: one good feeling is answering both questions. The availability heuristic would instead judge risk by how easily examples of privacy failures come to mind.",
+   "concepts": [
+    "ct:affect-heuristic",
+    "ct:availability-heuristic"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/affect-heuristic.html"
+  },
+  {
+   "id": "ct-000280",
+   "area": "heuristics-and-dual-process",
+   "kind": "counter",
+   "topic": "Affect heuristic",
+   "t": "After a team rates several options, plot risk against benefit; if liked options score low risk and high benefit and disliked ones the reverse, in a tight inverse pattern, revisit the ratings.",
+   "f": "After a team rates several options, plot risk against benefit; if high-benefit options also score high risk, in a tight positive pattern, revisit the ratings.",
+   "x": "A shared feeling pushes perceived risk and benefit in opposite directions, so a tight inverse pattern suggests one impression did the work of two assessments. In reality high-payoff options often carry more risk, so a positive pattern is not itself a warning sign.",
+   "concepts": [
+    "ct:affect-heuristic"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/affect-heuristic.html"
+  },
+  {
+   "id": "ct-000281",
+   "area": "heuristics-and-dual-process",
+   "kind": "evidence",
+   "topic": "Affect heuristic",
+   "t": "Efendić and colleagues' 2022 replications reproduced the inverse risk-benefit link, except that information lowering a technology's benefits did not raise its judged risk.",
+   "f": "Efendić and colleagues' 2022 replications reproduced the inverse risk-benefit link, except that information raising a technology's benefits did not lower its judged risk.",
+   "x": "The coupling replicated strongly, but only some directions of the manipulation did: lowering benefits left risk judgments unmoved. The replication also could not show that affect is the mediator, which is why the status is mixed.",
+   "concepts": [
+    "ct:affect-heuristic",
+    "ct:efendic-2022-affect-heuristic-replication"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/affect-heuristic.html"
+  },
+  {
+   "id": "ct-000282",
+   "area": "informal-fallacies",
+   "kind": "scenario",
+   "topic": "Post hoc ergo propter hoc",
+   "t": "A homeowner starts a herbal supplement on the first day of a cold. Five days later the cold is gone, and she tells friends the supplement cured it, citing only that she got better after taking it. That is post hoc ergo propter hoc.",
+   "f": "A homeowner starts a herbal supplement on the first day of a cold. Five days later the cold is gone, and she tells friends the supplement cured it, citing only that she got better after taking it. That is cum hoc ergo propter hoc.",
+   "x": "Her only evidence is the order of events, remedy first and recovery after, which is the mark of post hoc; colds clear up anyway, so improvement after treatment proves little. Cum hoc infers cause from things merely occurring together, not from one following the other.",
+   "concepts": [
+    "ct:post-hoc-ergo-propter-hoc",
+    "ct:cum-hoc-ergo-propter-hoc"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/post-hoc-ergo-propter-hoc.html"
+  },
+  {
+   "id": "ct-000283",
+   "area": "informal-fallacies",
+   "kind": "counter",
+   "topic": "Post hoc ergo propter hoc",
+   "t": "To test a claim that a remedy works because people improved after taking it, ask how often people improve when they don't take it.",
+   "f": "To test a claim that a remedy works because people improved after taking it, ask how quickly people improved once they had taken it.",
+   "x": "Only a comparison with cases where the supposed cause was absent shows whether it made any difference. How fast people recovered after the remedy is still before-and-after evidence, the very thing that cannot settle a post hoc claim.",
+   "concepts": [
+    "ct:post-hoc-ergo-propter-hoc"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/post-hoc-ergo-propter-hoc.html"
+  },
+  {
+   "id": "ct-000284",
+   "area": "informal-fallacies",
+   "kind": "evidence",
+   "topic": "Post hoc ergo propter hoc",
+   "t": "In contingency-judgment experiments, the illusion that a useless remedy works grows stronger when the outcome is common and when the remedy is taken often, because both produce more coincidences.",
+   "f": "In contingency-judgment experiments, the illusion that a useless remedy works grows stronger when the outcome is rare and when the remedy is taken seldom, because both make each coincidence stand out.",
+   "x": "The causal illusion feeds on cause-then-outcome coincidences, and a frequent outcome or a frequently used remedy multiplies them. Rarity makes coincidences scarcer, so it weakens rather than strengthens the illusion in these studies.",
+   "concepts": [
+    "ct:post-hoc-ergo-propter-hoc",
+    "ct:causal-illusion"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/post-hoc-ergo-propter-hoc.html"
+  },
+  {
+   "id": "ct-000285",
+   "area": "probabilistic-reasoning",
+   "kind": "scenario",
+   "topic": "Bayesian reasoning",
+   "t": "A hiring manager treats a candidate saying \"I'm a team player\" as strong evidence of a good fit, though strong and weak candidates say it about equally often. In Bayesian terms it is weak evidence, since its likelihood ratio is close to one.",
+   "f": "A hiring manager treats a candidate saying \"I'm a team player\" as strong evidence of a good fit, though strong and weak candidates say it about equally often. In Bayesian terms it is strong evidence, since a good-fit candidate would very likely say it.",
+   "x": "How diagnostic evidence is depends on the ratio of its probability if the hypothesis is true to its probability if false. Evidence that is likely either way barely moves the needle; asking only how likely it is under the hypothesis ignores the rival.",
+   "concepts": [
+    "ct:bayesian-reasoning"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/bayesian-reasoning.html"
+  },
+  {
+   "id": "ct-000286",
+   "area": "probabilistic-reasoning",
+   "kind": "counter",
+   "topic": "Bayesian reasoning",
+   "t": "When two colleagues disagree about how alarming a warning sign is, check whether they differ on the prior or on the likelihoods; people who disagree on priors can often still agree on likelihoods, which pins down the dispute.",
+   "f": "When two colleagues disagree about how alarming a warning sign is, checking whether they differ on the prior or on the likelihoods won't help, since people who disagree on priors almost always disagree on likelihoods too.",
+   "x": "Splitting a Bayesian judgment into its inputs shows where the disagreement sits. Often both agree how diagnostic the sign is and differ only on how common the problem was to begin with, which can then be settled with base-rate data.",
+   "concepts": [
+    "ct:bayesian-reasoning"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/bayesian-reasoning.html"
+  },
+  {
+   "id": "ct-000287",
+   "area": "probabilistic-reasoning",
+   "kind": "origin",
+   "topic": "Bayesian reasoning",
+   "t": "Thomas Bayes's essay on inverse probability was found among his papers after his death by Richard Price, who sent it to the Royal Society, where it was read in 1763.",
+   "f": "Thomas Bayes's essay on inverse probability was found among his papers after his death by Abraham de Moivre, who sent it to the Royal Society, where it was read in 1763.",
+   "x": "Price, Bayes's friend, communicated the essay and noted that de Moivre had not solved this inverse question. De Moivre is named in the story only as someone who had left the problem open.",
+   "concepts": [
+    "ct:bayesian-reasoning",
+    "ct:thomas-bayes"
+   ],
+   "difficulty": 1,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/bayesian-reasoning.html"
+  },
+  {
+   "id": "ct-000288",
+   "area": "scientific-reasoning",
+   "kind": "scenario",
+   "topic": "Confounding",
+   "t": "Staff who use the office gym take fewer sick days, and HR credits the gym. But younger employees are both likelier to use the gym and less often ill. Age here is a confounder.",
+   "f": "Staff who use the office gym take fewer sick days, and HR credits the gym. But younger employees are both likelier to use the gym and less often ill. Age here is a collider.",
+   "x": "Age comes before gym use and independently affects both gym use and illness, so it is a common cause, the defining shape of a confounder. A collider is the reverse: a common effect of the two variables, which age cannot be.",
+   "concepts": [
+    "ct:confounding",
+    "ct:berksons-paradox"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/confounding.html"
+  },
+  {
+   "id": "ct-000289",
+   "area": "scientific-reasoning",
+   "kind": "counter",
+   "topic": "Confounding",
+   "t": "When estimating whether a new onboarding programme raises retention, adjusting for staff satisfaction scores that the programme itself improved adds bias rather than removing confounding.",
+   "f": "When estimating whether a new onboarding programme raises retention, adjusting for staff satisfaction scores that the programme itself improved is the right way to remove confounding.",
+   "x": "A confounder must not be a consequence of the exposure; satisfaction raised by the programme is a mediator on its causal path. Controlling for it strips out part of the real effect, so before adjusting ask whether the variable came before the exposure or was caused by it.",
+   "concepts": [
+    "ct:confounding",
+    "ct:causal-diagrams"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/confounding.html"
+  },
+  {
+   "id": "ct-000290",
+   "area": "scientific-reasoning",
+   "kind": "origin",
+   "topic": "Confounding",
+   "t": "Ronald Fisher first used \"confounding\" in research design for a deliberate device in agricultural field trials; the sense of an unwanted extraneous variable came later, from Leslie Kish in 1959.",
+   "f": "Ronald Fisher first used \"confounding\" in research design for an unwanted extraneous variable in field trials; Leslie Kish later turned it into a deliberate design device in 1959.",
+   "x": "In The Design of Experiments, Fisher's confounding meant intentionally mixing some higher-order interactions with other effects to save plots. Kish, writing on social-science design, gave the word its modern meaning of an uncontrolled variable tangled with the factor of interest, so the false version runs the history backwards.",
+   "concepts": [
+    "ct:confounding",
+    "ct:ronald-fisher",
+    "ct:the-design-of-experiments"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/confounding.html"
+  },
+  {
+   "id": "ct-000291",
+   "area": "decision-making",
+   "kind": "scenario",
+   "topic": "Structured analytic techniques",
+   "t": "Before drafting a five-year plan, a strategy team sketches several different ways its market could look by the end of the period, to widen the options it considers. In the Tradecraft Primer's grouping, that is an imaginative technique.",
+   "f": "Before drafting a five-year plan, a strategy team sketches several different ways its market could look by the end of the period, to widen the options it considers. In the Tradecraft Primer's grouping, that is a contrarian technique.",
+   "x": "Alternative futures analysis widens the space of possibilities, which is what the imaginative group is for. Contrarian techniques such as devil's advocacy or Team A/Team B instead attack a prevailing view, and here no single view is being challenged.",
+   "concepts": [
+    "ct:structured-analytic-techniques",
+    "ct:tradecraft-primer"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/structured-analytic-techniques.html"
+  },
+  {
+   "id": "ct-000292",
+   "area": "decision-making",
+   "kind": "counter",
+   "topic": "Structured analytic techniques",
+   "t": "Mandel and Tetlock advise pairing structured techniques with tracking how accurate the resulting judgments turn out, since warnings against overconfidence alone can tip analysts into underconfidence.",
+   "f": "Mandel and Tetlock advise pairing structured techniques with repeated warnings against overconfidence, since those warnings alone reliably bring analysts' confidence into line with their accuracy.",
+   "x": "Structure on paper does not show that judgments got better; only scoring them against outcomes, plus corrections such as recalibration and averaging, does. The false version recommends the very warning the critics say can overshoot into underconfidence.",
+   "concepts": [
+    "ct:structured-analytic-techniques",
+    "ct:mandel-tetlock-2018-correcting-judgment-correctives",
+    "ct:calibration"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/structured-analytic-techniques.html"
+  },
+  {
+   "id": "ct-000293",
+   "area": "decision-making",
+   "kind": "evidence",
+   "topic": "Structured analytic techniques",
+   "t": "Coulthart's 2015 review of research on twelve core structured techniques judged the support moderate to strong for only three: ACH, brainstorming and devil's advocacy.",
+   "f": "Coulthart's 2015 review of research on twelve core structured techniques judged the support moderate to strong for only three: key assumptions checks, red teaming and alternative futures.",
+   "x": "Even the friendliest review backed just a quarter of the core techniques, and later controlled trials of ACH were less encouraging still. That thin, mixed record is why the family's evidence status is contested.",
+   "concepts": [
+    "ct:structured-analytic-techniques",
+    "ct:analysis-of-competing-hypotheses",
+    "ct:devils-advocacy"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/structured-analytic-techniques.html"
+  },
+  {
+   "id": "ct-000294",
+   "area": "philosophy-of-reasoning",
+   "kind": "scenario",
+   "topic": "Critical thinking education",
+   "t": "A hospital trains its billing auditors through in-depth casework on real claims, and instructors explicitly name and teach the reasoning principles involved as they go. In Ennis's typology this is the infusion approach.",
+   "f": "A hospital trains its billing auditors through in-depth casework on real claims, and instructors explicitly name and teach the reasoning principles involved as they go. In Ennis's typology this is the immersion approach.",
+   "x": "Both infusion and immersion teach a subject in depth; what separates them is whether the reasoning principles are made explicit. Because the instructors name them, this is infusion; immersion invites critical thinking but never names its principles.",
+   "concepts": [
+    "ct:critical-thinking-education"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/critical-thinking-education.html"
+  },
+  {
+   "id": "ct-000295",
+   "area": "philosophy-of-reasoning",
+   "kind": "counter",
+   "topic": "Critical thinking education",
+   "t": "To help trainees carry a reasoning skill to new problems, have them compare two worked problems that share a deep structure but differ on the surface.",
+   "f": "To help trainees carry a reasoning skill to new problems, have them compare two worked problems that look alike on the surface but differ in their deep structure.",
+   "x": "Willingham recommends problem comparison because seeing the same underlying structure in different-looking cases helps learners recognise it next time. Since transfer must be taught rather than assumed, the variation should be on the surface, with the structure held constant.",
+   "concepts": [
+    "ct:critical-thinking-education",
+    "ct:transfer-of-learning"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/critical-thinking-education.html"
+  },
+  {
+   "id": "ct-000296",
+   "area": "philosophy-of-reasoning",
+   "kind": "evidence",
+   "topic": "Critical thinking education",
+   "t": "Huber and Kuncel's 2016 meta-analysis found that critical thinking grows substantially over an ordinary college education, but curriculum-wide efforts to boost it did not clearly add long-term gains.",
+   "f": "Huber and Kuncel's 2016 meta-analysis found that critical thinking grows little over an ordinary college education, and only curriculum-wide efforts to boost it clearly added long-term gains.",
+   "x": "The study is a caution for the field because ordinary college already produced large gains, while dedicated curricula did not clearly beat it in the long run. The false version reverses both halves of that finding.",
+   "concepts": [
+    "ct:critical-thinking-education",
+    "ct:huber-kuncel-2016-college-critical-thinking-meta-analysis"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/critical-thinking-education.html"
+  },
+  {
+   "id": "ct-000297",
+   "area": "history-and-thinkers",
+   "kind": "scenario",
+   "topic": "Organon",
+   "t": "Before a budget meeting, an analyst lists the standard lines of attack a sceptic might use against her proposal and prepares a defence for each. Among the books of the Organon, her preparation matches the purpose of the Topics.",
+   "f": "Before a budget meeting, an analyst lists the standard lines of attack a sceptic might use against her proposal and prepares a defence for each. Among the books of the Organon, her preparation matches the purpose of the Posterior Analytics.",
+   "x": "The Topics is a handbook for dialectical debate, offering strategies for attacking or defending a thesis. The Posterior Analytics asks something else: when a deduction from true, explanatory premises gives real knowledge.",
+   "concepts": [
+    "ct:organon",
+    "ct:posterior-analytics"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/organon.html"
+  },
+  {
+   "id": "ct-000298",
+   "area": "history-and-thinkers",
+   "kind": "origin",
+   "topic": "Organon",
+   "t": "Naming Aristotle's logical works the \"tool\" took the later Peripatetics' side in an ancient debate: they held logic is an instrument philosophy uses, while the Stoics held it is a part of philosophy.",
+   "f": "Naming Aristotle's logical works the \"tool\" took the Stoics' side in an ancient debate: they held logic is an instrument philosophy uses, while the Peripatetics held it is a part of philosophy.",
+   "x": "The title was given by Aristotle's later followers, the Peripatetics, and expressed their view of logic as an instrument. The Stoics, whose rival logic faded in late antiquity, counted logic as one of philosophy's parts.",
+   "concepts": [
+    "ct:organon",
+    "ct:stoic-logic"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/organon.html"
+  },
+  {
+   "id": "ct-000299",
+   "area": "history-and-thinkers",
+   "kind": "origin",
+   "topic": "Organon",
+   "t": "Francis Bacon named his 1620 Novum Organum after Aristotle's collection to replace it, complaining that the syllogism leaps from a few particulars to the most general axioms.",
+   "f": "Francis Bacon named his 1620 Novum Organum after Aristotle's collection to replace it, complaining that the syllogism creeps too slowly from particulars before reaching general axioms.",
+   "x": "Bacon's objection was hastiness: the syllogism jumps to sweeping axioms from little evidence. His remedy was a gradual, eliminative induction using tables of presence, absence and degrees, the opposite of a call for bolder leaps.",
+   "concepts": [
+    "ct:organon",
+    "ct:novum-organum"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/organon.html"
+  },
+  {
+   "id": "ct-000300",
+   "area": "debiasing-and-metacognition",
+   "kind": "scenario",
+   "topic": "Statistical reasoning training",
+   "t": "A sales manager sees a new hire's first-week sales beat the team average and, recalling that one week is a small sample, expects next week to fall back toward average. That is the sample-size reasoning statistical training aims to instil.",
+   "f": "A sales manager sees a new hire's first-week sales beat the team average and, recalling that one week is a small sample, expects next week to fall back toward average. That is the representativeness heuristic at work.",
+   "x": "Discounting a result because the sample is small is the law of large numbers, the rule Fong, Krantz and Nisbett trained. The representativeness heuristic would do the opposite, reading the one strong week as a faithful picture of the hire's ability.",
+   "concepts": [
+    "ct:statistical-reasoning-training",
+    "ct:insensitivity-to-sample-size",
+    "ct:representativeness-heuristic"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/statistical-reasoning-training.html"
+  },
+  {
+   "id": "ct-000301",
+   "area": "debiasing-and-metacognition",
+   "kind": "counter",
+   "topic": "Statistical reasoning training",
+   "t": "After teaching a team the conjunction rule, add a prompt at the point of decision, such as \"is one option a subset of the other?\", because trainees apply the rule far more often when told to.",
+   "f": "After teaching a team the conjunction rule, a prompt at the point of decision, such as \"is one option a subset of the other?\", adds little, because trainees apply the rule about as often unprompted.",
+   "x": "Training effects depend heavily on prompts: in a 2022 replication, error rates were clearly lower when people were told to apply what they had learned than when they were not. Unprompted transfer happens, but it is smaller, so a checklist or reminder does real work.",
+   "concepts": [
+    "ct:statistical-reasoning-training",
+    "ct:conjunction-fallacy",
+    "ct:truong-2022-conjunction-training-replication"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/statistical-reasoning-training.html"
+  },
+  {
+   "id": "ct-000302",
+   "area": "debiasing-and-metacognition",
+   "kind": "evidence",
+   "topic": "Statistical reasoning training",
+   "t": "Fisk and Pidgeon (1997) found extension-rule training cut conjunction errors, yet judgments still tracked the less likely component event, suggesting training shifts a compromise rather than replacing the heuristic.",
+   "f": "Fisk and Pidgeon (1997) found extension-rule training cut conjunction errors by replacing the similarity heuristic outright, so judgments no longer tracked the less likely component event.",
+   "x": "The trained rule competes with the intuitive one instead of overwriting it, which is why errors fall but rarely vanish. That residual pull is part of why the technique's evidence is rated mixed.",
+   "concepts": [
+    "ct:statistical-reasoning-training",
+    "ct:representativeness-heuristic"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/statistical-reasoning-training.html"
+  },
+  {
+   "id": "ct-000303",
+   "area": "formal-logic",
+   "kind": "scenario",
+   "topic": "Rules of the categorical syllogism",
+   "t": "\"No remote staff use the old VPN. Some engineers are remote staff. So some engineers use the old VPN.\" This syllogism breaks the rule that a negative premise requires a negative conclusion, so it is invalid.",
+   "f": "\"No remote staff use the old VPN. Some engineers are remote staff. So some engineers use the old VPN.\" This syllogism commits the undistributed middle, so it is invalid.",
+   "x": "One premise is negative but the conclusion is affirmative, which the negation rule forbids. The middle term, remote staff, is the subject of a universal premise and so is distributed, which rules out the undistributed middle.",
+   "concepts": [
+    "ct:rules-of-the-categorical-syllogism",
+    "ct:undistributed-middle",
+    "ct:distribution-of-terms"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/rules-of-the-categorical-syllogism.html"
+  },
+  {
+   "id": "ct-000304",
+   "area": "formal-logic",
+   "kind": "counter",
+   "topic": "Rules of the categorical syllogism",
+   "t": "If you need to tell a colleague what is wrong with a syllogism, not just that it fails, the rule checklist suits better than a Venn diagram, since each broken rule names a specific fallacy.",
+   "f": "If you need to tell a colleague what is wrong with a syllogism, not just that it fails, a Venn diagram suits better than the rule checklist, since each unmarked region names a specific fallacy.",
+   "x": "Both methods decide validity, but a diagram shows class relations while the rules are a verbal checklist in which each failure, such as an illicit major, is a named error. Regions of a diagram carry no fallacy names.",
+   "concepts": [
+    "ct:rules-of-the-categorical-syllogism",
+    "ct:venn-diagram-test"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/rules-of-the-categorical-syllogism.html"
+  },
+  {
+   "id": "ct-000305",
+   "area": "formal-logic",
+   "kind": "origin",
+   "topic": "Rules of the categorical syllogism",
+   "t": "The Port-Royal Logic gave a compact list of six syllogism rules and held that a mood is valid if and only if it breaks none of them.",
+   "f": "John Buridan gave a compact list of six syllogism rules and held that a mood is valid if and only if it breaks none of them.",
+   "x": "The best-known six-rule list, with the claim that passing every rule is both necessary and sufficient, comes from the seventeenth-century Port-Royal Logic. Buridan, in the fourteenth century, used distribution to test moods but is not the source of that list.",
+   "concepts": [
+    "ct:rules-of-the-categorical-syllogism",
+    "ct:port-royal-logic"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/rules-of-the-categorical-syllogism.html"
+  },
+  {
+   "id": "ct-000306",
+   "area": "argumentation",
+   "kind": "scenario",
+   "topic": "Argument from expert opinion",
+   "t": "A team asks the company's in-house tax specialist whether a new expense type is deductible. She says yes, cites the rule she relied on, and no other specialist disagrees. Relying on her is a reasonable argument from expert opinion.",
+   "f": "A team asks the company's in-house tax specialist whether a new expense type is deductible. She says yes, cites the rule she relied on, and no other specialist disagrees. Relying on her is the ad verecundiam fallacy.",
+   "x": "The claim sits inside her field, her basis is stated, and no expert disagrees, so the critical questions raise no doubt and the presumption stands. Ad verecundiam is a misuse of the scheme that fails one of its requirements; most appeals to authority are not fallacious.",
+   "concepts": [
+    "ct:argument-from-expert-opinion",
+    "ct:ad-verecundiam"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/argument-from-expert-opinion.html"
+  },
+  {
+   "id": "ct-000307",
+   "area": "argumentation",
+   "kind": "counter",
+   "topic": "Argument from expert opinion",
+   "t": "A structural engineer says a floor can carry heavy archive shelving, but she has looked only at the original plans. The question to press is what evidence her view rests on, since the plans may not match what was built.",
+   "f": "A structural engineer says a floor can carry heavy archive shelving, but she has looked only at the original plans. The question to press is whether floor loads fall within her field, since the plans may not match what was built.",
+   "x": "Floor loading is squarely a structural engineer's field, so the field question is already answered. The open weakness is backup evidence: an opinion formed from drawings rather than the actual structure needs its basis checked.",
+   "concepts": [
+    "ct:argument-from-expert-opinion"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/argument-from-expert-opinion.html"
+  },
+  {
+   "id": "ct-000308",
+   "area": "argumentation",
+   "kind": "origin",
+   "topic": "Argument from expert opinion",
+   "t": "John Locke introduced the label \"argumentum ad verecundiam\" in his 1690 Essay Concerning Human Understanding, but he did not call it a fallacy; later textbook writers did.",
+   "f": "John Locke introduced the label \"argumentum ad verecundiam\" in his 1690 Essay Concerning Human Understanding and branded it a fallacy; later textbook writers softened it.",
+   "x": "Locke listed it as one way people win assent, and his wording about eminence and modesty points to deference to social rank rather than expertise. The fallacy label was added by later textbooks, and Walton's scheme later recast expert appeals as reasonable but defeasible.",
+   "concepts": [
+    "ct:argument-from-expert-opinion",
+    "ct:john-locke",
+    "ct:ad-verecundiam"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/argument-from-expert-opinion.html"
+  },
+  {
+   "id": "ct-000309",
+   "area": "cognitive-biases",
+   "kind": "scenario",
+   "topic": "Hindsight bias",
+   "t": "After a supplier collapses, a review board calls the warning signs obvious and faults the buyer, though in the file at the time those signs were one item among dozens. That is hindsight bias.",
+   "f": "After a supplier collapses, a review board calls the warning signs obvious and faults the buyer, though in the file at the time those signs were one item among dozens. That is the overconfidence effect.",
+   "x": "Knowing the outcome makes the signs that led to it look decisive, so the board judges the past as more foreseeable than it was. Overconfidence is excess confidence in one's own judgments going forward; here the error is grading an earlier decision by its outcome.",
+   "concepts": [
+    "ct:hindsight-bias",
+    "ct:overconfidence-effect"
+   ],
+   "difficulty": 1,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/hindsight-bias.html"
+  },
+  {
+   "id": "ct-000310",
+   "area": "cognitive-biases",
+   "kind": "counter",
+   "topic": "Hindsight bias",
+   "t": "To keep a project retrospective fair, have people write down their forecasts and reasons before the outcome is known, then review against that record rather than memory.",
+   "f": "To keep a project retrospective fair, have people write down their forecasts and reasons once the outcome is known, while memories are fresh, then review against that record.",
+   "x": "Once the outcome is known, people misremember their earlier predictions as closer to it, so any record made afterwards is already tilted. Only a record made beforehand shows what was actually expected and knowable at the time.",
+   "concepts": [
+    "ct:hindsight-bias"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/hindsight-bias.html"
+  },
+  {
+   "id": "ct-000311",
+   "area": "cognitive-biases",
+   "kind": "evidence",
+   "topic": "Hindsight bias",
+   "t": "Whether task expertise reduces hindsight bias is unsettled: a 1991 meta-analysis found less bias in people familiar with the task, but a 2004 meta-analysis found no such relation.",
+   "f": "Task expertise is known to reduce hindsight bias: a 1991 meta-analysis found less bias in people familiar with the task, and a 2004 meta-analysis confirmed the relation.",
+   "x": "The two meta-analyses disagree, so experience can't be assumed to protect reviewers. In practice that means experts' post-mortems need the same safeguards, such as written prior forecasts, as anyone else's.",
+   "concepts": [
+    "ct:hindsight-bias"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/hindsight-bias.html"
+  },
+  {
+   "id": "ct-000312",
+   "area": "evidence-and-information-literacy",
+   "kind": "scenario",
+   "topic": "Suppressed evidence",
+   "t": "Pitching a vendor renewal, a project lead cites three glowing user reviews and the vendor's best quarter of uptime, but leaves out the two outages she knows hit the latest quarter. That is suppressed evidence.",
+   "f": "Pitching a vendor renewal, a project lead cites three glowing user reviews and the vendor's best quarter of uptime, but leaves out the two outages she knows hit the latest quarter. That is the Texas sharpshooter fallacy.",
+   "x": "The tell is that she knowingly withholds relevant counter-evidence from her case, so true premises add up to a misleading argument. The Texas sharpshooter instead treats chance hits as meaningful after the fact, like counting one lucky forecast and ignoring the misses.",
+   "concepts": [
+    "ct:suppressed-evidence",
+    "ct:texas-sharpshooter-fallacy"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/suppressed-evidence.html"
+  },
+  {
+   "id": "ct-000313",
+   "area": "evidence-and-information-literacy",
+   "kind": "counter",
+   "topic": "Suppressed evidence",
+   "t": "A supplier comparison that leaves out each firm's logo colours and office address isn't cherry picking, since an omission counts only when the missing information bears on the conclusion.",
+   "f": "A supplier comparison that leaves out each firm's logo colours and office address is cherry picking, since leaving out any known information about the options counts.",
+   "x": "The duty is to weigh evidence that is relevant and significant, not to list everything known. Before crying cherry picking, ask whether the omitted material would change the decision; logo colours would not.",
+   "concepts": [
+    "ct:suppressed-evidence"
+   ],
+   "difficulty": 1,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/suppressed-evidence.html"
+  },
+  {
+   "id": "ct-000314",
+   "area": "evidence-and-information-literacy",
+   "kind": "definition",
+   "topic": "Suppressed evidence",
+   "t": "Dowden reserves \"suppressed evidence\" for deliberately leaving out relevant evidence, and calls the same error \"incomplete evidence\" or \"cherry-picking\" when the omission is inadvertent.",
+   "f": "Dowden reserves \"suppressed evidence\" for inadvertently leaving out relevant evidence, and calls the same error \"incomplete evidence\" or \"cherry-picking\" when the omission is deliberate.",
+   "x": "In Dowden's usage the word suppressed signals intent: the arguer knows the evidence and hides it. An honest oversight with the same effect gets the milder labels, so the false version swaps which name goes with which.",
+   "concepts": [
+    "ct:suppressed-evidence"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/suppressed-evidence.html"
+  },
+  {
+   "id": "ct-000315",
+   "area": "probabilistic-reasoning",
+   "kind": "scenario",
+   "topic": "Calibration",
+   "t": "A maintenance planner gives every machine the same 20% chance of breaking down this quarter, and 20% of them do. Her forecasts are well calibrated but have no resolution.",
+   "f": "A maintenance planner gives every machine the same 20% chance of breaking down this quarter, and 20% of them do. Her forecasts have good resolution but poor calibration.",
+   "x": "Her stated probability matches the hit rate, so she is calibrated. But by giving every machine the same number she never separates the likely failures from the safe ones, which is what resolution measures; calibration alone is not forecasting skill.",
+   "concepts": [
+    "ct:calibration",
+    "ct:forecast-resolution"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/calibration.html"
+  },
+  {
+   "id": "ct-000316",
+   "area": "probabilistic-reasoning",
+   "kind": "counter",
+   "topic": "Calibration",
+   "t": "To check a forecaster's calibration, group many resolved forecasts by stated probability and compare each group's hit rate, rather than reacting to one confident miss.",
+   "f": "To check a forecaster's calibration, look at the most confident forecast that missed, since one high-confidence miss is enough to show overconfidence.",
+   "x": "Calibration is a property of a set of judgments: an 80% call is supposed to miss one time in five. Only a record of many forecasts at the same level, reviewed in batches, can show whether stated confidence matches how often they come true.",
+   "concepts": [
+    "ct:calibration"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/calibration.html"
+  },
+  {
+   "id": "ct-000317",
+   "area": "probabilistic-reasoning",
+   "kind": "origin",
+   "topic": "Calibration",
+   "t": "In 1950 Brier proposed scoring weather probability forecasts by the average squared gap between each stated probability and the outcome, coded 1 if it happened and 0 if not.",
+   "f": "In 1950 Murphy proposed scoring weather probability forecasts by the average squared gap between each stated probability and the outcome, coded 1 if it happened and 0 if not.",
+   "x": "The score bears Brier's name and came out of weather forecasting; lower is better. Murphy's contribution came in 1973, when he split the Brier score into reliability, resolution and uncertainty.",
+   "concepts": [
+    "ct:calibration",
+    "ct:brier-score",
+    "ct:weather-forecasting"
+   ],
+   "difficulty": 1,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/calibration.html"
+  },
+  {
+   "id": "ct-000318",
+   "area": "scientific-reasoning",
+   "kind": "scenario",
+   "topic": "Correlation versus causation",
+   "t": "A retail chain finds that stores with more security guards report more shoplifting, and a manager suggests guards attract thieves. But head office posts extra guards at stores where theft is already high. The likeliest explanation is reverse causation.",
+   "f": "A retail chain finds that stores with more security guards report more shoplifting, and a manager suggests guards attract thieves. But head office posts extra guards at stores where theft is already high. The likeliest explanation is a common cause.",
+   "x": "The deciding detail is that high theft is what brings the guards, so the arrow runs from outcome to supposed cause. A common-cause story would need a third factor driving both guard numbers and theft, and none is described.",
+   "concepts": [
+    "ct:correlation-versus-causation"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/correlation-versus-causation.html"
+  },
+  {
+   "id": "ct-000319",
+   "area": "scientific-reasoning",
+   "kind": "counter",
+   "topic": "Correlation versus causation",
+   "t": "When a news story says a habit \"boosts\" or \"prevents\" something, check whether the study behind it set the habit by intervention or only observed who had it.",
+   "f": "When a news story says a habit \"boosts\" or \"prevents\" something, check whether the study behind it found a statistically significant link.",
+   "x": "Causal verbs are only earned by a design that can rule out common causes and reverse causation, which is why an intervention outweighs passive observation. A significant result speaks only partly to chance and says nothing about which way the causation runs.",
+   "concepts": [
+    "ct:correlation-versus-causation",
+    "ct:randomized-controlled-trial"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/correlation-versus-causation.html"
+  },
+  {
+   "id": "ct-000320",
+   "area": "scientific-reasoning",
+   "kind": "figure",
+   "topic": "Correlation versus causation",
+   "t": "A 2014 study of UK university press releases found that when a release overstated correlational research as causal, 81% of related news stories repeated the exaggeration, against 18% when the release was accurate.",
+   "f": "A 2014 study of UK university press releases found that when a release overstated correlational research as causal, only 18% of related news stories repeated the exaggeration, as most journalists corrected it.",
+   "x": "The study traced much causal overstatement in health news back to the universities' own press releases: news coverage largely passed the exaggeration on. Journalists mostly did not catch it, so it pays to check the study design rather than trust the headline verb.",
+   "concepts": [
+    "ct:correlation-versus-causation"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/correlation-versus-causation.html",
+   "asOf": "2014"
+  },
+  {
+   "id": "ct-000321",
+   "area": "formal-fallacies",
+   "kind": "scenario",
+   "topic": "Exclusive premises",
+   "t": "\"No laptops on the recall list were bought under the old contract. No finance-team laptops are on the recall list. So no finance-team laptops were bought under the old contract.\" Even if IT confirms the conclusion is true, the argument is invalid.",
+   "f": "\"No laptops on the recall list were bought under the old contract. No finance-team laptops are on the recall list. So no finance-team laptops were bought under the old contract.\" Since IT confirms the conclusion is true, the argument is valid.",
+   "x": "Both premises are negative, so each only says what is shut out of the recall list, and nothing links finance laptops to the old contract. A true conclusion doesn't make the form valid: both premises would stay true even if every finance laptop came from the old contract.",
+   "concepts": [
+    "ct:exclusive-premises",
+    "ct:categorical-syllogism"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/exclusive-premises.html"
+  },
+  {
+   "id": "ct-000322",
+   "area": "formal-fallacies",
+   "kind": "counter",
+   "topic": "Exclusive premises",
+   "t": "Before charging an argument with exclusive premises, check that it is a categorical syllogism, since in other logical systems an argument with two negative premises can be valid.",
+   "f": "Before charging an argument with exclusive premises, check whether its conclusion is negative, since two negative premises with a negative conclusion make a valid syllogism.",
+   "x": "The rule that one premise must be affirmative belongs to categorical logic, so two negative premises outside a syllogism aren't automatically fallacious. Inside a syllogism a negative conclusion doesn't help: any mood starting EE, EO, OE or OO is invalid.",
+   "concepts": [
+    "ct:exclusive-premises",
+    "ct:categorical-syllogism"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/exclusive-premises.html"
+  },
+  {
+   "id": "ct-000323",
+   "area": "formal-fallacies",
+   "kind": "figure",
+   "topic": "Exclusive premises",
+   "t": "In Khemlani and Johnson-Laird's 2012 meta-analysis, people correctly said that nothing follows from two negative premises only about half the time overall.",
+   "f": "In Khemlani and Johnson-Laird's 2012 meta-analysis, people correctly said that nothing follows from two negative premises about nine times in ten overall.",
+   "x": "Pooling six experiments, the authors found the correct no-conclusion answer for double-negative pairs about half the time, with wide variation by term order; for some pairs an invalid negative conclusion was chosen about as often as the right answer.",
+   "concepts": [
+    "ct:exclusive-premises",
+    "ct:psychology-of-reasoning"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/exclusive-premises.html",
+   "asOf": "2012"
+  },
+  {
+   "id": "ct-000324",
+   "area": "foundations",
+   "kind": "scenario",
+   "topic": "Ambiguity",
+   "t": "A travel policy grants an allowance to staff with \"long commutes\", and colleagues argue over whether 50 minutes each way qualifies. The trouble is vagueness rather than ambiguity.",
+   "f": "A travel policy grants an allowance to staff with \"long commutes\", and colleagues argue over whether 50 minutes each way qualifies. The trouble is ambiguity rather than vagueness.",
+   "x": "Nobody disputes what \"long\" means here; the dispute is about a borderline case of a single meaning, which is the mark of vagueness. Ambiguity would need the phrase to carry two distinct, legitimate meanings, as \"bank\" does.",
+   "concepts": [
+    "ct:ambiguity",
+    "ct:vagueness"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/ambiguity.html"
+  },
+  {
+   "id": "ct-000325",
+   "area": "foundations",
+   "kind": "counter",
+   "topic": "Ambiguity",
+   "t": "To check an argument for equivocation, replace each load-bearing term in the premises with a precise paraphrase and see whether the same paraphrase still fits the conclusion.",
+   "f": "To check an argument for equivocation, confirm that each load-bearing term in the premises appears in the conclusion in exactly the same words.",
+   "x": "Equivocation hides behind identical wording: the same word carries one meaning in a premise and another in the conclusion. Only substituting a precise paraphrase reveals whether the meaning, not just the spelling, stayed fixed.",
+   "concepts": [
+    "ct:ambiguity",
+    "ct:equivocation"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/ambiguity.html"
+  },
+  {
+   "id": "ct-000326",
+   "area": "foundations",
+   "kind": "evidence",
+   "topic": "Ambiguity",
+   "t": "Piantadosi, Tily and Gibson (2012) found that in English, German and Dutch corpora, shorter and more frequent words tended to have more meanings, as an efficient code that lets context do the work would predict.",
+   "f": "Piantadosi, Tily and Gibson (2012) found that in English, German and Dutch corpora, longer and rarer words tended to have more meanings, as an efficient code that lets context do the work would predict.",
+   "x": "Their argument is that when context resolves meaning, it is efficient to reuse the short, easy forms, so those carry the most senses. Longer, rarer words having more meanings would cut against the efficiency account.",
+   "concepts": [
+    "ct:ambiguity",
+    "ct:communicative-efficiency"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/ambiguity.html"
+  },
+  {
+   "id": "ct-000327",
+   "area": "heuristics-and-dual-process",
+   "kind": "scenario",
+   "topic": "Fast-and-frugal heuristics",
+   "t": "Choosing between two job applicants, a recruiter checks cues in order of how well each has predicted success in the past and picks whoever is ahead on the first cue where they differ, ignoring the rest. That is a one-reason rule like Take The Best.",
+   "f": "Choosing between two job applicants, a recruiter checks cues in order of how well each has predicted success in the past and picks whoever is ahead on the first cue where they differ, ignoring the rest. That is a weighted-additive rule like multiple regression.",
+   "x": "Ordered search, a stop at the first discriminating cue and a choice on that cue alone are the search, stopping and decision rules of Take The Best. A weighted-additive model would look up every cue, weight each and add them up before deciding.",
+   "concepts": [
+    "ct:fast-and-frugal-heuristics"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/fast-and-frugal-heuristics.html"
+  },
+  {
+   "id": "ct-000328",
+   "area": "heuristics-and-dual-process",
+   "kind": "counter",
+   "topic": "Fast-and-frugal heuristics",
+   "t": "When many weak cues jointly carry the signal, prefer a weighted model to a one-reason rule, since a rule that stops at the first cue can miss what they add up to.",
+   "f": "When many weak cues jointly carry the signal, prefer a one-reason rule to a weighted model, since ignoring the weak cues is what protects a rule from overfitting.",
+   "x": "Simple rules shine when data are scarce and a few strong cues dominate; they lose when the information is spread thinly across many cues. Overfitting is a reason to test any model on new cases, not a licence to discard a signal that only shows up in combination.",
+   "concepts": [
+    "ct:fast-and-frugal-heuristics",
+    "ct:overfitting"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/fast-and-frugal-heuristics.html"
+  },
+  {
+   "id": "ct-000329",
+   "area": "heuristics-and-dual-process",
+   "kind": "evidence",
+   "topic": "Fast-and-frugal heuristics",
+   "t": "Pohl's 2011 review of the recognition-heuristic debate found that less-is-more effects, where knowing less yields better inferences, are scarce and small in real people.",
+   "f": "Pohl's 2011 review of the recognition-heuristic debate found that less-is-more effects, where knowing less yields better inferences, are common and large in real people.",
+   "x": "Less-is-more is well supported in simulations, but the review found it rare and weak in human data. That gap between the normative result and the descriptive claim is why the program's status is contested.",
+   "concepts": [
+    "ct:fast-and-frugal-heuristics",
+    "ct:pohl-2011-recognition-heuristic-debate-review",
+    "ct:recognition-heuristic"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/fast-and-frugal-heuristics.html"
+  },
+  {
+   "id": "ct-000330",
+   "area": "informal-fallacies",
+   "kind": "scenario",
+   "topic": "Ignoratio elenchi",
+   "t": "The decision is whether to open a second warehouse next year. A manager shows with sound figures that opening the first warehouse was a good call, and concludes the second should open. The argument is an ignoratio elenchi.",
+   "f": "The decision is whether to open a second warehouse next year. A manager shows with sound figures that opening the first warehouse was a good call, and concludes the second should open. The argument is a red herring.",
+   "x": "The figures do establish a definite conclusion, that the first warehouse paid off, but not the one at issue, which is the tell of a wrong-conclusion fallacy. Walton reserves red herring for a diversion that reaches no definite alternative conclusion.",
+   "concepts": [
+    "ct:ignoratio-elenchi",
+    "ct:red-herring"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/ignoratio-elenchi.html"
+  },
+  {
+   "id": "ct-000331",
+   "area": "informal-fallacies",
+   "kind": "counter",
+   "topic": "Ignoratio elenchi",
+   "t": "To check a reply for ignoratio elenchi, ask whether the disputed claim would stand or fall if the reply succeeded completely; if the claim would be untouched, the reply misses the point.",
+   "f": "To check a reply for ignoratio elenchi, ask whether the reply's conclusion follows validly from its premises; if it does not, the reply misses the point.",
+   "x": "An ignoratio elenchi can be perfectly valid and still aim at the wrong target, so the test is whether success would bear on the claim in dispute. A conclusion that fails to follow from its premises is a non sequitur, a different fault.",
+   "concepts": [
+    "ct:ignoratio-elenchi",
+    "ct:non-sequitur"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/ignoratio-elenchi.html"
+  },
+  {
+   "id": "ct-000332",
+   "area": "informal-fallacies",
+   "kind": "origin",
+   "topic": "Ignoratio elenchi",
+   "t": "In On Sophistical Refutations, Aristotle suggests that every kind of apparent refutation can be traced to some failure to meet his definition of what a refutation is.",
+   "f": "In On Sophistical Refutations, Aristotle suggests that every kind of apparent refutation can be traced to some shift in the meaning of a word between premises and conclusion.",
+   "x": "In Part 6 Aristotle reduces all apparent refutations to failures of his definition of refutation, which makes ignorance of refutation both one fallacy and a diagnosis of the rest. Shifts in word meaning cover only the fallacies that depend on language, not those outside it.",
+   "concepts": [
+    "ct:ignoratio-elenchi",
+    "ct:sophistical-refutations",
+    "ct:aristotle"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/ignoratio-elenchi.html"
+  },
+  {
+   "id": "ct-000333",
+   "area": "decision-making",
+   "kind": "scenario",
+   "topic": "Analysis of competing hypotheses",
+   "t": "A finance team weighs three explanations for falling margins: supplier price rises, a mispriced discount, and a currency swing. \"Quarterly costs beat budget\" fits all three. In an ACH matrix that item carries little weight, because it doesn't discriminate between them.",
+   "f": "A finance team weighs three explanations for falling margins: supplier price rises, a mispriced discount, and a currency swing. \"Quarterly costs beat budget\" fits all three. In an ACH matrix that item carries heavy weight, because it is consistent with every hypothesis.",
+   "x": "Heuer's key idea is diagnosticity: evidence consistent with every hypothesis, like a fever that fits many illnesses, cannot tell you which is true. Being consistent with everything is exactly what makes an item useless for choosing, not strong.",
+   "concepts": [
+    "ct:analysis-of-competing-hypotheses"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/analysis-of-competing-hypotheses.html"
+  },
+  {
+   "id": "ct-000334",
+   "area": "decision-making",
+   "kind": "counter",
+   "topic": "Analysis of competing hypotheses",
+   "t": "Once an ACH matrix points to one explanation, test how the result would shift if a few linchpin items of evidence proved wrong, misleading or open to another reading.",
+   "f": "Once an ACH matrix points to one explanation, gather more evidence consistent with that explanation until its lead over the others looks secure.",
+   "x": "Heuer's sensitivity step checks whether the conclusion rests on a few fragile items. Piling up consistent evidence for the leader is the confirmation-seeking habit ACH was built to replace, and consistent evidence may fit the rivals too.",
+   "concepts": [
+    "ct:analysis-of-competing-hypotheses",
+    "ct:confirmation-bias"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/analysis-of-competing-hypotheses.html"
+  },
+  {
+   "id": "ct-000335",
+   "area": "decision-making",
+   "kind": "evidence",
+   "topic": "Analysis of competing hypotheses",
+   "t": "A 2004 MITRE experiment found ACH reduced confirmation bias only among participants without professional analysis experience, and it did not reduce anchoring on initial beliefs.",
+   "f": "A 2004 MITRE experiment found ACH reduced confirmation bias only among experienced professional analysts, and it did not reduce anchoring on initial beliefs.",
+   "x": "The benefit appeared only for the non-professionals, which led the authors to call ACH not yet a robust debiasing method. That limited, uneven result is part of why ACH's evidence status is contested.",
+   "concepts": [
+    "ct:analysis-of-competing-hypotheses",
+    "ct:cheikes-2004-confirmation-bias-complex-analyses-study"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/analysis-of-competing-hypotheses.html"
+  },
+  {
+   "id": "ct-000336",
+   "area": "philosophy-of-reasoning",
+   "kind": "scenario",
+   "topic": "Logic",
+   "t": "To show that a staffing conclusion follows from three policy rules, an analyst derives it from them line by line using accepted inference rules. She is relying on the proof-theoretic account of logical consequence.",
+   "f": "To show that a staffing conclusion follows from three policy rules, an analyst derives it from them line by line using accepted inference rules. She is relying on the model-theoretic account of logical consequence.",
+   "x": "Deriving a conclusion step by step in a deductive system is the proof-theoretic test of 'follows from'. The model-theoretic test instead asks whether any interpretation could make the premises true and the conclusion false; no derivation is involved.",
+   "concepts": [
+    "ct:logic",
+    "ct:logical-consequence"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/logic.html"
+  },
+  {
+   "id": "ct-000337",
+   "area": "philosophy-of-reasoning",
+   "kind": "counter",
+   "topic": "Logic",
+   "t": "To show an inference is invalid, describe a possible case in which all its premises are true and its conclusion is false; one such case is enough, whatever the subject matter.",
+   "f": "To show an inference is invalid, show that one of its premises is in fact false; one false premise is enough, whatever the subject matter.",
+   "x": "Validity is about whether the conclusion would follow, so a counterexample that keeps the premises true and makes the conclusion false is what refutes it. A false premise is a separate, factual problem: it makes an argument unsound, not invalid.",
+   "concepts": [
+    "ct:logic",
+    "ct:validity",
+    "ct:soundness"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/logic.html"
+  },
+  {
+   "id": "ct-000338",
+   "area": "philosophy-of-reasoning",
+   "kind": "origin",
+   "topic": "Logic",
+   "t": "Gottlob Frege's Begriffsschrift of 1879 replaced the old subject-predicate analysis of sentences with a function-argument analysis, and is often credited with inventing modern quantificational logic.",
+   "f": "Gottlob Frege's Begriffsschrift of 1879 kept the old subject-predicate analysis of sentences and gave it an algebraic notation, and is often credited with inventing modern quantificational logic.",
+   "x": "Frege's break was analytical, not just notational: treating sentences as functions applied to arguments let his system handle general claims that syllogistic and Boolean methods could not. Merely re-notating subject and predicate would not have achieved that.",
+   "concepts": [
+    "ct:logic",
+    "ct:gottlob-frege"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/logic.html"
+  },
+  {
+   "id": "ct-000339",
+   "area": "history-and-thinkers",
+   "kind": "scenario",
+   "topic": "Prior Analytics",
+   "t": "A manager argues: \"No temp staff can sign purchase orders. Every department head can sign purchase orders. So no department head is temp staff.\" Aristotle would class this as a second-figure, imperfect deduction, because the middle term is the predicate of both premises.",
+   "f": "A manager argues: \"No temp staff can sign purchase orders. Every department head can sign purchase orders. So no department head is temp staff.\" Aristotle would class this as a first-figure, perfect deduction, because it needs nothing beyond its premises.",
+   "x": "Figures are sorted by where the middle term sits, and with \"can sign purchase orders\" as both predicates this is the second figure, so it is imperfect. Converting the first premise to \"nothing that can sign is temp staff\" turns it into the perfect first-figure Celarent.",
+   "concepts": [
+    "ct:prior-analytics",
+    "ct:categorical-syllogism"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/prior-analytics.html"
+  },
+  {
+   "id": "ct-000340",
+   "area": "history-and-thinkers",
+   "kind": "counter",
+   "topic": "Prior Analytics",
+   "t": "When a colleague tries to refute your assumption by deriving something absurd from it, check that the absurd result really depends on that assumption; if not, the refutation fails, as the Prior Analytics warns.",
+   "f": "When a colleague tries to refute your assumption by deriving something absurd from it, check only that the result is truly absurd, since an absurdity counts against every assumption used in reaching it.",
+   "x": "Book II's original \"false cause\" objection says a reduction to the impossible only discredits the assumption that actually produces the absurdity. If the absurd result would follow from the other premises anyway, your assumption hasn't been shown false.",
+   "concepts": [
+    "ct:prior-analytics"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/prior-analytics.html"
+  },
+  {
+   "id": "ct-000341",
+   "area": "history-and-thinkers",
+   "kind": "origin",
+   "topic": "Prior Analytics",
+   "t": "In the early 1970s John Corcoran and Timothy Smiley independently read the Prior Analytics as a natural-deduction system, against Jan Łukasiewicz's 1951 axiomatic reading.",
+   "f": "In the early 1970s John Corcoran and Timothy Smiley independently read the Prior Analytics as an axiomatic system, against Jan Łukasiewicz's 1951 natural-deduction reading.",
+   "x": "Łukasiewicz treated the perfect moods as axioms; Corcoran and Smiley saw instead a system of direct and indirect proofs, and Corcoran noted that Aristotle never calls a perfect deduction an axiom.",
+   "concepts": [
+    "ct:prior-analytics",
+    "ct:natural-deduction"
+   ],
+   "difficulty": 3,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/prior-analytics.html"
+  },
+  {
+   "id": "ct-000342",
+   "area": "debiasing-and-metacognition",
+   "kind": "scenario",
+   "topic": "Correcting erroneous perceptions of randomness",
+   "t": "Before each bid decision, a sales team writes down its reasoning, then combs the notes for words like \"due\" and \"our system\" and checks each claim. That is the thought-catching core of correcting erroneous perceptions of randomness.",
+   "f": "Before each bid decision, a sales team writes down its reasoning, then combs the notes for words like \"due\" and \"our system\" and checks each claim. That is statistical reasoning training.",
+   "x": "The deciding feature is that the team catches and checks its own faulty thoughts as it decides, which is what the Laval correction technique does. Statistical reasoning training teaches abstract rules with worked examples in advance; it does not target specific thoughts during the decision.",
+   "concepts": [
+    "ct:correcting-erroneous-perceptions-of-randomness",
+    "ct:statistical-reasoning-training"
+   ],
+   "difficulty": 2,
+   "status": "active",
+   "source": "https://john1hsu.github.io/critical-thinking-graph/a/correcting-erroneous-perceptions-of-randomness.html"
   }
  ]
 }

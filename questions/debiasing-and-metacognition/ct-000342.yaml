@@ -1,0 +1,19 @@
+id: ct-000342
+area: debiasing-and-metacognition
+kind: scenario
+topic: Correcting erroneous perceptions of randomness
+topic_type: Technique
+true_statement: Before each bid decision, a sales team writes down its reasoning, then combs the notes for words like "due" and "our system" and checks each claim. That is the thought-catching core of correcting erroneous perceptions of randomness.
+false_statement: Before each bid decision, a sales team writes down its reasoning, then combs the notes for words like "due" and "our system" and checks each claim. That is statistical reasoning training.
+explanation: The deciding feature is that the team catches and checks its own faulty thoughts as it decides, which is what the Laval correction technique does. Statistical reasoning training teaches abstract rules with worked examples in advance; it does not target specific thoughts during the decision.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/correcting-erroneous-perceptions-of-randomness.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 6c3db25b9370fa73338e2767a0f0f76f80f8079f
+concepts:
+- ct:correcting-erroneous-perceptions-of-randomness
+- ct:statistical-reasoning-training
+difficulty: 2
+created: '2026-11-19'
+status: active

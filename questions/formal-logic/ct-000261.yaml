@@ -1,0 +1,20 @@
+id: ct-000261
+area: formal-logic
+kind: scenario
+topic: Truth table
+topic_type: Technique
+true_statement: A colleague runs a truth table on "The new server has 32 GB of memory, so it has more than 16 GB" and finds a row with a true premise and a false conclusion. That shows only that the argument isn't valid by truth-functional form alone.
+false_statement: A colleague runs a truth table on "The new server has 32 GB of memory, so it has more than 16 GB" and finds a row with a true premise and a false conclusion. That shows the argument is invalid, since one counterexample row settles validity.
+explanation: The two claims become unrelated letters, so the table can't see the link between them; the argument is valid in English, but showing it needs first-order logic. A counterexample row settles validity only when an argument's force is purely truth-functional.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/truth-table.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: f6d2132332f3577dab9d9999ac2e7438b8b89113
+concepts:
+- ct:truth-table
+- ct:validity
+- ct:propositional-logic
+difficulty: 3
+created: '2026-11-19'
+status: active

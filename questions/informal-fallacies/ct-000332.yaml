@@ -1,0 +1,20 @@
+id: ct-000332
+area: informal-fallacies
+kind: origin
+topic: Ignoratio elenchi
+topic_type: InformalFallacy
+true_statement: In On Sophistical Refutations, Aristotle suggests that every kind of apparent refutation can be traced to some failure to meet his definition of what a refutation is.
+false_statement: In On Sophistical Refutations, Aristotle suggests that every kind of apparent refutation can be traced to some shift in the meaning of a word between premises and conclusion.
+explanation: In Part 6 Aristotle reduces all apparent refutations to failures of his definition of refutation, which makes ignorance of refutation both one fallacy and a diagnosis of the rest. Shifts in word meaning cover only the fallacies that depend on language, not those outside it.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/ignoratio-elenchi.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: d759259c7d0ee7b47b1a0c77bc1b70ca592405ee
+concepts:
+- ct:ignoratio-elenchi
+- ct:sophistical-refutations
+- ct:aristotle
+difficulty: 3
+created: '2026-11-19'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000335
+area: decision-making
+kind: evidence
+topic: Analysis of competing hypotheses
+topic_type: Technique
+true_statement: A 2004 MITRE experiment found ACH reduced confirmation bias only among participants without professional analysis experience, and it did not reduce anchoring on initial beliefs.
+false_statement: A 2004 MITRE experiment found ACH reduced confirmation bias only among experienced professional analysts, and it did not reduce anchoring on initial beliefs.
+explanation: The benefit appeared only for the non-professionals, which led the authors to call ACH not yet a robust debiasing method. That limited, uneven result is part of why ACH's evidence status is contested.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/analysis-of-competing-hypotheses.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: cc4e60ef91f2cd1345219b221a2d1c564a36bec5
+concepts:
+- ct:analysis-of-competing-hypotheses
+- ct:cheikes-2004-confirmation-bias-complex-analyses-study
+difficulty: 3
+created: '2026-11-19'
+status: active

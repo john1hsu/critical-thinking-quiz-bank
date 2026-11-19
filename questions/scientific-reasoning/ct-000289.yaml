@@ -1,0 +1,19 @@
+id: ct-000289
+area: scientific-reasoning
+kind: counter
+topic: Confounding
+topic_type: Phenomenon
+true_statement: When estimating whether a new onboarding programme raises retention, adjusting for staff satisfaction scores that the programme itself improved adds bias rather than removing confounding.
+false_statement: When estimating whether a new onboarding programme raises retention, adjusting for staff satisfaction scores that the programme itself improved is the right way to remove confounding.
+explanation: A confounder must not be a consequence of the exposure; satisfaction raised by the programme is a mediator on its causal path. Controlling for it strips out part of the real effect, so before adjusting ask whether the variable came before the exposure or was caused by it.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/confounding.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 939fdbf5c714ebb836222fb2dc6d012d709fa8ce
+concepts:
+- ct:confounding
+- ct:causal-diagrams
+difficulty: 3
+created: '2026-11-19'
+status: active

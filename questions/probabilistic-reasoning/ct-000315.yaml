@@ -1,0 +1,19 @@
+id: ct-000315
+area: probabilistic-reasoning
+kind: scenario
+topic: Calibration
+topic_type: Concept
+true_statement: A maintenance planner gives every machine the same 20% chance of breaking down this quarter, and 20% of them do. Her forecasts are well calibrated but have no resolution.
+false_statement: A maintenance planner gives every machine the same 20% chance of breaking down this quarter, and 20% of them do. Her forecasts have good resolution but poor calibration.
+explanation: Her stated probability matches the hit rate, so she is calibrated. But by giving every machine the same number she never separates the likely failures from the safe ones, which is what resolution measures; calibration alone is not forecasting skill.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/calibration.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 9856fa6cbc7f3ac98abe00acab2bc0f7e044d0e1
+concepts:
+- ct:calibration
+- ct:forecast-resolution
+difficulty: 2
+created: '2026-11-19'
+status: active

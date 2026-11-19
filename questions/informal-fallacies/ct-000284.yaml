@@ -1,0 +1,19 @@
+id: ct-000284
+area: informal-fallacies
+kind: evidence
+topic: Post hoc ergo propter hoc
+topic_type: InformalFallacy
+true_statement: In contingency-judgment experiments, the illusion that a useless remedy works grows stronger when the outcome is common and when the remedy is taken often, because both produce more coincidences.
+false_statement: In contingency-judgment experiments, the illusion that a useless remedy works grows stronger when the outcome is rare and when the remedy is taken seldom, because both make each coincidence stand out.
+explanation: The causal illusion feeds on cause-then-outcome coincidences, and a frequent outcome or a frequently used remedy multiplies them. Rarity makes coincidences scarcer, so it weakens rather than strengthens the illusion in these studies.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/post-hoc-ergo-propter-hoc.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: af61e710c5d3ad40d049812c8a8c1c43336e4efa
+concepts:
+- ct:post-hoc-ergo-propter-hoc
+- ct:causal-illusion
+difficulty: 3
+created: '2026-11-19'
+status: active

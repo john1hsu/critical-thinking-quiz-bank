@@ -1,0 +1,19 @@
+id: ct-000341
+area: history-and-thinkers
+kind: origin
+topic: Prior Analytics
+topic_type: Work
+true_statement: In the early 1970s John Corcoran and Timothy Smiley independently read the Prior Analytics as a natural-deduction system, against Jan Łukasiewicz's 1951 axiomatic reading.
+false_statement: In the early 1970s John Corcoran and Timothy Smiley independently read the Prior Analytics as an axiomatic system, against Jan Łukasiewicz's 1951 natural-deduction reading.
+explanation: Łukasiewicz treated the perfect moods as axioms; Corcoran and Smiley saw instead a system of direct and indirect proofs, and Corcoran noted that Aristotle never calls a perfect deduction an axiom.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/prior-analytics.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: ceec1dc71bf3b7bb7921e9d70273e90b43c4d8a9
+concepts:
+- ct:prior-analytics
+- ct:natural-deduction
+difficulty: 3
+created: '2026-11-19'
+status: active

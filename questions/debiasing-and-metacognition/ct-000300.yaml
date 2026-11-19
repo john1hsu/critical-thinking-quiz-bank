@@ -1,0 +1,20 @@
+id: ct-000300
+area: debiasing-and-metacognition
+kind: scenario
+topic: Statistical reasoning training
+topic_type: Technique
+true_statement: A sales manager sees a new hire's first-week sales beat the team average and, recalling that one week is a small sample, expects next week to fall back toward average. That is the sample-size reasoning statistical training aims to instil.
+false_statement: A sales manager sees a new hire's first-week sales beat the team average and, recalling that one week is a small sample, expects next week to fall back toward average. That is the representativeness heuristic at work.
+explanation: Discounting a result because the sample is small is the law of large numbers, the rule Fong, Krantz and Nisbett trained. The representativeness heuristic would do the opposite, reading the one strong week as a faithful picture of the hire's ability.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/statistical-reasoning-training.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 90589895d801a3e1e10496c48db43a75c5546cab
+concepts:
+- ct:statistical-reasoning-training
+- ct:insensitivity-to-sample-size
+- ct:representativeness-heuristic
+difficulty: 2
+created: '2026-11-19'
+status: active

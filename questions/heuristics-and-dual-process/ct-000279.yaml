@@ -1,0 +1,19 @@
+id: ct-000279
+area: heuristics-and-dual-process
+kind: scenario
+topic: Affect heuristic
+topic_type: Heuristic
+true_statement: After reading a glowing case study about a scheduling app's time savings, a team lowers its rating of the app's data-privacy risk, which the case study never mentioned. That is the affect heuristic.
+false_statement: After reading a glowing case study about a scheduling app's time savings, a team lowers its rating of the app's data-privacy risk, which the case study never mentioned. That is the availability heuristic.
+explanation: 'The tell is that news about benefits shifted a risk judgment it said nothing about: one good feeling is answering both questions. The availability heuristic would instead judge risk by how easily examples of privacy failures come to mind.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/affect-heuristic.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 074d615a7b55b8c8a44afc4032fa897ba03e5647
+concepts:
+- ct:affect-heuristic
+- ct:availability-heuristic
+difficulty: 2
+created: '2026-11-19'
+status: active

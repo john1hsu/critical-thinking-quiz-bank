@@ -1,0 +1,20 @@
+id: ct-000323
+area: formal-fallacies
+kind: figure
+topic: Exclusive premises
+topic_type: FormalFallacy
+true_statement: In Khemlani and Johnson-Laird's 2012 meta-analysis, people correctly said that nothing follows from two negative premises only about half the time overall.
+false_statement: In Khemlani and Johnson-Laird's 2012 meta-analysis, people correctly said that nothing follows from two negative premises about nine times in ten overall.
+explanation: Pooling six experiments, the authors found the correct no-conclusion answer for double-negative pairs about half the time, with wide variation by term order; for some pairs an invalid negative conclusion was chosen about as often as the right answer.
+as_of: '2012'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/exclusive-premises.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 33ca2a475b36dd587bd2328c44cc3299d766ab99
+concepts:
+- ct:exclusive-premises
+- ct:psychology-of-reasoning
+difficulty: 3
+created: '2026-11-19'
+status: active

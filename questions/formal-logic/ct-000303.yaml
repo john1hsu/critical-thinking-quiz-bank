@@ -1,0 +1,20 @@
+id: ct-000303
+area: formal-logic
+kind: scenario
+topic: Rules of the categorical syllogism
+topic_type: Technique
+true_statement: '"No remote staff use the old VPN. Some engineers are remote staff. So some engineers use the old VPN." This syllogism breaks the rule that a negative premise requires a negative conclusion, so it is invalid.'
+false_statement: '"No remote staff use the old VPN. Some engineers are remote staff. So some engineers use the old VPN." This syllogism commits the undistributed middle, so it is invalid.'
+explanation: One premise is negative but the conclusion is affirmative, which the negation rule forbids. The middle term, remote staff, is the subject of a universal premise and so is distributed, which rules out the undistributed middle.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/rules-of-the-categorical-syllogism.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 13b76b3622b2247d01de2fb94dd46f8f002cbc37
+concepts:
+- ct:rules-of-the-categorical-syllogism
+- ct:undistributed-middle
+- ct:distribution-of-terms
+difficulty: 2
+created: '2026-11-19'
+status: active

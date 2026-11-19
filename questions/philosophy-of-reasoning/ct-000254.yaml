@@ -1,0 +1,19 @@
+id: ct-000254
+area: philosophy-of-reasoning
+kind: mechanism
+topic: Problem of induction
+topic_type: Concept
+true_statement: In Hume's fork, a demonstrative proof that the future will resemble the past is ruled out because a change in the course of nature can be imagined without contradiction.
+false_statement: In Hume's fork, a demonstrative proof that the future will resemble the past is ruled out because every demonstration already relies on past experience of nature's uniformity.
+explanation: The demonstrative horn fails because denying uniformity involves no contradiction, so no proof from relations of ideas can establish it. Presupposing uniformity is what sinks the other horn, the probable argument from experience.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/problem-of-induction.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 2073fe9d1a58046fae52b4a6ae2efdf99dff0b59
+concepts:
+- ct:problem-of-induction
+- ct:david-hume
+difficulty: 3
+created: '2026-11-19'
+status: active

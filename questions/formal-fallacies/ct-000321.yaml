@@ -1,0 +1,19 @@
+id: ct-000321
+area: formal-fallacies
+kind: scenario
+topic: Exclusive premises
+topic_type: FormalFallacy
+true_statement: '"No laptops on the recall list were bought under the old contract. No finance-team laptops are on the recall list. So no finance-team laptops were bought under the old contract." Even if IT confirms the conclusion is true, the argument is invalid.'
+false_statement: '"No laptops on the recall list were bought under the old contract. No finance-team laptops are on the recall list. So no finance-team laptops were bought under the old contract." Since IT confirms the conclusion is true, the argument is valid.'
+explanation: 'Both premises are negative, so each only says what is shut out of the recall list, and nothing links finance laptops to the old contract. A true conclusion doesn''t make the form valid: both premises would stay true even if every finance laptop came from the old contract.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/exclusive-premises.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 33ca2a475b36dd587bd2328c44cc3299d766ab99
+concepts:
+- ct:exclusive-premises
+- ct:categorical-syllogism
+difficulty: 2
+created: '2026-11-19'
+status: active

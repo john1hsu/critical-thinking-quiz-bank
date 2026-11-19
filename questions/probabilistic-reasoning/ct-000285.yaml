@@ -1,0 +1,18 @@
+id: ct-000285
+area: probabilistic-reasoning
+kind: scenario
+topic: Bayesian reasoning
+topic_type: ReasoningMode
+true_statement: A hiring manager treats a candidate saying "I'm a team player" as strong evidence of a good fit, though strong and weak candidates say it about equally often. In Bayesian terms it is weak evidence, since its likelihood ratio is close to one.
+false_statement: A hiring manager treats a candidate saying "I'm a team player" as strong evidence of a good fit, though strong and weak candidates say it about equally often. In Bayesian terms it is strong evidence, since a good-fit candidate would very likely say it.
+explanation: How diagnostic evidence is depends on the ratio of its probability if the hypothesis is true to its probability if false. Evidence that is likely either way barely moves the needle; asking only how likely it is under the hypothesis ignores the rival.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/bayesian-reasoning.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 38c61f580d00c3068bf8ca2b451aac29322c3fff
+concepts:
+- ct:bayesian-reasoning
+difficulty: 2
+created: '2026-11-19'
+status: active

@@ -1,0 +1,18 @@
+id: ct-000314
+area: evidence-and-information-literacy
+kind: definition
+topic: Suppressed evidence
+topic_type: InformalFallacy
+true_statement: Dowden reserves "suppressed evidence" for deliberately leaving out relevant evidence, and calls the same error "incomplete evidence" or "cherry-picking" when the omission is inadvertent.
+false_statement: Dowden reserves "suppressed evidence" for inadvertently leaving out relevant evidence, and calls the same error "incomplete evidence" or "cherry-picking" when the omission is deliberate.
+explanation: 'In Dowden''s usage the word suppressed signals intent: the arguer knows the evidence and hides it. An honest oversight with the same effect gets the milder labels, so the false version swaps which name goes with which.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/suppressed-evidence.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 0822d7b49033f7555804c33a0e36162c88211d55
+concepts:
+- ct:suppressed-evidence
+difficulty: 2
+created: '2026-11-19'
+status: active

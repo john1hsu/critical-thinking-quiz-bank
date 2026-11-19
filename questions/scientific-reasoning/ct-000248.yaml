@@ -1,0 +1,20 @@
+id: ct-000248
+area: scientific-reasoning
+kind: figure
+topic: Researcher degrees of freedom
+topic_type: Concept
+true_statement: 'In a 2018 many-analysts study, 29 teams given the same data on referees and players'' skin tone disagreed: 20 found a significant positive effect on red cards and 9 did not.'
+false_statement: In a 2018 many-analysts study, 29 teams given the same data on referees and players' skin tone all found a significant positive effect on red cards, differing only in its size.
+explanation: The same dataset and question yielded estimates from no effect to a strong one, and only 20 of 29 teams reached significance. No one was fishing, which shows that reasonable analytic choices alone can change a conclusion.
+as_of: '2018'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/researcher-degrees-of-freedom.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: c584531db9bd6e008ed7de16ce177c7f68494a4d
+concepts:
+- ct:researcher-degrees-of-freedom
+- ct:silberzahn-2018-many-analysts-study
+difficulty: 3
+created: '2026-11-19'
+status: active

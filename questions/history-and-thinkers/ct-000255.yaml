@@ -1,0 +1,20 @@
+id: ct-000255
+area: history-and-thinkers
+kind: counter
+topic: Alfred Tarski
+topic_type: Person
+true_statement: To test an argument's validity in Tarski's sense, keep logical words like "all" and "so" fixed and reinterpret the content words; if some reading makes the premises true and the conclusion false, it is invalid.
+false_statement: To test an argument's validity in Tarski's sense, keep the content words fixed and reinterpret logical words like "all" and "so"; if some reading makes the premises true and the conclusion false, it is invalid.
+explanation: Tarski's model-based test varies the interpretation of the non-logical vocabulary while the logical words stay put, so validity turns on form alone. Reinterpreting "all" or "so" would change the argument's form rather than test it.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/alfred-tarski.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: e91491e44753f4760ecef9c42df03fcf066302e3
+concepts:
+- ct:alfred-tarski
+- ct:logical-consequence
+- ct:method-of-counterexample
+difficulty: 2
+created: '2026-11-19'
+status: active

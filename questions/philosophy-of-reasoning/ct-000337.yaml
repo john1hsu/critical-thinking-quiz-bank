@@ -1,0 +1,20 @@
+id: ct-000337
+area: philosophy-of-reasoning
+kind: counter
+topic: Logic
+topic_type: Field
+true_statement: To show an inference is invalid, describe a possible case in which all its premises are true and its conclusion is false; one such case is enough, whatever the subject matter.
+false_statement: To show an inference is invalid, show that one of its premises is in fact false; one false premise is enough, whatever the subject matter.
+explanation: 'Validity is about whether the conclusion would follow, so a counterexample that keeps the premises true and makes the conclusion false is what refutes it. A false premise is a separate, factual problem: it makes an argument unsound, not invalid.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/logic.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 2a85d2f3d7cc76b55f6b45ccdf5eb56886416cbb
+concepts:
+- ct:logic
+- ct:validity
+- ct:soundness
+difficulty: 2
+created: '2026-11-19'
+status: active

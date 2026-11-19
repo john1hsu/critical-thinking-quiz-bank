@@ -1,0 +1,19 @@
+id: ct-000336
+area: philosophy-of-reasoning
+kind: scenario
+topic: Logic
+topic_type: Field
+true_statement: To show that a staffing conclusion follows from three policy rules, an analyst derives it from them line by line using accepted inference rules. She is relying on the proof-theoretic account of logical consequence.
+false_statement: To show that a staffing conclusion follows from three policy rules, an analyst derives it from them line by line using accepted inference rules. She is relying on the model-theoretic account of logical consequence.
+explanation: Deriving a conclusion step by step in a deductive system is the proof-theoretic test of 'follows from'. The model-theoretic test instead asks whether any interpretation could make the premises true and the conclusion false; no derivation is involved.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/logic.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 2a85d2f3d7cc76b55f6b45ccdf5eb56886416cbb
+concepts:
+- ct:logic
+- ct:logical-consequence
+difficulty: 3
+created: '2026-11-19'
+status: active

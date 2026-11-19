@@ -1,0 +1,19 @@
+id: ct-000331
+area: informal-fallacies
+kind: counter
+topic: Ignoratio elenchi
+topic_type: InformalFallacy
+true_statement: To check a reply for ignoratio elenchi, ask whether the disputed claim would stand or fall if the reply succeeded completely; if the claim would be untouched, the reply misses the point.
+false_statement: To check a reply for ignoratio elenchi, ask whether the reply's conclusion follows validly from its premises; if it does not, the reply misses the point.
+explanation: An ignoratio elenchi can be perfectly valid and still aim at the wrong target, so the test is whether success would bear on the claim in dispute. A conclusion that fails to follow from its premises is a non sequitur, a different fault.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/ignoratio-elenchi.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: d759259c7d0ee7b47b1a0c77bc1b70ca592405ee
+concepts:
+- ct:ignoratio-elenchi
+- ct:non-sequitur
+difficulty: 2
+created: '2026-11-19'
+status: active

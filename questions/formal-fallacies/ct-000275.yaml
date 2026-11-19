@@ -1,0 +1,19 @@
+id: ct-000275
+area: formal-fallacies
+kind: evidence
+topic: Formal fallacy
+topic_type: Concept
+true_statement: Gerald Massey argued that validity can be shown by translating an argument into a valid form, but invalidity can't be proved just by naming an invalid form it fits.
+false_statement: Gerald Massey argued that invalidity can be shown by naming an invalid form an argument fits, but validity can't be proved just by translating it into a valid form.
+explanation: 'Massey''s asymmetry: one valid translation is enough for validity, but invalidity would need every adequate translation in every logical system to fail. Govier replies that a true-premises, false-conclusion counterexample still legitimately shows invalidity.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/formal-fallacy.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 8f23fe9f31695be4634100082e0831ede862c650
+concepts:
+- ct:formal-fallacy
+- ct:gerald-massey
+difficulty: 3
+created: '2026-11-19'
+status: active

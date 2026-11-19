@@ -1,0 +1,20 @@
+id: ct-000268
+area: evidence-and-information-literacy
+kind: evidence
+topic: Source credibility
+topic_type: Concept
+true_statement: In Hovland and Weiss's 1951 experiment, crediting an article to a trusted source rather than an untrusted one shifted how far readers agreed with it, but barely changed how much of its content they learned.
+false_statement: In Hovland and Weiss's 1951 experiment, crediting an article to a trusted source rather than an untrusted one barely shifted how far readers agreed with it, but changed how much of its content they learned.
+explanation: Identical articles moved opinion far more under high-credibility attributions, while factual quiz scores were almost the same. That is why credibility should adjust confidence, not stand in for checking what a message actually says.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/source-credibility.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 2bd2b51fd286c9b4a9daa61d7fc2667091953215
+concepts:
+- ct:source-credibility
+- ct:hovland-weiss-1951-credibility-study
+- ct:carl-hovland
+difficulty: 2
+created: '2026-11-19'
+status: active

@@ -1,0 +1,18 @@
+id: ct-000274
+area: formal-fallacies
+kind: counter
+topic: Formal fallacy
+topic_type: Concept
+true_statement: Before calling a colleague's sales forecast a formal fallacy because it isn't deductively valid, ask whether it was meant as a deduction at all, since many good arguments aren't deductive.
+false_statement: Before calling a colleague's sales forecast a formal fallacy because it isn't deductively valid, ask whether its conclusion came true, since an invalid argument with a true conclusion isn't fallacious.
+explanation: Govier points out that invalidity is neither necessary nor sufficient for a fallacy, so a forecast reasoned from trends can be good without being deductively valid. A true conclusion can't rescue an invalid form, because validity depends on form, not on how things turned out.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/formal-fallacy.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 8f23fe9f31695be4634100082e0831ede862c650
+concepts:
+- ct:formal-fallacy
+difficulty: 2
+created: '2026-11-19'
+status: active

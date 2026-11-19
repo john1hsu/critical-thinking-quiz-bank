@@ -1,0 +1,20 @@
+id: ct-000308
+area: argumentation
+kind: origin
+topic: Argument from expert opinion
+topic_type: ArgumentScheme
+true_statement: John Locke introduced the label "argumentum ad verecundiam" in his 1690 Essay Concerning Human Understanding, but he did not call it a fallacy; later textbook writers did.
+false_statement: John Locke introduced the label "argumentum ad verecundiam" in his 1690 Essay Concerning Human Understanding and branded it a fallacy; later textbook writers softened it.
+explanation: Locke listed it as one way people win assent, and his wording about eminence and modesty points to deference to social rank rather than expertise. The fallacy label was added by later textbooks, and Walton's scheme later recast expert appeals as reasonable but defeasible.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argument-from-expert-opinion.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 48bfd49483201f311e3da7543a4b991a539aa0a1
+concepts:
+- ct:argument-from-expert-opinion
+- ct:john-locke
+- ct:ad-verecundiam
+difficulty: 3
+created: '2026-11-19'
+status: active

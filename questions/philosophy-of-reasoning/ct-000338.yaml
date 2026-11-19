@@ -1,0 +1,19 @@
+id: ct-000338
+area: philosophy-of-reasoning
+kind: origin
+topic: Logic
+topic_type: Field
+true_statement: Gottlob Frege's Begriffsschrift of 1879 replaced the old subject-predicate analysis of sentences with a function-argument analysis, and is often credited with inventing modern quantificational logic.
+false_statement: Gottlob Frege's Begriffsschrift of 1879 kept the old subject-predicate analysis of sentences and gave it an algebraic notation, and is often credited with inventing modern quantificational logic.
+explanation: 'Frege''s break was analytical, not just notational: treating sentences as functions applied to arguments let his system handle general claims that syllogistic and Boolean methods could not. Merely re-notating subject and predicate would not have achieved that.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/logic.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 2a85d2f3d7cc76b55f6b45ccdf5eb56886416cbb
+concepts:
+- ct:logic
+- ct:gottlob-frege
+difficulty: 2
+created: '2026-11-19'
+status: active

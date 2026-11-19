@@ -1,0 +1,19 @@
+id: ct-000259
+area: debiasing-and-metacognition
+kind: counter
+topic: Logical necessity instructions
+topic_type: Technique
+true_statement: When auditing a report's reasoning, record whether you agree with each conclusion in a separate column from whether it must follow from the premises, so your view of its truth doesn't leak into the validity call.
+false_statement: When auditing a report's reasoning, first record whether you agree with each conclusion, then count an argument as valid only if you do, so the validity call rests on conclusions you trust.
+explanation: Validity asks only whether the premises guarantee the conclusion, and a valid argument can have a false conclusion. Making agreement a condition of validity is exactly the belief bias the technique is meant to block.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/logical-necessity-instructions.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 312518b456306167fe3250687180a4982a10b76f
+concepts:
+- ct:logical-necessity-instructions
+- ct:belief-bias
+difficulty: 2
+created: '2026-11-19'
+status: active

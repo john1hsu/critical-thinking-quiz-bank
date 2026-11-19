@@ -1,0 +1,18 @@
+id: ct-000271
+area: cognitive-biases
+kind: counter
+topic: Framing effect
+topic_type: CognitiveBias
+true_statement: Before approving an option described as a gain, restate it as the equivalent loss; if your preference flips, the wording rather than the outcomes was doing the work.
+false_statement: Before approving an option described as a gain, restate it as the equivalent loss; if your preference flips, the loss version shows your real preference and should win.
+explanation: 'Restating in the opposite frame exposes whether wording is driving the choice. It does not say which preference is right: Tversky and Kahneman cautioned that even once a reversal is exposed, it is not always clear which preference to keep.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/framing-effect.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 1494b8d5031252019bd3db2412abfb1b19d9238e
+concepts:
+- ct:framing-effect
+difficulty: 2
+created: '2026-11-19'
+status: active

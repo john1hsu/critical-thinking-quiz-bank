@@ -1,0 +1,18 @@
+id: ct-000266
+area: argumentation
+kind: evidence
+topic: Argument mapping
+topic_type: Technique
+true_statement: In an experiment comparing the two formats, reading an argument as a map rather than as prose improved students' recall of it but not their comprehension.
+false_statement: In an experiment comparing the two formats, reading an argument as a map rather than as prose improved students' comprehension of it but not their recall.
+explanation: The map helped memory for the argument but did not deepen understanding, one reason the evidence for mapping is rated mixed. Gains reported elsewhere are real but hard to separate from intensive teaching and feedback.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argument-mapping.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 9fb4d0f90a0950993807dac4a85d8136bfd04e65
+concepts:
+- ct:argument-mapping
+difficulty: 3
+created: '2026-11-19'
+status: active

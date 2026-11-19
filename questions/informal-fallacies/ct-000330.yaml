@@ -1,0 +1,19 @@
+id: ct-000330
+area: informal-fallacies
+kind: scenario
+topic: Ignoratio elenchi
+topic_type: InformalFallacy
+true_statement: The decision is whether to open a second warehouse next year. A manager shows with sound figures that opening the first warehouse was a good call, and concludes the second should open. The argument is an ignoratio elenchi.
+false_statement: The decision is whether to open a second warehouse next year. A manager shows with sound figures that opening the first warehouse was a good call, and concludes the second should open. The argument is a red herring.
+explanation: The figures do establish a definite conclusion, that the first warehouse paid off, but not the one at issue, which is the tell of a wrong-conclusion fallacy. Walton reserves red herring for a diversion that reaches no definite alternative conclusion.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/ignoratio-elenchi.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: d759259c7d0ee7b47b1a0c77bc1b70ca592405ee
+concepts:
+- ct:ignoratio-elenchi
+- ct:red-herring
+difficulty: 2
+created: '2026-11-19'
+status: active

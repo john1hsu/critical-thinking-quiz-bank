@@ -1,0 +1,19 @@
+id: ct-000291
+area: decision-making
+kind: scenario
+topic: Structured analytic techniques
+topic_type: Technique
+true_statement: Before drafting a five-year plan, a strategy team sketches several different ways its market could look by the end of the period, to widen the options it considers. In the Tradecraft Primer's grouping, that is an imaginative technique.
+false_statement: Before drafting a five-year plan, a strategy team sketches several different ways its market could look by the end of the period, to widen the options it considers. In the Tradecraft Primer's grouping, that is a contrarian technique.
+explanation: Alternative futures analysis widens the space of possibilities, which is what the imaginative group is for. Contrarian techniques such as devil's advocacy or Team A/Team B instead attack a prevailing view, and here no single view is being challenged.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/structured-analytic-techniques.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: ebba4d19cf835b7ceb6486393e0c2222ccb548a2
+concepts:
+- ct:structured-analytic-techniques
+- ct:tradecraft-primer
+difficulty: 2
+created: '2026-11-19'
+status: active

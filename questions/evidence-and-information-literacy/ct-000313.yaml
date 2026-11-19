@@ -1,0 +1,18 @@
+id: ct-000313
+area: evidence-and-information-literacy
+kind: counter
+topic: Suppressed evidence
+topic_type: InformalFallacy
+true_statement: A supplier comparison that leaves out each firm's logo colours and office address isn't cherry picking, since an omission counts only when the missing information bears on the conclusion.
+false_statement: A supplier comparison that leaves out each firm's logo colours and office address is cherry picking, since leaving out any known information about the options counts.
+explanation: The duty is to weigh evidence that is relevant and significant, not to list everything known. Before crying cherry picking, ask whether the omitted material would change the decision; logo colours would not.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/suppressed-evidence.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 0822d7b49033f7555804c33a0e36162c88211d55
+concepts:
+- ct:suppressed-evidence
+difficulty: 1
+created: '2026-11-19'
+status: active

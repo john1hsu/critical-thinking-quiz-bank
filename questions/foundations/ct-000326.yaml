@@ -1,0 +1,19 @@
+id: ct-000326
+area: foundations
+kind: evidence
+topic: Ambiguity
+topic_type: Concept
+true_statement: Piantadosi, Tily and Gibson (2012) found that in English, German and Dutch corpora, shorter and more frequent words tended to have more meanings, as an efficient code that lets context do the work would predict.
+false_statement: Piantadosi, Tily and Gibson (2012) found that in English, German and Dutch corpora, longer and rarer words tended to have more meanings, as an efficient code that lets context do the work would predict.
+explanation: Their argument is that when context resolves meaning, it is efficient to reuse the short, easy forms, so those carry the most senses. Longer, rarer words having more meanings would cut against the efficiency account.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/ambiguity.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 0780b6725abc908ac30d5dc51a8aa1fffe65885d
+concepts:
+- ct:ambiguity
+- ct:communicative-efficiency
+difficulty: 3
+created: '2026-11-19'
+status: active

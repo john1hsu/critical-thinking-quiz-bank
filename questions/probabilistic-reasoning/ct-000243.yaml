@@ -1,0 +1,20 @@
+id: ct-000243
+area: probabilistic-reasoning
+kind: scenario
+topic: Gambler's fallacy
+topic_type: ProbabilisticFallacy
+true_statement: After approving four loan applications in a row, a loan officer turns down a fifth that is just as strong, feeling that another approval would be one too many. That is the gambler's fallacy at work in sequential decisions.
+false_statement: After approving four loan applications in a row, a loan officer turns down a fifth that is just as strong, feeling that another approval would be one too many. That is the hot-hand fallacy at work in sequential decisions.
+explanation: 'The officer expects the run of approvals to reverse, which is negative autocorrelation: the gambler''s fallacy, judging the case by the streak rather than its merits. The hot-hand fallacy is the opposite belief, that a streak will continue, which would have pushed her to approve again.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/gamblers-fallacy.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 0a4774a21e36fee695729608545212b016f13a50
+concepts:
+- ct:gamblers-fallacy
+- ct:hot-hand-fallacy
+- ct:chen-moskowitz-shue-2016-sequential-decisions-study
+difficulty: 2
+created: '2026-11-19'
+status: active

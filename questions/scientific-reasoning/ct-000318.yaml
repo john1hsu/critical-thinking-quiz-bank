@@ -1,0 +1,18 @@
+id: ct-000318
+area: scientific-reasoning
+kind: scenario
+topic: Correlation versus causation
+topic_type: Principle
+true_statement: A retail chain finds that stores with more security guards report more shoplifting, and a manager suggests guards attract thieves. But head office posts extra guards at stores where theft is already high. The likeliest explanation is reverse causation.
+false_statement: A retail chain finds that stores with more security guards report more shoplifting, and a manager suggests guards attract thieves. But head office posts extra guards at stores where theft is already high. The likeliest explanation is a common cause.
+explanation: The deciding detail is that high theft is what brings the guards, so the arrow runs from outcome to supposed cause. A common-cause story would need a third factor driving both guard numbers and theft, and none is described.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/correlation-versus-causation.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: ff959591f7294c1fba3026a6f7f66b93ea277456
+concepts:
+- ct:correlation-versus-causation
+difficulty: 2
+created: '2026-11-19'
+status: active

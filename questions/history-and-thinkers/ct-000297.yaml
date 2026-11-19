@@ -1,0 +1,19 @@
+id: ct-000297
+area: history-and-thinkers
+kind: scenario
+topic: Organon
+topic_type: Work
+true_statement: Before a budget meeting, an analyst lists the standard lines of attack a sceptic might use against her proposal and prepares a defence for each. Among the books of the Organon, her preparation matches the purpose of the Topics.
+false_statement: Before a budget meeting, an analyst lists the standard lines of attack a sceptic might use against her proposal and prepares a defence for each. Among the books of the Organon, her preparation matches the purpose of the Posterior Analytics.
+explanation: 'The Topics is a handbook for dialectical debate, offering strategies for attacking or defending a thesis. The Posterior Analytics asks something else: when a deduction from true, explanatory premises gives real knowledge.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/organon.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 7558b4eed10b7e58057810e9e9ca4ca88718e3f5
+concepts:
+- ct:organon
+- ct:posterior-analytics
+difficulty: 2
+created: '2026-11-19'
+status: active

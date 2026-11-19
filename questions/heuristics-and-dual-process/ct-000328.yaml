@@ -1,0 +1,19 @@
+id: ct-000328
+area: heuristics-and-dual-process
+kind: counter
+topic: Fast-and-frugal heuristics
+topic_type: Framework
+true_statement: When many weak cues jointly carry the signal, prefer a weighted model to a one-reason rule, since a rule that stops at the first cue can miss what they add up to.
+false_statement: When many weak cues jointly carry the signal, prefer a one-reason rule to a weighted model, since ignoring the weak cues is what protects a rule from overfitting.
+explanation: Simple rules shine when data are scarce and a few strong cues dominate; they lose when the information is spread thinly across many cues. Overfitting is a reason to test any model on new cases, not a licence to discard a signal that only shows up in combination.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/fast-and-frugal-heuristics.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 6c71849d8e5845bbf961a10683e59bbad2842bbc
+concepts:
+- ct:fast-and-frugal-heuristics
+- ct:overfitting
+difficulty: 3
+created: '2026-11-19'
+status: active

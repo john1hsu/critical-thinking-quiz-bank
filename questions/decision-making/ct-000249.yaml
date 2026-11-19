@@ -1,0 +1,18 @@
+id: ct-000249
+area: decision-making
+kind: scenario
+topic: Reversible and irreversible decisions
+topic_type: Concept
+true_statement: An operations team wants to trial a new shift-handover checklist for a month; it can be dropped at any time at the cost of a few wasted minutes. The director sends it to the quarterly steering committee. She is giving a two-way-door decision a one-way-door process.
+false_statement: An operations team wants to trial a new shift-handover checklist for a month; it can be dropped at any time at the cost of a few wasted minutes. The director sends it to the quarterly steering committee. She is rightly giving a one-way-door decision slow, consultative review.
+explanation: The deciding feature is that a bad checklist is cheap to undo, so the trial itself buys information faster than any committee could. Slow, consultative review is meant for choices that lock in their consequences; using it for everything is the drift toward slowness the two-door framing warns about.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/reversible-and-irreversible-decisions.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 05709f425409f5ff818856688adb54ebd7e4cb04
+concepts:
+- ct:reversible-and-irreversible-decisions
+difficulty: 2
+created: '2026-11-19'
+status: active

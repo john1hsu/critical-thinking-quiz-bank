@@ -1,0 +1,19 @@
+id: ct-000309
+area: cognitive-biases
+kind: scenario
+topic: Hindsight bias
+topic_type: CognitiveBias
+true_statement: After a supplier collapses, a review board calls the warning signs obvious and faults the buyer, though in the file at the time those signs were one item among dozens. That is hindsight bias.
+false_statement: After a supplier collapses, a review board calls the warning signs obvious and faults the buyer, though in the file at the time those signs were one item among dozens. That is the overconfidence effect.
+explanation: Knowing the outcome makes the signs that led to it look decisive, so the board judges the past as more foreseeable than it was. Overconfidence is excess confidence in one's own judgments going forward; here the error is grading an earlier decision by its outcome.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/hindsight-bias.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 4cfbfab81e5b94099b48e8d784b363522a71a425
+concepts:
+- ct:hindsight-bias
+- ct:overconfidence-effect
+difficulty: 1
+created: '2026-11-19'
+status: active

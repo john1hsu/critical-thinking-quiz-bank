@@ -1,0 +1,20 @@
+id: ct-000270
+area: cognitive-biases
+kind: scenario
+topic: Framing effect
+topic_type: CognitiveBias
+true_statement: 'Two versions of a staff memo urge joining a new training scheme: one stresses what staff gain by joining, the other what they lose by not joining. Testing which version persuades more is a study of goal framing.'
+false_statement: 'Two versions of a staff memo urge joining a new training scheme: one stresses what staff gain by joining, the other what they lose by not joining. Testing which version persuades more is a study of attribute framing.'
+explanation: The tell is a persuasive message contrasting the benefits of acting with the costs of not acting, which is goal framing in Levin and colleagues' typology. Attribute framing instead describes a single feature positively or negatively, such as a 90% success rate versus a 10% failure rate.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/framing-effect.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 1494b8d5031252019bd3db2412abfb1b19d9238e
+concepts:
+- ct:framing-effect
+- ct:goal-framing
+- ct:attribute-framing
+difficulty: 2
+created: '2026-11-19'
+status: active

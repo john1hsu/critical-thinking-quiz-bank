@@ -1,0 +1,18 @@
+id: ct-000267
+area: evidence-and-information-literacy
+kind: counter
+topic: Source credibility
+topic_type: Concept
+true_statement: 'When a vendor''s own engineer vouches for its product''s uptime, ask two separate questions: is she in a position to know, and does she have reasons to shade the truth? Her expertise answers only the first.'
+false_statement: 'When a vendor''s own engineer vouches for its product''s uptime, ask two separate questions: is she in a position to know, and does she have reasons to shade the truth? Her expertise answers both.'
+explanation: Credibility splits into expertise or access and trustworthiness or interests, and a source can score high on one and low on the other. A well-informed insider may still have a stake in how the numbers sound.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/source-credibility.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 2bd2b51fd286c9b4a9daa61d7fc2667091953215
+concepts:
+- ct:source-credibility
+difficulty: 2
+created: '2026-11-19'
+status: active

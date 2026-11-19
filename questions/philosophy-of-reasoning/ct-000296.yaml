@@ -1,0 +1,19 @@
+id: ct-000296
+area: philosophy-of-reasoning
+kind: evidence
+topic: Critical thinking education
+topic_type: Field
+true_statement: Huber and Kuncel's 2016 meta-analysis found that critical thinking grows substantially over an ordinary college education, but curriculum-wide efforts to boost it did not clearly add long-term gains.
+false_statement: Huber and Kuncel's 2016 meta-analysis found that critical thinking grows little over an ordinary college education, and only curriculum-wide efforts to boost it clearly added long-term gains.
+explanation: The study is a caution for the field because ordinary college already produced large gains, while dedicated curricula did not clearly beat it in the long run. The false version reverses both halves of that finding.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/critical-thinking-education.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 7e7cb3215e615b8e401770cad26c1c7b006271a7
+concepts:
+- ct:critical-thinking-education
+- ct:huber-kuncel-2016-college-critical-thinking-meta-analysis
+difficulty: 3
+created: '2026-11-19'
+status: active

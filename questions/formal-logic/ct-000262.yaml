@@ -1,0 +1,19 @@
+id: ct-000262
+area: formal-logic
+kind: counter
+topic: Truth table
+topic_type: Technique
+true_statement: To show an argument invalid with a partial truth table, set the conclusion false and then try to make every premise true; finding one such row is enough.
+false_statement: To show an argument invalid with a partial truth table, set every premise true and then try to make the conclusion true; finding one such row is enough.
+explanation: Invalidity means some row has all premises true and the conclusion false, so you work backwards from a false conclusion. A row where everything is true proves nothing, and showing validity would mean ruling out every row, not finding one.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/truth-table.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: f6d2132332f3577dab9d9999ac2e7438b8b89113
+concepts:
+- ct:truth-table
+- ct:method-of-counterexample
+difficulty: 2
+created: '2026-11-19'
+status: active

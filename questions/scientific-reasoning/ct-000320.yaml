@@ -1,0 +1,19 @@
+id: ct-000320
+area: scientific-reasoning
+kind: figure
+topic: Correlation versus causation
+topic_type: Principle
+true_statement: A 2014 study of UK university press releases found that when a release overstated correlational research as causal, 81% of related news stories repeated the exaggeration, against 18% when the release was accurate.
+false_statement: A 2014 study of UK university press releases found that when a release overstated correlational research as causal, only 18% of related news stories repeated the exaggeration, as most journalists corrected it.
+explanation: 'The study traced much causal overstatement in health news back to the universities'' own press releases: news coverage largely passed the exaggeration on. Journalists mostly did not catch it, so it pays to check the study design rather than trust the headline verb.'
+as_of: '2014'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/correlation-versus-causation.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: ff959591f7294c1fba3026a6f7f66b93ea277456
+concepts:
+- ct:correlation-versus-causation
+difficulty: 3
+created: '2026-11-19'
+status: active

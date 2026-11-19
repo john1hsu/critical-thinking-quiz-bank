@@ -1,0 +1,20 @@
+id: ct-000263
+area: formal-logic
+kind: origin
+topic: Truth table
+topic_type: Technique
+true_statement: Irving Anellis argues that an unpublished 1893 manuscript by Charles Sanders Peirce holds the earliest truth table by an identifiable author, though credit is still debated.
+false_statement: Irving Anellis argues that Ludwig Wittgenstein's Tractatus holds the earliest truth table by an identifiable author, though credit is still debated.
+explanation: Anellis dates Peirce's matrix for the conditional to 1893. Wittgenstein's Tractatus (1921-22) made truth tables widely known, and even his own handwritten implication table dates only from 1912.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/truth-table.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: f6d2132332f3577dab9d9999ac2e7438b8b89113
+concepts:
+- ct:truth-table
+- ct:charles-sanders-peirce
+- ct:ludwig-wittgenstein
+difficulty: 2
+created: '2026-11-19'
+status: active

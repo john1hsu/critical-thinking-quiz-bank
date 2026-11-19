@@ -1,0 +1,18 @@
+id: ct-000245
+area: probabilistic-reasoning
+kind: mechanism
+topic: Gambler's fallacy
+topic_type: ProbabilisticFallacy
+true_statement: Over many fair coin flips the share of heads nears one half because early streaks are swamped by later flips, even as the raw gap between heads and tails tends to grow.
+false_statement: Over many fair coin flips the share of heads nears one half because later flips make up for early streaks, so the raw gap between heads and tails tends to shrink.
+explanation: 'The law of large numbers works by dilution, not compensation: a streak becomes a smaller fraction of an ever-growing total. Believing later flips must pay back the streak is exactly the gambler''s error of treating the long-run average as a quota.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/gamblers-fallacy.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 0a4774a21e36fee695729608545212b016f13a50
+concepts:
+- ct:gamblers-fallacy
+difficulty: 2
+created: '2026-11-19'
+status: active

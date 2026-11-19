@@ -1,0 +1,18 @@
+id: ct-000286
+area: probabilistic-reasoning
+kind: counter
+topic: Bayesian reasoning
+topic_type: ReasoningMode
+true_statement: When two colleagues disagree about how alarming a warning sign is, check whether they differ on the prior or on the likelihoods; people who disagree on priors can often still agree on likelihoods, which pins down the dispute.
+false_statement: When two colleagues disagree about how alarming a warning sign is, checking whether they differ on the prior or on the likelihoods won't help, since people who disagree on priors almost always disagree on likelihoods too.
+explanation: Splitting a Bayesian judgment into its inputs shows where the disagreement sits. Often both agree how diagnostic the sign is and differ only on how common the problem was to begin with, which can then be settled with base-rate data.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/bayesian-reasoning.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 38c61f580d00c3068bf8ca2b451aac29322c3fff
+concepts:
+- ct:bayesian-reasoning
+difficulty: 2
+created: '2026-11-19'
+status: active

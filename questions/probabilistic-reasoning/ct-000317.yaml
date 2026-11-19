@@ -1,0 +1,20 @@
+id: ct-000317
+area: probabilistic-reasoning
+kind: origin
+topic: Calibration
+topic_type: Concept
+true_statement: In 1950 Brier proposed scoring weather probability forecasts by the average squared gap between each stated probability and the outcome, coded 1 if it happened and 0 if not.
+false_statement: In 1950 Murphy proposed scoring weather probability forecasts by the average squared gap between each stated probability and the outcome, coded 1 if it happened and 0 if not.
+explanation: The score bears Brier's name and came out of weather forecasting; lower is better. Murphy's contribution came in 1973, when he split the Brier score into reliability, resolution and uncertainty.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/calibration.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 9856fa6cbc7f3ac98abe00acab2bc0f7e044d0e1
+concepts:
+- ct:calibration
+- ct:brier-score
+- ct:weather-forecasting
+difficulty: 1
+created: '2026-11-19'
+status: active

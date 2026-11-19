@@ -1,0 +1,18 @@
+id: ct-000307
+area: argumentation
+kind: counter
+topic: Argument from expert opinion
+topic_type: ArgumentScheme
+true_statement: A structural engineer says a floor can carry heavy archive shelving, but she has looked only at the original plans. The question to press is what evidence her view rests on, since the plans may not match what was built.
+false_statement: A structural engineer says a floor can carry heavy archive shelving, but she has looked only at the original plans. The question to press is whether floor loads fall within her field, since the plans may not match what was built.
+explanation: 'Floor loading is squarely a structural engineer''s field, so the field question is already answered. The open weakness is backup evidence: an opinion formed from drawings rather than the actual structure needs its basis checked.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argument-from-expert-opinion.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 48bfd49483201f311e3da7543a4b991a539aa0a1
+concepts:
+- ct:argument-from-expert-opinion
+difficulty: 2
+created: '2026-11-19'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000282
+area: informal-fallacies
+kind: scenario
+topic: Post hoc ergo propter hoc
+topic_type: InformalFallacy
+true_statement: A homeowner starts a herbal supplement on the first day of a cold. Five days later the cold is gone, and she tells friends the supplement cured it, citing only that she got better after taking it. That is post hoc ergo propter hoc.
+false_statement: A homeowner starts a herbal supplement on the first day of a cold. Five days later the cold is gone, and she tells friends the supplement cured it, citing only that she got better after taking it. That is cum hoc ergo propter hoc.
+explanation: Her only evidence is the order of events, remedy first and recovery after, which is the mark of post hoc; colds clear up anyway, so improvement after treatment proves little. Cum hoc infers cause from things merely occurring together, not from one following the other.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/post-hoc-ergo-propter-hoc.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: af61e710c5d3ad40d049812c8a8c1c43336e4efa
+concepts:
+- ct:post-hoc-ergo-propter-hoc
+- ct:cum-hoc-ergo-propter-hoc
+difficulty: 2
+created: '2026-11-19'
+status: active

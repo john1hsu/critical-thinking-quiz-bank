@@ -1,0 +1,20 @@
+id: ct-000290
+area: scientific-reasoning
+kind: origin
+topic: Confounding
+topic_type: Phenomenon
+true_statement: Ronald Fisher first used "confounding" in research design for a deliberate device in agricultural field trials; the sense of an unwanted extraneous variable came later, from Leslie Kish in 1959.
+false_statement: Ronald Fisher first used "confounding" in research design for an unwanted extraneous variable in field trials; Leslie Kish later turned it into a deliberate design device in 1959.
+explanation: In The Design of Experiments, Fisher's confounding meant intentionally mixing some higher-order interactions with other effects to save plots. Kish, writing on social-science design, gave the word its modern meaning of an uncontrolled variable tangled with the factor of interest, so the false version runs the history backwards.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/confounding.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 939fdbf5c714ebb836222fb2dc6d012d709fa8ce
+concepts:
+- ct:confounding
+- ct:ronald-fisher
+- ct:the-design-of-experiments
+difficulty: 3
+created: '2026-11-19'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000281
+area: heuristics-and-dual-process
+kind: evidence
+topic: Affect heuristic
+topic_type: Heuristic
+true_statement: Efendić and colleagues' 2022 replications reproduced the inverse risk-benefit link, except that information lowering a technology's benefits did not raise its judged risk.
+false_statement: Efendić and colleagues' 2022 replications reproduced the inverse risk-benefit link, except that information raising a technology's benefits did not lower its judged risk.
+explanation: 'The coupling replicated strongly, but only some directions of the manipulation did: lowering benefits left risk judgments unmoved. The replication also could not show that affect is the mediator, which is why the status is mixed.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/affect-heuristic.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 074d615a7b55b8c8a44afc4032fa897ba03e5647
+concepts:
+- ct:affect-heuristic
+- ct:efendic-2022-affect-heuristic-replication
+difficulty: 3
+created: '2026-11-19'
+status: active

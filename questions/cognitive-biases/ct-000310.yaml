@@ -1,0 +1,18 @@
+id: ct-000310
+area: cognitive-biases
+kind: counter
+topic: Hindsight bias
+topic_type: CognitiveBias
+true_statement: To keep a project retrospective fair, have people write down their forecasts and reasons before the outcome is known, then review against that record rather than memory.
+false_statement: To keep a project retrospective fair, have people write down their forecasts and reasons once the outcome is known, while memories are fresh, then review against that record.
+explanation: Once the outcome is known, people misremember their earlier predictions as closer to it, so any record made afterwards is already tilted. Only a record made beforehand shows what was actually expected and knowable at the time.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/hindsight-bias.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 4cfbfab81e5b94099b48e8d784b363522a71a425
+concepts:
+- ct:hindsight-bias
+difficulty: 2
+created: '2026-11-19'
+status: active

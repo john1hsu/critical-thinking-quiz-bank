@@ -1,0 +1,20 @@
+id: ct-000273
+area: formal-fallacies
+kind: scenario
+topic: Formal fallacy
+topic_type: Concept
+true_statement: 'A manager who can''t follow an engineering memo''s technical detail reads: "If the cache is stale, latency rises. Latency rose. So the cache is stale." She can rightly call this reasoning invalid without understanding caches, because the flaw is in its form.'
+false_statement: 'A manager who can''t follow an engineering memo''s technical detail reads: "If the cache is stale, latency rises. Latency rose. So the cache is stale." She would need to understand caches before calling it invalid, because the flaw lies in its content.'
+explanation: The skeleton is if P then Q; Q; so P, which is invalid whatever P and Q mean, so a formal fallacy can be diagnosed without knowing the subject. Needing to grasp the content is the mark of an informal fallacy, not a formal one.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/formal-fallacy.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 8f23fe9f31695be4634100082e0831ede862c650
+concepts:
+- ct:formal-fallacy
+- ct:affirming-the-consequent
+- ct:informal-fallacy
+difficulty: 2
+created: '2026-11-19'
+status: active

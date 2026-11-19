@@ -1,0 +1,19 @@
+id: ct-000334
+area: decision-making
+kind: counter
+topic: Analysis of competing hypotheses
+topic_type: Technique
+true_statement: Once an ACH matrix points to one explanation, test how the result would shift if a few linchpin items of evidence proved wrong, misleading or open to another reading.
+false_statement: Once an ACH matrix points to one explanation, gather more evidence consistent with that explanation until its lead over the others looks secure.
+explanation: Heuer's sensitivity step checks whether the conclusion rests on a few fragile items. Piling up consistent evidence for the leader is the confirmation-seeking habit ACH was built to replace, and consistent evidence may fit the rivals too.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/analysis-of-competing-hypotheses.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: cc4e60ef91f2cd1345219b221a2d1c564a36bec5
+concepts:
+- ct:analysis-of-competing-hypotheses
+- ct:confirmation-bias
+difficulty: 2
+created: '2026-11-19'
+status: active

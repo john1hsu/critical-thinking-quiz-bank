@@ -1,0 +1,19 @@
+id: ct-000277
+area: foundations
+kind: counter
+topic: Cogency
+topic_type: Concept
+true_statement: Even after judging an argument cogent, look for outside evidence against its conclusion before acting, because strong support from true premises still leaves the conclusion only probable.
+false_statement: Even after judging an argument cogent, check whether it is deductively valid before acting, because strong support from true premises leaves the conclusion unproven until it is.
+explanation: A cogent argument makes its conclusion likely, not certain, so the sensible last step is to check for independent reasons to doubt the conclusion. Demanding deductive validity misjudges a non-deductive argument by the wrong standard.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/cogency.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 761550200d04ca1e400c96dc5b3735de7515e5b8
+concepts:
+- ct:cogency
+- ct:validity
+difficulty: 2
+created: '2026-11-19'
+status: active

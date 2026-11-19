@@ -1,0 +1,20 @@
+id: ct-000292
+area: decision-making
+kind: counter
+topic: Structured analytic techniques
+topic_type: Technique
+true_statement: Mandel and Tetlock advise pairing structured techniques with tracking how accurate the resulting judgments turn out, since warnings against overconfidence alone can tip analysts into underconfidence.
+false_statement: Mandel and Tetlock advise pairing structured techniques with repeated warnings against overconfidence, since those warnings alone reliably bring analysts' confidence into line with their accuracy.
+explanation: Structure on paper does not show that judgments got better; only scoring them against outcomes, plus corrections such as recalibration and averaging, does. The false version recommends the very warning the critics say can overshoot into underconfidence.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/structured-analytic-techniques.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: ebba4d19cf835b7ceb6486393e0c2222ccb548a2
+concepts:
+- ct:structured-analytic-techniques
+- ct:mandel-tetlock-2018-correcting-judgment-correctives
+- ct:calibration
+difficulty: 3
+created: '2026-11-19'
+status: active

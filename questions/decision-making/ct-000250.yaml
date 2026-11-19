@@ -1,0 +1,19 @@
+id: ct-000250
+area: decision-making
+kind: counter
+topic: Reversible and irreversible decisions
+topic_type: Concept
+true_statement: Facing a decision that would be hard to undo, such as moving every customer to a new billing system, pilot it with a subset and keep the old system running, turning one big one-way door into smaller two-way doors.
+false_statement: Facing a decision that would be hard to undo, such as moving every customer to a new billing system, skip pilots and switch everyone at once, since partial rollouts only make a one-way door harder to reverse.
+explanation: 'Buying reversibility where it is cheap is the real-options move: pilots, staged rollouts and keeping the old system alive let you learn before the permanent part of the commitment. A single all-at-once switch removes exactly the chance to learn that makes waiting valuable.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/reversible-and-irreversible-decisions.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 05709f425409f5ff818856688adb54ebd7e4cb04
+concepts:
+- ct:reversible-and-irreversible-decisions
+- ct:quasi-option-value
+difficulty: 2
+created: '2026-11-19'
+status: active

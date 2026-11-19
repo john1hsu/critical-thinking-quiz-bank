@@ -1,0 +1,20 @@
+id: ct-000257
+area: history-and-thinkers
+kind: evidence
+topic: Alfred Tarski
+topic_type: Person
+true_statement: Etchemendy argues that Tarski's account of logical consequence misses its necessity, since whether an argument counts as valid can depend on how many objects exist.
+false_statement: Etchemendy argues that Tarski's account of logical consequence misses its necessity, since whether an argument counts as valid can depend on whether its premises are actually true.
+explanation: Etchemendy's worry is that validity defined over models can hinge on the size of the universe, a fact about the world rather than about logic. Whether the premises are actually true never bears on validity in Tarski's account, so that is not his complaint.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/alfred-tarski.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: e91491e44753f4760ecef9c42df03fcf066302e3
+concepts:
+- ct:alfred-tarski
+- ct:logical-consequence
+- ct:validity
+difficulty: 3
+created: '2026-11-19'
+status: active

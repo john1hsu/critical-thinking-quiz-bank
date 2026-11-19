@@ -1,0 +1,19 @@
+id: ct-000312
+area: evidence-and-information-literacy
+kind: scenario
+topic: Suppressed evidence
+topic_type: InformalFallacy
+true_statement: Pitching a vendor renewal, a project lead cites three glowing user reviews and the vendor's best quarter of uptime, but leaves out the two outages she knows hit the latest quarter. That is suppressed evidence.
+false_statement: Pitching a vendor renewal, a project lead cites three glowing user reviews and the vendor's best quarter of uptime, but leaves out the two outages she knows hit the latest quarter. That is the Texas sharpshooter fallacy.
+explanation: The tell is that she knowingly withholds relevant counter-evidence from her case, so true premises add up to a misleading argument. The Texas sharpshooter instead treats chance hits as meaningful after the fact, like counting one lucky forecast and ignoring the misses.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/suppressed-evidence.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 0822d7b49033f7555804c33a0e36162c88211d55
+concepts:
+- ct:suppressed-evidence
+- ct:texas-sharpshooter-fallacy
+difficulty: 2
+created: '2026-11-19'
+status: active

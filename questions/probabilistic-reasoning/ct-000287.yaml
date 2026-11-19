@@ -1,0 +1,19 @@
+id: ct-000287
+area: probabilistic-reasoning
+kind: origin
+topic: Bayesian reasoning
+topic_type: ReasoningMode
+true_statement: Thomas Bayes's essay on inverse probability was found among his papers after his death by Richard Price, who sent it to the Royal Society, where it was read in 1763.
+false_statement: Thomas Bayes's essay on inverse probability was found among his papers after his death by Abraham de Moivre, who sent it to the Royal Society, where it was read in 1763.
+explanation: Price, Bayes's friend, communicated the essay and noted that de Moivre had not solved this inverse question. De Moivre is named in the story only as someone who had left the problem open.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/bayesian-reasoning.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 38c61f580d00c3068bf8ca2b451aac29322c3fff
+concepts:
+- ct:bayesian-reasoning
+- ct:thomas-bayes
+difficulty: 1
+created: '2026-11-19'
+status: active

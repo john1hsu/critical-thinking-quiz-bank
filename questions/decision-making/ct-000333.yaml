@@ -1,0 +1,18 @@
+id: ct-000333
+area: decision-making
+kind: scenario
+topic: Analysis of competing hypotheses
+topic_type: Technique
+true_statement: 'A finance team weighs three explanations for falling margins: supplier price rises, a mispriced discount, and a currency swing. "Quarterly costs beat budget" fits all three. In an ACH matrix that item carries little weight, because it doesn''t discriminate between them.'
+false_statement: 'A finance team weighs three explanations for falling margins: supplier price rises, a mispriced discount, and a currency swing. "Quarterly costs beat budget" fits all three. In an ACH matrix that item carries heavy weight, because it is consistent with every hypothesis.'
+explanation: 'Heuer''s key idea is diagnosticity: evidence consistent with every hypothesis, like a fever that fits many illnesses, cannot tell you which is true. Being consistent with everything is exactly what makes an item useless for choosing, not strong.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/analysis-of-competing-hypotheses.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: cc4e60ef91f2cd1345219b221a2d1c564a36bec5
+concepts:
+- ct:analysis-of-competing-hypotheses
+difficulty: 2
+created: '2026-11-19'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000264
+area: argumentation
+kind: scenario
+topic: Argument mapping
+topic_type: Technique
+true_statement: Mapping a colleague's case that a supplier can be trusted, you find its main reason, "the supplier's self-audit is accurate", is itself supported by "the supplier can be trusted". The arrows form a loop, so the support is circular.
+false_statement: Mapping a colleague's case that a supplier can be trusted, you find its main reason, "the supplier's self-audit is accurate", is itself supported by "the supplier can be trusted". The arrows show two independent reasons, so the support is strong.
+explanation: When the conclusion turns up as support for its own reason, the diagram closes into a loop, the visual signature of begging the question. Independent reasons would each lead up to the conclusion without depending on it; the useful next step is an outside check that could break the loop.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argument-mapping.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 9fb4d0f90a0950993807dac4a85d8136bfd04e65
+concepts:
+- ct:argument-mapping
+- ct:begging-the-question
+difficulty: 2
+created: '2026-11-19'
+status: active

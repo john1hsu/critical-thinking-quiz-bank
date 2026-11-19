@@ -1,0 +1,19 @@
+id: ct-000288
+area: scientific-reasoning
+kind: scenario
+topic: Confounding
+topic_type: Phenomenon
+true_statement: Staff who use the office gym take fewer sick days, and HR credits the gym. But younger employees are both likelier to use the gym and less often ill. Age here is a confounder.
+false_statement: Staff who use the office gym take fewer sick days, and HR credits the gym. But younger employees are both likelier to use the gym and less often ill. Age here is a collider.
+explanation: 'Age comes before gym use and independently affects both gym use and illness, so it is a common cause, the defining shape of a confounder. A collider is the reverse: a common effect of the two variables, which age cannot be.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/confounding.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 939fdbf5c714ebb836222fb2dc6d012d709fa8ce
+concepts:
+- ct:confounding
+- ct:berksons-paradox
+difficulty: 2
+created: '2026-11-19'
+status: active

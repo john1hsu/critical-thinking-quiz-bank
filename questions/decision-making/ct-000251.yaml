@@ -1,0 +1,20 @@
+id: ct-000251
+area: decision-making
+kind: evidence
+topic: Reversible and irreversible decisions
+topic_type: Concept
+true_statement: In Gilbert and Ebert's 2002 studies, students who could not exchange a photograph they had chosen came to like it more than students who could, though forecasters predicted no difference.
+false_statement: In Gilbert and Ebert's 2002 studies, students who could exchange a photograph they had chosen came to like it more than students who could not, just as forecasters predicted.
+explanation: Keeping a choice open tended to lower satisfaction, the opposite of what people expect, which is why the finding is framed as an affective forecasting error. The samples were small and low-stakes, so the effect is rated mixed rather than robust.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/reversible-and-irreversible-decisions.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 05709f425409f5ff818856688adb54ebd7e4cb04
+concepts:
+- ct:reversible-and-irreversible-decisions
+- ct:gilbert-ebert-2002-changeable-outcomes-study
+- ct:affective-forecasting
+difficulty: 3
+created: '2026-11-19'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000272
+area: cognitive-biases
+kind: evidence
+topic: Framing effect
+topic_type: CognitiveBias
+true_statement: Mandel's 2014 experiments found many people read "200 people will be saved" as at least 200, in which case the gain and loss frames of the classic problem are not truly equivalent.
+false_statement: Mandel's 2014 experiments found many people read "200 people will be saved" as exactly 200, which confirmed that the gain and loss frames of the classic problem are truly equivalent.
+explanation: If "saved" is read as a lower bound, choosing differently across frames need not be irrational. Mandel's work questions how the effect should be interpreted rather than whether it exists, and stating exact values removes the ambiguity.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/framing-effect.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 1494b8d5031252019bd3db2412abfb1b19d9238e
+concepts:
+- ct:framing-effect
+- ct:mandel-2014-framing-quantifier-experiments
+difficulty: 3
+created: '2026-11-19'
+status: active

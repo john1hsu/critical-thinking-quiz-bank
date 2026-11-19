@@ -1,0 +1,20 @@
+id: ct-000293
+area: decision-making
+kind: evidence
+topic: Structured analytic techniques
+topic_type: Technique
+true_statement: 'Coulthart''s 2015 review of research on twelve core structured techniques judged the support moderate to strong for only three: ACH, brainstorming and devil''s advocacy.'
+false_statement: 'Coulthart''s 2015 review of research on twelve core structured techniques judged the support moderate to strong for only three: key assumptions checks, red teaming and alternative futures.'
+explanation: Even the friendliest review backed just a quarter of the core techniques, and later controlled trials of ACH were less encouraging still. That thin, mixed record is why the family's evidence status is contested.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/structured-analytic-techniques.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: ebba4d19cf835b7ceb6486393e0c2222ccb548a2
+concepts:
+- ct:structured-analytic-techniques
+- ct:analysis-of-competing-hypotheses
+- ct:devils-advocacy
+difficulty: 3
+created: '2026-11-19'
+status: active

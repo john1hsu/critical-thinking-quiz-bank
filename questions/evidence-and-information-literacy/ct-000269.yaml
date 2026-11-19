@@ -1,0 +1,20 @@
+id: ct-000269
+area: evidence-and-information-literacy
+kind: mechanism
+topic: Source credibility
+topic_type: Concept
+true_statement: Dual-process accounts treat source credibility as a shortcut that sways people most when they cannot or will not weigh the arguments themselves, such as audiences new to a topic.
+false_statement: Dual-process accounts treat source credibility as a shortcut that sways people most when they are able and motivated to weigh the arguments themselves, such as audiences expert in a topic.
+explanation: 'In the elaboration likelihood model, credibility is a peripheral cue, so it matters most when people lack the knowledge or motivation to judge the content. The meta-analytic pattern fits: the credibility edge was largest for audiences with no prior attitude and little knowledge.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/source-credibility.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 2bd2b51fd286c9b4a9daa61d7fc2667091953215
+concepts:
+- ct:source-credibility
+- ct:elaboration-likelihood-model
+- ct:kumkale-2010-source-credibility-meta-analysis
+difficulty: 3
+created: '2026-11-19'
+status: active

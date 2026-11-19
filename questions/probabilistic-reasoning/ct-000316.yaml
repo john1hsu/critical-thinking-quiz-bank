@@ -1,0 +1,18 @@
+id: ct-000316
+area: probabilistic-reasoning
+kind: counter
+topic: Calibration
+topic_type: Concept
+true_statement: To check a forecaster's calibration, group many resolved forecasts by stated probability and compare each group's hit rate, rather than reacting to one confident miss.
+false_statement: To check a forecaster's calibration, look at the most confident forecast that missed, since one high-confidence miss is enough to show overconfidence.
+explanation: 'Calibration is a property of a set of judgments: an 80% call is supposed to miss one time in five. Only a record of many forecasts at the same level, reviewed in batches, can show whether stated confidence matches how often they come true.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/calibration.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 9856fa6cbc7f3ac98abe00acab2bc0f7e044d0e1
+concepts:
+- ct:calibration
+difficulty: 2
+created: '2026-11-19'
+status: active

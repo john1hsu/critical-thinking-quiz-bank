@@ -1,0 +1,20 @@
+id: ct-000252
+area: philosophy-of-reasoning
+kind: scenario
+topic: Problem of induction
+topic_type: Concept
+true_statement: A planner expects a ferry service to keep running on time because it has for years. Asked why the past is any guide, she says relying on the past has always worked before. That defence is circular in the way Hume described.
+false_statement: A planner expects a ferry service to keep running on time because it has for years. Asked why the past is any guide, she says relying on the past has always worked before. That defence answers Hume, since it rests on experience rather than on a demonstration.
+explanation: Her answer uses the past record to vouch for trusting past records, so it assumes the uniformity it was meant to support. Hume's point is that appeals to experience are exactly the arguments that already presuppose uniformity, so resting on experience is the problem, not the escape.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/problem-of-induction.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 2073fe9d1a58046fae52b4a6ae2efdf99dff0b59
+concepts:
+- ct:problem-of-induction
+- ct:begging-the-question
+- ct:david-hume
+difficulty: 2
+created: '2026-11-19'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000302
+area: debiasing-and-metacognition
+kind: evidence
+topic: Statistical reasoning training
+topic_type: Technique
+true_statement: Fisk and Pidgeon (1997) found extension-rule training cut conjunction errors, yet judgments still tracked the less likely component event, suggesting training shifts a compromise rather than replacing the heuristic.
+false_statement: Fisk and Pidgeon (1997) found extension-rule training cut conjunction errors by replacing the similarity heuristic outright, so judgments no longer tracked the less likely component event.
+explanation: The trained rule competes with the intuitive one instead of overwriting it, which is why errors fall but rarely vanish. That residual pull is part of why the technique's evidence is rated mixed.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/statistical-reasoning-training.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 90589895d801a3e1e10496c48db43a75c5546cab
+concepts:
+- ct:statistical-reasoning-training
+- ct:representativeness-heuristic
+difficulty: 3
+created: '2026-11-19'
+status: active

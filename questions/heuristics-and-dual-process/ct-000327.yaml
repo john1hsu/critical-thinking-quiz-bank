@@ -1,0 +1,18 @@
+id: ct-000327
+area: heuristics-and-dual-process
+kind: scenario
+topic: Fast-and-frugal heuristics
+topic_type: Framework
+true_statement: Choosing between two job applicants, a recruiter checks cues in order of how well each has predicted success in the past and picks whoever is ahead on the first cue where they differ, ignoring the rest. That is a one-reason rule like Take The Best.
+false_statement: Choosing between two job applicants, a recruiter checks cues in order of how well each has predicted success in the past and picks whoever is ahead on the first cue where they differ, ignoring the rest. That is a weighted-additive rule like multiple regression.
+explanation: Ordered search, a stop at the first discriminating cue and a choice on that cue alone are the search, stopping and decision rules of Take The Best. A weighted-additive model would look up every cue, weight each and add them up before deciding.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/fast-and-frugal-heuristics.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 6c71849d8e5845bbf961a10683e59bbad2842bbc
+concepts:
+- ct:fast-and-frugal-heuristics
+difficulty: 2
+created: '2026-11-19'
+status: active

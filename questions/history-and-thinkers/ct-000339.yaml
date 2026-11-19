@@ -1,0 +1,19 @@
+id: ct-000339
+area: history-and-thinkers
+kind: scenario
+topic: Prior Analytics
+topic_type: Work
+true_statement: 'A manager argues: "No temp staff can sign purchase orders. Every department head can sign purchase orders. So no department head is temp staff." Aristotle would class this as a second-figure, imperfect deduction, because the middle term is the predicate of both premises.'
+false_statement: 'A manager argues: "No temp staff can sign purchase orders. Every department head can sign purchase orders. So no department head is temp staff." Aristotle would class this as a first-figure, perfect deduction, because it needs nothing beyond its premises.'
+explanation: Figures are sorted by where the middle term sits, and with "can sign purchase orders" as both predicates this is the second figure, so it is imperfect. Converting the first premise to "nothing that can sign is temp staff" turns it into the perfect first-figure Celarent.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/prior-analytics.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: ceec1dc71bf3b7bb7921e9d70273e90b43c4d8a9
+concepts:
+- ct:prior-analytics
+- ct:categorical-syllogism
+difficulty: 3
+created: '2026-11-19'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000247
+area: scientific-reasoning
+kind: counter
+topic: Researcher degrees of freedom
+topic_type: Concept
+true_statement: A preregistration that names the main outcome but leaves exclusions and the stopping rule open still leaves room for analytic flexibility, so check how specific the plan was.
+false_statement: A preregistration that names the main outcome but leaves exclusions and the stopping rule open closes off analytic flexibility, so checking how specific the plan was is unnecessary.
+explanation: Preregistration protects only as far as it is specific, precise and exhaustive; every choice it leaves unfixed is still a fork that can be taken after seeing the data. Ask which decisions were locked in advance, not merely whether a plan exists.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/researcher-degrees-of-freedom.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: c584531db9bd6e008ed7de16ce177c7f68494a4d
+concepts:
+- ct:researcher-degrees-of-freedom
+- ct:preregistration
+difficulty: 2
+created: '2026-11-19'
+status: active

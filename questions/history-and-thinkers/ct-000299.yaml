@@ -1,0 +1,19 @@
+id: ct-000299
+area: history-and-thinkers
+kind: origin
+topic: Organon
+topic_type: Work
+true_statement: Francis Bacon named his 1620 Novum Organum after Aristotle's collection to replace it, complaining that the syllogism leaps from a few particulars to the most general axioms.
+false_statement: Francis Bacon named his 1620 Novum Organum after Aristotle's collection to replace it, complaining that the syllogism creeps too slowly from particulars before reaching general axioms.
+explanation: 'Bacon''s objection was hastiness: the syllogism jumps to sweeping axioms from little evidence. His remedy was a gradual, eliminative induction using tables of presence, absence and degrees, the opposite of a call for bolder leaps.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/organon.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 7558b4eed10b7e58057810e9e9ca4ca88718e3f5
+concepts:
+- ct:organon
+- ct:novum-organum
+difficulty: 2
+created: '2026-11-19'
+status: active

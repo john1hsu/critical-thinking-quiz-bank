@@ -1,0 +1,19 @@
+id: ct-000304
+area: formal-logic
+kind: counter
+topic: Rules of the categorical syllogism
+topic_type: Technique
+true_statement: If you need to tell a colleague what is wrong with a syllogism, not just that it fails, the rule checklist suits better than a Venn diagram, since each broken rule names a specific fallacy.
+false_statement: If you need to tell a colleague what is wrong with a syllogism, not just that it fails, a Venn diagram suits better than the rule checklist, since each unmarked region names a specific fallacy.
+explanation: Both methods decide validity, but a diagram shows class relations while the rules are a verbal checklist in which each failure, such as an illicit major, is a named error. Regions of a diagram carry no fallacy names.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/rules-of-the-categorical-syllogism.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 13b76b3622b2247d01de2fb94dd46f8f002cbc37
+concepts:
+- ct:rules-of-the-categorical-syllogism
+- ct:venn-diagram-test
+difficulty: 2
+created: '2026-11-19'
+status: active

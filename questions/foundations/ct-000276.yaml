@@ -1,0 +1,19 @@
+id: ct-000276
+area: foundations
+kind: scenario
+topic: Cogency
+topic_type: Concept
+true_statement: A buyer argues a courier will probably meet next week's deadline because it has met every deadline for two years, but records show it missed three this spring. The argument is uncogent, because one of its premises is false.
+false_statement: A buyer argues a courier will probably meet next week's deadline because it has met every deadline for two years, but records show it missed three this spring. The argument is still cogent, because its inference from the record is strong.
+explanation: 'Cogency needs two things: a strong inference and premises that are actually true. The pattern of reasoning here is strong, but the claimed spotless record is false, and one false premise is enough to make the argument uncogent.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/cogency.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 761550200d04ca1e400c96dc5b3735de7515e5b8
+concepts:
+- ct:cogency
+- ct:argument-evaluation
+difficulty: 2
+created: '2026-11-19'
+status: active

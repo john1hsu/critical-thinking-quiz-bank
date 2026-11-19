@@ -1,0 +1,19 @@
+id: ct-000319
+area: scientific-reasoning
+kind: counter
+topic: Correlation versus causation
+topic_type: Principle
+true_statement: When a news story says a habit "boosts" or "prevents" something, check whether the study behind it set the habit by intervention or only observed who had it.
+false_statement: When a news story says a habit "boosts" or "prevents" something, check whether the study behind it found a statistically significant link.
+explanation: Causal verbs are only earned by a design that can rule out common causes and reverse causation, which is why an intervention outweighs passive observation. A significant result speaks only partly to chance and says nothing about which way the causation runs.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/correlation-versus-causation.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: ff959591f7294c1fba3026a6f7f66b93ea277456
+concepts:
+- ct:correlation-versus-causation
+- ct:randomized-controlled-trial
+difficulty: 2
+created: '2026-11-19'
+status: active

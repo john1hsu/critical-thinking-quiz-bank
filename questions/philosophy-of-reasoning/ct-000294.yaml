@@ -1,0 +1,18 @@
+id: ct-000294
+area: philosophy-of-reasoning
+kind: scenario
+topic: Critical thinking education
+topic_type: Field
+true_statement: A hospital trains its billing auditors through in-depth casework on real claims, and instructors explicitly name and teach the reasoning principles involved as they go. In Ennis's typology this is the infusion approach.
+false_statement: A hospital trains its billing auditors through in-depth casework on real claims, and instructors explicitly name and teach the reasoning principles involved as they go. In Ennis's typology this is the immersion approach.
+explanation: Both infusion and immersion teach a subject in depth; what separates them is whether the reasoning principles are made explicit. Because the instructors name them, this is infusion; immersion invites critical thinking but never names its principles.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/critical-thinking-education.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 7e7cb3215e615b8e401770cad26c1c7b006271a7
+concepts:
+- ct:critical-thinking-education
+difficulty: 2
+created: '2026-11-19'
+status: active

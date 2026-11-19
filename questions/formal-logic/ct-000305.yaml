@@ -1,0 +1,19 @@
+id: ct-000305
+area: formal-logic
+kind: origin
+topic: Rules of the categorical syllogism
+topic_type: Technique
+true_statement: The Port-Royal Logic gave a compact list of six syllogism rules and held that a mood is valid if and only if it breaks none of them.
+false_statement: John Buridan gave a compact list of six syllogism rules and held that a mood is valid if and only if it breaks none of them.
+explanation: The best-known six-rule list, with the claim that passing every rule is both necessary and sufficient, comes from the seventeenth-century Port-Royal Logic. Buridan, in the fourteenth century, used distribution to test moods but is not the source of that list.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/rules-of-the-categorical-syllogism.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 13b76b3622b2247d01de2fb94dd46f8f002cbc37
+concepts:
+- ct:rules-of-the-categorical-syllogism
+- ct:port-royal-logic
+difficulty: 2
+created: '2026-11-19'
+status: active

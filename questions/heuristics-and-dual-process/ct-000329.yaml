@@ -1,0 +1,20 @@
+id: ct-000329
+area: heuristics-and-dual-process
+kind: evidence
+topic: Fast-and-frugal heuristics
+topic_type: Framework
+true_statement: Pohl's 2011 review of the recognition-heuristic debate found that less-is-more effects, where knowing less yields better inferences, are scarce and small in real people.
+false_statement: Pohl's 2011 review of the recognition-heuristic debate found that less-is-more effects, where knowing less yields better inferences, are common and large in real people.
+explanation: Less-is-more is well supported in simulations, but the review found it rare and weak in human data. That gap between the normative result and the descriptive claim is why the program's status is contested.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/fast-and-frugal-heuristics.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 6c71849d8e5845bbf961a10683e59bbad2842bbc
+concepts:
+- ct:fast-and-frugal-heuristics
+- ct:pohl-2011-recognition-heuristic-debate-review
+- ct:recognition-heuristic
+difficulty: 3
+created: '2026-11-19'
+status: active

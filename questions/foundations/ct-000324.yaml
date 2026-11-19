@@ -1,0 +1,19 @@
+id: ct-000324
+area: foundations
+kind: scenario
+topic: Ambiguity
+topic_type: Concept
+true_statement: A travel policy grants an allowance to staff with "long commutes", and colleagues argue over whether 50 minutes each way qualifies. The trouble is vagueness rather than ambiguity.
+false_statement: A travel policy grants an allowance to staff with "long commutes", and colleagues argue over whether 50 minutes each way qualifies. The trouble is ambiguity rather than vagueness.
+explanation: Nobody disputes what "long" means here; the dispute is about a borderline case of a single meaning, which is the mark of vagueness. Ambiguity would need the phrase to carry two distinct, legitimate meanings, as "bank" does.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/ambiguity.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 0780b6725abc908ac30d5dc51a8aa1fffe65885d
+concepts:
+- ct:ambiguity
+- ct:vagueness
+difficulty: 2
+created: '2026-11-19'
+status: active

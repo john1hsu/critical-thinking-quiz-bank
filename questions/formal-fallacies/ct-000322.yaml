@@ -1,0 +1,19 @@
+id: ct-000322
+area: formal-fallacies
+kind: counter
+topic: Exclusive premises
+topic_type: FormalFallacy
+true_statement: Before charging an argument with exclusive premises, check that it is a categorical syllogism, since in other logical systems an argument with two negative premises can be valid.
+false_statement: Before charging an argument with exclusive premises, check whether its conclusion is negative, since two negative premises with a negative conclusion make a valid syllogism.
+explanation: 'The rule that one premise must be affirmative belongs to categorical logic, so two negative premises outside a syllogism aren''t automatically fallacious. Inside a syllogism a negative conclusion doesn''t help: any mood starting EE, EO, OE or OO is invalid.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/exclusive-premises.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 33ca2a475b36dd587bd2328c44cc3299d766ab99
+concepts:
+- ct:exclusive-premises
+- ct:categorical-syllogism
+difficulty: 3
+created: '2026-11-19'
+status: active

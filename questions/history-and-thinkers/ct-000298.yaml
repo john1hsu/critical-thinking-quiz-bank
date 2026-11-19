@@ -1,0 +1,19 @@
+id: ct-000298
+area: history-and-thinkers
+kind: origin
+topic: Organon
+topic_type: Work
+true_statement: 'Naming Aristotle''s logical works the "tool" took the later Peripatetics'' side in an ancient debate: they held logic is an instrument philosophy uses, while the Stoics held it is a part of philosophy.'
+false_statement: 'Naming Aristotle''s logical works the "tool" took the Stoics'' side in an ancient debate: they held logic is an instrument philosophy uses, while the Peripatetics held it is a part of philosophy.'
+explanation: The title was given by Aristotle's later followers, the Peripatetics, and expressed their view of logic as an instrument. The Stoics, whose rival logic faded in late antiquity, counted logic as one of philosophy's parts.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/organon.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 7558b4eed10b7e58057810e9e9ca4ca88718e3f5
+concepts:
+- ct:organon
+- ct:stoic-logic
+difficulty: 2
+created: '2026-11-19'
+status: active

@@ -1,0 +1,18 @@
+id: ct-000340
+area: history-and-thinkers
+kind: counter
+topic: Prior Analytics
+topic_type: Work
+true_statement: When a colleague tries to refute your assumption by deriving something absurd from it, check that the absurd result really depends on that assumption; if not, the refutation fails, as the Prior Analytics warns.
+false_statement: When a colleague tries to refute your assumption by deriving something absurd from it, check only that the result is truly absurd, since an absurdity counts against every assumption used in reaching it.
+explanation: Book II's original "false cause" objection says a reduction to the impossible only discredits the assumption that actually produces the absurdity. If the absurd result would follow from the other premises anyway, your assumption hasn't been shown false.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/prior-analytics.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: ceec1dc71bf3b7bb7921e9d70273e90b43c4d8a9
+concepts:
+- ct:prior-analytics
+difficulty: 3
+created: '2026-11-19'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000265
+area: argumentation
+kind: counter
+topic: Argument mapping
+topic_type: Technique
+true_statement: While mapping an argument, if a key term in the conclusion appears in none of the premises, treat that gap as a cue to add the unstated premise, in brackets.
+false_statement: While mapping an argument, if a key term in the conclusion appears in none of the premises, treat that gap as a cue to delete the term, since a map should hold only claims stated outright.
+explanation: The rule of thumb is that every key term in the conclusion should show up in some premise; a missing term usually signals a hidden assumption the argument relies on. Deleting the term changes the claim instead of exposing what it rests on.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argument-mapping.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 9fb4d0f90a0950993807dac4a85d8136bfd04e65
+concepts:
+- ct:argument-mapping
+- ct:enthymeme
+difficulty: 2
+created: '2026-11-19'
+status: active

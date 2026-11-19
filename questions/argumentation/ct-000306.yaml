@@ -1,0 +1,19 @@
+id: ct-000306
+area: argumentation
+kind: scenario
+topic: Argument from expert opinion
+topic_type: ArgumentScheme
+true_statement: A team asks the company's in-house tax specialist whether a new expense type is deductible. She says yes, cites the rule she relied on, and no other specialist disagrees. Relying on her is a reasonable argument from expert opinion.
+false_statement: A team asks the company's in-house tax specialist whether a new expense type is deductible. She says yes, cites the rule she relied on, and no other specialist disagrees. Relying on her is the ad verecundiam fallacy.
+explanation: The claim sits inside her field, her basis is stated, and no expert disagrees, so the critical questions raise no doubt and the presumption stands. Ad verecundiam is a misuse of the scheme that fails one of its requirements; most appeals to authority are not fallacious.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argument-from-expert-opinion.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 48bfd49483201f311e3da7543a4b991a539aa0a1
+concepts:
+- ct:argument-from-expert-opinion
+- ct:ad-verecundiam
+difficulty: 2
+created: '2026-11-19'
+status: active

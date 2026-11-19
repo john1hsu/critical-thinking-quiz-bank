@@ -1,0 +1,18 @@
+id: ct-000244
+area: probabilistic-reasoning
+kind: counter
+topic: Gambler's fallacy
+topic_type: ProbabilisticFallacy
+true_statement: Faced with a streak, ask whether your estimate for the next outcome would differ had you walked in just now and not seen the streak; for independent events it should be the same.
+false_statement: Faced with a streak, ask whether your estimate for the next outcome would differ had you walked in just now and not seen the streak; for independent events the streak should still tilt it toward the overdue outcome.
+explanation: Independent events have no memory, so the history you happened to witness carries no information about the next one. Imagining you missed the streak strips out that history; if your estimate changes, the streak rather than the odds is driving it.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/gamblers-fallacy.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 0a4774a21e36fee695729608545212b016f13a50
+concepts:
+- ct:gamblers-fallacy
+difficulty: 2
+created: '2026-11-19'
+status: active

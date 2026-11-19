@@ -1,0 +1,18 @@
+id: ct-000311
+area: cognitive-biases
+kind: evidence
+topic: Hindsight bias
+topic_type: CognitiveBias
+true_statement: 'Whether task expertise reduces hindsight bias is unsettled: a 1991 meta-analysis found less bias in people familiar with the task, but a 2004 meta-analysis found no such relation.'
+false_statement: 'Task expertise is known to reduce hindsight bias: a 1991 meta-analysis found less bias in people familiar with the task, and a 2004 meta-analysis confirmed the relation.'
+explanation: The two meta-analyses disagree, so experience can't be assumed to protect reviewers. In practice that means experts' post-mortems need the same safeguards, such as written prior forecasts, as anyone else's.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/hindsight-bias.md
+  commit: 2d05c8d02d8215223858c71d8b5e8959bfad59ff
+  blob: 4cfbfab81e5b94099b48e8d784b363522a71a425
+concepts:
+- ct:hindsight-bias
+difficulty: 3
+created: '2026-11-19'
+status: active
