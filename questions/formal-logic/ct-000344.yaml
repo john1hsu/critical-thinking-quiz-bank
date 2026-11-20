@@ -1,0 +1,19 @@
+id: ct-000344
+area: formal-logic
+kind: counter
+topic: Distribution of terms
+topic_type: Concept
+true_statement: Distribution marks work best as a quick screen on a categorical argument; when a case is unclear, cross-check it with a Venn diagram or a counterexample.
+false_statement: Distribution marks explain why a categorical argument is valid, so once the marks check out there is no need to cross-check with a Venn diagram or a counterexample.
+explanation: Marking distributed terms is a mechanical recipe that flags likely invalidity fast, but logicians dispute what, if anything, it explains. The sound habit is to confirm doubtful cases another way, such as a diagram or a counterexample with the same form.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/distribution-of-terms.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: b8af01425a78ce6ddfff51f30f3d31eea72bc1c8
+concepts:
+- ct:distribution-of-terms
+- ct:venn-diagram-test
+difficulty: 2
+created: '2026-11-20'
+status: active

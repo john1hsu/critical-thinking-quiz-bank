@@ -1,0 +1,20 @@
+id: ct-000398
+area: evidence-and-information-literacy
+kind: counter
+topic: Conflict of interest
+topic_type: Concept
+true_statement: When an adviser discloses a conflict of interest, don't assume the disclosure makes her advice safe to use, since people tend to discount disclosed advice too little.
+false_statement: When an adviser discloses a conflict of interest, you can assume the disclosure makes her advice safe to use, since people tend to discount disclosed advice more than enough.
+explanation: In the coin-jar experiments, advisees adjusted for disclosed conflicts only partly, partly because they anchored on the number given, while advisers inflated their advice further. Disclosure is information to act on, not a fix.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/conflict-of-interest.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: f819175f66ae082696834d62d275c07e6b70b7df
+concepts:
+- ct:conflict-of-interest
+- ct:cain-loewenstein-moore-2005-coin-jar-experiment
+- ct:anchoring-effect
+difficulty: 2
+created: '2026-11-20'
+status: active

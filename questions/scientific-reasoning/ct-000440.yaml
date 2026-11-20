@@ -1,0 +1,19 @@
+id: ct-000440
+area: scientific-reasoning
+kind: counter
+topic: Power analysis
+topic_type: Method
+true_statement: When planning a study's sample size, base the effect size on the smallest effect worth detecting rather than on one estimated from a small pilot, since a pilot's estimate is too imprecise.
+false_statement: When planning a study's sample size, base the effect size on the one estimated from a small pilot rather than on the smallest effect worth detecting, since the pilot measured it directly.
+explanation: Small pilots give noisy effect estimates, and published effects are inflated by publication bias, so plans built on them overstate power. Anchoring on the smallest effect that would matter in practice is the strongest justification.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/power-analysis.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: e8c0f3bee4ed6bba8763437077a41795bcce3210
+concepts:
+- ct:power-analysis
+- ct:publication-bias
+difficulty: 2
+created: '2026-11-20'
+status: active

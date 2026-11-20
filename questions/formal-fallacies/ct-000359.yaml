@@ -1,0 +1,19 @@
+id: ct-000359
+area: formal-fallacies
+kind: counter
+topic: Fallacy of four terms
+topic_type: FormalFallacy
+true_statement: When a syllogism looks valid in form yet has true premises and a plainly false conclusion, suspect a term that shifted meaning, since a valid form can't take true premises to a false conclusion.
+false_statement: When a syllogism looks valid in form yet has true premises and a plainly false conclusion, accept it as a rare exception, since a valid form can occasionally take true premises to a false conclusion.
+explanation: Validity rules out exactly that combination, so the apparent validity must be an illusion. The usual culprit is a word used in two senses, which secretly adds a fourth term.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/fallacy-of-four-terms.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 51e123e319e60192ef7f85665794c6ee9f908c6a
+concepts:
+- ct:fallacy-of-four-terms
+- ct:categorical-syllogism
+difficulty: 2
+created: '2026-11-20'
+status: active

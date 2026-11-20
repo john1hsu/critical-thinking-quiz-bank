@@ -1,0 +1,19 @@
+id: ct-000400
+area: formal-fallacies
+kind: scenario
+topic: Quantifier shift fallacy
+topic_type: FormalFallacy
+true_statement: '"Every project in the portfolio has someone in finance who can sign off its budget, so someone in finance can sign off every project''s budget." This inference commits the quantifier shift fallacy.'
+false_statement: '"Every project in the portfolio has someone in finance who can sign off its budget, so someone in finance can sign off every project''s budget." This inference is valid, since the premise already covers every project.'
+explanation: The premise lets the approver differ from project to project; the conclusion demands one person for all of them. If sign-off rights are split by business unit, the premise is true and the conclusion false, so the form is invalid.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/quantifier-shift-fallacy.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: bc10f91946bc55e4925f83a9cb9af394c3cd32a7
+concepts:
+- ct:quantifier-shift-fallacy
+- ct:quantifier-scope
+difficulty: 2
+created: '2026-11-20'
+status: active

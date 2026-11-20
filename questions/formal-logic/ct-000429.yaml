@@ -1,0 +1,21 @@
+id: ct-000429
+area: formal-logic
+kind: origin
+topic: Antilogism
+topic_type: Technique
+true_statement: Christine Ladd introduced the antilogism in 1883 as a graduate student of Charles S. Peirce at Johns Hopkins, which withheld her doctorate until 1926.
+false_statement: Christine Ladd introduced the antilogism in 1883 as a graduate student of George Boole at Johns Hopkins, which withheld her doctorate until 1926.
+explanation: Ladd published the method in "On the Algebra of Logic" while studying under Peirce, who shaped her algebraic approach. Boole was an earlier founder of the algebra of logic, not her teacher.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/antilogism.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 998d6fc5f3411facc1fb3f88b8bf0855f5367ba4
+concepts:
+- ct:antilogism
+- ct:christine-ladd-franklin
+- ct:charles-sanders-peirce
+- ct:on-the-algebra-of-logic
+difficulty: 2
+created: '2026-11-20'
+status: active

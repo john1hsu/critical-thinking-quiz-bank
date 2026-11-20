@@ -1,0 +1,19 @@
+id: ct-000416
+area: debiasing-and-metacognition
+kind: counter
+topic: Numeracy
+topic_type: Disposition
+true_statement: When presenting risk figures to a mixed audience, cut nonessential numbers and make higher numbers stand for better outcomes, which helps less numerate readers.
+false_statement: When presenting risk figures to a mixed audience, include every available number so nothing is hidden, which helps less numerate readers most.
+explanation: Studies of risk communication found that low-numerate readers did better when figures were trimmed to what matters, ordered by relevance and aligned so bigger means better. Extra numbers add load without adding understanding for them.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/numeracy.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: f01fad628177e6970d219e77c2bc643bc4f608e0
+concepts:
+- ct:numeracy
+- ct:risk-literacy
+difficulty: 2
+created: '2026-11-20'
+status: active

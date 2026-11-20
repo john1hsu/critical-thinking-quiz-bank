@@ -1,0 +1,20 @@
+id: ct-000433
+area: cognitive-biases
+kind: scenario
+topic: Sunk cost fallacy
+topic_type: CognitiveBias
+true_statement: A stalled software rollout will cost more to finish than it can return, yet the IT director argues for more funding because $2 million has already gone into it. That is the sunk cost fallacy.
+false_statement: A stalled software rollout will cost more to finish than it can return, yet the IT director argues for more funding because $2 million has already gone into it. That is the framing effect.
+explanation: The money already spent is gone whichever way the decision goes, so only remaining costs and benefits should count. Letting the past outlay drive further investment is the sunk cost fallacy; a framing effect would hinge on how the same options are worded.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/sunk-cost-fallacy.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 292f5a77f987260f31129b18c1da5c89fa76c0b8
+concepts:
+- ct:sunk-cost-fallacy
+- ct:framing-effect
+- ct:escalation-of-commitment
+difficulty: 1
+created: '2026-11-20'
+status: active

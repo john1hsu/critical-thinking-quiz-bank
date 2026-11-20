@@ -1,0 +1,19 @@
+id: ct-000411
+area: informal-fallacies
+kind: evidence
+topic: Hasty generalization
+topic_type: InformalFallacy
+true_statement: A 2020 meta-analysis found that anecdotes outpersuade statistics when people are emotionally engaged, as with severe threats, while statistics win when engagement is low.
+false_statement: A 2020 meta-analysis found that statistics outpersuade anecdotes when people are emotionally engaged, as with severe threats, while anecdotes win when engagement is low.
+explanation: High emotional engagement tilts people toward vivid single stories, which helps explain how one memorable case turns into a general rule. That makes high-stakes, emotional topics exactly where to check for a proper sample.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/hasty-generalization.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 81f2d4ace8b3fae459f401fe93718635f86a9785
+concepts:
+- ct:hasty-generalization
+- ct:anecdotal-bias
+difficulty: 3
+created: '2026-11-20'
+status: active

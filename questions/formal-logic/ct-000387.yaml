@@ -1,0 +1,20 @@
+id: ct-000387
+area: formal-logic
+kind: origin
+topic: Square of opposition
+topic_type: Concept
+true_statement: Boethius's Latin translations and commentaries, written shortly after 500 CE, made the square of opposition a fixture of medieval logic teaching.
+false_statement: John Buridan's Latin translations and commentaries, written shortly after 500 CE, made the square of opposition a fixture of medieval logic teaching.
+explanation: Boethius carried the diagram into the Latin West in the early sixth century. Buridan worked much later, in the fourteenth century, and is known for testing the square's rules against empty terms rather than spreading it.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/square-of-opposition.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 37d4b857b8f6707e24dc24f0c4548b9d7e669133
+concepts:
+- ct:square-of-opposition
+- ct:boethius
+- ct:john-buridan
+difficulty: 2
+created: '2026-11-20'
+status: active

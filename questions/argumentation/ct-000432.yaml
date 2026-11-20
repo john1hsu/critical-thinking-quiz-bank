@@ -1,0 +1,19 @@
+id: ct-000432
+area: argumentation
+kind: definition
+topic: Argument from consequences
+topic_type: ArgumentScheme
+true_statement: An argument from negative consequences becomes an argument from threat when the speaker is committed to bringing about the bad outcome; a mere warning lacks that commitment.
+false_statement: An argument from negative consequences becomes an argument from threat when the bad outcome is severe, whoever would bring it about; a mere warning concerns only mild outcomes.
+explanation: What turns a warning into a threat is who causes the harm, not how big it is. Warning that heavy drinking risks early death is prudential; a professor promising a bad grade for defending a view is a threat.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argument-from-consequences.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: d7a7fbca7294920f17045160595c92aac662b28f
+concepts:
+- ct:argument-from-consequences
+- ct:ad-baculum
+difficulty: 2
+created: '2026-11-20'
+status: active

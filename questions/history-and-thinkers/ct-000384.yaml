@@ -1,0 +1,20 @@
+id: ct-000384
+area: history-and-thinkers
+kind: origin
+topic: The New Rhetoric
+topic_type: Work
+true_statement: In writing The New Rhetoric, Chaïm Perelman supplied most of the theoretical framework and Lucie Olbrechts-Tyteca most of the examples, gathered from real arguments.
+false_statement: In writing The New Rhetoric, Lucie Olbrechts-Tyteca supplied most of the theoretical framework and Chaïm Perelman most of the examples, gathered from real arguments.
+explanation: The usual account of their collaboration gives Perelman the framework and Olbrechts-Tyteca the large stock of examples from law, politics and literature, though they wrote the book together. The false version swaps the roles.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/the-new-rhetoric.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: f33e66a4cfa875c4cf3aa9e8bb9f2acbf7403215
+concepts:
+- ct:the-new-rhetoric
+- ct:chaim-perelman
+- ct:lucie-olbrechts-tyteca
+difficulty: 2
+created: '2026-11-20'
+status: active

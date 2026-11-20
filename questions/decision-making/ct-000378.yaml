@@ -1,0 +1,20 @@
+id: ct-000378
+area: decision-making
+kind: figure
+topic: Value-focused thinking
+topic_type: Technique
+true_statement: In Bond, Carlson and Keeney's 2008 studies, 71% of participants in one study left out at least one of their own top five objectives when listing them unaided.
+false_statement: In Bond, Carlson and Keeney's 2008 studies, 29% of participants in one study left out at least one of their own top five objectives when listing them unaided.
+explanation: Most people missed something they later rated as important, which is the main evidence that unaided decision frames are too narrow. The lab work is mostly by Keeney's group with students, so it supports the problem more firmly than the fix.
+as_of: '2008'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/value-focused-thinking.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: d6043824482d4ba44b40e574de4061245f3aede6
+concepts:
+- ct:value-focused-thinking
+- ct:bond-carlson-keeney-2008-generating-objectives-study
+difficulty: 3
+created: '2026-11-20'
+status: active

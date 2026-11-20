@@ -1,0 +1,19 @@
+id: ct-000391
+area: argumentation
+kind: scenario
+topic: Argument from analogy
+topic_type: ArgumentScheme
+true_statement: A manager argues the sales team can move to a four-day week because it worked for the similar support team. A colleague replies that engineering tried the same change and missed two release dates. Her reply is a counter-analogy.
+false_statement: A manager argues the sales team can move to a four-day week because it worked for the similar support team. A colleague replies that engineering tried the same change and missed two release dates. Her reply points to a relevant difference between sales and support.
+explanation: A counter-analogy brings in a third case that resembles the source but turned out the other way. Pointing to a relevant difference would instead attack the sales-support comparison itself, for example by noting that sales closes deals in Friday meetings.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argument-from-analogy.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 7689e65f0c956c0b4177584d3aebb96bf455dcad
+concepts:
+- ct:argument-from-analogy
+- ct:argumentation-schemes
+difficulty: 2
+created: '2026-11-20'
+status: active

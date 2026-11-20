@@ -1,0 +1,20 @@
+id: ct-000370
+area: probabilistic-reasoning
+kind: scenario
+topic: Conditional probability
+topic_type: Concept
+true_statement: An incident review finds 80% of outages followed a Friday deployment, and someone concludes that Friday deploys usually cause outages. Reading the share of outages after Friday deploys as the share of Friday deploys that end in outages is the inverse fallacy.
+false_statement: An incident review finds 80% of outages followed a Friday deployment, and someone concludes that Friday deploys usually cause outages. Reading the share of outages after Friday deploys as the share of Friday deploys that end in outages is the gambler's fallacy.
+explanation: The 80% is P(Friday deploy | outage), but the claim needs P(outage | Friday deploy), which could be tiny if most releases ship on Fridays. Swapping condition and outcome is the inverse fallacy; the gambler's fallacy concerns expecting streaks to even out.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/conditional-probability.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 51386bbc014c5f312c62759f434d8a43bda20e0b
+concepts:
+- ct:conditional-probability
+- ct:inverse-fallacy
+- ct:gamblers-fallacy
+difficulty: 2
+created: '2026-11-20'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000443
+area: cognitive-biases
+kind: counter
+topic: Sunk cost fallacy
+topic_type: CognitiveBias
+true_statement: To counter the sunk cost fallacy, pose the decision as a fresh choice and judge whether you would start the project today for what it will still cost.
+false_statement: To counter the sunk cost fallacy, tally everything already spent on the project so the full past investment is in view before deciding whether to continue.
+explanation: Putting past spending front and centre feeds the bias rather than checking it. The fresh-start framing strips the sunk cost out and leaves only the future costs and benefits that should decide.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/sunk-cost-fallacy.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 292f5a77f987260f31129b18c1da5c89fa76c0b8
+concepts:
+- ct:sunk-cost-fallacy
+- ct:cost-benefit-reasoning-training
+difficulty: 2
+created: '2026-11-20'
+status: active

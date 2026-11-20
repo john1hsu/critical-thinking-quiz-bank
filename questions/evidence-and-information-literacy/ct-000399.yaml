@@ -1,0 +1,20 @@
+id: ct-000399
+area: evidence-and-information-literacy
+kind: evidence
+topic: Conflict of interest
+topic_type: Concept
+true_statement: A 2017 Cochrane review found that industry-sponsored drug and device studies kept their excess of favourable results even among papers rated at low risk of bias.
+false_statement: A 2017 Cochrane review found that industry-sponsored drug and device studies lost their excess of favourable results once only papers rated at low risk of bias were counted.
+explanation: Standard quality checklists such as randomisation and allocation concealment did not account for the sponsorship effect. So a study passing those checks does not settle whether its funding shaped the result.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/conflict-of-interest.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: f819175f66ae082696834d62d275c07e6b70b7df
+concepts:
+- ct:conflict-of-interest
+- ct:lundh-2017-industry-sponsorship-review
+- ct:evidence-based-medicine
+difficulty: 3
+created: '2026-11-20'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000418
+area: decision-making
+kind: scenario
+topic: Bright-line rule
+topic_type: Principle
+true_statement: Tired of arguing case by case over which client dinners are "reasonable", a firm announces a fixed cap of $60 per person. It has replaced a standard with a bright-line rule.
+false_statement: Tired of arguing case by case over which client dinners are "reasonable", a firm announces a fixed cap of $60 per person. It has replaced a bright-line rule with a standard.
+explanation: '"Reasonable" is an open standard that gets its content only when someone judges each claim; a dollar cap fixed in advance is a sharp, easily checked criterion. The false version reverses which one the firm started with.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/bright-line-rule.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: c5faada9a72dfc5e1d6f4fb47ec0c53acba34589
+concepts:
+- ct:bright-line-rule
+- ct:balancing-test
+difficulty: 1
+created: '2026-11-20'
+status: active

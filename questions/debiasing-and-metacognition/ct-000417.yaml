@@ -1,0 +1,20 @@
+id: ct-000417
+area: debiasing-and-metacognition
+kind: evidence
+topic: Numeracy
+topic_type: Disposition
+true_statement: In a 2020 study of the affect heuristic, numeracy's link with weaker risk-benefit coupling vanished after controlling for abstract reasoning, while cognitive reflection remained a predictor.
+false_statement: In a 2020 study of the affect heuristic, cognitive reflection's link with weaker risk-benefit coupling vanished after controlling for abstract reasoning, while numeracy remained a predictor.
+explanation: The result suggests numeracy may be standing in for general reasoning ability rather than causing the effect itself. Along with mostly correlational evidence, that is why claims that numeracy debiases are rated mixed.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/numeracy.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: f01fad628177e6970d219e77c2bc643bc4f608e0
+concepts:
+- ct:numeracy
+- ct:affect-heuristic
+- ct:cognitive-reflection-test
+difficulty: 3
+created: '2026-11-20'
+status: active

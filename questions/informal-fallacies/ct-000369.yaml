@@ -1,0 +1,19 @@
+id: ct-000369
+area: informal-fallacies
+kind: evidence
+topic: Slippery slope
+topic_type: InformalFallacy
+true_statement: Corner, Hahn and Oaksford found that the probability of the feared outcome strongly shaped how strong people judged a slippery slope argument, and saw much of its force as rational.
+false_statement: Corner, Hahn and Oaksford found that the probability of the feared outcome barely affected how strong people judged a slippery slope argument, and saw much of its force as simple error.
+explanation: Their Bayesian account predicts that a slope is more persuasive when its endpoint is more likely, and the experiments bore that out. That is why the useful question is how likely each step is, rather than dismissing every such argument as a fallacy.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/slippery-slope.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: b0eba2649d631fecc5c23c89a4e78995d84be91b
+concepts:
+- ct:slippery-slope
+- ct:bayesian-reasoning
+difficulty: 3
+created: '2026-11-20'
+status: active

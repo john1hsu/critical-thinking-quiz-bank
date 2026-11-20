@@ -1,0 +1,19 @@
+id: ct-000383
+area: history-and-thinkers
+kind: counter
+topic: The New Rhetoric
+topic_type: Work
+true_statement: To check whether a pitch only persuades the people in the room, test it against what Perelman and Olbrechts-Tyteca call the universal audience, an imagined gathering of reasonable people.
+false_statement: To check whether a pitch only persuades the people in the room, test it against what Perelman and Olbrechts-Tyteca call a particular audience, the actual group being addressed.
+explanation: Winning over the actual listeners is persuading a particular audience, so testing against them can't reveal mere persuasion. Asking whether every reasonable listener would accept the case is the book's yardstick for convincing.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/the-new-rhetoric.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: f33e66a4cfa875c4cf3aa9e8bb9f2acbf7403215
+concepts:
+- ct:the-new-rhetoric
+- ct:universal-audience
+difficulty: 2
+created: '2026-11-20'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000430
+area: argumentation
+kind: scenario
+topic: Argument from consequences
+topic_type: ArgumentScheme
+true_statement: Asked whether last quarter's sales report is accurate, a director insists it must be, since admitting errors would rattle investors. Used to settle a question of fact, that is the fallacy of appeal to consequences.
+false_statement: Asked whether last quarter's sales report is accurate, a director insists it must be, since admitting errors would rattle investors. Used to settle a question of fact, that is a reasonable argument from consequences.
+explanation: Consequences can be good reasons for deciding what to do, but they have no bearing on whether a report is true. The tell is the shift from "is it accurate?" to "what would be convenient?"
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argument-from-consequences.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: d7a7fbca7294920f17045160595c92aac662b28f
+concepts:
+- ct:argument-from-consequences
+- ct:appeal-to-consequences
+difficulty: 2
+created: '2026-11-20'
+status: active

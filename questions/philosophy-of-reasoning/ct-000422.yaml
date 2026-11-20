@@ -1,0 +1,19 @@
+id: ct-000422
+area: philosophy-of-reasoning
+kind: counter
+topic: Vagueness
+topic_type: Concept
+true_statement: To stop readers misreading "likely" in a risk report, put the numeric range in brackets right after the word, since tables or tooltips that readers must open help little.
+false_statement: To stop readers misreading "likely" in a risk report, put the numeric ranges in a separate table or tooltip, which works better than brackets in the text.
+explanation: In a 2019 experiment, in-text brackets roughly doubled agreement with the official ranges, while tables and tooltips helped little because many readers never looked at them. A convention only cuts vagueness if readers actually see it.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/vagueness.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: a460a358a0f73565e2ae4fa91046070c8a6cae02
+concepts:
+- ct:vagueness
+- ct:words-of-estimative-probability
+difficulty: 2
+created: '2026-11-20'
+status: active

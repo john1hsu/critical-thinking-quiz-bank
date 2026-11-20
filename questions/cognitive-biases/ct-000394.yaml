@@ -1,0 +1,19 @@
+id: ct-000394
+area: cognitive-biases
+kind: scenario
+topic: Fundamental attribution error
+topic_type: CognitiveBias
+true_statement: A support agent's ratings fall for a quarter and her manager decides she has "lost motivation", overlooking that she was moved to the queue for a botched recall where every caller was angry. That is the fundamental attribution error.
+false_statement: A support agent's ratings fall for a quarter and her manager decides she has "lost motivation", overlooking that she was moved to the queue for a botched recall where every caller was angry. That is the actor-observer asymmetry.
+explanation: The manager explains another person's behaviour by a trait while missing a situation that fully accounts for it, the core of the fundamental attribution error. The actor-observer asymmetry is a narrower claim contrasting how we explain our own actions with others', which isn't at issue here.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/fundamental-attribution-error.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 51198bd3f6539b7fd6e7943357814f7cb401caea
+concepts:
+- ct:fundamental-attribution-error
+- ct:actor-observer-asymmetry
+difficulty: 2
+created: '2026-11-20'
+status: active

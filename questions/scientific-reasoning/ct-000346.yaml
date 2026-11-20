@@ -1,0 +1,19 @@
+id: ct-000346
+area: scientific-reasoning
+kind: scenario
+topic: Mill's methods
+topic_type: Method
+true_statement: After a release, checkout conversions drop. In a staged rollout, customers still on the old version that same day converted normally while those on the new version did not. Concluding the release is the culprit applies Mill's method of difference.
+false_statement: After a release, checkout conversions drop. In a staged rollout, customers still on the old version that same day converted normally while those on the new version did not. Concluding the release is the culprit applies Mill's method of agreement.
+explanation: The comparison sets a case with the effect beside a similar case without it, differing in one factor, which is the method of difference. Agreement would instead look across several cases that all show the drop for the one circumstance they share.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/mills-methods.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 62cabcbc01334cde6d67496de936a63ae325c4c0
+concepts:
+- ct:mills-methods
+- ct:post-hoc-ergo-propter-hoc
+difficulty: 2
+created: '2026-11-20'
+status: active

@@ -1,0 +1,18 @@
+id: ct-000386
+area: formal-logic
+kind: counter
+topic: Square of opposition
+topic_type: Concept
+true_statement: When one colleague claims every launch this year hit its date and another claims none did, both may be wrong, because the two claims are contraries rather than contradictories.
+false_statement: When one colleague claims every launch this year hit its date and another claims none did, one of them must be right, because the two claims are contradictories rather than contraries.
+explanation: '"All" versus "none" sits on the top side of the square, where both can be false; the truth may be that some launches were on time and some were not. Contradictories, such as "all" versus "some did not", are the pairs where exactly one is true.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/square-of-opposition.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 37d4b857b8f6707e24dc24f0c4548b9d7e669133
+concepts:
+- ct:square-of-opposition
+difficulty: 2
+created: '2026-11-20'
+status: active

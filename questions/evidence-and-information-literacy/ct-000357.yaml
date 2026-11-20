@@ -1,0 +1,20 @@
+id: ct-000357
+area: evidence-and-information-literacy
+kind: figure
+topic: Systematic review
+topic_type: Method
+true_statement: Ioannidis reported that yearly publication of systematic reviews rose about 2,700% between 1991 and 2014, against about 153% for all PubMed items.
+false_statement: Ioannidis reported that yearly publication of systematic reviews rose about 153% between 1991 and 2014, against about 2,700% for all PubMed items.
+explanation: Reviews grew far faster than the literature as a whole, which is the basis of Ioannidis's charge of mass production of redundant and conflicted reviews. The false version reverses the two growth rates.
+as_of: '2014'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/systematic-review.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 436eadb824f3bc0a32d6b7fb4ba536a5a70e553a
+concepts:
+- ct:systematic-review
+- ct:ioannidis-2016-mass-production-of-systematic-reviews
+difficulty: 3
+created: '2026-11-20'
+status: active

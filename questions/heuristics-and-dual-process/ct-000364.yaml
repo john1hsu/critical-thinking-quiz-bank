@@ -1,0 +1,19 @@
+id: ct-000364
+area: heuristics-and-dual-process
+kind: scenario
+topic: Satisficing
+topic_type: Heuristic
+true_statement: A hiring manager interviews applicants as they come in and offers the role to the first one who meets all four of her written must-haves, without waiting to compare the whole pool. She is satisficing.
+false_statement: A hiring manager interviews applicants as they come in and offers the role to the first one who meets all four of her written must-haves, without waiting to compare the whole pool. She is maximizing.
+explanation: 'The tell is the stop rule: search ends at the first option that clears a preset bar. Maximizing would mean comparing all the options and choosing the best, which is exactly what she skips.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/satisficing.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 174835c858d2e964e3a2b11c2344d488e8247822
+concepts:
+- ct:satisficing
+- ct:maximizing
+difficulty: 1
+created: '2026-11-20'
+status: active

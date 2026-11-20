@@ -1,0 +1,19 @@
+id: ct-000444
+area: scientific-reasoning
+kind: scenario
+topic: Power analysis
+topic_type: Method
+true_statement: An HR team pilots a new onboarding programme on one quarter's 15 hires, though a power calculation said it needed about four quarters per group. A non-significant pilot result would be uninformative about whether the programme works.
+false_statement: An HR team pilots a new onboarding programme on one quarter's 15 hires, though a power calculation said it needed about four quarters per group. A non-significant pilot result would be good evidence that the programme fails.
+explanation: An underpowered study has a high chance of missing a real effect, so a null result from it says little, and a positive one would be fragile. The honest options are to gather more data, narrow the question, or label the pilot exploratory.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/power-analysis.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: e8c0f3bee4ed6bba8763437077a41795bcce3210
+concepts:
+- ct:power-analysis
+- ct:null-hypothesis-significance-testing
+difficulty: 2
+created: '2026-11-20'
+status: active

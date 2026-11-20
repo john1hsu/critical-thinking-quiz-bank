@@ -1,0 +1,19 @@
+id: ct-000381
+area: philosophy-of-reasoning
+kind: origin
+topic: Philosophical skepticism
+topic_type: Concept
+true_statement: Around 273 BCE Arcesilaus turned Plato's Academy toward skepticism, arguing both sides of questions and attacking Stoic claims to certainty.
+false_statement: Around 273 BCE Pyrrho of Elis turned Plato's Academy toward skepticism, arguing both sides of questions and attacking Stoic claims to certainty.
+explanation: Arcesilaus founded Academic skepticism inside Plato's school, drawing on Socrates' avowed ignorance. Pyrrho was a separate figure who wrote nothing and whose followers formed the rival Pyrrhonian line.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/philosophical-skepticism.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 3b0f2ab74440ee26d7564122c8618d51f6c37685
+concepts:
+- ct:philosophical-skepticism
+- ct:plato
+difficulty: 2
+created: '2026-11-20'
+status: active

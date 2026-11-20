@@ -1,0 +1,20 @@
+id: ct-000352
+area: cognitive-biases
+kind: scenario
+topic: Insensitivity to sample size
+topic_type: CognitiveBias
+true_statement: A product lead treats 4 of 5 testers preferring design A as stronger evidence that most users prefer it than 12 of 20 testers preferring it would be. That reflects insensitivity to sample size.
+false_statement: A product lead treats 4 of 5 testers preferring design A as stronger evidence that most users prefer it than 12 of 20 testers preferring it would be. That reflects base-rate neglect.
+explanation: The lead is swayed by the more striking proportion (80% vs 60%) and ignores that 20 cases carry more weight than 5, the hallmark of sample-size neglect. Base-rate neglect would mean ignoring how common a category is beforehand, which plays no part here.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/insensitivity-to-sample-size.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: b867780e8b9cd88afe0c8c665b1572c4247fcb2b
+concepts:
+- ct:insensitivity-to-sample-size
+- ct:base-rate-neglect
+- ct:representativeness-heuristic
+difficulty: 2
+created: '2026-11-20'
+status: active

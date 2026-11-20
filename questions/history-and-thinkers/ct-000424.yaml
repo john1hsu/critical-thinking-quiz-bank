@@ -1,0 +1,19 @@
+id: ct-000424
+area: history-and-thinkers
+kind: scenario
+topic: Topics
+topic_type: Work
+true_statement: Pressed to admit that shadowing gives more real practice than his onboarding course, a manager replies that "best training" can mean quickest to finish, not most practice. In the Topics' terms he is defending by distinguishing senses of a word.
+false_statement: Pressed to admit that shadowing gives more real practice than his onboarding course, a manager replies that "best training" can mean quickest to finish, not most practice. In the Topics' terms he is defending by finding likenesses.
+explanation: He blocks the refutation by showing that "best" is used in two senses, one of Aristotle's four means of getting arguments. Finding likenesses would mean pointing to similarities between cases, which is not what his reply does.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/topics.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: ef1a18ce5042590574a779cf5e5b4f99eac73294
+concepts:
+- ct:topics
+- ct:dialectic
+difficulty: 2
+created: '2026-11-20'
+status: active

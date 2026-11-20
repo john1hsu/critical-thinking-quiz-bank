@@ -1,0 +1,19 @@
+id: ct-000363
+area: foundations
+kind: origin
+topic: Necessary and sufficient conditions
+topic_type: Concept
+true_statement: 'In 1965 J. L. Mackie proposed that a cause is typically an INUS condition: an insufficient but necessary part of a condition that is itself unnecessary but sufficient for the effect.'
+false_statement: 'In 1965 J. L. Mackie proposed that a cause is typically an INUS condition: a sufficient but unnecessary part of a condition that is itself necessary but insufficient for the effect.'
+explanation: 'The acronym spells it out: Insufficient but Necessary part of an Unnecessary but Sufficient condition. A short circuit, say, needs other factors to start a fire, and other routes to the fire exist. The false version swaps each pair.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/necessary-and-sufficient-conditions.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 5690d811a6afd6199a7b6d67c24da2c2b20f1c1c
+concepts:
+- ct:necessary-and-sufficient-conditions
+- ct:causal-inference
+difficulty: 3
+created: '2026-11-20'
+status: active

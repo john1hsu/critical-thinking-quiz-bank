@@ -1,0 +1,19 @@
+id: ct-000375
+area: debiasing-and-metacognition
+kind: origin
+topic: Metacognition
+topic_type: Concept
+true_statement: John Flavell framed metacognition as a research field in 1979, drawing on studies where young children who said they had memorized a list often could not recall it.
+false_statement: Thomas Nelson framed metacognition as a research field in 1979, drawing on studies where young children who said they had memorized a list often could not recall it.
+explanation: Flavell, a developmental psychologist, coined the field from his work with children who misjudged their own memory and understanding. Nelson and Narens came later, in 1990, with the object-level and meta-level framework.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/metacognition.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 527647a16f6b920fde7ee02c4f7d725e50d0d3bf
+concepts:
+- ct:metacognition
+- ct:john-flavell
+difficulty: 1
+created: '2026-11-20'
+status: active

@@ -1,0 +1,20 @@
+id: ct-000410
+area: informal-fallacies
+kind: counter
+topic: Hasty generalization
+topic_type: InformalFallacy
+true_statement: 'Whether a quick generalization from a few cases is fallacious depends partly on the stakes: a hunch that''s fine for choosing a lunch spot can be reckless for a safety decision.'
+false_statement: Whether a quick generalization from a few cases is fallacious depends only on the sample, so a hunch from a few cases is just as faulty for choosing a lunch spot as for a safety decision.
+explanation: Walton and Gordon tie the fallacy to the standard of proof the setting demands. Low-stakes choices can run on thin evidence; when being wrong is costly, the same thin evidence is not enough, so raise the bar before acting.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/hasty-generalization.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 81f2d4ace8b3fae459f401fe93718635f86a9785
+concepts:
+- ct:hasty-generalization
+- ct:jumping-to-conclusions
+- ct:defeasible-reasoning
+difficulty: 2
+created: '2026-11-20'
+status: active

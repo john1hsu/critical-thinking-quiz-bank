@@ -1,0 +1,19 @@
+id: ct-000420
+area: decision-making
+kind: mechanism
+topic: Bright-line rule
+topic_type: Principle
+true_statement: In Kaplow's economic analysis, rules cost more to write but less to apply, while standards are cheap to write but costly to interpret and adjudicate case by case.
+false_statement: In Kaplow's economic analysis, standards cost more to write but less to apply, while rules are cheap to write but costly to interpret and adjudicate case by case.
+explanation: 'Kaplow framed the choice as a matter of timing: a rule front-loads the work of deciding, so each later case is quick to settle, while a standard defers that work to each case. Frequent, similar cases therefore favour rules.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/bright-line-rule.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: c5faada9a72dfc5e1d6f4fb47ec0c53acba34589
+concepts:
+- ct:bright-line-rule
+- ct:jurisprudence
+difficulty: 3
+created: '2026-11-20'
+status: active

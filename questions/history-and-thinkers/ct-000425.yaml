@@ -1,0 +1,20 @@
+id: ct-000425
+area: history-and-thinkers
+kind: counter
+topic: Topics
+topic_type: Work
+true_statement: Refuting a colleague's thesis from premises she herself conceded shows her position is inconsistent, but on the Topics' account it does not by itself prove the opposite thesis true.
+false_statement: Refuting a colleague's thesis from premises she herself conceded shows her position is inconsistent, and on the Topics' account it thereby proves the opposite thesis true.
+explanation: Dialectic works from what the other side grants, so it shows what follows from their concessions, not what is true. Before treating a won debate as a settled fact, check whether the conceded premises are themselves true.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/topics.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: ef1a18ce5042590574a779cf5e5b4f99eac73294
+concepts:
+- ct:topics
+- ct:dialectic
+- ct:endoxa
+difficulty: 2
+created: '2026-11-20'
+status: active

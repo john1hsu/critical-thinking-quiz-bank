@@ -1,0 +1,19 @@
+id: ct-000408
+area: heuristics-and-dual-process
+kind: evidence
+topic: Ecological rationality
+topic_type: Concept
+true_statement: Hilbig and Richter's reanalysis of recognition data found that most individual participants did not behave like consistent one-reason heuristic users.
+false_statement: Hilbig and Richter's reanalysis of recognition data found that nearly every individual participant relied on recognition alone, as consistent one-reason heuristic users would.
+explanation: Separating recognition use from use of other knowledge lowered estimated reliance on recognition, and few people looked like pure one-reason users. That is why the descriptive side of ecological rationality is contested even though the fit argument is well supported.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/ecological-rationality.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 0796c8b95458d4155448e816eee1893f3523af30
+concepts:
+- ct:ecological-rationality
+- ct:hilbig-richter-2011-homo-heuristicus-outnumbered
+difficulty: 3
+created: '2026-11-20'
+status: active

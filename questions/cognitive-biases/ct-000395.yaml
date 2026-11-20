@@ -1,0 +1,18 @@
+id: ct-000395
+area: cognitive-biases
+kind: counter
+topic: Fundamental attribution error
+topic_type: CognitiveBias
+true_statement: To curb the fundamental attribution error in performance reviews, put the situational information in plain view, such as showing a fund's returns against the market in one clear figure.
+false_statement: To curb the fundamental attribution error in performance reviews, keep situational information in the background, since putting it in plain view tends to make reviewers overcorrect.
+explanation: In Scopelliti and colleagues' studies, the most bias-prone people ignored situational numbers that were available but buried, and the bias vanished once the comparison was shown in one simple figure. Making the situation easy to see is the fix.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/fundamental-attribution-error.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 51198bd3f6539b7fd6e7943357814f7cb401caea
+concepts:
+- ct:fundamental-attribution-error
+difficulty: 2
+created: '2026-11-20'
+status: active

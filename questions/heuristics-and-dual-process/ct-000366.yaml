@@ -1,0 +1,19 @@
+id: ct-000366
+area: heuristics-and-dual-process
+kind: evidence
+topic: Satisficing
+topic_type: Heuristic
+true_statement: Turner and colleagues found that a satisficing subscale behaved as a construct separate from maximizing, not as the opposite end of one maximizing scale.
+false_statement: Turner and colleagues found that a satisficing subscale behaved as the opposite end of one maximizing scale, not as a construct separate from maximizing.
+explanation: 'This finding is one reason the claim that maximizers are unhappier than satisficers is treated as mixed: results depend on how maximizing is measured. Satisficing as a search procedure is better supported than satisficing as a personality type.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/satisficing.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 174835c858d2e964e3a2b11c2344d488e8247822
+concepts:
+- ct:satisficing
+- ct:maximizing
+difficulty: 3
+created: '2026-11-20'
+status: active

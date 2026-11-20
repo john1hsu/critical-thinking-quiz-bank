@@ -1,0 +1,19 @@
+id: ct-000353
+area: cognitive-biases
+kind: counter
+topic: Insensitivity to sample size
+topic_type: CognitiveBias
+true_statement: When deciding how many responses a survey or pilot needs, calculate the number rather than going by feel, since intuition underestimates how noisy small samples are.
+false_statement: When deciding how many responses a survey or pilot needs, going by feel is usually enough, since intuition tends to overestimate how noisy small samples are.
+explanation: 'The bias runs in one direction: people expect small samples to mirror the population more closely than they do. That is why a formal sample-size calculation beats a gut figure, which will tend to be too small.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/insensitivity-to-sample-size.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: b867780e8b9cd88afe0c8c665b1572c4247fcb2b
+concepts:
+- ct:insensitivity-to-sample-size
+- ct:statistical-reasoning-training
+difficulty: 2
+created: '2026-11-20'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000365
+area: heuristics-and-dual-process
+kind: counter
+topic: Satisficing
+topic_type: Heuristic
+true_statement: To satisfice deliberately, write the must-haves down before searching and decide in advance what would justify raising or lowering the bar.
+false_statement: To satisfice deliberately, let the first few options you see set the must-haves, and adjust the bar to whatever they happen to offer.
+explanation: Because the outcome depends on the aspiration level, a bar fixed by whichever options turn up first means "good enough" is decided by chance. Setting criteria and adjustment rules beforehand keeps the stop rule honest.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/satisficing.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 174835c858d2e964e3a2b11c2344d488e8247822
+concepts:
+- ct:satisficing
+- ct:bounded-rationality
+difficulty: 2
+created: '2026-11-20'
+status: active

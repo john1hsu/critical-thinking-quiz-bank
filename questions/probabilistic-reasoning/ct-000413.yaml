@@ -1,0 +1,19 @@
+id: ct-000413
+area: probabilistic-reasoning
+kind: counter
+topic: Law of small numbers
+topic_type: CognitiveBias
+true_statement: Before ranking fund managers on two strong years, ask how much spread pure chance would produce across all of them, since short records exaggerate differences in skill.
+false_statement: Before ranking fund managers on two strong years, there's little need to ask how much spread chance would produce, since even short records mostly reflect real differences in skill.
+explanation: Rabin's model shows that believers in small samples see far more real variation in ability than exists, which he called fictitious variation. Comparing the observed spread with what luck alone would give is the check.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/law-of-small-numbers.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 95e55fb8a1eb8ba901acaba0546c8d55df03da76
+concepts:
+- ct:law-of-small-numbers
+- ct:matthew-rabin
+difficulty: 2
+created: '2026-11-20'
+status: active

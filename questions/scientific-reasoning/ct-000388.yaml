@@ -1,0 +1,19 @@
+id: ct-000388
+area: scientific-reasoning
+kind: scenario
+topic: Scientific method
+topic_type: Method
+true_statement: A trial of a shorter mobile checkout form looks like a win, but a colleague notes that a payment outage overlapped the test, so the team reruns it. That critical scrutiny is part of the scientific process itself.
+false_statement: A trial of a shorter mobile checkout form looks like a win, but a colleague notes that a payment outage overlapped the test, so the team reruns it. That critical scrutiny comes after the scientific process, which ends once the data are analysed.
+explanation: On the realistic picture of science, ideas are kept only if they survive testing and the community's probing, and results are exposed to criticism and replication before anyone relies on them. A step list that stops at analysis leaves out the check that caught the confound here.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/scientific-method.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: f05a4631f102063e5b505030c236a6a3cf53bb0b
+concepts:
+- ct:scientific-method
+- ct:randomized-controlled-trial
+difficulty: 2
+created: '2026-11-20'
+status: active

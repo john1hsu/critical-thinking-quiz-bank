@@ -1,0 +1,20 @@
+id: ct-000421
+area: philosophy-of-reasoning
+kind: scenario
+topic: Vagueness
+topic_type: Concept
+true_statement: Since nobody can say exactly how many late deliveries make a supplier "unreliable", a buyer concludes there's no real difference between a supplier late twice a year and one late every week. That is the line-drawing fallacy.
+false_statement: Since nobody can say exactly how many late deliveries make a supplier "unreliable", a buyer concludes there's no real difference between a supplier late twice a year and one late every week. That is a slippery slope.
+explanation: The buyer treats the lack of a sharp boundary as proof that the clear cases don't differ, which is the line-drawing fallacy; borderline cases don't erase clear ones. A slippery slope would instead warn that a first step leads to a feared outcome.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/vagueness.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: a460a358a0f73565e2ae4fa91046070c8a6cae02
+concepts:
+- ct:vagueness
+- ct:line-drawing-fallacy
+- ct:slippery-slope
+difficulty: 2
+created: '2026-11-20'
+status: active

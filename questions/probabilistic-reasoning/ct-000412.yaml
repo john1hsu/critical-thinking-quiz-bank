@@ -1,0 +1,20 @@
+id: ct-000412
+area: probabilistic-reasoning
+kind: scenario
+topic: Law of small numbers
+topic_type: CognitiveBias
+true_statement: Six of eight hires on a new onboarding checklist got up to speed faster than average, so a manager budgets a company-wide rollout expecting the same 75% success rate. That expectation reflects belief in the law of small numbers.
+false_statement: Six of eight hires on a new onboarding checklist got up to speed faster than average, so a manager budgets a company-wide rollout expecting the same 75% success rate. That expectation reflects the gambler's fallacy.
+explanation: The manager treats a tiny pilot as a faithful miniature of the whole population and expects its result to replicate, the core of the law of small numbers. The gambler's fallacy would be expecting the next outcomes to swing the other way to balance a streak.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/law-of-small-numbers.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 95e55fb8a1eb8ba901acaba0546c8d55df03da76
+concepts:
+- ct:law-of-small-numbers
+- ct:gamblers-fallacy
+- ct:insensitivity-to-sample-size
+difficulty: 2
+created: '2026-11-20'
+status: active

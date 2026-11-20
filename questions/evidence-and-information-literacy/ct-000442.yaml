@@ -1,0 +1,20 @@
+id: ct-000442
+area: evidence-and-information-literacy
+kind: scenario
+topic: Elaboration likelihood model
+topic_type: Framework
+true_statement: Rushing through a vendor pitch the night before a budget deadline, a team lead approves it mainly because the deck shows a famous client's logo, without reading the pricing terms. In ELM terms she was persuaded by the peripheral route.
+false_statement: Rushing through a vendor pitch the night before a budget deadline, a team lead approves it mainly because the deck shows a famous client's logo, without reading the pricing terms. In ELM terms she was persuaded by the central route.
+explanation: The central route means weighing the merits of the arguments, which she skipped; a familiar logo is a simple cue, and time pressure lowered her ability to think it through. A useful check is whether you could restate the pitch's best argument or only name its messenger.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/elaboration-likelihood-model.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: cc56ed67dd78d58a49a985fe256fb7b85c472e01
+concepts:
+- ct:elaboration-likelihood-model
+- ct:source-credibility
+- ct:dual-process-theory
+difficulty: 2
+created: '2026-11-20'
+status: active

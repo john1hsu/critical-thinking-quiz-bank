@@ -1,0 +1,20 @@
+id: ct-000405
+area: foundations
+kind: origin
+topic: Defeasible reasoning
+topic_type: ReasoningMode
+true_statement: The idea of defeasibility entered modern philosophy from law, through H. L. A. Hart's 1949 argument that a claim like "there is a valid contract" can be defeated by a recognised exception.
+false_statement: The idea of defeasibility entered modern philosophy from law, through John Pollock's 1949 argument that a claim like "there is a valid contract" can be defeated by a recognised exception.
+explanation: Hart, a legal philosopher, introduced the notion by noting that legal claims hold unless an exception applies. Pollock came decades later, building the theory of prima facie reasons and defeaters in 1987.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/defeasible-reasoning.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 7c68916c33fa5c3311dd41ddea56bfdebd029a1f
+concepts:
+- ct:defeasible-reasoning
+- ct:h-l-a-hart
+- ct:legal-reasoning
+difficulty: 2
+created: '2026-11-20'
+status: active

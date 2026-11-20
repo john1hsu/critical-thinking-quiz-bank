@@ -1,0 +1,19 @@
+id: ct-000397
+area: evidence-and-information-literacy
+kind: scenario
+topic: Conflict of interest
+topic_type: Concept
+true_statement: A consultant recommends a software platform and is paid a referral fee by its vendor, though nothing suggests the fee swayed her. She still has a conflict of interest, because the term names a risky situation, not proven bias.
+false_statement: A consultant recommends a software platform and is paid a referral fee by its vendor, though nothing suggests the fee swayed her. She has no conflict of interest, because the term applies only once bias has been shown.
+explanation: 'On Thompson''s definition a conflict is a condition, not conduct: it exists whenever circumstances create a substantial risk of undue influence. Proven bias would be a separate, more serious problem; the conflict is a reason to check, not a verdict.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/conflict-of-interest.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: f819175f66ae082696834d62d275c07e6b70b7df
+concepts:
+- ct:conflict-of-interest
+- ct:dennis-f-thompson
+difficulty: 2
+created: '2026-11-20'
+status: active

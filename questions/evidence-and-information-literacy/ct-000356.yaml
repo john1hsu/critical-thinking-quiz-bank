@@ -1,0 +1,19 @@
+id: ct-000356
+area: evidence-and-information-literacy
+kind: counter
+topic: Systematic review
+topic_type: Method
+true_statement: Even a thorough systematic review can inherit publication bias, so when reading one check whether it assessed the risk of bias from missing results.
+false_statement: A thorough systematic search removes publication bias, so when reading a systematic review there is no need to check whether it assessed missing results.
+explanation: A review can only find what was reported; if unfavourable studies were never published, the best search still misses them. That is why reporting guidelines ask reviewers to assess missing results, and why readers should look for that step.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/systematic-review.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 436eadb824f3bc0a32d6b7fb4ba536a5a70e553a
+concepts:
+- ct:systematic-review
+- ct:publication-bias
+difficulty: 2
+created: '2026-11-20'
+status: active

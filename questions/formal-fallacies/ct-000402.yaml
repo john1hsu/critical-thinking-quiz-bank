@@ -1,0 +1,20 @@
+id: ct-000402
+area: formal-fallacies
+kind: mechanism
+topic: Quantifier shift fallacy
+topic_type: FormalFallacy
+true_statement: Inferring "every x is related to some y" from "some single y is related to every x" is valid; only the step in the other direction is the quantifier shift fallacy.
+false_statement: Inferring "some single y is related to every x" from "every x is related to some y" is valid; only the step in the other direction is the quantifier shift fallacy.
+explanation: '"Someone loves everyone" guarantees that everyone is loved by someone, but not the reverse. Because one direction is valid and its mirror image is not, the slip is easy to make; check which quantifier comes first in each sentence.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/quantifier-shift-fallacy.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: bc10f91946bc55e4925f83a9cb9af394c3cd32a7
+concepts:
+- ct:quantifier-shift-fallacy
+- ct:predicate-logic
+- ct:exists-forall-to-forall-exists-inference
+difficulty: 3
+created: '2026-11-20'
+status: active

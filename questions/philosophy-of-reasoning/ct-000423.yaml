@@ -1,0 +1,19 @@
+id: ct-000423
+area: philosophy-of-reasoning
+kind: definition
+topic: Vagueness
+topic_type: Concept
+true_statement: '"Prime number" is general but not vague: it covers many different numbers, yet there are no borderline cases where it is unclear whether it applies.'
+false_statement: '"Prime number" is vague but not general: it covers only a narrow set of numbers, yet there are borderline cases where it is unclear whether it applies.'
+explanation: Vagueness means having borderline cases, not covering a wide range. Words like "bald" or "urgent" are vague; "prime number" applies to infinitely many numbers but always with a definite yes or no.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/vagueness.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: a460a358a0f73565e2ae4fa91046070c8a6cae02
+concepts:
+- ct:vagueness
+- ct:philosophy-of-language
+difficulty: 2
+created: '2026-11-20'
+status: active

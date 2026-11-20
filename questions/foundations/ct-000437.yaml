@@ -1,0 +1,19 @@
+id: ct-000437
+area: foundations
+kind: counter
+topic: Reasoning
+topic_type: Concept
+true_statement: When a team argues over whether to ship on Friday, settle the factual questions apart from the decision itself, since deciding what to do also needs goals and values the facts don't supply.
+false_statement: When a team argues over whether to ship on Friday, there's no need to keep the factual questions apart from the decision, since once the facts are settled the right action follows from them alone.
+explanation: Theoretical reasoning settles what to believe; practical reasoning settles what to do and draws on goals as well as facts. Keeping the two apart shows whether a disagreement is about the evidence or about priorities.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/reasoning.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 59aa8bfe5bd1814361c7bcf1f2647135af08efaf
+concepts:
+- ct:reasoning
+- ct:judgment-and-decision-making
+difficulty: 2
+created: '2026-11-20'
+status: active

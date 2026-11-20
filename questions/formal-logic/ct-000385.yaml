@@ -1,0 +1,19 @@
+id: ct-000385
+area: formal-logic
+kind: scenario
+topic: Square of opposition
+topic_type: Concept
+true_statement: Told only that some tests in the suite passed, a release manager concludes that some tests must have failed. By the square of opposition, that inference is invalid.
+false_statement: Told only that some tests in the suite passed, a release manager concludes that some tests must have failed. By the square of opposition, that inference is valid.
+explanation: 'In logic "some" means at least one, so "some passed" (I) is compatible with all of them passing. I and O are subcontraries: they can''t both be false, but the truth of one leaves the other open.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/square-of-opposition.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 37d4b857b8f6707e24dc24f0c4548b9d7e669133
+concepts:
+- ct:square-of-opposition
+- ct:categorical-proposition
+difficulty: 2
+created: '2026-11-20'
+status: active

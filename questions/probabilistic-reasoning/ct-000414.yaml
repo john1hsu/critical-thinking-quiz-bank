@@ -1,0 +1,20 @@
+id: ct-000414
+area: probabilistic-reasoning
+kind: evidence
+topic: Law of small numbers
+topic_type: CognitiveBias
+true_statement: Benjamin's 2018 review judged the gambler's fallacy well supported but the evidence for over-inference from small samples weak, noting that people more often under-infer in experiments.
+false_statement: Benjamin's 2018 review judged over-inference from small samples well supported but the evidence for the gambler's fallacy weak, noting that people more often over-infer in experiments.
+explanation: The expectation that short runs balance out holds up across surveys, experiments and field data, but the broader claim that people jump to conclusions from small samples does not. That split is why the bias is rated contested.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/law-of-small-numbers.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 95e55fb8a1eb8ba901acaba0546c8d55df03da76
+concepts:
+- ct:law-of-small-numbers
+- ct:benjamin-2019-errors-in-probabilistic-reasoning
+- ct:behavioral-economics
+difficulty: 3
+created: '2026-11-20'
+status: active

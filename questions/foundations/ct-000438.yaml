@@ -1,0 +1,20 @@
+id: ct-000438
+area: foundations
+kind: figure
+topic: Reasoning
+topic_type: Concept
+true_statement: In a 2014 study by Trouche, Sander and Mercier, 22% of adults solved a disjunctive logic problem alone, but 63% did after group discussion.
+false_statement: In a 2014 study by Trouche, Sander and Mercier, 63% of adults solved a disjunctive logic problem alone, but only 22% did after group discussion.
+explanation: Groups did far better, mostly because good arguments rather than confidence changed minds, as the argumentative theory of reasoning predicts. The authors also found a problem where confident wrong members prevailed, so discussion helps but guarantees nothing.
+as_of: '2014'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/reasoning.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 59aa8bfe5bd1814361c7bcf1f2647135af08efaf
+concepts:
+- ct:reasoning
+- ct:argumentative-theory-of-reasoning
+difficulty: 3
+created: '2026-11-20'
+status: active

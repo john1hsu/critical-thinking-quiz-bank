@@ -1,0 +1,20 @@
+id: ct-000368
+area: informal-fallacies
+kind: counter
+topic: Slippery slope
+topic_type: InformalFallacy
+true_statement: You can fairly challenge a slippery slope by asking whether a bright line could be drawn to halt the slide, even without saying exactly where that line should go.
+false_statement: You can fairly challenge a slippery slope by asking whether a bright line could be drawn to halt the slide, but only once you can say exactly where that line should go.
+explanation: The argument depends on a gray zone where control is lost, so showing that a stopping rule is possible undercuts it. The critic need not pin down the exact line; the burden of showing the slide is unstoppable stays with the arguer.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/slippery-slope.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: b0eba2649d631fecc5c23c89a4e78995d84be91b
+concepts:
+- ct:slippery-slope
+- ct:vagueness
+- ct:burden-of-proof
+difficulty: 2
+created: '2026-11-20'
+status: active

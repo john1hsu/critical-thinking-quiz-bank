@@ -1,0 +1,19 @@
+id: ct-000376
+area: decision-making
+kind: scenario
+topic: Value-focused thinking
+topic_type: Technique
+true_statement: Choosing project-tracking software, a team lead first asks the team what the tool must achieve, such as fewer missed hand-offs, then uses those aims to invent options and score every one. That is value-focused thinking.
+false_statement: Choosing project-tracking software, a team lead first asks the team what the tool must achieve, such as fewer missed hand-offs, then uses those aims to invent options and score every one. That is alternative-focused thinking.
+explanation: 'The order gives it away: objectives come first and drive both the search and the scoring. Alternative-focused thinking starts from the options already on the table and only then asks what should separate them.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/value-focused-thinking.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: d6043824482d4ba44b40e574de4061245f3aede6
+concepts:
+- ct:value-focused-thinking
+- ct:decision-analysis
+difficulty: 1
+created: '2026-11-20'
+status: active

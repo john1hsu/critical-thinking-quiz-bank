@@ -1,0 +1,19 @@
+id: ct-000415
+area: debiasing-and-metacognition
+kind: scenario
+topic: Numeracy
+topic_type: Disposition
+true_statement: Told that 96% of a supplier's parts pass inspection, a reviewer restates it as 40 defects per 1,000 and checks that against the contract threshold. That habit makes her less open to being swayed by the positive framing.
+false_statement: Told that 96% of a supplier's parts pass inspection, a reviewer restates it as 40 defects per 1,000 and checks that against the contract threshold. That habit makes her more open to being swayed by the positive framing.
+explanation: Converting a figure into another form and tying it to a decision threshold is what numerate people tend to do, and it lets the quantity rather than the wording drive the judgment. Less numerate readers rate the same supplier better when told "96% pass" than "4% fail".
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/numeracy.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: f01fad628177e6970d219e77c2bc643bc4f608e0
+concepts:
+- ct:numeracy
+- ct:framing-effect
+difficulty: 2
+created: '2026-11-20'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000393
+area: argumentation
+kind: definition
+topic: Argument from analogy
+topic_type: ArgumentScheme
+true_statement: In Mary Hesse's layout of an analogy, features not yet known to match or differ between the two cases make up the neutral analogy.
+false_statement: In Mary Hesse's layout of an analogy, features not yet known to match or differ between the two cases make up the negative analogy.
+explanation: 'Hesse sorts features into three groups: known similarities (positive), known differences (negative), and the still-unknown ones (neutral). An argument from analogy projects something from the source into that unknown territory in the target.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argument-from-analogy.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 7689e65f0c956c0b4177584d3aebb96bf455dcad
+concepts:
+- ct:argument-from-analogy
+- ct:analogical-reasoning
+difficulty: 2
+created: '2026-11-20'
+status: active

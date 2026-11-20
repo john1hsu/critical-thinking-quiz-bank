@@ -1,0 +1,20 @@
+id: ct-000441
+area: scientific-reasoning
+kind: figure
+topic: Power analysis
+topic_type: Method
+true_statement: Sedlmeier and Gigerenzer found that by 1984, median power to detect a medium effect in the journal Cohen had reviewed had fallen from .46 to .37.
+false_statement: Sedlmeier and Gigerenzer found that by 1984, median power to detect a medium effect in the journal Cohen had reviewed had risen from .37 to .46.
+explanation: Decades after Cohen warned that studies were underpowered, power had got worse, and almost no experiments even mentioned it. Advice alone did not change practice, which is why sample-size planning is now pushed through journals and preregistration.
+as_of: '1984'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/power-analysis.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: e8c0f3bee4ed6bba8763437077a41795bcce3210
+concepts:
+- ct:power-analysis
+- ct:jacob-cohen
+difficulty: 3
+created: '2026-11-20'
+status: active

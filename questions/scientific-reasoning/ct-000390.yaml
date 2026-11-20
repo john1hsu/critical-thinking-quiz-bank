@@ -1,0 +1,20 @@
+id: ct-000390
+area: scientific-reasoning
+kind: origin
+topic: Scientific method
+topic_type: Method
+true_statement: The step-by-step school recipe for the scientific method (observe, hypothesise, experiment, conclude) is a later teaching device, traced partly to Pearson's 1892 Grammar of Science and Dewey's 1910 How We Think.
+false_statement: The step-by-step school recipe for the scientific method (observe, hypothesise, experiment, conclude) comes straight from Francis Bacon's 1620 Novum Organum, which set out those steps.
+explanation: Bacon proposed eliminative induction with tables of presence, absence and degrees, not the classroom step list. The tidy recipe arrived around the turn of the twentieth century, and critics argue it has no canonical source in the history of science.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/scientific-method.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: f05a4631f102063e5b505030c236a6a3cf53bb0b
+concepts:
+- ct:scientific-method
+- ct:francis-bacon
+- ct:novum-organum
+difficulty: 2
+created: '2026-11-20'
+status: active

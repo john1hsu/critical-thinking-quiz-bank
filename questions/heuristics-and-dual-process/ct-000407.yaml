@@ -1,0 +1,20 @@
+id: ct-000407
+area: heuristics-and-dual-process
+kind: counter
+topic: Ecological rationality
+topic_type: Concept
+true_statement: Before trusting a rule of thumb for forecasts, test it on new cases rather than judging it by how well it fits the past cases it was built from.
+false_statement: Before trusting a rule of thumb for forecasts, judge it by how well it fits the past cases it was built from rather than spending effort testing it on new cases.
+explanation: Flexible models can fit past data closely yet predict new cases badly, which is overfitting; simple rules often win on prediction precisely because they don't chase noise. Only out-of-sample performance shows whether a rule fits its environment.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/ecological-rationality.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 0796c8b95458d4155448e816eee1893f3523af30
+concepts:
+- ct:ecological-rationality
+- ct:overfitting
+- ct:bias-variance-tradeoff
+difficulty: 2
+created: '2026-11-20'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000360
+area: formal-fallacies
+kind: definition
+topic: Fallacy of four terms
+topic_type: FormalFallacy
+true_statement: When counting terms in a syllogism, two words with one meaning count as one term, and one word used in two senses counts as two.
+false_statement: When counting terms in a syllogism, two words with one meaning count as two terms, and one word used in two senses counts as one.
+explanation: A term is a meaning, not a word. That is why an argument can show only three words yet carry four terms, and why counting by wording lets the fallacy slip through.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/fallacy-of-four-terms.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 51e123e319e60192ef7f85665794c6ee9f908c6a
+concepts:
+- ct:fallacy-of-four-terms
+- ct:syllogism
+difficulty: 1
+created: '2026-11-20'
+status: active

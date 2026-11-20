@@ -1,0 +1,19 @@
+id: ct-000426
+area: history-and-thinkers
+kind: definition
+topic: Topics
+topic_type: Work
+true_statement: 'Book I of the Topics sorts every predication into four predicables: definition, property, genus and accident.'
+false_statement: 'Book I of the Topics sorts every predication into five predicables: definition, property, genus, species and accident.'
+explanation: Aristotle's own list has four. Porphyry and later commentators expanded it to five, which is why the five-item version is familiar but not what the Topics says.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/topics.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: ef1a18ce5042590574a779cf5e5b4f99eac73294
+concepts:
+- ct:topics
+- ct:predicables
+difficulty: 2
+created: '2026-11-20'
+status: active

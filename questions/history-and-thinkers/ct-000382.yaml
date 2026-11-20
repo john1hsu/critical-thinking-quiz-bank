@@ -1,0 +1,20 @@
+id: ct-000382
+area: history-and-thinkers
+kind: scenario
+topic: The New Rhetoric
+topic_type: Work
+true_statement: Pitching a four-day week to all staff, a manager says "fairness means rewarding results, not hours", splitting real productivity from mere busyness. In The New Rhetoric's typology, that move is a dissociation.
+false_statement: Pitching a four-day week to all staff, a manager says "fairness means rewarding results, not hours", splitting real productivity from mere busyness. In The New Rhetoric's typology, that move is a quasi-logical argument.
+explanation: Dissociation breaks one concept into two, typically appearance versus reality, as with apparent versus real productivity. A quasi-logical argument instead borrows the look of formal or mathematical proof, which this slogan does not.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/the-new-rhetoric.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: f33e66a4cfa875c4cf3aa9e8bb9f2acbf7403215
+concepts:
+- ct:the-new-rhetoric
+- ct:quasi-logical-argument
+- ct:argumentation-schemes
+difficulty: 2
+created: '2026-11-20'
+status: active

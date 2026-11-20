@@ -1,0 +1,19 @@
+id: ct-000349
+area: argumentation
+kind: scenario
+topic: Stasis theory
+topic_type: Framework
+true_statement: Two managers agree the logs show a four-hour slowdown last week but argue over whether it counts as an "outage" under the vendor contract. In stasis terms, their dispute sits at definition.
+false_statement: Two managers agree the logs show a four-hour slowdown last week but argue over whether it counts as an "outage" under the vendor contract. In stasis terms, their dispute sits at conjecture.
+explanation: Conjecture is a dispute about whether something happened; here the facts are conceded and only the label is contested, which is the stasis of definition. Spotting that tells the meeting to argue about the contract wording, not the logs.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/stasis-theory.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 00b41a4c73b9f8d6404bf101fc139bb996538996
+concepts:
+- ct:stasis-theory
+- ct:group-decision-making
+difficulty: 2
+created: '2026-11-20'
+status: active

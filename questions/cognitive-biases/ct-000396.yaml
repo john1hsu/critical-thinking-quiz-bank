@@ -1,0 +1,20 @@
+id: ct-000396
+area: cognitive-biases
+kind: mechanism
+topic: Fundamental attribution error
+topic_type: CognitiveBias
+true_statement: Mentally busy observers are more prone to the fundamental attribution error, because the quick trait inference still happens while the effortful correction for the situation gets skipped.
+false_statement: Mentally busy observers are less prone to the fundamental attribution error, because the effortful trait inference gets skipped while the quick correction for the situation still happens.
+explanation: On the characterization-correction account, people first read a trait off the behaviour automatically, then adjust for circumstances only if they have the capacity. Cognitive load knocks out that second step, so judging people while rushed is a warning sign.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/fundamental-attribution-error.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 51198bd3f6539b7fd6e7943357814f7cb401caea
+concepts:
+- ct:fundamental-attribution-error
+- ct:characterization-correction-model
+- ct:dual-process-theory
+difficulty: 2
+created: '2026-11-20'
+status: active

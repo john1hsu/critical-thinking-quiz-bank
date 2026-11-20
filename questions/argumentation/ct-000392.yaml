@@ -1,0 +1,19 @@
+id: ct-000392
+area: argumentation
+kind: counter
+topic: Argument from analogy
+topic_type: ArgumentScheme
+true_statement: To test an analogy, ask what in the source case actually produced the outcome, then check whether that factor is also present in the target case.
+false_statement: To test an analogy, count how many features the two cases share overall, since the sheer number of shared features is the central test of a good analogy.
+explanation: Many shared features can be irrelevant to the conclusion, which is how faulty analogies arise. The stronger test links the outcome to its cause in the source and asks whether nothing in the target blocks that link.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argument-from-analogy.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 7689e65f0c956c0b4177584d3aebb96bf455dcad
+concepts:
+- ct:argument-from-analogy
+- ct:faulty-analogy
+difficulty: 2
+created: '2026-11-20'
+status: active

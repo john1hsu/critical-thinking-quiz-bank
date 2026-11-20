@@ -1,0 +1,19 @@
+id: ct-000372
+area: probabilistic-reasoning
+kind: definition
+topic: Conditional probability
+topic_type: Concept
+true_statement: Two mutually exclusive events that each have a positive probability are strongly dependent, because learning that one happened rules the other out.
+false_statement: Two mutually exclusive events that each have a positive probability are independent, because the two of them never happen together.
+explanation: Independence means learning B leaves the probability of A unchanged. If A and B exclude each other, learning B drops A's probability to zero, the opposite of independence, so the two ideas should not be confused.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/conditional-probability.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 51386bbc014c5f312c62759f434d8a43bda20e0b
+concepts:
+- ct:conditional-probability
+- ct:probability-theory
+difficulty: 2
+created: '2026-11-20'
+status: active

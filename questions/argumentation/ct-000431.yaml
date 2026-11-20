@@ -1,0 +1,19 @@
+id: ct-000431
+area: argumentation
+kind: counter
+topic: Argument from consequences
+topic_type: ArgumentScheme
+true_statement: Faced with an argument against a holiday-weekend system cutover because it risks an outage, also ask what waiting would cost, such as a support contract that lapses.
+false_statement: Faced with an argument against a holiday-weekend system cutover because it risks an outage, the only fair question is how bad the outage would be, since what waiting would cost is beside the point.
+explanation: One of the critical questions for this scheme is whether there are consequences of the opposite value, such as costs of not acting. Weighing only the feared outcome makes a presumptive reason look like a decisive one.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/argument-from-consequences.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: d7a7fbca7294920f17045160595c92aac662b28f
+concepts:
+- ct:argument-from-consequences
+- ct:expected-utility-theory
+difficulty: 2
+created: '2026-11-20'
+status: active

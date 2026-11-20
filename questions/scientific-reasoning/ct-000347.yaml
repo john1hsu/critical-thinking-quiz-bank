@@ -1,0 +1,19 @@
+id: ct-000347
+area: scientific-reasoning
+kind: counter
+topic: Mill's methods
+topic_type: Method
+true_statement: Mill's methods only eliminate suspects from a list you supply, so before trusting their verdict ask whether the real cause could be missing from that list.
+false_statement: Mill's methods generate candidate causes from the cases themselves, so you need not worry whether your initial list of suspects is complete.
+explanation: Every method works by striking factors off a list; none can surface a factor nobody thought to record. A clean result therefore only shows which listed suspect survived, so the first check is whether the list was complete.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/mills-methods.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 62cabcbc01334cde6d67496de936a63ae325c4c0
+concepts:
+- ct:mills-methods
+- ct:inductive-reasoning
+difficulty: 2
+created: '2026-11-20'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000436
+area: foundations
+kind: scenario
+topic: Reasoning
+topic_type: Concept
+true_statement: An analyst believes orders over $500 need a manager's sign-off, then spots a routine $620 order without one. Rather than report a breach, she checks whether the threshold changed. Doubting the rule here can be reasonable.
+false_statement: An analyst believes orders over $500 need a manager's sign-off, then spots a routine $620 order without one. Rather than report a breach, she checks whether the threshold changed. Doubting the rule here is unreasonable, since her beliefs imply a breach.
+explanation: On Harman's view, logic says what her beliefs imply but not whether to accept the conclusion or drop a premise. Which move is right depends on how confident she is in each belief, and a routine unsigned order is a fair reason to doubt the rule.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/reasoning.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 59aa8bfe5bd1814361c7bcf1f2647135af08efaf
+concepts:
+- ct:reasoning
+- ct:logical-consequence
+difficulty: 2
+created: '2026-11-20'
+status: active

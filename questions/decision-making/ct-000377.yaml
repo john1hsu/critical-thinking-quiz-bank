@@ -1,0 +1,18 @@
+id: ct-000377
+area: decision-making
+kind: counter
+topic: Value-focused thinking
+topic_type: Technique
+true_statement: In value-focused thinking, means objectives are best used to prompt new options, while fundamental objectives serve as the criteria for scoring them.
+false_statement: In value-focused thinking, fundamental objectives are best used to prompt new options, while means objectives serve as the criteria for scoring them.
+explanation: Means objectives matter only because they serve deeper ends, so each one hints at a way to do better and sparks alternatives. Scoring should rest on the fundamental ends themselves; ask "why does this matter?" to tell the two apart.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/value-focused-thinking.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: d6043824482d4ba44b40e574de4061245f3aede6
+concepts:
+- ct:value-focused-thinking
+difficulty: 2
+created: '2026-11-20'
+status: active

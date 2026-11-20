@@ -1,0 +1,19 @@
+id: ct-000427
+area: formal-logic
+kind: scenario
+topic: Antilogism
+topic_type: Technique
+true_statement: '"No contractors have badge access. Some visitors are contractors. So some visitors lack badge access." The premises plus the denied conclusion, "all visitors have badge access", form an inconsistent triad, so the syllogism is valid.'
+false_statement: '"No contractors have badge access. Some visitors are contractors. So some visitors lack badge access." The premises plus the denied conclusion, "all visitors have badge access", can all be true together, so the syllogism is invalid.'
+explanation: If all visitors had access, the visitors who are contractors would have access, contradicting "no contractors have access". The trio can't all be true, which is exactly what makes the original argument valid on Ladd's test.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/antilogism.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 998d6fc5f3411facc1fb3f88b8bf0855f5367ba4
+concepts:
+- ct:antilogism
+- ct:categorical-syllogism
+difficulty: 3
+created: '2026-11-20'
+status: active

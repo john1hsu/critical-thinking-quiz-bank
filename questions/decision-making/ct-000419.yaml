@@ -1,0 +1,18 @@
+id: ct-000419
+area: decision-making
+kind: counter
+topic: Bright-line rule
+topic_type: Principle
+true_statement: Before adopting a sharp cutoff, ask which cases it will catch that its purpose would spare and which it will miss, since bright lines are both over- and under-inclusive.
+false_statement: Before adopting a sharp cutoff, there's no need to ask which cases it will wrongly catch or miss, since a bright line, unlike a standard, fits its purpose in every case.
+explanation: 'The price of a clear rule is rigidity: an age, amount or date will sometimes hit cases it wasn''t meant for and spare ones it was. Weighing that cost, and perhaps adding a narrow escape hatch, is part of drawing the line well.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/bright-line-rule.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: c5faada9a72dfc5e1d6f4fb47ec0c53acba34589
+concepts:
+- ct:bright-line-rule
+difficulty: 2
+created: '2026-11-20'
+status: active

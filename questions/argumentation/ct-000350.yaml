@@ -1,0 +1,19 @@
+id: ct-000350
+area: argumentation
+kind: counter
+topic: Stasis theory
+topic_type: Framework
+true_statement: To use stasis theory in a stalled meeting, walk through fact, definition, quality and policy in order, note which are agreed, and stop at the first real disagreement.
+false_statement: To use stasis theory in a stalled meeting, walk through fact, definition, quality and policy in order, and stop at the first question both sides already agree on.
+explanation: Agreed stases are common ground to bank, not the place to argue. The point of the walk-through is to find the first question where one side's claim meets the other's denial, because that is where the debate must happen.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/stasis-theory.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 00b41a4c73b9f8d6404bf101fc139bb996538996
+concepts:
+- ct:stasis-theory
+- ct:ignoratio-elenchi
+difficulty: 2
+created: '2026-11-20'
+status: active

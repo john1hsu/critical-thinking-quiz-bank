@@ -1,0 +1,18 @@
+id: ct-000348
+area: scientific-reasoning
+kind: evidence
+topic: Mill's methods
+topic_type: Method
+true_statement: Critics point out that the plurality of causes, where one effect can arise from different causes, undermines Mill's method of agreement.
+false_statement: Critics point out that the plurality of causes, where one effect can arise from different causes, undermines Mill's method of residues.
+explanation: Agreement looks for the single circumstance shared by every case of the effect, so if different cases have different causes there may be no shared factor, or a misleading one. Residues instead subtracts known causes from one effect, a different weakness.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/mills-methods.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 62cabcbc01334cde6d67496de936a63ae325c4c0
+concepts:
+- ct:mills-methods
+difficulty: 3
+created: '2026-11-20'
+status: active

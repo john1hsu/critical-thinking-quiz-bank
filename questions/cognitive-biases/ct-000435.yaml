@@ -1,0 +1,20 @@
+id: ct-000435
+area: cognitive-biases
+kind: evidence
+topic: Sunk cost fallacy
+topic_type: CognitiveBias
+true_statement: In Arkes and Blumer's 1985 studies, students who had taken economics showed the sunk cost effect about as much as those who had not.
+false_statement: In Arkes and Blumer's 1985 studies, students who had taken economics showed a much weaker sunk cost effect than those who had not.
+explanation: Knowing the textbook rule that sunk costs are irrelevant did not protect people, and a later meta-analysis likewise found no benefit from economic familiarity. That is why changing how the decision is posed works better than simply teaching the rule.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/sunk-cost-fallacy.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 292f5a77f987260f31129b18c1da5c89fa76c0b8
+concepts:
+- ct:sunk-cost-fallacy
+- ct:arkes-blumer-1985-sunk-cost-experiments
+- ct:hal-arkes
+difficulty: 3
+created: '2026-11-20'
+status: active

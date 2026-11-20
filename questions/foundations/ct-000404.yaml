@@ -1,0 +1,19 @@
+id: ct-000404
+area: foundations
+kind: counter
+topic: Defeasible reasoning
+topic_type: ReasoningMode
+true_statement: When two equally strong default rules point to opposite conclusions about the same case, the reasonable response is to suspend judgment until something tips the balance.
+false_statement: When two equally strong default rules point to opposite conclusions about the same case, the reasonable response is to go with whichever rule you applied first.
+explanation: In the classic case of someone who is both a Quaker (usually pacifist) and a Republican (usually not), each default defeats the other. Order of consideration is no reason to prefer one, so neither conclusion is justified yet.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/defeasible-reasoning.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 7c68916c33fa5c3311dd41ddea56bfdebd029a1f
+concepts:
+- ct:defeasible-reasoning
+- ct:nonmonotonic-logic
+difficulty: 2
+created: '2026-11-20'
+status: active

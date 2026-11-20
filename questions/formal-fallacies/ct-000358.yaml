@@ -1,0 +1,20 @@
+id: ct-000358
+area: formal-fallacies
+kind: scenario
+topic: Fallacy of four terms
+topic_type: FormalFallacy
+true_statement: '"Tools that passed the security review are approved for production. The vendor''s plugins passed a security review. So they are approved." If the second review is only the vendor''s own check, the argument commits the fallacy of four terms.'
+false_statement: '"Tools that passed the security review are approved for production. The vendor''s plugins passed a security review. So they are approved." If the second review is only the vendor''s own check, the argument commits the undistributed middle.'
+explanation: The phrase "security review" names two different reviews, so there are two middle terms that never meet, which is four terms. The undistributed middle has a single middle term that fails to cover its whole class; here the problem is a shift in meaning.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/fallacy-of-four-terms.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 51e123e319e60192ef7f85665794c6ee9f908c6a
+concepts:
+- ct:fallacy-of-four-terms
+- ct:undistributed-middle
+- ct:equivocation
+difficulty: 2
+created: '2026-11-20'
+status: active

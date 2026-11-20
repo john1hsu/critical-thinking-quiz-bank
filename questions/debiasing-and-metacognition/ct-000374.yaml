@@ -1,0 +1,19 @@
+id: ct-000374
+area: debiasing-and-metacognition
+kind: counter
+topic: Metacognition
+topic_type: Concept
+true_statement: To judge how good a colleague's metacognition is, check whether her confidence separates her right calls from her wrong ones, not how confident she is overall.
+false_statement: To judge how good a colleague's metacognition is, check how confident she is overall, not whether her confidence separates her right calls from her wrong ones.
+explanation: Overall confidence is metacognitive bias; metacognitive skill is sensitivity, how well confidence tracks being right. A person can be modest and poorly tuned, or bold and well tuned, so average confidence alone says little.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/metacognition.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 527647a16f6b920fde7ee02c4f7d725e50d0d3bf
+concepts:
+- ct:metacognition
+- ct:calibration
+difficulty: 2
+created: '2026-11-20'
+status: active

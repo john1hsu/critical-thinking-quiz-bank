@@ -1,0 +1,19 @@
+id: ct-000371
+area: probabilistic-reasoning
+kind: counter
+topic: Conditional probability
+topic_type: Concept
+true_statement: When you see P(A given B), don't assume B came first or caused A, since a later event can serve as the condition for an earlier one.
+false_statement: When you see P(A given B), you can assume B came before A, since a later event can't serve as the condition for an earlier one.
+explanation: Conditioning only narrows the reference group to the B cases; it says nothing about time order or causation. Treating the condition as an earlier cause is a common error even among people with mathematical training.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/conditional-probability.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 51386bbc014c5f312c62759f434d8a43bda20e0b
+concepts:
+- ct:conditional-probability
+- ct:statistical-literacy
+difficulty: 2
+created: '2026-11-20'
+status: active

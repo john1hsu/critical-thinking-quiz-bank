@@ -1,0 +1,20 @@
+id: ct-000389
+area: scientific-reasoning
+kind: counter
+topic: Scientific method
+topic_type: Method
+true_statement: When judging whether an inquiry is scientific, don't insist on a formal hypothesis up front, since many legitimate scientific methods, such as exploratory data work, proceed without one.
+false_statement: When judging whether an inquiry is scientific, insist on a formal hypothesis up front, since exploratory data work without one can't count as a scientific method.
+explanation: Treating hypothesis testing as the only scientific method is a common misconception, even among science teachers. Science uses a plurality of methods, and the useful question is whether the claims end up tested against evidence, not whether a recipe was followed.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/scientific-method.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: f05a4631f102063e5b505030c236a6a3cf53bb0b
+concepts:
+- ct:scientific-method
+- ct:hypothesis-testing
+- ct:science-education
+difficulty: 2
+created: '2026-11-20'
+status: active

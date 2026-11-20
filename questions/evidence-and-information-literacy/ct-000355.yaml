@@ -1,0 +1,20 @@
+id: ct-000355
+area: evidence-and-information-literacy
+kind: scenario
+topic: Systematic review
+topic_type: Method
+true_statement: Two engineers each circulate blog posts backing their side on mandatory code review. Fixing the question, the sources to search and the inclusion criteria before gathering any studies is the systematic-review way to settle it.
+false_statement: Two engineers each circulate blog posts backing their side on mandatory code review. Pooling both sets of posts and siding with whichever pile is larger is the systematic-review way to settle it.
+explanation: Each pile was chosen by someone with a view, so merging and counting them just adds two biased selections. A systematic review removes the chooser's influence by setting the rules for what counts as evidence before looking, then appraising everything that qualifies.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/systematic-review.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 436eadb824f3bc0a32d6b7fb4ba536a5a70e553a
+concepts:
+- ct:systematic-review
+- ct:confirmation-bias
+- ct:suppressed-evidence
+difficulty: 2
+created: '2026-11-20'
+status: active

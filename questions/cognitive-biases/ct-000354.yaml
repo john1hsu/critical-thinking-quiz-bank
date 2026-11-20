@@ -1,0 +1,19 @@
+id: ct-000354
+area: cognitive-biases
+kind: evidence
+topic: Insensitivity to sample size
+topic_type: CognitiveBias
+true_statement: Sedlmeier and Gigerenzer argued that people do grasp that bigger samples give more trustworthy estimates, and mainly fail when they must judge how variable many samples will be.
+false_statement: Sedlmeier and Gigerenzer argued that people do grasp how variable many samples will be, and mainly fail when they must judge whether bigger samples give more trustworthy estimates.
+explanation: Their review split tasks into accuracy judgments, which people handle fairly well, and sampling-distribution judgments like the hospital problem, where performance sits near chance. That split is why the bias is contested rather than a blanket failure.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/insensitivity-to-sample-size.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: b867780e8b9cd88afe0c8c665b1572c4247fcb2b
+concepts:
+- ct:insensitivity-to-sample-size
+- ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review
+difficulty: 3
+created: '2026-11-20'
+status: active

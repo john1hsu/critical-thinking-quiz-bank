@@ -1,0 +1,20 @@
+id: ct-000379
+area: philosophy-of-reasoning
+kind: scenario
+topic: Philosophical skepticism
+topic_type: Concept
+true_statement: Asked why she trusts the revenue feed, a finance lead says it reconciles with the ledger; asked why she trusts the ledger, she says it reconciles with the feed. Her reasons loop back on themselves, one of the dead ends the regress argument names.
+false_statement: Asked why she trusts the revenue feed, a finance lead says it reconciles with the ledger; asked why she trusts the ledger, she says it reconciles with the feed. Her reasons run on in an endless chain, one of the dead ends the regress argument names.
+explanation: The regress argument says a chain of reasons either stops at an assumption, circles, or goes on forever. Here the second reason returns to the first, so it circles; an endless chain would keep adding new reasons. The practical fix is an independent check outside the loop.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/philosophical-skepticism.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 3b0f2ab74440ee26d7564122c8618d51f6c37685
+concepts:
+- ct:philosophical-skepticism
+- ct:begging-the-question
+- ct:foundationalism
+difficulty: 2
+created: '2026-11-20'
+status: active

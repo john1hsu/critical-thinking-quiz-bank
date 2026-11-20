@@ -1,0 +1,18 @@
+id: ct-000403
+area: foundations
+kind: scenario
+topic: Defeasible reasoning
+topic_type: ReasoningMode
+true_statement: The office thermostat reads 21 degrees, so a manager concludes the room is about 21 degrees. Facilities then reports that this thermostat's sensor has been faulty all week. That report is an undercutting defeater.
+false_statement: The office thermostat reads 21 degrees, so a manager concludes the room is about 21 degrees. Facilities then reports that this thermostat's sensor has been faulty all week. That report is a rebutting defeater.
+explanation: The report gives no reason to think the room isn't 21 degrees; it only shows the reading can't support that conclusion here, which is undercutting. A rebutting defeater would be direct evidence of a different temperature, such as a calibrated thermometer reading 26.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/defeasible-reasoning.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 7c68916c33fa5c3311dd41ddea56bfdebd029a1f
+concepts:
+- ct:defeasible-reasoning
+difficulty: 2
+created: '2026-11-20'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000362
+area: foundations
+kind: counter
+topic: Necessary and sufficient conditions
+topic_type: Concept
+true_statement: To test whether a large market share is sufficient for profit, look for a firm that has a large market share but still loses money.
+false_statement: To test whether a large market share is sufficient for profit, look for a profitable firm that has only a small market share.
+explanation: 'A sufficiency claim fails if the condition can be present while the outcome is absent. A profitable firm with a small share instead tests necessity: it shows profit is possible without a large share.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/necessary-and-sufficient-conditions.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 5690d811a6afd6199a7b6d67c24da2c2b20f1c1c
+concepts:
+- ct:necessary-and-sufficient-conditions
+- ct:method-of-counterexample
+difficulty: 2
+created: '2026-11-20'
+status: active

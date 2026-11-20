@@ -1,0 +1,19 @@
+id: ct-000428
+area: formal-logic
+kind: counter
+topic: Antilogism
+topic_type: Technique
+true_statement: If your context assumes the classes involved have members, add that as an explicit premise before using the antilogism test, since the test reads universals as making no such claim.
+false_statement: If your context assumes the classes involved have members, there's no need to add it as a premise before using the antilogism test, since the test already reads universals as claiming their classes have members.
+explanation: The test treats "all S are P" only as saying a combination is empty, so moods that rely on existential import come out invalid. Stating the existence assumption openly lets those arguments be judged fairly.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/antilogism.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 998d6fc5f3411facc1fb3f88b8bf0855f5367ba4
+concepts:
+- ct:antilogism
+- ct:existential-import
+difficulty: 3
+created: '2026-11-20'
+status: active

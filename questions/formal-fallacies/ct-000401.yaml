@@ -1,0 +1,19 @@
+id: ct-000401
+area: formal-fallacies
+kind: counter
+topic: Quantifier shift fallacy
+topic_type: FormalFallacy
+true_statement: To expose a quantifier shift, describe a case where each A gets its own B, so the premise holds while no single B serves every A.
+false_statement: To expose a quantifier shift, describe a case where one single B serves every A, so the premise holds while the conclusion fails.
+explanation: A counterexample needs a true premise with a false conclusion. If one B serves every A, the conclusion is true, so nothing is shown; giving each A a different B, like a different teacher for each class, is what breaks the inference.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/quantifier-shift-fallacy.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: bc10f91946bc55e4925f83a9cb9af394c3cd32a7
+concepts:
+- ct:quantifier-shift-fallacy
+- ct:method-of-counterexample
+difficulty: 2
+created: '2026-11-20'
+status: active

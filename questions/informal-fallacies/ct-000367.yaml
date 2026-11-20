@@ -1,0 +1,20 @@
+id: ct-000367
+area: informal-fallacies
+kind: scenario
+topic: Slippery slope
+topic_type: InformalFallacy
+true_statement: A manager refuses one team's request to work from home on Fridays, warning that other teams will want the same, then Mondays, until nobody comes in at all. With no support for each step, that is a fallacious slippery slope.
+false_statement: A manager refuses one team's request to work from home on Fridays, warning that other teams will want the same, then Mondays, until nobody comes in at all. With no support for each step, that is a false dilemma.
+explanation: The tell is a chain of asserted steps from a small move to a disaster, while management could plainly stop at any point. A false dilemma would instead squeeze the choice into two options; here the problem is the unsupported cascade.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/slippery-slope.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: b0eba2649d631fecc5c23c89a4e78995d84be91b
+concepts:
+- ct:slippery-slope
+- ct:false-dilemma
+- ct:argument-from-consequences
+difficulty: 1
+created: '2026-11-20'
+status: active

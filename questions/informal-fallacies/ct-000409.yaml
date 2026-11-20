@@ -1,0 +1,20 @@
+id: ct-000409
+area: informal-fallacies
+kind: scenario
+topic: Hasty generalization
+topic_type: InformalFallacy
+true_statement: Three trade-show visitors and two support tickets ask for a dark mode, and a product manager concludes most customers want it and makes it next quarter's top priority. That is a hasty generalization.
+false_statement: Three trade-show visitors and two support tickets ask for a dark mode, and a product manager concludes most customers want it and makes it next quarter's top priority. That is the fallacy of accident.
+explanation: The manager leaps from five self-selected requests to a claim about the whole customer base, which is hasty generalization. The fallacy of accident runs the other way, misapplying a general rule to an unusual case.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/hasty-generalization.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 81f2d4ace8b3fae459f401fe93718635f86a9785
+concepts:
+- ct:hasty-generalization
+- ct:fallacy-of-accident
+- ct:selection-bias
+difficulty: 1
+created: '2026-11-20'
+status: active

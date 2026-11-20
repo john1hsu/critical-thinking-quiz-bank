@@ -1,0 +1,19 @@
+id: ct-000351
+area: argumentation
+kind: origin
+topic: Stasis theory
+topic_type: Framework
+true_statement: Stasis theory is credited to Hermagoras of Temnos, a Greek rhetorician of the second century BC whose own writings are lost.
+false_statement: Stasis theory is credited to Hermogenes, a Greek rhetorician of the second century BC whose own writings are lost.
+explanation: Hermagoras founded the doctrine and his system has to be reconstructed from Cicero, Quintilian and others. Hermogenes is a later theorist, of the second century AD, who reworked the scheme rather than introduced it.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/stasis-theory.md
+  commit: dd3132273afa6f63398541987983de251ea66122
+  blob: 00b41a4c73b9f8d6404bf101fc139bb996538996
+concepts:
+- ct:stasis-theory
+- ct:hermagoras-of-temnos
+difficulty: 2
+created: '2026-11-20'
+status: active
