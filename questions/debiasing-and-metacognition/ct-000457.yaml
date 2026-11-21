@@ -1,0 +1,19 @@
+id: ct-000457
+area: debiasing-and-metacognition
+kind: scenario
+topic: Cost-benefit reasoning training
+topic_type: Technique
+true_statement: 'Asked what an economist would advise about a non-refundable workshop that has turned out useless, a trainee says, "Waste not, want not: attend, or the fee is wasted." That is a common lay theory, not the economist''s rule.'
+false_statement: 'Asked what an economist would advise about a non-refundable workshop that has turned out useless, a trainee says, "Waste not, want not: attend, or the fee is wasted." That is the sunk cost principle economists endorse.'
+explanation: The fee is gone whichever way the trainee chooses, so the sunk cost principle says to ignore it and judge the day on its remaining value. Untrained students mostly believed economists would back "waste not, want not", and correcting that belief is part of the training.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/cost-benefit-reasoning-training.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 4486deffc15b5f614d4453a9a04ff075c07ca87b
+concepts:
+- ct:cost-benefit-reasoning-training
+- ct:sunk-cost-fallacy
+difficulty: 2
+created: '2026-11-21'
+status: active

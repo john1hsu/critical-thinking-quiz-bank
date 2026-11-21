@@ -1,0 +1,20 @@
+id: ct-000495
+area: heuristics-and-dual-process
+kind: figure
+topic: Recognition heuristic
+topic_type: Heuristic
+true_statement: In 2016 experiments with fictitious city names, 74% of choices followed recognition against 50% by chance, yet people still weighed other information they had.
+false_statement: In 2016 experiments with fictitious city names, 74% of choices followed recognition against 50% by chance, and people ignored all other information once recognition discriminated.
+explanation: Basehore and Anderson found recognition a real basis for choice but not a strictly one-reason rule, arguing raw adherence rates overstate its sole influence. That is why the noncompensatory claim remains contested.
+as_of: '2016'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/recognition-heuristic.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 6561bc009f457148c45c1984fe7f4d770918dc44
+concepts:
+- ct:recognition-heuristic
+- ct:basehore-anderson-2016-recognition-tests
+difficulty: 3
+created: '2026-11-21'
+status: active

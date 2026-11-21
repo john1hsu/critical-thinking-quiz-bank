@@ -1,0 +1,20 @@
+id: ct-000505
+area: evidence-and-information-literacy
+kind: scenario
+topic: Hierarchy of evidence
+topic_type: Framework
+true_statement: A vendor says its wellness app "cut sick days by 30%", citing a case study of one firm that adopted it. On the hierarchy of evidence that is a single uncontrolled case near the bottom, so a randomised pilot is a sensible next step.
+false_statement: A vendor says its wellness app "cut sick days by 30%", citing a case study of one firm that adopted it. On the hierarchy of evidence real-world adoption ranks near the top, so the contract can be signed on that basis.
+explanation: One firm with no comparison group can't rule out other explanations, such as a mild flu season or other policy changes. Seeking a controlled comparison, or running a randomised pilot across departments, looks for the stronger evidence first.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/hierarchy-of-evidence.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 8a7b1fb571907525eb3dbbecebb9a6467ae4268f
+concepts:
+- ct:hierarchy-of-evidence
+- ct:randomized-controlled-trial
+- ct:confounding
+difficulty: 1
+created: '2026-11-21'
+status: active

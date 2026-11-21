@@ -1,0 +1,20 @@
+id: ct-000462
+area: decision-making
+kind: evidence
+topic: Behavioral economics
+topic_type: Field
+true_statement: Maier and colleagues argued in 2022 that once publication bias is corrected for, the evidence for nudges in general is not convincing, though some individual nudges may still work.
+false_statement: Maier and colleagues argued in 2022 that once publication bias is corrected for, the evidence for nudges in general grows stronger, though some individual nudges may still fail.
+explanation: Correcting for publication bias removes the inflation from unpublished null results, and here it left the general case for nudging unconvincing. The policy branch of the field is therefore more disputed than its laboratory findings.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/behavioral-economics.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: c47410e6a4b881548d0bd3eadd13c2fae9cc5ad0
+concepts:
+- ct:behavioral-economics
+- ct:maier-2022-nudging-publication-bias-reanalysis
+- ct:publication-bias
+difficulty: 3
+created: '2026-11-21'
+status: active

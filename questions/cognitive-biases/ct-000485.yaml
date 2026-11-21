@@ -1,0 +1,19 @@
+id: ct-000485
+area: cognitive-biases
+kind: counter
+topic: Planning fallacy
+topic_type: CognitiveBias
+true_statement: Planning backward from the deadline rather than forward from today led people in a 2016 study to predict later finishes, with no significant optimistic bias.
+false_statement: Planning backward from the deadline rather than forward from today led people in a 2016 study to predict earlier finishes, with an even larger optimistic bias.
+explanation: Backward planners gave later, and on average unbiased, completion estimates, while forward planners again underestimated. The study left the mechanism unclear, so treat it as a useful tactic rather than a full explanation.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/planning-fallacy.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 0d342009770887d31097ed2feadaffc85e718eb3
+concepts:
+- ct:planning-fallacy
+- ct:wiese-2016-backward-planning-study
+difficulty: 2
+created: '2026-11-21'
+status: active

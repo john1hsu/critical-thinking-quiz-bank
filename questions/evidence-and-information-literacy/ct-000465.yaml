@@ -1,0 +1,20 @@
+id: ct-000465
+area: evidence-and-information-literacy
+kind: figure
+topic: Deepfake
+topic_type: Phenomenon
+true_statement: In Köbis and colleagues' 2021 experiment, people sorted short videos into real and deepfake correctly only 57.6% of the time, and neither an awareness prompt nor a cash incentive improved that.
+false_statement: In Köbis and colleagues' 2021 experiment, people sorted short videos into real and deepfake correctly only 57.6% of the time, but a cash incentive raised that to about 75%.
+explanation: Accuracy was barely above chance and stayed there under both an awareness prompt and a financial incentive, while participants overrated their own skill. Trying harder to look closely is not a reliable defence.
+as_of: '2021'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/deepfake.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 962919a12395e01d1659ae11a23ff08a83684757
+concepts:
+- ct:deepfake
+- ct:kobis-2021-fooled-twice-deepfake-study
+difficulty: 3
+created: '2026-11-21'
+status: active

@@ -1,0 +1,20 @@
+id: ct-000469
+area: history-and-thinkers
+kind: mechanism
+topic: Christiaan Huygens
+topic_type: Person
+true_statement: In the preface to his Treatise on Light, Huygens held that a theory is best supported when it foresees new phenomena that are later confirmed, more than when it merely fits facts already known.
+false_statement: In the preface to his Treatise on Light, Huygens held that a theory is best supported when it fits many facts already known, more than when it foresees new phenomena that are later confirmed.
+explanation: Huygens gave novel predictions extra weight, alongside the idea that many matching consequences raise a theory's probability. Fitting known facts is easier, since a theory can be shaped around them.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/christiaan-huygens.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 9ef2a56bd1a791535acd456a7e2e7312adc682ed
+concepts:
+- ct:christiaan-huygens
+- ct:treatise-on-light
+- ct:hypothesis-testing
+difficulty: 2
+created: '2026-11-21'
+status: active

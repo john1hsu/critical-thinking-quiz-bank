@@ -1,0 +1,20 @@
+id: ct-000516
+area: formal-logic
+kind: origin
+topic: Formal logic
+topic_type: Field
+true_statement: George Boole recast logic as an algebra of classes in 1847 and 1854, replacing the catalogue of valid syllogisms with general procedures for arguments of any complexity.
+false_statement: Gottlob Frege recast logic as an algebra of classes in 1847 and 1854, replacing the catalogue of valid syllogisms with general procedures for arguments of any complexity.
+explanation: Boole founded the algebraic tradition with his Mathematical Analysis of Logic and Laws of Thought. Frege's break came later, in 1879, with a function-argument analysis using quantifiers rather than an algebra of classes.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/formal-logic.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: e16b3a4ceb2adae18d724676f8617963117d807a
+concepts:
+- ct:formal-logic
+- ct:george-boole
+- ct:gottlob-frege
+difficulty: 2
+created: '2026-11-21'
+status: active

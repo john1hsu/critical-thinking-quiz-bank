@@ -1,0 +1,19 @@
+id: ct-000458
+area: debiasing-and-metacognition
+kind: counter
+topic: Cost-benefit reasoning training
+topic_type: Technique
+true_statement: When training staff to ignore sunk costs, mix in cases where continuing is the right call, so they don't come away with a blanket "always quit" rule.
+false_statement: When training staff to ignore sunk costs, use only cases where quitting is the right call, so they don't come away with a blanket "always quit" rule.
+explanation: Pairing sunk cost problems with extra cost problems, where continuing is correct, forces learners to weigh what each option still costs and returns. A diet of quit-only examples teaches exactly the blanket rule it aims to avoid.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/cost-benefit-reasoning-training.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 4486deffc15b5f614d4453a9a04ff075c07ca87b
+concepts:
+- ct:cost-benefit-reasoning-training
+- ct:sunk-cost-fallacy
+difficulty: 2
+created: '2026-11-21'
+status: active

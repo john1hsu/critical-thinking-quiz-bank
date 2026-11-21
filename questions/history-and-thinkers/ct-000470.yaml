@@ -1,0 +1,20 @@
+id: ct-000470
+area: history-and-thinkers
+kind: counter
+topic: Christiaan Huygens
+topic_type: Person
+true_statement: Testing a hypothesis Huygens's way, if a predicted consequence fails you still have to ask which of the theory's assumptions is at fault, a question his account leaves open.
+false_statement: Testing a hypothesis Huygens's way, if a predicted consequence fails you can blame the main hypothesis itself, a question his account settles.
+explanation: Jeffrey noted that Huygens showed how agreement raises probability but not how much, nor what to blame when a prediction fails. That gap is the holism problem the Duhem-Quine thesis presses.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/christiaan-huygens.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 9ef2a56bd1a791535acd456a7e2e7312adc682ed
+concepts:
+- ct:christiaan-huygens
+- ct:duhem-quine-thesis
+- ct:philosophy-of-science
+difficulty: 3
+created: '2026-11-21'
+status: active

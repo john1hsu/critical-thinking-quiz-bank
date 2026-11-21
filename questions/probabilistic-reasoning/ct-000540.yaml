@@ -1,0 +1,19 @@
+id: ct-000540
+area: probabilistic-reasoning
+kind: origin
+topic: Expected value
+topic_type: Concept
+true_statement: 'In Huygens''s treatment of games of chance, expectation came first: his tract never uses the concept of probability, which was only later read back into it.'
+false_statement: 'In Huygens''s treatment of games of chance, probability came first: his tract defined expectation from probabilities, using methods he had learned from Pascal and Fermat.'
+explanation: Huygens built his method on the value of a player's expectation, a fair share of the stakes, and worked it out without learning Pascal and Fermat's methods. Probability as a concept was read into his rules afterwards.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/expected-value.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 6e631640c8f796d1768e771d2f2ae651b4bf67e7
+concepts:
+- ct:expected-value
+- ct:christiaan-huygens
+difficulty: 3
+created: '2026-11-21'
+status: active

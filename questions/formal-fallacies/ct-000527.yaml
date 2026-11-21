@@ -1,0 +1,19 @@
+id: ct-000527
+area: formal-fallacies
+kind: counter
+topic: Modal scope fallacy
+topic_type: FormalFallacy
+true_statement: When someone argues from "if P, then it must be Q" and P to "Q was inevitable", grant the plain conclusion Q, then ask what separate evidence would show Q is necessary.
+false_statement: When someone argues from "if P, then it must be Q" and P to "Q was inevitable", reject the conclusion Q altogether, since the invalid form shows Q is false.
+explanation: With the necessity read over the whole conditional, Q itself does follow; only the added "necessarily" is unearned. An invalid argument doesn't make its conclusion false, so the right response strips the modal rather than the claim.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/modal-scope-fallacy.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 4ed9ce4bcafb449223f085fcba4f973c1aef3a0d
+concepts:
+- ct:modal-scope-fallacy
+- ct:modal-logic
+difficulty: 3
+created: '2026-11-21'
+status: active

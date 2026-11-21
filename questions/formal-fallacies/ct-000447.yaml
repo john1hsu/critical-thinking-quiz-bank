@@ -1,0 +1,20 @@
+id: ct-000447
+area: formal-fallacies
+kind: origin
+topic: Masked-man fallacy
+topic_type: FormalFallacy
+true_statement: The masked-man fallacy takes its name from a veiled-man puzzle credited to Eubulides of the Megarian school in the fourth century BCE.
+false_statement: The masked-man fallacy takes its name from a veiled-man puzzle credited to Gottlob Frege in his 1892 work on sense and reference.
+explanation: The puzzle of knowing your father but not the masked man who is your father is attributed to Eubulides, alongside the liar and the heap. Frege came much later and supplied a diagnosis, sense versus reference, not the puzzle itself.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/masked-man-fallacy.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 0dcef008f30a4a1f444e8be381722670399185b3
+concepts:
+- ct:masked-man-fallacy
+- ct:eubulides
+- ct:gottlob-frege
+difficulty: 1
+created: '2026-11-21'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000519
+area: argumentation
+kind: evidence
+topic: Plain language
+topic_type: Technique
+true_statement: Masson and Waldron (1994) found that plain-language redrafting of contracts improved non-experts' comprehension, yet comprehension stayed very low because readers misunderstood legal concepts that clashed with their beliefs.
+false_statement: Masson and Waldron (1994) found that plain-language redrafting of contracts improved non-experts' comprehension to near-perfect levels, once simpler words removed the legal concepts that clashed with their beliefs.
+explanation: Simpler words and sentences helped reliably, but conceptual difficulty remained. Plain language fixes structural and word-level ambiguity, not misunderstood ideas, which is why its evidence status is mixed.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/plain-language.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: d8e4a69681912a33d4f3b7c826eac86cc09339dc
+concepts:
+- ct:plain-language
+- ct:masson-waldron-1994-legal-contracts-study
+difficulty: 3
+created: '2026-11-21'
+status: active

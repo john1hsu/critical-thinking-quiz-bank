@@ -1,0 +1,19 @@
+id: ct-000480
+area: argumentation
+kind: mechanism
+topic: Legal reasoning
+topic_type: Field
+true_statement: On Edward Levi's account of reasoning by example, legal rules change as they are used, because each new judgment of similarity between cases reshapes the rule.
+false_statement: On Edward Levi's account of reasoning by example, legal rules stay fixed as they are used, because each new case is matched against the rule as first announced.
+explanation: Levi's three steps are seeing a similarity, announcing the rule implicit in the first case, and applying it to the second. Since the announced rule depends on which similarities are judged relevant, it shifts with each new case.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/legal-reasoning.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: cb178d94812a4a3dadbed6b119a754f0d06ae7fa
+concepts:
+- ct:legal-reasoning
+- ct:edward-levi
+difficulty: 3
+created: '2026-11-21'
+status: active

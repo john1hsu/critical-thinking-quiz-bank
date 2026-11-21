@@ -1,0 +1,20 @@
+id: ct-000460
+area: decision-making
+kind: scenario
+topic: Behavioral economics
+topic_type: Field
+true_statement: A planner argues that switching the retirement plan from opt-in to automatic enrollment, with the same terms, can't change much, since anyone who values the plan will join anyway. Automatic-enrollment field evidence shows this reasoning fails.
+false_statement: A planner argues that switching the retirement plan from opt-in to automatic enrollment, with the same terms, can't change much, since anyone who values the plan will join anyway. Automatic-enrollment field evidence shows this reasoning holds.
+explanation: When a large employer made enrollment automatic without changing terms, participation rose substantially and new hires tended to keep the defaults, which the authors put down to inertia and reading the default as advice. The planner's model assumes attention and willpower people don't reliably have.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/behavioral-economics.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: c47410e6a4b881548d0bd3eadd13c2fae9cc5ad0
+concepts:
+- ct:behavioral-economics
+- ct:madrian-shea-2001-automatic-enrollment-study
+- ct:choice-architecture
+difficulty: 2
+created: '2026-11-21'
+status: active

@@ -1,0 +1,20 @@
+id: ct-000491
+area: foundations
+kind: counter
+topic: Critical thinking
+topic_type: Concept
+true_statement: Because critical thinking leans heavily on domain knowledge and trained skills transfer weakly, Willingham advises planning critical-thinking instruction subject by subject over several years.
+false_statement: Because critical thinking leans heavily on domain knowledge and trained skills transfer weakly, Willingham advises teaching it once as a general course that students then apply in every subject.
+explanation: If skills don't carry over well to new contexts, a single general course is exactly what would underdeliver. Building the skills inside each subject, where the needed knowledge lives, follows from his premises.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/critical-thinking.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 43c75cf4675fa02626179039ff8199e53faec0e4
+concepts:
+- ct:critical-thinking
+- ct:transfer-of-learning
+- ct:cognitive-psychology
+difficulty: 2
+created: '2026-11-21'
+status: active

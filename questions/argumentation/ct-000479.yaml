@@ -1,0 +1,20 @@
+id: ct-000479
+area: argumentation
+kind: counter
+topic: Legal reasoning
+topic_type: Field
+true_statement: When a borderline case meets a rule, ask whether it sits in the rule's clear core or its penumbra, and if in the penumbra, whether the rule's purpose reaches it.
+false_statement: When a borderline case meets a rule, ask whether it sits in the rule's clear core or its penumbra, and if in the penumbra, settle it by the rule's literal words alone.
+explanation: Hart's park example shows that the words settle core cases, like an ordinary car, but not penumbral ones, like a bicycle. There the words run out, so the useful question is why the rule exists and whether that reason applies.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/legal-reasoning.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: cb178d94812a4a3dadbed6b119a754f0d06ae7fa
+concepts:
+- ct:legal-reasoning
+- ct:vagueness
+- ct:h-l-a-hart
+difficulty: 2
+created: '2026-11-21'
+status: active

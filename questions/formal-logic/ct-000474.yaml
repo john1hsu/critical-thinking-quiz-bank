@@ -1,0 +1,20 @@
+id: ct-000474
+area: formal-logic
+kind: evidence
+topic: Disjunctive syllogism
+topic_type: ReasoningForm
+true_statement: Paraconsistent logics deny that disjunctive syllogism is valid in general, because it is a step in deriving the classical result that a contradiction implies every statement.
+false_statement: Paraconsistent logics deny that modus ponens is valid in general, because it is a step in deriving the classical result that a contradiction implies every statement.
+explanation: From A you infer "A or B", and from "not A" disjunctive syllogism yields any B, so blocking explosion means giving up that step. Relevance logics in fact add a separate conditional precisely so that modus ponens survives.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/disjunctive-syllogism.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: eae890b596a98e1136a3fcd415a191fd15b7bad1
+concepts:
+- ct:disjunctive-syllogism
+- ct:paraconsistent-logic
+- ct:principle-of-explosion
+difficulty: 3
+created: '2026-11-21'
+status: active

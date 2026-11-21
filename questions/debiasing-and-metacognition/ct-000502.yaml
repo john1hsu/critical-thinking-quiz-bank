@@ -1,0 +1,20 @@
+id: ct-000502
+area: debiasing-and-metacognition
+kind: scenario
+topic: Reversal test
+topic_type: Technique
+true_statement: A team lead objects to making the weekly status meeting fortnightly, and also objects to making it twice weekly, but can't say why weekly is best beyond habit. By the reversal test, her original objection deserves less weight.
+false_statement: A team lead objects to making the weekly status meeting fortnightly, and also objects to making it twice weekly, but can't say why weekly is best beyond habit. By the reversal test, her original objection deserves more weight.
+explanation: Rejecting change in both directions implies the current value is a rare optimum, which needs a reason. With only habit behind it, the double rejection points to status quo bias rather than confirming that weekly is ideal.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/reversal-test.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 6cb1fdb12b7da98705b17ad0905d6ff64531e19f
+concepts:
+- ct:reversal-test
+- ct:status-quo-bias
+- ct:burden-of-proof
+difficulty: 2
+created: '2026-11-21'
+status: active

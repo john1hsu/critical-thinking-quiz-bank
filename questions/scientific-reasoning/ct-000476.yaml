@@ -1,0 +1,19 @@
+id: ct-000476
+area: scientific-reasoning
+kind: counter
+topic: Random sampling
+topic_type: Method
+true_statement: To learn whether a training course causes better performance, randomly assign who takes it; randomly sampling whom you study supports generalising to a population, not causal conclusions.
+false_statement: To learn whether a training course causes better performance, randomly sample whom you study; randomly assigning who takes it supports generalising to a population, not causal conclusions.
+explanation: Random assignment spreads lurking variables evenly across treatment groups, which is what licenses a causal claim. Random sampling decides who is studied and lets you generalise from the sample to the population.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/random-sampling.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: d813ad8c25d1c1e8152c1432df526c3492a73a8d
+concepts:
+- ct:random-sampling
+- ct:randomized-controlled-trial
+difficulty: 2
+created: '2026-11-21'
+status: active

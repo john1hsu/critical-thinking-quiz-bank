@@ -1,0 +1,21 @@
+id: ct-000498
+area: probabilistic-reasoning
+kind: figure
+topic: Prosecutor's fallacy
+topic_type: ProbabilisticFallacy
+true_statement: In Thompson and Schumann's 1987 experiment, 22.2% committed the prosecutor's fallacy when a 2% hair-match rate was given as a conditional probability, against 4.2% when it also came as a count of people in a city.
+false_statement: In Thompson and Schumann's 1987 experiment, 4.2% committed the prosecutor's fallacy when a 2% hair-match rate was given as a conditional probability, against 22.2% when it also came as a count of people in a city.
+explanation: Stating how many people in a city of a million would share the trait made the transposition far rarer. Restating rates as counts of people is a practical guard against the error.
+as_of: '1987'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/prosecutors-fallacy.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 7a9afad0a283f838ef88d5d9a1e95427e1c4bacc
+concepts:
+- ct:prosecutors-fallacy
+- ct:thompson-schumann-1987-jury-fallacy-experiments
+- ct:natural-frequencies
+difficulty: 3
+created: '2026-11-21'
+status: active

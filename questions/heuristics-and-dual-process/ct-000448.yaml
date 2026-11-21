@@ -1,0 +1,19 @@
+id: ct-000448
+area: heuristics-and-dual-process
+kind: scenario
+topic: Attribute substitution
+topic_type: Framework
+true_statement: A hiring panel asked how well a candidate will perform over three years ends up scoring how impressive the interview presentation was, and feels it answered the question. That is attribute substitution.
+false_statement: A hiring panel asked how well a candidate will perform over three years ends up scoring how impressive the interview presentation was, and feels it answered the question. That is the availability heuristic.
+explanation: A hard target (future performance) was quietly replaced by an easier, accessible attribute (presentation polish). Availability is the narrower case where ease of recall stands in for frequency, and nobody here is recalling examples.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/attribute-substitution.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: e2785fbbcebcf9e6c810a4c7f1bccc166d53b8ef
+concepts:
+- ct:attribute-substitution
+- ct:availability-heuristic
+difficulty: 2
+created: '2026-11-21'
+status: active

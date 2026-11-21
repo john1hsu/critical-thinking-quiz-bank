@@ -1,0 +1,20 @@
+id: ct-000503
+area: debiasing-and-metacognition
+kind: counter
+topic: Reversal test
+topic_type: Technique
+true_statement: If you reject a change in both directions, real transition costs of switching are a legitimate reason the current value may be best, and can meet the reversal test's burden.
+false_statement: If you reject a change in both directions, the fact that it's how things have always been done is a legitimate reason the current value may be best, and can meet the reversal test's burden.
+explanation: Bostrom and Ord accept grounds such as transition costs, long adaptation to stable conditions, or risks of change. "We've always done it this way" is exactly the habit the test is built to expose, not a reason that answers it.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/reversal-test.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 6cb1fdb12b7da98705b17ad0905d6ff64531e19f
+concepts:
+- ct:reversal-test
+- ct:nick-bostrom
+- ct:toby-ord
+difficulty: 2
+created: '2026-11-21'
+status: active

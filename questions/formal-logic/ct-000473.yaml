@@ -1,0 +1,20 @@
+id: ct-000473
+area: formal-logic
+kind: mechanism
+topic: Disjunctive syllogism
+topic_type: ReasoningForm
+true_statement: Disjunctive syllogism is valid whether "or" is read inclusively or exclusively, unlike the look-alike that confirms one option in order to reject the other.
+false_statement: Disjunctive syllogism is valid only when "or" is read exclusively, like the look-alike that confirms one option in order to reject the other.
+explanation: On a truth table the only row where "P or Q" and "not P" are both true has Q true, under either reading of "or". The look-alike needs exclusivity, since with inclusive "or" both options can hold.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/disjunctive-syllogism.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: eae890b596a98e1136a3fcd415a191fd15b7bad1
+concepts:
+- ct:disjunctive-syllogism
+- ct:truth-table
+- ct:affirming-a-disjunct
+difficulty: 2
+created: '2026-11-21'
+status: active

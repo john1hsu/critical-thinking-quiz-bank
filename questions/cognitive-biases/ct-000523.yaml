@@ -1,0 +1,19 @@
+id: ct-000523
+area: cognitive-biases
+kind: scenario
+topic: Status quo bias
+topic_type: CognitiveBias
+true_statement: Renewing a software contract, a team judges two rival vendors against "what we have now", shrugging off the incumbent's known flaws while dwelling on the rivals' switching risks. That is status quo bias.
+false_statement: Renewing a software contract, a team judges two rival vendors against "what we have now", shrugging off the incumbent's known flaws while dwelling on the rivals' switching risks. That is the endowment effect.
+explanation: The pull here is toward the current option over a change, with alternatives judged by their risks and the incumbent's costs left unexamined. The endowment effect is the related tendency to value an object more because you own it.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/status-quo-bias.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 925aa66cefdc3c74f6b0b2eae7e7088475f56839
+concepts:
+- ct:status-quo-bias
+- ct:endowment-effect
+difficulty: 2
+created: '2026-11-21'
+status: active

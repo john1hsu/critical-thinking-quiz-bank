@@ -1,0 +1,18 @@
+id: ct-000455
+area: probabilistic-reasoning
+kind: counter
+topic: Likelihood ratio framework
+topic_type: Framework
+true_statement: 'Before multiplying the likelihood ratios of two pieces of evidence, check they are independent: two cameras recording the same person are not, and multiplying their ratios overstates the joint strength.'
+false_statement: 'Before multiplying the likelihood ratios of two pieces of evidence, check they are independent: two cameras recording the same person are not, and multiplying their ratios understates the joint strength.'
+explanation: Multiplying assumes each item adds fresh information. Two dependent items largely repeat each other, so treating them as independent counts the same support twice and inflates it.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/likelihood-ratio.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 98ea936ca2ad8f02579c60b72db4d131ef66fe03
+concepts:
+- ct:likelihood-ratio
+difficulty: 3
+created: '2026-11-21'
+status: active

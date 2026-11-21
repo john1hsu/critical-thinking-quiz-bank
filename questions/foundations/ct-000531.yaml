@@ -1,0 +1,19 @@
+id: ct-000531
+area: foundations
+kind: origin
+topic: Logical consequence
+topic_type: Concept
+true_statement: 'Tarski''s 1936 paper on logical consequence picked out three marks of the ordinary notion: it is modal, it depends only on form, and it can be known a priori.'
+false_statement: 'Tarski''s 1936 paper on logical consequence picked out three marks of the ordinary notion: it is modal, it depends only on form, and it can be known only through experience.'
+explanation: Consequence holds necessarily, turns on logical form rather than subject matter, and needs no sensory evidence to be known. Being knowable without experience is part of what separates it from inductive support.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/logical-consequence.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 66ebf423195b43deeac9222e2bc2b7c6b243fa30
+concepts:
+- ct:logical-consequence
+- ct:alfred-tarski
+difficulty: 2
+created: '2026-11-21'
+status: active

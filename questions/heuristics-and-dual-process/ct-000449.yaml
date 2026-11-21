@@ -1,0 +1,20 @@
+id: ct-000449
+area: heuristics-and-dual-process
+kind: counter
+topic: Attribute substitution
+topic_type: Framework
+true_statement: To help a team catch an attribute substitution, make the neglected factor, such as the base rate, explicit and salient; time pressure and a good mood make an unchecked swap more likely.
+false_statement: To help a team catch an attribute substitution, make the neglected factor, such as the base rate, explicit and salient; time pressure and a good mood make an unchecked swap less likely.
+explanation: Deliberate checking of intuitive answers is light, so it helps to put the ignored quantity in plain view. Time pressure, concurrent load and good mood weaken that checking rather than strengthen it.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/attribute-substitution.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: e2785fbbcebcf9e6c810a4c7f1bccc166d53b8ef
+concepts:
+- ct:attribute-substitution
+- ct:dual-process-theory
+- ct:base-rate-neglect
+difficulty: 2
+created: '2026-11-21'
+status: active

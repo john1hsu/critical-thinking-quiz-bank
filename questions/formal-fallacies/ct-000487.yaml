@@ -1,0 +1,20 @@
+id: ct-000487
+area: formal-fallacies
+kind: scenario
+topic: Illicit minor
+topic_type: FormalFallacy
+true_statement: '"All incident-response team members are first-aid certified. All incident-response team members are full-time staff. So all full-time staff are first-aid certified." This syllogism commits the illicit minor.'
+false_statement: '"All incident-response team members are first-aid certified. All incident-response team members are full-time staff. So all full-time staff are first-aid certified." This syllogism commits the illicit major.'
+explanation: The conclusion's subject, "full-time staff", covers every employee there but only part of the class in the premise, where it is the predicate of an affirmative statement. An illicit major would overextend the conclusion's predicate instead.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/illicit-minor.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 67e9298b29106239ce6e1eeb426ea676762e3f9e
+concepts:
+- ct:illicit-minor
+- ct:illicit-major
+- ct:distribution-of-terms
+difficulty: 2
+created: '2026-11-21'
+status: active

@@ -1,0 +1,18 @@
+id: ct-000467
+area: philosophy-of-reasoning
+kind: mechanism
+topic: Sorites paradox
+topic_type: Concept
+true_statement: 'The line-drawing version of the sorites runs in reverse: since one grain is not a heap and a million grains are, there must be an exact number of grains at which heaps begin.'
+false_statement: 'The mathematical-induction version of the sorites runs in reverse: since one grain is not a heap and a million grains are, there must be an exact number of grains at which heaps begin.'
+explanation: 'The line-drawing version uses the least-number principle to force a sharp boundary, which seems just as incredible. The induction version instead packs all the small steps into one premise: for every n, if n grains aren''t a heap, n+1 aren''t either.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/sorites-paradox.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 8ef26a77a8c4bd73e9f9c6bf93ecb544112db4aa
+concepts:
+- ct:sorites-paradox
+difficulty: 3
+created: '2026-11-21'
+status: active

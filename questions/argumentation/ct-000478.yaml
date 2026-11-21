@@ -1,0 +1,20 @@
+id: ct-000478
+area: argumentation
+kind: scenario
+topic: Legal reasoning
+topic_type: Field
+true_statement: A manager once ruled a smartwatch breached a "no personal devices on the floor" policy because it could distract operators. An employee argues his screenless fitness band differs, since it can't distract. He is distinguishing the precedent.
+false_statement: A manager once ruled a smartwatch breached a "no personal devices on the floor" policy because it could distract operators. An employee argues his screenless fitness band differs, since it can't distract. He is arguing by analogy from the precedent.
+explanation: 'Distinguishing points to a material factual difference (no screen) that takes the new case outside the earlier ruling''s rationale. Arguing by analogy is the supervisor''s move: stressing the similarity, that both are personal electronic devices.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/legal-reasoning.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: cb178d94812a4a3dadbed6b119a754f0d06ae7fa
+concepts:
+- ct:legal-reasoning
+- ct:stare-decisis
+- ct:argument-from-analogy
+difficulty: 2
+created: '2026-11-21'
+status: active

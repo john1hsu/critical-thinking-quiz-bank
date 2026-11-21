@@ -1,0 +1,20 @@
+id: ct-000515
+area: formal-logic
+kind: mechanism
+topic: Formal logic
+topic_type: Field
+true_statement: Symbolising an argument in propositional logic loses the force of a word like "because", since whether "A because B" is true depends on more than the truth of A and B.
+false_statement: Symbolising an argument in propositional logic loses the force of a word like "and", since whether "A and B" is true depends on more than the truth of A and B.
+explanation: '"And" is truth-functional: "A and B" is true exactly when both parts are. "Because" also claims a connection between them, which a truth table cannot record, one of the limits of formalisation.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/formal-logic.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: e16b3a4ceb2adae18d724676f8617963117d807a
+concepts:
+- ct:formal-logic
+- ct:propositional-logic
+- ct:truth-table
+difficulty: 2
+created: '2026-11-21'
+status: active

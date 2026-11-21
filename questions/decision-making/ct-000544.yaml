@@ -1,0 +1,20 @@
+id: ct-000544
+area: decision-making
+kind: evidence
+topic: Prospect theory
+topic_type: Framework
+true_statement: Gal and Rucker's 2018 review argued that the evidence does not show losses to be generally more impactful than equivalent gains, and called for a more contextual account of loss aversion.
+false_statement: Gal and Rucker's 2018 review argued that the evidence shows losses to be generally about twice as impactful as equivalent gains, settling the case for loss aversion.
+explanation: The review challenges prospect theory's most cited component, suggesting its popularity owes partly to the persistence of established beliefs. So the "losses loom twice as large" figure is contested, not settled.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/prospect-theory.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 45d497edff4492b899719d503aedead176dbc406
+concepts:
+- ct:prospect-theory
+- ct:gal-rucker-2018-loss-of-loss-aversion
+- ct:loss-aversion
+difficulty: 3
+created: '2026-11-21'
+status: active

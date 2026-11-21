@@ -1,0 +1,20 @@
+id: ct-000496
+area: probabilistic-reasoning
+kind: scenario
+topic: Prosecutor's fallacy
+topic_type: ProbabilisticFallacy
+true_statement: A badge log shows a partial card ID that only 1 in 1,000 cards would share by chance, and security concludes there is a 99.9% chance the matching employee entered the server room. That is the prosecutor's fallacy.
+false_statement: A badge log shows a partial card ID that only 1 in 1,000 cards would share by chance, and security concludes there is a 99.9% chance the matching employee entered the server room. That is the defense attorney's fallacy.
+explanation: The 1-in-1,000 figure is the chance of a match if the employee didn't enter, not the chance they didn't enter given the match; with 5,000 cards, about five others would match. The defense attorney's fallacy errs the other way, writing a match off as worthless.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/prosecutors-fallacy.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 7a9afad0a283f838ef88d5d9a1e95427e1c4bacc
+concepts:
+- ct:prosecutors-fallacy
+- ct:defense-attorneys-fallacy
+- ct:inverse-fallacy
+difficulty: 2
+created: '2026-11-21'
+status: active

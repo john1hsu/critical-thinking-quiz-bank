@@ -1,0 +1,20 @@
+id: ct-000461
+area: decision-making
+kind: figure
+topic: Behavioral economics
+topic_type: Field
+true_statement: A 2016 project replicating 18 laboratory experiments from two top economics journals found a significant effect in the original direction for 11 of them, about 61%.
+false_statement: A 2016 project replicating 18 laboratory experiments from two top economics journals found a significant effect in the original direction for 7 of them, about 39%.
+explanation: Eleven of 18 replicated, with effects averaging about two-thirds of the originals' size, so the field's lab base held up better than many psychology findings. Smaller replicated effects are still a reminder that originals tend to be inflated.
+as_of: '2016'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/behavioral-economics.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: c47410e6a4b881548d0bd3eadd13c2fae9cc5ad0
+concepts:
+- ct:behavioral-economics
+- ct:experimental-economics
+difficulty: 3
+created: '2026-11-21'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000513
+area: history-and-thinkers
+kind: definition
+topic: James Frederick Ferrier
+topic_type: Person
+true_statement: Ferrier held that whatever we know, we also know ourselves as knowing it, so the smallest unit of knowledge is the object together with the knowing subject.
+false_statement: Ferrier held that whatever we know, we know independently of ourselves as knowers, so the smallest unit of knowledge is the object alone, apart from any subject.
+explanation: Ferrier's first principle is that knowing includes self-knowing, so subject and object always come together. Splitting them apart is the move he blamed for Thomas Reid's errors.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/james-frederick-ferrier.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 639cf845e4391ee4a40af7332247af1b0a4b5664
+concepts:
+- ct:james-frederick-ferrier
+- ct:epistemology
+difficulty: 2
+created: '2026-11-21'
+status: active

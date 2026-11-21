@@ -1,0 +1,19 @@
+id: ct-000510
+area: philosophy-of-reasoning
+kind: definition
+topic: Operational definition
+topic_type: Method
+true_statement: 'Operationalising a concept makes claims about it checkable but doesn''t make the measure right: finger length would be a perfectly reliable yet invalid measure of self-esteem.'
+false_statement: 'Operationalising a concept makes claims about it checkable but doesn''t make the measure right: finger length would be a perfectly valid yet unreliable measure of self-esteem.'
+explanation: Finger length gives the same reading every time, so it is reliable, but it has nothing to do with self-esteem, so it is invalid. Consistency of a measure is a different question from whether it captures the intended concept.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/operational-definition.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 335fd26f96a70d4fae73f03ca61fe4e0e53c9f97
+concepts:
+- ct:operational-definition
+- ct:psychology
+difficulty: 2
+created: '2026-11-21'
+status: active

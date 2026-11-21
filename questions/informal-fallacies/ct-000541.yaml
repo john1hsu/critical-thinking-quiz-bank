@@ -1,0 +1,19 @@
+id: ct-000541
+area: informal-fallacies
+kind: origin
+topic: Argument from ignorance
+topic_type: InformalFallacy
+true_statement: In Locke's dialectical version of the ad ignorantiam, a speaker demands that the opponent accept his proof or produce a better one, and Locke held that having no better one does not oblige anyone to accept it.
+false_statement: In Locke's dialectical version of the ad ignorantiam, a speaker demands that the opponent accept his proof or produce a better one, and Locke held that having no better one does oblige the opponent to accept it.
+explanation: For Locke, an opponent's failure to offer a stronger proof leaves the first one exactly as strong as it was. That is the root of the modern point that not disproving a claim doesn't establish it.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/argument-from-ignorance.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 5dbfe9d4d038524bc8294733a7e1ba83917b4448
+concepts:
+- ct:argument-from-ignorance
+- ct:john-locke
+difficulty: 2
+created: '2026-11-21'
+status: active

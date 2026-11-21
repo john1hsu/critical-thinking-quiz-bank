@@ -1,0 +1,19 @@
+id: ct-000452
+area: informal-fallacies
+kind: counter
+topic: Amphiboly
+topic_type: InformalFallacy
+true_statement: To keep a rule from being read two ways, repeat the qualifier for each item, as in "meals of any amount; taxi fares over $25", and split long lists so only one grammatical structure is possible.
+false_statement: To keep a rule from being read two ways, state the qualifier once at the end, as in "meals and taxi fares over $25", and merge items into one list so only one grammatical structure is possible.
+explanation: Amphiboly feeds on lists and modifiers that can attach in more than one place. Repeating the qualifier and splitting the list removes the second parse, whereas one trailing qualifier over a merged list is exactly what creates it.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/amphiboly.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: a08905cef6ce3b2bb23c2a8544ea3dcc2f916413
+concepts:
+- ct:amphiboly
+- ct:ambiguity
+difficulty: 1
+created: '2026-11-21'
+status: active

@@ -1,0 +1,20 @@
+id: ct-000475
+area: scientific-reasoning
+kind: scenario
+topic: Random sampling
+topic_type: Method
+true_statement: To learn how 4,000 field technicians rate a new scheduling app, a manager surveys whoever visits head office this month. That convenience sample risks a bias that surveying more visitors would not cure.
+false_statement: To learn how 4,000 field technicians rate a new scheduling app, a manager surveys whoever visits head office this month. That convenience sample risks only sampling error, which surveying more visitors would cure.
+explanation: Technicians who come to head office may differ systematically from those who don't, which is sampling bias; size shrinks only the luck-of-the-draw error. Drawing names at random from the full staff list is what removes the bias.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/random-sampling.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: d813ad8c25d1c1e8152c1432df526c3492a73a8d
+concepts:
+- ct:random-sampling
+- ct:convenience-sampling
+- ct:selection-bias
+difficulty: 2
+created: '2026-11-21'
+status: active

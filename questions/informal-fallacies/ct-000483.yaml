@@ -1,0 +1,19 @@
+id: ct-000483
+area: informal-fallacies
+kind: counter
+topic: Equivocation
+topic_type: InformalFallacy
+true_statement: Facing a suspected equivocation, a listener can answer with distinguo, simply stating which sense of the term they accept in each premise; the full charge of equivocation is the stronger move that must show how the argument misleads.
+false_statement: Facing a suspected equivocation, a listener can answer with the full charge of equivocation, simply stating which sense of the term they accept in each premise; distinguo is the stronger move that must show how the argument misleads.
+explanation: 'Distinguo is the lighter reply: it separates the senses and lets the arguer pick one and defend the doubted premise. Alleging equivocation outright carries the burden of showing how the shift misleads.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/equivocation.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: f113d4e5fdb0274b33ee306417c74a28bbb2315a
+concepts:
+- ct:equivocation
+- ct:argumentation-theory
+difficulty: 3
+created: '2026-11-21'
+status: active

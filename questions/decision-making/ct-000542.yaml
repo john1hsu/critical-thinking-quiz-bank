@@ -1,0 +1,20 @@
+id: ct-000542
+area: decision-making
+kind: scenario
+topic: Prospect theory
+topic_type: Framework
+true_statement: A project is $200,000 over budget; leaders can stop now or spend $150,000 on a fix with a 50% chance of recovering the overrun. While both options are judged against the original budget, prospect theory predicts they'll lean toward the gamble.
+false_statement: A project is $200,000 over budget; leaders can stop now or spend $150,000 on a fix with a 50% chance of recovering the overrun. While both options are judged against the original budget, prospect theory predicts they'll lean toward stopping.
+explanation: Measured from the original budget, both options are losses, and the value function's convexity for losses makes a gamble attractive. Reframed from today's position as a new coin-flip bet, most people turn cautious, though the numbers are identical.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/prospect-theory.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 45d497edff4492b899719d503aedead176dbc406
+concepts:
+- ct:prospect-theory
+- ct:sunk-cost-fallacy
+- ct:framing-effect
+difficulty: 2
+created: '2026-11-21'
+status: active

@@ -1,0 +1,20 @@
+id: ct-000509
+area: philosophy-of-reasoning
+kind: counter
+topic: Operational definition
+topic_type: Method
+true_statement: Decide and justify how a staff survey will be scored before analysing the responses, since even a short questionnaire can be summed in hundreds of ways, each a potential forking path.
+false_statement: Decide how a staff survey will be scored after analysing the responses, once you see which scoring fits best, since even a short questionnaire can be summed in hundreds of ways.
+explanation: Fixing the measurement rule in advance stops the choice of scoring from bending toward a wanted result. Picking the scoring that fits best after looking is the flexible, after-the-fact practice Flake and Fried warn against.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/operational-definition.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 335fd26f96a70d4fae73f03ca61fe4e0e53c9f97
+concepts:
+- ct:operational-definition
+- ct:researcher-degrees-of-freedom
+- ct:preregistration
+difficulty: 2
+created: '2026-11-21'
+status: active

@@ -1,0 +1,20 @@
+id: ct-000543
+area: decision-making
+kind: figure
+topic: Prospect theory
+topic_type: Framework
+true_statement: A 2020 replication re-ran the original 1979 prospect theory problems with 4,098 people in 19 countries and found that 94% of the items replicated, though some effects were weaker.
+false_statement: A 2020 replication re-ran the original 1979 prospect theory problems with 4,098 people in 19 countries and found that only 54% of the items replicated, with most effects much weaker.
+explanation: The core choice patterns held up across languages and countries, which is strong support for the descriptive model. The weakening and the small samples behind the 1992 parameters still mean its exact numbers shouldn't be treated as constants.
+as_of: '2020'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/prospect-theory.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 45d497edff4492b899719d503aedead176dbc406
+concepts:
+- ct:prospect-theory
+- ct:ruggeri-2020-prospect-theory-replication
+difficulty: 3
+created: '2026-11-21'
+status: active

@@ -1,0 +1,20 @@
+id: ct-000492
+area: foundations
+kind: origin
+topic: Critical thinking
+topic_type: Concept
+true_statement: Edward Glaser showed experimentally in 1941 that high-school students' critical thinking could be improved, after progressive schools of the 1930s had adopted it as a goal.
+false_statement: John Dewey showed experimentally in 1941 that high-school students' critical thinking could be improved, after progressive schools of the 1930s had adopted it as a goal.
+explanation: 'Glaser''s experiment was the early evidence that the skill can be taught. Dewey''s contribution came earlier and was conceptual: his 1910 account of reflective thinking put the idea on the educational agenda.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/critical-thinking.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 43c75cf4675fa02626179039ff8199e53faec0e4
+concepts:
+- ct:critical-thinking
+- ct:critical-thinking-education
+- ct:john-dewey
+difficulty: 2
+created: '2026-11-21'
+status: active

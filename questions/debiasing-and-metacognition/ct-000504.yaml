@@ -1,0 +1,19 @@
+id: ct-000504
+area: debiasing-and-metacognition
+kind: evidence
+topic: Reversal test
+topic_type: Technique
+true_statement: Nebel argued in 2015 that preferring the status quo can be rational, because there is reason to preserve existing things of value even when replacements would be just as good.
+false_statement: Nebel argued in 2015 that preferring the status quo is never rational, because there is no reason to preserve existing things of value when replacements would be just as good.
+explanation: On Nebel's view a person can reject change in both directions without being biased, which limits what the reversal test shows. He still treats the test as a fallible guide, part of why its status is contested.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/reversal-test.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 6cb1fdb12b7da98705b17ad0905d6ff64531e19f
+concepts:
+- ct:reversal-test
+- ct:nebel-2015-status-quo-conservatism-about-value
+difficulty: 3
+created: '2026-11-21'
+status: active

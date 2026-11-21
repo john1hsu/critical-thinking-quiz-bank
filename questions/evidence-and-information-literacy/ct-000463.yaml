@@ -1,0 +1,19 @@
+id: ct-000463
+area: evidence-and-information-literacy
+kind: counter
+topic: Deepfake
+topic_type: Phenomenon
+true_statement: When a video call that looks and sounds like a senior manager asks for an urgent payment, the robust check is to call the manager back on a known number, not to study the video for glitches.
+false_statement: When a video call that looks and sounds like a senior manager asks for an urgent payment, the robust check is to study the video for glitches, not to call the manager back on a known number.
+explanation: People are poor at spotting deepfake artefacts, so inspecting the media is unreliable. Verifying the instruction through an independent channel works however convincing the fake is, because it checks provenance rather than appearance.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/deepfake.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 962919a12395e01d1659ae11a23ff08a83684757
+concepts:
+- ct:deepfake
+- ct:source-credibility
+difficulty: 1
+created: '2026-11-21'
+status: active

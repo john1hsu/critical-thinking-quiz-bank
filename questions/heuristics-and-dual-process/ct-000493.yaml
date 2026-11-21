@@ -1,0 +1,19 @@
+id: ct-000493
+area: heuristics-and-dual-process
+kind: scenario
+topic: Recognition heuristic
+topic_type: Heuristic
+true_statement: Choosing between two cloud vendors for a pilot, an officer has heard of only one, and only because of its widely reported outage. Picking it by name recognition is a poor bet here, since that familiarity isn't linked to reliability.
+false_statement: Choosing between two cloud vendors for a pilot, an officer has heard of only one, and only because of its widely reported outage. Picking it by name recognition is a sound bet here, since any familiarity tracks reliability.
+explanation: The recognition heuristic works only when recognition correlates with the criterion. Familiarity that comes from a bad event is unrelated or even opposed to reliability, so the key question is why the name is familiar.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/recognition-heuristic.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 6561bc009f457148c45c1984fe7f4d770918dc44
+concepts:
+- ct:recognition-heuristic
+- ct:ecological-rationality
+difficulty: 2
+created: '2026-11-21'
+status: active

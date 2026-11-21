@@ -1,0 +1,19 @@
+id: ct-000486
+area: cognitive-biases
+kind: evidence
+topic: Planning fallacy
+topic_type: CognitiveBias
+true_statement: Roy and Christenfeld (2007) argued that people underestimate how long future tasks will take partly because they misremember past tasks as having taken less time than they did.
+false_statement: Roy and Christenfeld (2007) argued that people underestimate how long future tasks will take partly because they misremember past tasks as having taken more time than they did.
+explanation: If memory shrinks past durations, even a forecaster who consults the past starts from too-short figures. That challenges the idea that the error comes only from neglecting the past; checking recorded durations, not recollections, addresses it.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/planning-fallacy.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 0d342009770887d31097ed2feadaffc85e718eb3
+concepts:
+- ct:planning-fallacy
+- ct:roy-christenfeld-2007-memory-bias-study
+difficulty: 3
+created: '2026-11-21'
+status: active

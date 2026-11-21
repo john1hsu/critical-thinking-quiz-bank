@@ -1,0 +1,19 @@
+id: ct-000518
+area: argumentation
+kind: scenario
+topic: Plain language
+topic_type: Technique
+true_statement: An editor cuts every sentence in a leave policy to under fifteen words and declares the policy now unambiguous. That doesn't follow, because a short, easy-to-read sentence can still be read two ways.
+false_statement: An editor cuts every sentence in a leave policy to under fifteen words and declares the policy now unambiguous. That follows, because a short, easy-to-read sentence can't be read two ways.
+explanation: Length isn't what creates amphiboly; a trailing modifier or an "and/or" can sit in a short sentence. That is why plain-language guidance pairs drafting rules with testing on real readers.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/plain-language.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: d8e4a69681912a33d4f3b7c826eac86cc09339dc
+concepts:
+- ct:plain-language
+- ct:ambiguity
+difficulty: 2
+created: '2026-11-21'
+status: active

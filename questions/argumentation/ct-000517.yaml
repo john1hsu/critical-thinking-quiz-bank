@@ -1,0 +1,19 @@
+id: ct-000517
+area: argumentation
+kind: counter
+topic: Plain language
+topic_type: Technique
+true_statement: To find sentences in a draft policy that can be read two ways, have several readers stop at set points and paraphrase it; anyone who restates a passage differently from your intent has found a problem.
+false_statement: To find sentences in a draft policy that can be read two ways, reread it carefully yourself; if each passage reads clearly to you, it can be read only one way.
+explanation: Writers already know what they meant, so they rarely see the second parse. Paraphrase testing with real readers exposes it, because two readers restating one sentence two ways have found the ambiguity.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/argumentation/plain-language.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: d8e4a69681912a33d4f3b7c826eac86cc09339dc
+concepts:
+- ct:plain-language
+- ct:amphiboly
+difficulty: 1
+created: '2026-11-21'
+status: active

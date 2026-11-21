@@ -1,0 +1,19 @@
+id: ct-000488
+area: formal-fallacies
+kind: counter
+topic: Illicit minor
+topic_type: FormalFallacy
+true_statement: '"All pilot-store managers use the new app; all pilot-store managers are regional staff; so all regional staff use it." If there are pilot managers, the most these premises support is that some regional staff use the app.'
+false_statement: '"All pilot-store managers use the new app; all pilot-store managers are regional staff; so all regional staff use it." If there are pilot managers, the most these premises support is that most regional staff use the app.'
+explanation: The evidence covers only the pilot managers, a part of the regional staff of unknown size, so only a "some" conclusion is earned. Offering that weaker claim is the repair; "most" still outruns what the premises say.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/illicit-minor.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 67e9298b29106239ce6e1eeb426ea676762e3f9e
+concepts:
+- ct:illicit-minor
+- ct:categorical-syllogism
+difficulty: 2
+created: '2026-11-21'
+status: active

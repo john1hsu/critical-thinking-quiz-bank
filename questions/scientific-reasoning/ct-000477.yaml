@@ -1,0 +1,20 @@
+id: ct-000477
+area: scientific-reasoning
+kind: evidence
+topic: Random sampling
+topic_type: Method
+true_statement: A 2012 reanalysis of the failed 1936 Literary Digest poll traced its error mainly to non-response bias, finding that car and telephone owners actually favoured Roosevelt.
+false_statement: A 2012 reanalysis of the failed 1936 Literary Digest poll traced its error mainly to its frame of car and telephone owners, finding that those owners heavily favoured Landon.
+explanation: The textbook story blames a frame of car and phone owners, but Gallup data showed those owners leaned to Roosevelt, so who chose to reply mattered more. Either way, millions of returns could not rescue a sample not selected, or answered, by chance.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/random-sampling.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: d813ad8c25d1c1e8152c1432df526c3492a73a8d
+concepts:
+- ct:random-sampling
+- ct:nonresponse-bias
+- ct:survey-research
+difficulty: 3
+created: '2026-11-21'
+status: active

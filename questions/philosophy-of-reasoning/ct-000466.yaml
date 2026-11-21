@@ -1,0 +1,20 @@
+id: ct-000466
+area: philosophy-of-reasoning
+kind: scenario
+topic: Sorites paradox
+topic_type: Concept
+true_statement: A project lead approves each change request because one extra day can't turn an on-schedule project into a late one, until thirty requests later it is plainly late. Each step leans on tolerance, the engine of a sorites.
+false_statement: A project lead approves each change request because one extra day can't turn an on-schedule project into a late one, until thirty requests later it is plainly late. Each step leans on a predicted chain of consequences, the engine of a slippery slope.
+explanation: The lead's premise is that a vague predicate like "on schedule" survives any change too small to matter, which is tolerance; repeated, those harmless steps accumulate. A slippery slope instead warns that one step will cause the next, which nobody claims here.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/sorites-paradox.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 8ef26a77a8c4bd73e9f9c6bf93ecb544112db4aa
+concepts:
+- ct:sorites-paradox
+- ct:vagueness
+- ct:slippery-slope
+difficulty: 2
+created: '2026-11-21'
+status: active

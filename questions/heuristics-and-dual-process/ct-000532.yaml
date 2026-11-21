@@ -1,0 +1,19 @@
+id: ct-000532
+area: heuristics-and-dual-process
+kind: scenario
+topic: Cognitive reflection test
+topic_type: Method
+true_statement: Asked how long 100 analysts need for 100 files if 5 analysts review 5 files in 5 minutes, a team lead blurts "100 minutes". The right answer is 5 minutes, and 100 is the item's intuitive lure.
+false_statement: Asked how long 100 analysts need for 100 files if 5 analysts review 5 files in 5 minutes, a team lead blurts "100 minutes". The right answer is 100 minutes, and 5 is the item's intuitive lure.
+explanation: Each analyst reviews one file in 5 minutes, so 100 analysts finish 100 files in the same 5 minutes. The pattern-matching "100" springs to mind first, which is exactly the kind of answer CRT items are built to tempt.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/cognitive-reflection-test.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: d89d20dea61ce2fed68ac7ea5150bd8ad9080a3a
+concepts:
+- ct:cognitive-reflection-test
+- ct:dual-process-theory
+difficulty: 1
+created: '2026-11-21'
+status: active

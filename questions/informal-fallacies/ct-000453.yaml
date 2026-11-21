@@ -1,0 +1,19 @@
+id: ct-000453
+area: informal-fallacies
+kind: origin
+topic: Amphiboly
+topic_type: InformalFallacy
+true_statement: William of Ockham's Summa Logicae defined amphiboly as a whole sentence with several senses although none of its individual terms is ambiguous.
+false_statement: William of Ockham's Summa Logicae defined amphiboly as a single term with several senses although the sentence's grammatical structure is unambiguous.
+explanation: Ockham located amphiboly in the structure of the whole sentence, giving rules for constructions that produce it. A single term with several senses is the mark of equivocation, the contrasting fallacy.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/amphiboly.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: a08905cef6ce3b2bb23c2a8544ea3dcc2f916413
+concepts:
+- ct:amphiboly
+- ct:william-of-ockham
+difficulty: 2
+created: '2026-11-21'
+status: active

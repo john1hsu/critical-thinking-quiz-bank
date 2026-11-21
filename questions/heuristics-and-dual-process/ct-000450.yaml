@@ -1,0 +1,19 @@
+id: ct-000450
+area: heuristics-and-dual-process
+kind: evidence
+topic: Attribute substitution
+topic_type: Framework
+true_statement: Shah and Oppenheimer's 2008 review called attribute substitution a partial account of heuristics, since it misses other effort savings such as examining fewer alternatives.
+false_statement: Shah and Oppenheimer's 2008 review called attribute substitution a partial account of heuristics, since it misses other effort savings such as relying on easy-to-access cues.
+explanation: Reliance on accessible cues is exactly what substitution does explain; the gap the review pointed to was other shortcuts, like considering fewer options or simplifying cue weights. That critique is why the model's status is mixed.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/attribute-substitution.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: e2785fbbcebcf9e6c810a4c7f1bccc166d53b8ef
+concepts:
+- ct:attribute-substitution
+- ct:effort-reduction-framework
+difficulty: 3
+created: '2026-11-21'
+status: active

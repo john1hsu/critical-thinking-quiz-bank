@@ -1,0 +1,20 @@
+id: ct-000511
+area: history-and-thinkers
+kind: origin
+topic: James Frederick Ferrier
+topic_type: Person
+true_statement: The Scottish philosopher James Frederick Ferrier introduced the word "epistemology" into English in his Institutes of Metaphysic of 1854.
+false_statement: The Scottish philosopher William Hamilton introduced the word "epistemology" into English in his Institutes of Metaphysic of 1854.
+explanation: Ferrier coined the English term as the first part of his Institutes, the theory of knowing. Hamilton was his friend and mentor, whose blend of Reid and Kant Ferrier later rejected.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/james-frederick-ferrier.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 639cf845e4391ee4a40af7332247af1b0a4b5664
+concepts:
+- ct:james-frederick-ferrier
+- ct:epistemology
+- ct:william-hamilton
+difficulty: 1
+created: '2026-11-21'
+status: active

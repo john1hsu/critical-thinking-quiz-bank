@@ -1,0 +1,20 @@
+id: ct-000545
+area: debiasing-and-metacognition
+kind: scenario
+topic: Source-monitoring framework
+topic_type: Framework
+true_statement: A day after skimming a vendor's list of made-up sample consultant names, a manager rates one of them a well-known industry expert, because the name feels familiar. Familiarity whose source has faded being taken for fame is the false fame effect.
+false_statement: A day after skimming a vendor's list of made-up sample consultant names, a manager rates one of them a well-known industry expert, because the name feels familiar. Familiarity whose source has faded being taken for fame is the illusory truth effect.
+explanation: The judgment is about whether a name is famous, and it rests on familiarity whose real origin, yesterday's list, has slipped away. The illusory truth effect is the neighbouring error of rating repeated statements as more likely true.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/source-monitoring-framework.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 6098d0be0289d2fc278bdfeb500208d2cadf4cbe
+concepts:
+- ct:source-monitoring-framework
+- ct:false-fame-effect
+- ct:illusory-truth-effect
+difficulty: 2
+created: '2026-11-21'
+status: active

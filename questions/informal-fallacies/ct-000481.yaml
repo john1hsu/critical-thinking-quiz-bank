@@ -1,0 +1,19 @@
+id: ct-000481
+area: informal-fallacies
+kind: scenario
+topic: Equivocation
+topic_type: InformalFallacy
+true_statement: An analyst role requires "experience" with the reporting database, and a recruiter marks a candidate as qualified because they once did a one-hour vendor tutorial on it. The recruiter's reasoning is an equivocation.
+false_statement: An analyst role requires "experience" with the reporting database, and a recruiter marks a candidate as qualified because they once did a one-hour vendor tutorial on it. The recruiter's reasoning is an amphiboly.
+explanation: The single word "experience" shifts from sustained hands-on work in the requirement to any exposure at all in the note. Amphiboly would need a sentence whose grammar allows two parses, not one word with two senses.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/equivocation.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: f113d4e5fdb0274b33ee306417c74a28bbb2315a
+concepts:
+- ct:equivocation
+- ct:amphiboly
+difficulty: 1
+created: '2026-11-21'
+status: active

@@ -1,0 +1,20 @@
+id: ct-000534
+area: heuristics-and-dual-process
+kind: evidence
+topic: Cognitive reflection test
+topic_type: Method
+true_statement: Attali and Bar-Hillel (2020) found that ordinary maths items without tempting lures predicted reasoning tasks about as well as CRT items, suggesting the CRT is first of all a maths test.
+false_statement: Attali and Bar-Hillel (2020) found that CRT items predicted reasoning tasks far better than ordinary maths items, confirming that the CRT measures reflection apart from maths ability.
+explanation: A single maths-ability factor fitted as well as a separate reflection factor, and the two correlated at about .90 or more. The CRT predicts well, but whether it measures reflection rather than numeracy is contested.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/cognitive-reflection-test.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: d89d20dea61ce2fed68ac7ea5150bd8ad9080a3a
+concepts:
+- ct:cognitive-reflection-test
+- ct:attali-bar-hillel-2020-false-allure-of-fast-lures
+- ct:numeracy
+difficulty: 3
+created: '2026-11-21'
+status: active

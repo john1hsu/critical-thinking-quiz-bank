@@ -1,0 +1,19 @@
+id: ct-000521
+area: scientific-reasoning
+kind: counter
+topic: Causal diagrams
+topic_type: Method
+true_statement: When drawing a causal diagram, justify every missing arrow, since each omitted arrow claims there is no direct effect and these are the strongest assumptions in the graph.
+false_statement: When drawing a causal diagram, justify every arrow you add, since only drawn arrows make claims and a missing arrow simply leaves the question open.
+explanation: An absent arrow asserts that one variable has no direct effect on another, and those assertions decide which adjustment sets work. Drawing from subject knowledge, rather than from the variables you happen to have, keeps them honest.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/causal-diagrams.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 28ccab87dfde154f64f97245455d3f76e43d5977
+concepts:
+- ct:causal-diagrams
+- ct:causal-inference
+difficulty: 2
+created: '2026-11-21'
+status: active

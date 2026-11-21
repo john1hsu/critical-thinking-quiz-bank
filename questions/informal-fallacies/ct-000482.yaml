@@ -1,0 +1,19 @@
+id: ct-000482
+area: informal-fallacies
+kind: mechanism
+topic: Equivocation
+topic_type: InformalFallacy
+true_statement: Van Laar argued that equivocation on related senses of one word misleads more than on unrelated senses like "bank", since a broad reading seems to cover both senses.
+false_statement: Van Laar argued that equivocation on unrelated senses like "bank" misleads more than on related senses of one word, since a broad reading seems to cover both senses.
+explanation: Unrelated senses (homonymy) are easy to notice and rarely fool anyone. Related senses (polysemy) admit a vague umbrella reading, so the shift slips past even an attentive listener.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/equivocation.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: f113d4e5fdb0274b33ee306417c74a28bbb2315a
+concepts:
+- ct:equivocation
+- ct:ambiguity
+difficulty: 3
+created: '2026-11-21'
+status: active

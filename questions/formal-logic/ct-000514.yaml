@@ -1,0 +1,20 @@
+id: ct-000514
+area: formal-logic
+kind: counter
+topic: Formal logic
+topic_type: Field
+true_statement: When formalising a colleague's argument, propositional logic suffices if only "and", "or", "not" and "if" do the work; reach for predicate logic when it turns on "all", "some" or relations.
+false_statement: When formalising a colleague's argument, predicate logic suffices if only "and", "or", "not" and "if" do the work; reach for propositional logic when it turns on "all", "some" or relations.
+explanation: The advice is to pick the weakest system that captures what matters. Propositional logic treats whole sentences as units, so quantifiers and relations need the extra machinery of predicate logic.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/formal-logic.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: e16b3a4ceb2adae18d724676f8617963117d807a
+concepts:
+- ct:formal-logic
+- ct:propositional-logic
+- ct:predicate-logic
+difficulty: 2
+created: '2026-11-21'
+status: active

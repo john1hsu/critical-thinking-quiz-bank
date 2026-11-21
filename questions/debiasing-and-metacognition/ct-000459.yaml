@@ -1,0 +1,20 @@
+id: ct-000459
+area: debiasing-and-metacognition
+kind: evidence
+topic: Cost-benefit reasoning training
+topic_type: Technique
+true_statement: In Larrick, Morgan and Nisbett's 1990 training study, students taught the sunk cost rule only with money examples applied it fully to problems about time and effort too.
+false_statement: In Larrick, Morgan and Nisbett's 1990 training study, students taught the sunk cost rule only with money examples applied it to money problems but not to problems about time and effort.
+explanation: Both the financial-only and the non-financial-only training groups beat controls on every kind of problem, showing domain-general transfer. That transfer is what makes abstract rule training promising, unlike generic economics coursework.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/debiasing-and-metacognition/cost-benefit-reasoning-training.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 4486deffc15b5f614d4453a9a04ff075c07ca87b
+concepts:
+- ct:cost-benefit-reasoning-training
+- ct:larrick-morgan-nisbett-1990-cost-benefit-training-study
+- ct:transfer-of-learning
+difficulty: 3
+created: '2026-11-21'
+status: active

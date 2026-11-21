@@ -1,0 +1,20 @@
+id: ct-000454
+area: probabilistic-reasoning
+kind: scenario
+topic: Likelihood ratio framework
+topic_type: Framework
+true_statement: A device match is 200 times more probable if a given employee filed a disputed claim than if someone else did, and an analyst concludes the employee very likely filed it, though thousands of staff could have. The reasoning skips the prior odds.
+false_statement: A device match is 200 times more probable if a given employee filed a disputed claim than if someone else did, and an analyst concludes the employee very likely filed it, though thousands of staff could have. The reasoning is sound.
+explanation: A likelihood ratio measures only how strongly the finding favours one proposition; it must be multiplied by the prior odds. With thousands of possible submitters and nothing else pointing to this person, the posterior can still favour innocence.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/likelihood-ratio.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 98ea936ca2ad8f02579c60b72db4d131ef66fe03
+concepts:
+- ct:likelihood-ratio
+- ct:bayesian-reasoning
+- ct:base-rate-neglect
+difficulty: 2
+created: '2026-11-21'
+status: active

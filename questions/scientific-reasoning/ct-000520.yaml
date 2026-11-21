@@ -1,0 +1,20 @@
+id: ct-000520
+area: scientific-reasoning
+kind: scenario
+topic: Causal diagrams
+topic_type: Method
+true_statement: HR studies whether a voluntary leadership course raises promotion rates, using only staff with a manager nomination, though nominations depend on both course attendance and ambition. That restriction conditions on a collider and can create a spurious link.
+false_statement: HR studies whether a voluntary leadership course raises promotion rates, using only staff with a manager nomination, though nominations depend on both course attendance and ambition. That restriction blocks a confounding path and removes bias.
+explanation: The nomination is a common effect of attendance and ambition, so selecting on it opens a path between them that wasn't there. Ambition, a common cause of enrolment and promotion, is the fork that should be adjusted for instead.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/causal-diagrams.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 28ccab87dfde154f64f97245455d3f76e43d5977
+concepts:
+- ct:causal-diagrams
+- ct:selection-bias
+- ct:confounding
+difficulty: 3
+created: '2026-11-21'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000524
+area: cognitive-biases
+kind: counter
+topic: Status quo bias
+topic_type: CognitiveBias
+true_statement: To check a decision for status quo bias, list every option, including the current one, without marking which is the incumbent, and score them all on the same criteria.
+false_statement: To check a decision for status quo bias, list the alternatives and score each one against the current option as the baseline, so the incumbent sets the standard.
+explanation: Labelling one option as the status quo is exactly what tilts choices toward it in the classic experiments. A neutral listing removes that label, while using the incumbent as the baseline builds the bias into the comparison.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/status-quo-bias.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 925aa66cefdc3c74f6b0b2eae7e7088475f56839
+concepts:
+- ct:status-quo-bias
+- ct:samuelson-zeckhauser-1988-status-quo-experiments
+difficulty: 2
+created: '2026-11-21'
+status: active

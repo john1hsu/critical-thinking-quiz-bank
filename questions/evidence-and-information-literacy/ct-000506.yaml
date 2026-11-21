@@ -1,0 +1,19 @@
+id: ct-000506
+area: evidence-and-information-literacy
+kind: counter
+topic: Hierarchy of evidence
+topic_type: Framework
+true_statement: 'Treat a study design''s rank as a starting point: an observational study with a very large effect or a clear dose-response gradient can be rated up, and a badly run trial rated down.'
+false_statement: 'Treat a study design''s rank as fixed: an observational study with a very large effect or a clear dose-response gradient still sits below any trial, however badly the trial was run.'
+explanation: Design is only a rough stand-in for risk of bias. Approaches like GRADE adjust certainty for features such as effect size, dose-response, inconsistency and imprecision, rather than reading quality off the design label.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/hierarchy-of-evidence.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 8a7b1fb571907525eb3dbbecebb9a6467ae4268f
+concepts:
+- ct:hierarchy-of-evidence
+- ct:grade-approach
+difficulty: 2
+created: '2026-11-21'
+status: active

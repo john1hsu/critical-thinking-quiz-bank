@@ -1,0 +1,19 @@
+id: ct-000497
+area: probabilistic-reasoning
+kind: counter
+topic: Prosecutor's fallacy
+topic_type: ProbabilisticFallacy
+true_statement: 'When correcting a prosecutor''s fallacy, don''t swing to treating a match as worthless because many people share the trait: narrowing a million possible sources to a few thousand is still strong evidence.'
+false_statement: 'When correcting a prosecutor''s fallacy, it''s right to treat a match as worthless because many people share the trait: narrowing a million possible sources to a few thousand leaves it weak evidence.'
+explanation: Overcorrecting is the defense attorney's fallacy. A trait shared by thousands still cuts the field dramatically, so it should be combined with the rest of the case rather than discarded.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/prosecutors-fallacy.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 7a9afad0a283f838ef88d5d9a1e95427e1c4bacc
+concepts:
+- ct:prosecutors-fallacy
+- ct:defense-attorneys-fallacy
+difficulty: 2
+created: '2026-11-21'
+status: active

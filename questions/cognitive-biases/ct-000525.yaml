@@ -1,0 +1,19 @@
+id: ct-000525
+area: cognitive-biases
+kind: evidence
+topic: Status quo bias
+topic_type: CognitiveBias
+true_statement: A 2021 preregistered replication found status quo bias in budget, investment and job-choice problems but not in a car-colour choice, and its authors advised against calling the bias pervasive.
+false_statement: A 2021 preregistered replication found status quo bias in all four problems, car colour included, and its authors concluded the bias is pervasive across choices.
+explanation: The bias reappeared at original-sized or larger effects in three scenarios but largely vanished in the fourth. Together with the wide spread in default effects, that is why its evidence is rated mixed rather than robust.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/status-quo-bias.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 925aa66cefdc3c74f6b0b2eae7e7088475f56839
+concepts:
+- ct:status-quo-bias
+- ct:xiao-2021-status-quo-bias-replication
+difficulty: 3
+created: '2026-11-21'
+status: active

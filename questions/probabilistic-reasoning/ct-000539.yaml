@@ -1,0 +1,19 @@
+id: ct-000539
+area: probabilistic-reasoning
+kind: counter
+topic: Expected value
+topic_type: Concept
+true_statement: When a cost model is nonlinear, don't feed it the average input and call the result the average output, since the expectation of a function is generally not the function of the expectation.
+false_statement: When a cost model is nonlinear, it's safe to feed it the average input and call the result the average output, since by linearity the expectation of a function equals the function of the expectation.
+explanation: Linearity holds for sums and for scaling or shifting a quantity, not for arbitrary functions of it. A model with thresholds or curves can give an average output far from its output at the average input.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/expected-value.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 6e631640c8f796d1768e771d2f2ae651b4bf67e7
+concepts:
+- ct:expected-value
+- ct:probability-theory
+difficulty: 3
+created: '2026-11-21'
+status: active

@@ -1,0 +1,20 @@
+id: ct-000484
+area: cognitive-biases
+kind: scenario
+topic: Planning fallacy
+topic_type: CognitiveBias
+true_statement: A team lead sizes each step of a reporting migration and promises three weeks, though the last two migrations took seven, because each had a "one-off" problem that won't recur. That is the planning fallacy.
+false_statement: A team lead sizes each step of a reporting migration and promises three weeks, though the last two migrations took seven, because each had a "one-off" problem that won't recur. That is overprecision.
+explanation: The tell is knowing past jobs overran yet explaining the overruns away as special and forecasting from the plan's steps alone. Overprecision is about too-narrow confidence ranges; the lead gave no range at all.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/cognitive-biases/planning-fallacy.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 0d342009770887d31097ed2feadaffc85e718eb3
+concepts:
+- ct:planning-fallacy
+- ct:inside-view
+- ct:overconfidence-effect
+difficulty: 2
+created: '2026-11-21'
+status: active

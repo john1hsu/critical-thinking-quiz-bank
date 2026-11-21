@@ -1,0 +1,19 @@
+id: ct-000512
+area: history-and-thinkers
+kind: counter
+topic: James Frederick Ferrier
+topic_type: Person
+true_statement: Applying Ferrier's theory of ignorance to a project's list of unknowns, treat gaps that evidence could close as real ignorance, and reframe questions posed so that no answer could ever count.
+false_statement: Applying Ferrier's theory of ignorance to a project's list of unknowns, treat questions posed so that no answer could ever count as the deepest ignorance, and research them first.
+explanation: For Ferrier we can be ignorant only of what could in principle be known. A gap like never having asked churned customers why they left is real ignorance; a question no evidence could settle needs rewording, not research.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/james-frederick-ferrier.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 639cf845e4391ee4a40af7332247af1b0a4b5664
+concepts:
+- ct:james-frederick-ferrier
+- ct:agnoiology
+difficulty: 2
+created: '2026-11-21'
+status: active

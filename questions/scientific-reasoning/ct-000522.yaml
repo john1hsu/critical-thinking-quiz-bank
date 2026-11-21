@@ -1,0 +1,20 @@
+id: ct-000522
+area: scientific-reasoning
+kind: figure
+topic: Causal diagrams
+topic_type: Method
+true_statement: A 2021 review of 234 health studies that used causal diagrams found that only 48% reported the adjustment sets their diagrams implied, and only 21% stated their target estimand.
+false_statement: A 2021 review of 234 health studies that used causal diagrams found that only 21% reported the adjustment sets their diagrams implied, and only 48% stated their target estimand.
+explanation: 'About half reported the adjustment set and about a fifth named the estimand, so practice lags the method''s promise. When reading such a study, look for both: the question being estimated and the variables the diagram says to control.'
+as_of: '2021'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/scientific-reasoning/causal-diagrams.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 28ccab87dfde154f64f97245455d3f76e43d5977
+concepts:
+- ct:causal-diagrams
+- ct:epidemiology
+difficulty: 3
+created: '2026-11-21'
+status: active

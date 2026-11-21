@@ -1,0 +1,18 @@
+id: ct-000489
+area: formal-fallacies
+kind: mechanism
+topic: Illicit minor
+topic_type: FormalFallacy
+true_statement: Carveth Read noted that an illicit minor can survive scrutiny when its conclusion happens to be true, since a reader who agrees with it may not notice the invalid form.
+false_statement: Carveth Read noted that an illicit minor can survive scrutiny when its conclusion happens to be false, since a reader who rejects it may not notice the invalid form.
+explanation: Read's example ends with the true claim that all cooking animals are men, which hides the flawed step. Validity depends on form, so a believable conclusion is no evidence the reasoning is sound.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/illicit-minor.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 67e9298b29106239ce6e1eeb426ea676762e3f9e
+concepts:
+- ct:illicit-minor
+difficulty: 2
+created: '2026-11-21'
+status: active

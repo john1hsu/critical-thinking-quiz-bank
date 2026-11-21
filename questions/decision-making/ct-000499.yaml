@@ -1,0 +1,20 @@
+id: ct-000499
+area: decision-making
+kind: scenario
+topic: Expected utility theory
+topic_type: Framework
+true_statement: A $9,000 service contract covers a machine with a 10% chance of a $60,000 breakdown, an expected loss of $6,000. For a small firm where that hit would threaten payroll, buying the contract can still maximise expected utility.
+false_statement: A $9,000 service contract covers a machine with a 10% chance of a $60,000 breakdown, an expected loss of $6,000. For a small firm where that hit would threaten payroll, expected utility theory says to skip it, since its price exceeds the expected loss.
+explanation: Expected utility weighs what outcomes are worth to this chooser, not their cash value, and a payroll-threatening loss costs far more than six times the pain of a $9,000 bill. Skipping it is what a pure expected-money calculation says, as with Bernoulli's insured merchant.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/expected-utility-theory.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 4e784114cd9a84aecbb90bb4f372feaa8d604c8a
+concepts:
+- ct:expected-utility-theory
+- ct:risk-aversion
+- ct:daniel-bernoulli
+difficulty: 2
+created: '2026-11-21'
+status: active

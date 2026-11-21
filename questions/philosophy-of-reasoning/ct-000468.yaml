@@ -1,0 +1,19 @@
+id: ct-000468
+area: philosophy-of-reasoning
+kind: evidence
+topic: Sorites paradox
+topic_type: Concept
+true_statement: In forced-march colour-categorisation tasks, Egré, de Gardelle and Ripley found people switched labels earlier than expected, the opposite of the hysteresis contextualist accounts predicted.
+false_statement: In forced-march colour-categorisation tasks, Egré, de Gardelle and Ripley found people kept the starting label longer than expected, the hysteresis contextualist accounts predicted.
+explanation: Contextualists expected people to cling to the first label during a forced march, but participants switched early, an effect the authors called enhanced contrast. Such small, task-specific results inform the debate without settling it.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/sorites-paradox.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 8ef26a77a8c4bd73e9f9c6bf93ecb544112db4aa
+concepts:
+- ct:sorites-paradox
+- ct:experimental-philosophy
+difficulty: 3
+created: '2026-11-21'
+status: active

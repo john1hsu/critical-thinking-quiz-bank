@@ -1,0 +1,19 @@
+id: ct-000451
+area: informal-fallacies
+kind: scenario
+topic: Amphiboly
+topic_type: InformalFallacy
+true_statement: A policy requires receipts "for meals and taxi fares over $25", and an employee concludes an $18 client lunch needs none, though finance meant every meal. Relying on the other way of grouping the phrase is amphiboly.
+false_statement: A policy requires receipts "for meals and taxi fares over $25", and an employee concludes an $18 client lunch needs none, though finance meant every meal. Relying on the other way of grouping the phrase is equivocation.
+explanation: Every word keeps its meaning; what shifts is whether "over $25" attaches to meals as well as taxis, a structural ambiguity. Equivocation needs a single word that changes meaning between premise and conclusion.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/amphiboly.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: a08905cef6ce3b2bb23c2a8544ea3dcc2f916413
+concepts:
+- ct:amphiboly
+- ct:equivocation
+difficulty: 2
+created: '2026-11-21'
+status: active

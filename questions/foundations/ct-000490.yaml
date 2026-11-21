@@ -1,0 +1,19 @@
+id: ct-000490
+area: foundations
+kind: scenario
+topic: Critical thinking
+topic_type: Concept
+true_statement: A manager can list every question to ask about a vendor's claim that its programme cut turnover by a third, yet skips them all because it's the result she hoped for. What she lacks is the disposition of critical thinking, not the ability.
+false_statement: A manager can list every question to ask about a vendor's claim that its programme cut turnover by a third, yet skips them all because it's the result she hoped for. What she lacks is the ability of critical thinking, not the disposition.
+explanation: She has the skills, since she knows the checks; what fails is the habit of applying them, especially to a welcome result. Accounts of critical thinking treat abilities and dispositions as separate ingredients that can come apart.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/foundations/critical-thinking.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 43c75cf4675fa02626179039ff8199e53faec0e4
+concepts:
+- ct:critical-thinking
+- ct:thinking-dispositions
+difficulty: 2
+created: '2026-11-21'
+status: active

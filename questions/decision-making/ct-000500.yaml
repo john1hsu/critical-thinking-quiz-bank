@@ -1,0 +1,19 @@
+id: ct-000500
+area: decision-making
+kind: counter
+topic: Expected utility theory
+topic_type: Framework
+true_statement: If your preference between two risky options flips when you change an outcome they both share, you are violating the independence axiom and should ask which of your judgments to trust.
+false_statement: If your preference between two risky options flips when you change an outcome they both share, you are violating the transitivity axiom and should ask which of your judgments to trust.
+explanation: Independence says that mixing options with a common outcome shouldn't reverse their ranking, which is what Allais-type flips break. Transitivity concerns chains of preference, such as preferring A to B and B to C but C to A.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/expected-utility-theory.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 4e784114cd9a84aecbb90bb4f372feaa8d604c8a
+concepts:
+- ct:expected-utility-theory
+- ct:allais-paradox
+difficulty: 3
+created: '2026-11-21'
+status: active

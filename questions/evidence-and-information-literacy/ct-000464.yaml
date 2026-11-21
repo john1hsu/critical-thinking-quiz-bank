@@ -1,0 +1,20 @@
+id: ct-000464
+area: evidence-and-information-literacy
+kind: scenario
+topic: Deepfake
+topic_type: Phenomenon
+true_statement: A manager caught on a genuine recording promising a client a refund later waves it away as "probably a deepfake". Using public awareness of deepfakes to deny real evidence is the liar's dividend.
+false_statement: A manager caught on a genuine recording promising a client a refund later waves it away as "probably a deepfake". Using public awareness of deepfakes to deny real evidence is the overconfidence effect.
+explanation: The tell is a real recording being dismissed by pointing to the possibility of fakes, the reverse risk deepfakes create. The overconfidence effect is about viewers trusting their own detection skill more than their accuracy warrants.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/deepfake.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 962919a12395e01d1659ae11a23ff08a83684757
+concepts:
+- ct:deepfake
+- ct:liars-dividend
+- ct:overconfidence-effect
+difficulty: 2
+created: '2026-11-21'
+status: active

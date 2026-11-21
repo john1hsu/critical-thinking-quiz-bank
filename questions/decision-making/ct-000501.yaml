@@ -1,0 +1,19 @@
+id: ct-000501
+area: decision-making
+kind: evidence
+topic: Expected utility theory
+topic_type: Framework
+true_statement: Starmer's 2000 review concluded that expected utility theory is likely to mislead as a description of choice in important contexts, though it fitted a substantial minority of individual subjects as well as any rival.
+false_statement: Starmer's 2000 review concluded that expected utility theory is likely to mislead as a description of choice in important contexts, and that it fitted no individual subjects as well as its rivals did.
+explanation: Starmer recommended rank-dependent models such as cumulative prospect theory as the descriptive default, yet some individuals were still best described by expected utility. The theory's descriptive record is poor overall but not uniformly so.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/decision-making/expected-utility-theory.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 4e784114cd9a84aecbb90bb4f372feaa8d604c8a
+concepts:
+- ct:expected-utility-theory
+- ct:prospect-theory
+difficulty: 3
+created: '2026-11-21'
+status: active

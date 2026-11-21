@@ -1,0 +1,19 @@
+id: ct-000507
+area: evidence-and-information-literacy
+kind: mechanism
+topic: Hierarchy of evidence
+topic_type: Framework
+true_statement: For a question about how common something is locally, the 2011 OCEBM Levels rank a current local survey first, whereas for a treatment's benefits a systematic review of randomised trials ranks first.
+false_statement: For a question about how common something is locally, the 2011 OCEBM Levels rank a systematic review of randomised trials first, whereas for a treatment's benefits a current local survey ranks first.
+explanation: The best design depends on the question being asked. A prevalence question needs up-to-date data from the population in question, while a question about effects needs randomisation to rule out confounding.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/evidence-and-information-literacy/hierarchy-of-evidence.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 8a7b1fb571907525eb3dbbecebb9a6467ae4268f
+concepts:
+- ct:hierarchy-of-evidence
+- ct:systematic-review
+difficulty: 2
+created: '2026-11-21'
+status: active

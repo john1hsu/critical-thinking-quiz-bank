@@ -1,0 +1,19 @@
+id: ct-000508
+area: philosophy-of-reasoning
+kind: scenario
+topic: Operational definition
+topic_type: Method
+true_statement: A product team keeps arguing over whether it has a "churn problem" until it agrees that churn means no login and no payment for 90 days. Now any query can settle cases, and disputes must be about the threshold. That is an operational definition.
+false_statement: A product team keeps arguing over whether it has a "churn problem" until it agrees that churn means no login and no payment for 90 days. Now any query can settle cases, and disputes must be about the threshold. That is a conceptual definition.
+explanation: Defining churn by a checkable procedure lets anyone classify a customer the same way. A conceptual definition would say what churn is and why it matters, without giving a test for whether a case counts.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/philosophy-of-reasoning/operational-definition.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 335fd26f96a70d4fae73f03ca61fe4e0e53c9f97
+concepts:
+- ct:operational-definition
+- ct:conceptual-definition
+difficulty: 1
+created: '2026-11-21'
+status: active

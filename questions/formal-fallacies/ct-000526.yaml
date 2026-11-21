@@ -1,0 +1,19 @@
+id: ct-000526
+area: formal-fallacies
+kind: scenario
+topic: Modal scope fallacy
+topic_type: FormalFallacy
+true_statement: '"If the release passed every regression test, it cannot contain a regression. It passed every test. So it is impossible for this release to contain a regression." This reasoning commits the modal scope fallacy.'
+false_statement: '"If the release passed every regression test, it cannot contain a regression. It passed every test. So it is impossible for this release to contain a regression." This reasoning is a valid modus ponens.'
+explanation: 'The "cannot" belongs to the whole if-then link: passing tests that would catch a regression while still containing one is what''s impossible. Modus ponens licenses only "it contains no such regression", not that one was impossible.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/modal-scope-fallacy.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 4ed9ce4bcafb449223f085fcba4f973c1aef3a0d
+concepts:
+- ct:modal-scope-fallacy
+- ct:modus-ponens
+difficulty: 2
+created: '2026-11-21'
+status: active

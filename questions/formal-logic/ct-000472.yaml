@@ -1,0 +1,19 @@
+id: ct-000472
+area: formal-logic
+kind: scenario
+topic: Disjunctive syllogism
+topic_type: ReasoningForm
+true_statement: An office manager reasons that the shared printer fails because of either the network or the print driver; diagnostics clear the network, so the driver is to blame. The inference is a valid disjunctive syllogism.
+false_statement: An office manager reasons that the shared printer fails because of either the network or the print driver; diagnostics clear the network, so the driver is to blame. The inference affirms a disjunct.
+explanation: The manager denies one option and accepts the other, the valid elimination pattern. Affirming a disjunct runs the other way, confirming one option to rule the other out; any weakness here lies in whether the two-option list is complete.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-logic/disjunctive-syllogism.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: eae890b596a98e1136a3fcd415a191fd15b7bad1
+concepts:
+- ct:disjunctive-syllogism
+- ct:affirming-a-disjunct
+difficulty: 1
+created: '2026-11-21'
+status: active

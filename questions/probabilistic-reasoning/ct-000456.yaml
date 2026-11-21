@@ -1,0 +1,21 @@
+id: ct-000456
+area: probabilistic-reasoning
+kind: figure
+topic: Likelihood ratio framework
+topic_type: Framework
+true_statement: In Thompson and Newman's 2015 experiment, 86% of those given a likelihood ratio misread it as the chance the defendant was the source, against 26% of those given a verbal statement.
+false_statement: In Thompson and Newman's 2015 experiment, 26% of those given a likelihood ratio misread it as the chance the defendant was the source, against 86% of those given a verbal statement.
+explanation: The numeric likelihood ratio drew the most transposed readings, more even than random match probabilities at 78%, while verbal statements drew far fewer. The framework disciplines experts but does not by itself fix how listeners hear it.
+as_of: '2015'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/likelihood-ratio.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 98ea936ca2ad8f02579c60b72db4d131ef66fe03
+concepts:
+- ct:likelihood-ratio
+- ct:thompson-newman-2015-lay-forensic-statistics-study
+- ct:prosecutors-fallacy
+difficulty: 3
+created: '2026-11-21'
+status: active

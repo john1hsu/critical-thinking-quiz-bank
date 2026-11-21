@@ -1,0 +1,19 @@
+id: ct-000471
+area: history-and-thinkers
+kind: origin
+topic: Christiaan Huygens
+topic_type: Person
+true_statement: Huygens introduced mathematical expectation in his 1657 tract on games of chance, often called the first book on mathematical probability.
+false_statement: Huygens introduced mathematical expectation in his 1690 Treatise on Light, often called the first book on mathematical probability.
+explanation: Expectation came from the short 1657 tract De ratiociniis in ludo aleae, later reprinted by Jakob Bernoulli. The Treatise on Light is the optics work whose preface states his method of testing hypotheses.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/history-and-thinkers/christiaan-huygens.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 9ef2a56bd1a791535acd456a7e2e7312adc682ed
+concepts:
+- ct:christiaan-huygens
+- ct:expected-value
+difficulty: 1
+created: '2026-11-21'
+status: active

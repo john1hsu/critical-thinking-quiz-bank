@@ -1,0 +1,19 @@
+id: ct-000446
+area: formal-fallacies
+kind: counter
+topic: Masked-man fallacy
+topic_type: FormalFallacy
+true_statement: Before accepting that a colleague 'believes the head of office was unfair' because they think the anonymous reviewer was unfair, ask whether the colleague knows the reviewer and the head are the same person.
+false_statement: Before accepting that a colleague 'believes the head of office was unfair' because they think the anonymous reviewer was unfair, ask whether the reviewer and the head are in fact the same person.
+explanation: The identity can be perfectly true and the substituted belief report still false, because belief depends on how the person thinks of the individual. So the key check is whether the believer knows the identity, not merely whether it holds.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/masked-man-fallacy.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 0dcef008f30a4a1f444e8be381722670399185b3
+concepts:
+- ct:masked-man-fallacy
+- ct:referential-opacity
+difficulty: 2
+created: '2026-11-21'
+status: active

@@ -1,0 +1,19 @@
+id: ct-000445
+area: formal-fallacies
+kind: scenario
+topic: Masked-man fallacy
+topic_type: FormalFallacy
+true_statement: Pat trusts the new supplier but distrusts the firm that sent last month's late shipment, and concludes they must be two different companies. Inferring non-identity from a difference in attitudes is the masked-man fallacy.
+false_statement: Pat trusts the new supplier but distrusts the firm that sent last month's late shipment, and concludes they must be two different companies. Inferring non-identity from a difference in attitudes is the quantifier shift fallacy.
+explanation: The tell is using what someone trusts or knows to prove two things are distinct; the firms could be one company under another name. A quantifier shift swaps the order of 'every' and 'some', which nothing here does.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/masked-man-fallacy.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 0dcef008f30a4a1f444e8be381722670399185b3
+concepts:
+- ct:masked-man-fallacy
+- ct:quantifier-shift-fallacy
+difficulty: 2
+created: '2026-11-21'
+status: active

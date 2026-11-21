@@ -1,0 +1,19 @@
+id: ct-000538
+area: probabilistic-reasoning
+kind: scenario
+topic: Expected value
+topic_type: Concept
+true_statement: Bid A costs 20,000 with a 60% chance of 200,000 profit; Bid B costs 40,000 with a 20% chance of 800,000, and the firm can make only one. On expected value alone B is better, though it loses money four times in five.
+false_statement: Bid A costs 20,000 with a 60% chance of 200,000 profit; Bid B costs 40,000 with a 20% chance of 800,000, and the firm can make only one. On expected value alone A is better, since it wins far more often.
+explanation: A is worth 0.6 x 200,000 - 20,000 = 100,000 and B is worth 0.2 x 800,000 - 40,000 = 120,000. Expected value weighs payoffs by probability, so neither the likeliest outcome nor the biggest number should decide on its own.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/probabilistic-reasoning/expected-value.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 6e631640c8f796d1768e771d2f2ae651b4bf67e7
+concepts:
+- ct:expected-value
+- ct:decision-analysis
+difficulty: 2
+created: '2026-11-21'
+status: active

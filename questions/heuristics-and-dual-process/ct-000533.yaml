@@ -1,0 +1,18 @@
+id: ct-000533
+area: heuristics-and-dual-process
+kind: counter
+topic: Cognitive reflection test
+topic_type: Method
+true_statement: 'Don''t judge how reflective one job applicant is from their three-item CRT score: floor effects and limited reliability make the test better suited to comparing groups.'
+false_statement: 'Judge how reflective one job applicant is from their three-item CRT score: its free-response format makes the test reliable enough for individual decisions.'
+explanation: With only three items and scores bunched at zero in naive samples, one person's score is noisy. Its research value lies in group comparisons, and prior exposure to the well-known items can raise scores further.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/heuristics-and-dual-process/cognitive-reflection-test.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: d89d20dea61ce2fed68ac7ea5150bd8ad9080a3a
+concepts:
+- ct:cognitive-reflection-test
+difficulty: 2
+created: '2026-11-21'
+status: active

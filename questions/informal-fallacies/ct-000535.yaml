@@ -1,0 +1,19 @@
+id: ct-000535
+area: informal-fallacies
+kind: scenario
+topic: Argument from ignorance
+topic_type: InformalFallacy
+true_statement: A security team tests a new file-storage tool thoroughly, finds no serious flaw and concludes it is probably safe for client files. This argument from missing evidence is reasonable, since a serious flaw would very likely have shown up.
+false_statement: A security team tests a new file-storage tool thoroughly, finds no serious flaw and concludes it is probably safe for client files. This argument from missing evidence is fallacious, since a lack of evidence can never count against a claim.
+explanation: 'What decides it is the search: a sensitive test that would probably have caught a flaw makes its silence informative. The same conclusion drawn when nobody had looked would be the fallacy.'
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/informal-fallacies/argument-from-ignorance.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 5dbfe9d4d038524bc8294733a7e1ba83917b4448
+concepts:
+- ct:argument-from-ignorance
+- ct:bayesian-reasoning
+difficulty: 2
+created: '2026-11-21'
+status: active

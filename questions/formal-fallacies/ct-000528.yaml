@@ -1,0 +1,20 @@
+id: ct-000528
+area: formal-fallacies
+kind: origin
+topic: Modal scope fallacy
+topic_type: FormalFallacy
+true_statement: Boethius answered the worry that God's foreknowledge makes the future necessary by separating conditional necessity from simple necessity.
+false_statement: Peter Abelard answered the worry that God's foreknowledge makes the future necessary by separating conditional necessity from simple necessity.
+explanation: Conditional versus simple necessity is Boethius's distinction, which medieval logicians inherited. Abelard later recast the point in his own terms, as the compound versus the divided sense of a modal statement.
+source:
+  repo: john1hsu/critical-thinking-graph
+  path: articles/formal-fallacies/modal-scope-fallacy.md
+  commit: a3b100083ee31c13ea7df37bbffef2a10cdb0a40
+  blob: 4ed9ce4bcafb449223f085fcba4f973c1aef3a0d
+concepts:
+- ct:modal-scope-fallacy
+- ct:boethius
+- ct:peter-abelard
+difficulty: 2
+created: '2026-11-21'
+status: active
